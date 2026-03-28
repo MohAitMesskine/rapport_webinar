@@ -1,0 +1,4275 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  28 MAR 2026 14:09
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\latexrelease.sty
+LaTeX Info: Redefining \IfTargetDateBefore on input line 292.
+Package: latexrelease 2025/01/31 v1.0q LaTeX release emulation and tests (inclu
+ding releases up to 2025-11-01)
+Applying: [2019/10/01] Final dot for extension on input line 588.
+Already applied: [0000/00/00] Final dot for extension on input line 605.
+Applying: [2021/06/01] tracingstacklevels on input line 616.
+Already applied: [0000/00/00] tracingstacklevels on input line 626.
+Applying: [2022/06/01] Add a redirection to obeylines and obeyspaces on input l
+ine 633.
+Already applied: [0000/00/00] Add a redirection to obeylines and obeyspaces on 
+input line 650.
+Applying: [2021/06/01] \tracingstacklevels and \tracinglostchars =3 on input li
+ne 667.
+Already applied: [2015/01/01] etex tracing on input line 687.
+Already applied: [0000/00/00] etex tracing on input line 721.
+Applying: [2015/01/01] turn off etex tracing on input line 729.
+Already applied: [2015/01/01] turn off etex tracing on input line 752.
+Already applied: [0000/00/00] turn off etex tracing on input line 792.
+Applying: [2015/01/01] hide output from tracing on input line 796.
+Already applied: [0000/00/00] hide output from tracing on input line 806.
+Applying: [2020/10/01] Define several kernel hooks on input line 1028.
+Already applied: [0000/00/00] Define several kernel hooks on input line 1040.
+Applying: [2020/10/01] Roll forward support on input line 1048.
+Applying: [2020/10/01] Pre-load expl3 on input line 1056.
+Skipping: expl3 code already part of the format on input line 1060.
+Already applied: [2020/02/02] Pre-load expl3 on input line 1100.
+Applying: [2020/10/01] expl3 macros added for the 2020-10-01 release on input l
+ine 1121.
+Already applied: [0000/00/00] expl3 macros added for the 2020-10-01 release on 
+input line 1136.
+Applying: [2022/06/01] fp and int calculations on input line 1145.
+Already applied: [0000/00/00] fp and int calculations on input line 1154.
+Applying: [2022/06/01] Some pre-expansion commands on input line 1162.
+Already applied: [0000/00/00] Some pre-expansion commands on input line 1175.
+Skipping: [2025/06/01] Test for expl3 date on input line 1181.
+Applying: [0000/00/00] Test for expl3 date on input line 1187.
+Skipping: [2025/06/01] Expandable input on input line 1194.
+Applying: [0000/00/00] Expandable input on input line 1200.
+Applying: [2020/10/01] Allow "par" in \typeout  on input line 1206.
+Already applied: [0000/00/00] Allow "par" in \typeout  on input line 1213.
+Applying: [2020/10/01] Make \@carcube long on input line 1218.
+Already applied: [0000/00/00] Undo: Make \@carcube long on input line 1221.
+Skipping: [2025/11/01] Macros without args are short on input line 1225.
+Applying: [0000/00/00] Macros without args are short on input line 1233.
+Skipping: [2025/11/01] Macros without args are short on input line 1242.
+Applying: [0000/00/00] Macros without args are short on input line 1254.
+Applying: [2022/11/01] protected edef on input line 1265.
+Already applied: [00/00/00] protected edef on input line 1270.
+Skipping: [2025/11/01] Macros without args are short on input line 1275.
+Applying: [0000/00/00] Macros without args are short on input line 1290.
+Applying: [2020/10/01] \MakeRobust  on input line 1310.
+Already applied: [2019/10/01] \MakeRobust  on input line 1349.
+Already applied: [2015/01/01] \MakeRobust  on input line 1376.
+Already applied: [0000/00/00] \MakeRobust  on input line 1403.
+Applying: [2020/10/01] Undo robustness on input line 1408.
+Already applied: [0000/00/00] Undo robustness on input line 1424.
+Applying: [2020-10-01] Add \robust@command@act  on input line 1437.
+Already applied: [0000-00-00] Add \robust@command@act  on input line 1473.
+Applying: [2020-10-01] Add \NewCommandCopy , \RenewCommandCopy , and \DeclareCo
+mmandCopy  on input line 1483.
+Already applied: [0000-00-00] Undefine \NewCommandCopy , \RenewCommandCopy , an
+d \DeclareCommandCopy  on input line 1511.
+Applying: [2023-06-01] Add \NewEnvironmentCopy , \RenewEnvironmentCopy , and \D
+eclareEnvironmentCopy  on input line 1520.
+Already applied: [0000-00-00] Undefine \NewEnvironmentCopy , \RenewEnvironmentC
+opy , and \DeclareEnvironmentCopy  on input line 1543.
+Applying: [2020-10-01] Add \ShowCommand  on input line 1549.
+Already applied: [0000-00-00] Undefine \ShowCommand  on input line 1559.
+Applying: [2020-10-01] Add \@if@DeclareRobustCommand , \@if@newcommand , \@copy
+@DeclareRobustCommand , \@copy@newcommand , \@show@DeclareRobustCommand , \@sho
+w@newcommand  on input line 1566.
+Already applied: [0000-00-00] Undefine \@if@DeclareRobustCommand , \@if@newcomm
+and , \@copy@DeclareRobustCommand , \@copy@newcommand , \@show@DeclareRobustCom
+mand , \@show@newcommand  on input line 1663.
+Applying: [2023-06-01] Add \ShowEnvironment  on input line 1675.
+Already applied: [0000-00-00] Undefine \ShowEnvironment  on input line 1722.
+Applying: [2018-04-01] Leave commands undefined in \@ifundefined  on input line
+ 1726.
+Already applied: [0000-00-00] Leave commands undefined in \@ifundefined  on inp
+ut line 1754.
+Applying: [2020/10/01] Add \string@makeletter  on input line 1763.
+Already applied: [0000/00/00] Undefine \string@makeletter  on input line 1779.
+Applying: [2020/10/01] Use primitive \- in Lua\LaTeX  on input line 1784.
+LaTeX Info: Redefining \- on input line 1786.
+Already applied: [2017/04/15] Use \hyphenchar in \- on input line 1799.
+Already applied: [0000/00/00] Use \hyphenchar in \- on input line 1810.
+Applying: [2019/10/01] Make various commands robust on input line 1815.
+LaTeX Info: Command `\allowbreak' is already robust on input line 1816.
+LaTeX Info: Command `\bigbreak' is already robust on input line 1817.
+LaTeX Info: Command `\break' is already robust on input line 1818.
+LaTeX Info: Command `\dotfill' is already robust on input line 1819.
+LaTeX Info: Command `\frenchspacing' is already robust on input line 1820.
+LaTeX Info: Command `\goodbreak' is already robust on input line 1821.
+LaTeX Info: Command `\hrulefill' is already robust on input line 1822.
+LaTeX Info: Command `\medbreak' is already robust on input line 1823.
+LaTeX Info: Command `\nobreak' is already robust on input line 1824.
+LaTeX Info: Command `\nonfrenchspacing' is already robust on input line 1825.
+LaTeX Info: Command `\obeylines' is already robust on input line 1826.
+LaTeX Info: Command `\obeyspaces' is already robust on input line 1827.
+LaTeX Info: Command `\slash' is already robust on input line 1828.
+LaTeX Info: Command `\smallbreak' is already robust on input line 1829.
+LaTeX Info: Command `\strut' is already robust on input line 1830.
+LaTeX Info: Command `\underbar' is already robust on input line 1831.
+Already applied: [0000/00/00] Make various commands robust on input line 1834.
+BEGIN module: ltcmd (2020/10/01) on input line 1861.
+              Document command parser.
+Skipping module ltcmd on input line 1861.
+Skipping: [2024/11/01] Use space-trimmed envname directly on input line 2080.
+Skipping: [2024/06/01] Use space-trimmed envname directly on input line 2094.
+Applying: [2021/11/15] Support \NewCommandCopy in ltcmd on input line 2980.
+Already applied: [2020/10/01] Support \NewCommandCopy in ltcmd on input line 30
+32.
+Applying: [2023/06/01] Distinguish non-expandable document commands on input li
+ne 3035.
+Already applied: [2021/11/15] Support \NewCommandCopy in ltcmd on input line 30
+50.
+Already applied: [2020/10/01] Support \NewCommandCopy in ltcmd on input line 30
+63.
+Applying: [2021/11/15] Support \NewCommandCopy in ltcmd on input line 3078.
+Already applied: [2020/10/01] Support \NewCommandCopy in ltcmd on input line 31
+96.
+Applying: [2021/11/15] Support \ShowCommand in ltcmd on input line 3199.
+Already applied: [2020/10/01] Support \ShowCommand in ltcmd on input line 3228.
+
+Applying: [2023/06/01] Distinguish non-expandable document commands on input li
+ne 3231.
+Already applied: [2021/11/15] Support \ShowCommand in ltcmd on input line 3240.
+
+Already applied: [2020/10/01] Support \ShowCommand in ltcmd on input line 3248.
+
+Applying: [2021/11/15] Support \ShowCommand in ltcmd on input line 3251.
+Already applied: [2020/10/01] Support \ShowCommand in ltcmd on input line 3418.
+
+Skipping: [2025/06/01] Active spaces and tabs on input line 4044.
+Applying: [2020/10/01] Active spaces and tabs on input line 4057.
+Skipping: [2025-06-01] Use more std catcodes on input line 4088.
+Skipping: [2024/06/01] Endlines as \obeyedline  on input line 4100.
+Applying: [2020/10/01] Endlines as \obeyedline  on input line 4116.
+Skipping: [2024/11/01] Trim spaces from envname first on input line 5004.
+Skipping: [2024/06/01] Trim spaces from envname first on input line 5057.
+Applying: [2022/06/01] Testing for empty or blank on input line 5151.
+Already applied: [2021/11/15] Testing for empty or blank on input line 5157.
+Skipping: [0000/00/00] Document command parser on input line 5173.
+END module: ltcmd (2020/10/01) on input line 5175.
+BEGIN module: lthooks (2020/10/01) on input line 5183.
+              The hook management system.
+Skipping module lthooks on input line 5183.
+Applying: [2023/06/01] Hooks with args on input line 5247.
+Already applied: [2020/10/01] Hooks with args on input line 5266.
+Applying: [2023/06/01] Hooks with args on input line 5282.
+Already applied: [2020/10/01] Hooks with args on input line 5310.
+Applying: [2023/06/01] Hooks with args on input line 5326.
+Already applied: [2020/10/01] Hooks with args on input line 5338.
+Applying: [2023/06/01] Hooks with args on input line 5350.
+Already applied: [2020/10/01] Hooks with args on input line 5366.
+Applying: [2023/06/01] Hooks with args on input line 5379.
+Already applied: [2020/10/01] Hooks with args on input line 5399.
+Applying: [2023/06/01] Hooks with args on input line 5409.
+Already applied: [2020/10/01] Hooks with args on input line 5429.
+Applying: [2021/06/01] Disable hooks on input line 5444.
+Already applied: [2020/10/01] Disable hooks on input line 5462.
+Applying: [2023/06/01] Providing hooks on input line 5468.
+Already applied: [2021/06/01] Providing hooks on input line 5488.
+Already applied: [2020/10/01] Providing hooks on input line 5506.
+Applying: [2023/06/01] Hooks with args on input line 5666.
+Already applied: [2020/10/01] Providing hooks on input line 5776.
+Applying: [2023/06/01] Hooks with args on input line 5827.
+Already applied: [2020/10/01] Hooks with args on input line 5844.
+Applying: [2023/06/01] Hooks with args on input line 5854.
+Already applied: [2021/11/15] Standardize generic hook names on input line 5872
+.
+Already applied: [2020/10/01] Standardize generic hook names on input line 5893
+.
+Applying: [2023/06/01] Hooks with args on input line 5927.
+Already applied: [2021/11/15] Standardize generic hook names on input line 5985
+.
+Already applied: [2021/06/01] Support cmd hooks on input line 6015.
+Already applied: [2020/10/01] Support cmd hooks on input line 6047.
+Applying: [2021/11/15] Standardize generic hook names on input line 6073.
+Already applied: [2020/10/01] Standardize generic hook names on input line 6076
+.
+Applying: [2021/11/15] Standardize generic hook names on input line 6096.
+Already applied: [2020/10/01] Standardize generic hook names on input line 6099
+.
+Applying: [2021/11/15] Standardize generic hook names on input line 6112.
+Already applied: [2020/10/01] Standardize generic hook names on input line 6130
+.
+Applying: [2021/11/15] Standardize generic hook names on input line 6135.
+Already applied: [2020/10/01] Standardize generic hook names on input line 6138
+.
+Applying: [2023/06/01] Hooks with args on input line 6147.
+Already applied: [2020/10/01] Hooks with args on input line 6152.
+Applying: [2023/06/01] Hooks with args on input line 6155.
+Already applied: [2020/10/01] Hooks with args on input line 6192.
+Applying: [2023/06/01] Hooks with args on input line 6229.
+Already applied: [2020/10/01] Hooks with args on input line 6279.
+Applying: [2023/06/01] Hooks with args on input line 6286.
+Already applied: [2020/10/01] Hooks with args on input line 6302.
+Applying: [2023/06/01] Hooks with args on input line 6309.
+Already applied: [2020/10/01] Hooks with args on input line 6329.
+Applying: [2023/06/01] Hooks with args on input line 6333.
+Already applied: [2020/10/01] Hooks with args on input line 6385.
+Applying: [2023/06/01] Hooks with args on input line 6389.
+Already applied: [2020/10/01] Hooks with args on input line 6405.
+Applying: [2023/06/01] Hooks with args on input line 6409.
+Already applied: [2020/10/01] Hooks with args on input line 6437.
+Applying: [2023/06/01] Hooks with args on input line 6440.
+Already applied: [2020/10/01] Hooks with args on input line 6463.
+Applying: [2023/06/01] Hooks with args on input line 6467.
+Already applied: [2020/10/01] Hooks with args on input line 6484.
+Applying: [2023/06/01] Hooks with args on input line 6492.
+Already applied: [2020/10/01] Hooks with args on input line 6496.
+Applying: [2022/06/01] Refuse setting rule for one-time hooks on input line 650
+5.
+Already applied: [2020/10/01] Refuse setting rule for one-time hooks on input l
+ine 6536.
+Applying: [2023/06/01] Hooks with args on input line 6617.
+Already applied: [2020/10/01] Hooks with args on input line 6643.
+Applying: [2023/06/01] Hooks with args on input line 6668.
+Already applied: [2020/10/01] Hooks with args on input line 6702.
+Applying: [2023/06/01] Hooks with args on input line 6748.
+Already applied: [2020/10/01] Hooks with args on input line 6830.
+Applying: [2023/06/01] Hooks with args on input line 7037.
+Already applied: [2020/10/01] Hooks with args on input line 7154.
+Applying: [2023/06/01] Hooks with args on input line 7257.
+Already applied: [2020/10/01] Hooks with args on input line 7262.
+Applying: [2023/06/01] Hooks with args on input line 7326.
+Already applied: [2020/10/01] Hooks with args on input line 7357.
+Applying: [2023/06/01] Hooks with args on input line 7375.
+Already applied: [2020/10/01] Hooks with args on input line 7388.
+Applying: [2023/06/01] Hooks with args on input line 7406.
+Already applied: [2020/10/01] Hooks with args on input line 7411.
+Applying: [2023/06/01] Hooks with args on input line 7416.
+Already applied: [2021/11/15] Standardize generic hook names on input line 7438
+.
+Already applied: [2020/10/01] Standardize generic hook names on input line 7458
+.
+Applying: [2023/06/01] Hooks with args on input line 7488.
+Already applied: [2020/10/01] Hooks with args on input line 7506.
+Applying: [2023/06/01] Hooks with args on input line 7511.
+Already applied: [2020/10/01] Hooks with args on input line 7521.
+Applying: [2021/11/15] Standardize generic hook names on input line 7525.
+Already applied: [2020/10/01] Standardize generic hook names on input line 7528
+.
+Applying: [2023/06/01] Hooks with args on input line 7555.
+Already applied: [2020/10/01] Hooks with args on input line 7570.
+Applying: [2023/06/01] Hooks with args on input line 7581.
+Already applied: [2020/10/01] Hooks with args on input line 7599.
+Applying: [2023/06/01] Hooks with args on input line 7610.
+Already applied: [2020/10/01] Hooks with args on input line 7622.
+Applying: [2023/06/01] Hooks with args on input line 7645.
+Already applied: [2020/10/01] Hooks with args on input line 7662.
+Applying: [2023/06/01] Hooks with args on input line 7728.
+Already applied: [2020/10/01] Hooks with args on input line 7744.
+Applying: [2023/06/01] Hooks with args on input line 7801.
+Already applied: [2020/10/01] Hooks with args on input line 7830.
+Applying: [2023/06/01] Hooks with args on input line 7938.
+Already applied: [2020/10/01] Hooks with args on input line 7947.
+Applying: [2021/06/01] Providing hooks on input line 7953.
+Already applied: [2020/10/01] Providing hooks on input line 7960.
+Applying: [2023/06/01] Hooks with args on input line 7965.
+Already applied: [2020/10/01] Hooks with args on input line 7972.
+Applying: [2023/06/01] Hooks with args on input line 7976.
+Already applied: [2020/10/01] Hooks with args on input line 7983.
+Applying: [2023/06/01] Hooks with args on input line 8003.
+Already applied: [2020/10/01] Hooks with args on input line 8010.
+Skipping: [0000/00/00] The hook management on input line 8104.
+END module: lthooks (2020/10/01) on input line 8132.
+BEGIN module: ltcmdhooks (2021/06/01) on input line 8176.
+              The hook management system for commands.
+Skipping module ltcmdhooks on input line 8176.
+Skipping: [2024/12/22] Don't define command on input line 8193.
+Applying: [2021/11/15] Standardise generic hook names on input line 8210.
+Already applied: [2021/06/01] Standardise generic hook names on input line 8221
+.
+Applying: [2023/06/01] cmd hooks with args on input line 8343.
+Already applied: [2021/06/01] cmd hooks with args on input line 8418.
+Applying: [2023/06/01] cmd hooks with args on input line 8592.
+Already applied: [2021/06/01] cmd hooks with args on input line 8611.
+Applying: [2023/06/01] cmd hooks with args on input line 8657.
+Already applied: [2021/06/01] cmd hooks with args on input line 8682.
+Applying: [2023/06/01] cmd hooks with args on input line 8686.
+Already applied: [2021/06/01] cmd hooks with args on input line 8733.
+Applying: [2023/06/01] Standardise generic hook names on input line 8760.
+Already applied: [2021/06/01] Standardise generic hook names on input line 8763
+.
+Skipping: [0000/00/00] The hook management system for commands on input line 87
+93.
+END module: ltcmdhooks (2021/06/01) on input line 8797.
+BEGIN module: ltsockets (2023/11/01) on input line 8803.
+              The socket management system.
+Skipping module ltsockets on input line 8803.
+Skipping: [0000/00/00] The socket management (undo) on input line 8999.
+END module: ltsockets (2023/11/01) on input line 9022.
+BEGIN module: lttemplates (2024/06/01) on input line 9029.
+              Prototype document commands.
+Skipping module lttemplates on input line 9029.
+Applying: [0000/00/00] Prototype document commands on input line 10271.
+END module: lttemplates (2024/06/01) on input line 10273.
+Applying: [2021/11/15] Notes for classes/packages on input line 10279.
+Already applied: [0000/00/00] Notes for classes/packages on input line 10298.
+Applying: [2021/11/15] Display notes on input line 10302.
+Already applied: [0000/00/00] Display notes on input line 10314.
+BEGIN module: ltpara (2021/06/01) on input line 10328.
+              Paragraph handling and hooks.
+Skipping module ltpara on input line 10328.
+Applying: [2023/06/01] minipage fix on input line 10336.
+Already applied: [2021/06/01] minipage fix on input line 10368.
+Skipping: [0000/00/00] Undo hooks for paragraphs on input line 10491.
+END module: ltpara (2021/06/01) on input line 10506.
+BEGIN module: ltmeta (2022/06/01) on input line 10514.
+              Document Metadata handling.
+Skipping module ltmeta on input line 10514.
+Skipping: [2024/11/01] Record target name for tagging support on input line 105
+36.
+Applying: [2022/06/01] Record target name for tagging support on input line 105
+60.
+Skipping: [0000/00/00] Undo Document Metadata handling on input line 10574.
+END module: ltmeta (2022/06/01) on input line 10578.
+Applying: [2019/10/01] Make commands robust on input line 10582.
+LaTeX Info: Redefining \pagebreak on input line 10583.
+LaTeX Info: Redefining \nopagebreak on input line 10584.
+LaTeX Info: Redefining \linebreak on input line 10585.
+LaTeX Info: Redefining \nolinebreak on input line 10586.
+LaTeX Info: Redefining \samepage on input line 10587.
+Already applied: [0000/00/00] Make commands robust on input line 10598.
+Applying: [2020/02/02] Make robust on input line 10608.
+Already applied: [0000/00/00] Make robust on input line 10618.
+Applying: [2020/10/01] Add calc support on input line 10631.
+Already applied: [0000/00/00] Add calc support on input line 10635.
+Applying: [2020/10/01] \newline calc support on input line 10640.
+Already applied: [0000/00/00] \newline calc support on input line 10645.
+Applying: [2018/10/10] hyphenation and nobreak after space hack on input line 1
+0651.
+Already applied: [2015/10/01] hyphenation and nobreak after space hack on input
+ line 10669.
+Already applied: [2015/01/01] hyphenation and nobreak after space hack on input
+ line 10683.
+Already applied: [0000/00/00] hyphenation and nobreak after space hack on input
+ line 10695.
+Applying: [2015/01/01] hyphenation after space hack on input line 10706.
+Already applied: [0000/00/00] hyphenation after space hack on input line 10719.
+
+Skipping: [2024/11/01] drop unnecessary no-item error on input line 10731.
+Applying: [2020/10/01] \addvspace calc support on input line 10745.
+Already applied: [0000/00/00] \addvspace calc support on input line 10761.
+Skipping: [2024/11/01] \addpenalty drop error on input line 10778.
+Applying: [2015/01/01] \addpenalty  on input line 10810.
+Already applied: [0000/00/00] \addpenalty  on input line 10844.
+Applying: [2020/10/01] Support calc in \vspace  on input line 10866.
+Already applied: [0000/00/00] Support calc in \vspace  on input line 10898.
+Applying: [2023/11/01] Protected tilde on input line 10931.
+Already applied: [0000/00/00] Protected tilde on input line 10940.
+Applying: [2023/11/01] Obeyed tabs on input line 10944.
+Already applied: [0000/00/00] Obeyed tabs on input line 10948.
+Applying: [2015/01/01] Space after \@  on input line 10952.
+Already applied: [0000/00/00] Space after \@  on input line 10956.
+Applying: [2020/10/01] Support calc with \hspace  on input line 10960.
+Already applied: [0000/00/00] Support calc with \hspace  on input line 10965.
+Applying: [2018/12/01] Start LR-mode on input line 10971.
+LaTeX Info: Redefining \enspace on input line 10972.
+Already applied: [0000/00/00] Start LR-mode on input line 10976.
+Applying: [2020/10/01] Added hook to load l3backend code on input line 10985.
+Already applied: [2017/04/15] Save language for hyphenation on input line 11056
+.
+Already applied: [0000/00/00] Save language for hyphenation on input line 11114
+.
+Skipping: [2025/06/01] Allow for immediate write on input line 11168.
+Applying: [0000/00/00] Allow for immediate write on input line 11180.
+Applying: [2020/10/01] Spaces in file names on input line 11193.
+Already applied: [2019/10/01] Spaces in file names on input line 11229.
+Already applied: [0000/00/00] Spaces in file names on input line 11250.
+Applying: [2022/06/01] Spaces in file names and hooks on input line 11262.
+Already applied: [2020/10/01] Spaces in file names and hooks on input line 1131
+4.
+Already applied: [0000/00/00] Spaces in file names and hooks on input line 1136
+3.
+Applying: [2019/10/01] Quote file names on input line 11396.
+LaTeX Info: Redefining \IfFileExists on input line 11400.
+Already applied: [0000/00/00] Quote file names on input line 11405.
+Applying: [2023/06/01] IfFileExists on input line 11428.
+Already applied: [2021/06/01] IfFileExists on input line 11459.
+Already applied: [2019/10/01] IfFileExists on input line 11481.
+Already applied: [0000/00/00] IfFileExists on input line 11499.
+Applying: [2019/10/01] Quote file names on input line 11506.
+Already applied: [0000/00/00] Quote file names on input line 11521.
+Applying: [2019/10/01] Don't lose the file name on input line 11538.
+Already applied: [0000/00/00] Don't lose the file name on input line 11542.
+Applying: [2020/10/01] Change in file error handling on input line 11546.
+Already applied: [2019/10/01] Quote file names on input line 11559.
+Already applied: [0000/00/00] Quote file names on input line 11570.
+Applying: [2020/10/01] Do not load missing file immediately on input line 11580
+.
+Already applied: [0000/00/00] Do not load missing file immediately on input lin
+e 11612.
+Applying: [2017/04/15] test for undeclared accent on input line 11640.
+Already applied: [0000/00/00] test for undeclared accent on input line 11665.
+Applying: [2019/10/01] Make commands robust on input line 11685.
+LaTeX Info: Redefining \UseTextAccent on input line 11686.
+LaTeX Info: Redefining \UseTextSymbol on input line 11694.
+Already applied: [0000/00/00] Make commands robust on input line 11705.
+Applying: [2015/10/01] comma accent on input line 11711.
+LaTeX Encoding Info:    Redeclaring text command \textcommabelow (encoding ?) o
+n input line 11712.
+Already applied: [0000/00/00] comma accent on input line 11717.
+Applying: [2016/02/01] comma above on input line 11738.
+LaTeX Encoding Info:    Redeclaring text command \textcommaabove (encoding ?) o
+n input line 11739.
+Already applied: [0000/00/00] comma above on input line 11752.
+Applying: [2015/01/01] Reset nested counters on input line 11762.
+Already applied: [0000/00/00] Reset nested counters on input line 11766.
+Skipping: [2024/11/01] provide theHfoo commands on input line 11770.
+Applying: [0000/00/00] provide theHfoo commands on input line 11789.
+Skipping: [2024/11/01] provide theHfoo commands on input line 11806.
+Applying: [0000/00/00] provide theHfoo commands on input line 11814.
+Applying: [2018-04-01] Add interfaces on input line 11818.
+Already applied: [0000-00-00] Add interfaces on input line 11842.
+Skipping: [2025/06/01] counter within on input line 11847.
+Applying: [2021/11/15] counter within on input line 11860.
+Already applied: [2018-04-01] counter within on input line 11874.
+Already applied: [0000-00-00] counter within on input line 11890.
+Skipping: [2025/06/01] counter without on input line 11896.
+Applying: [2021/11/15] counter without on input line 11907.
+Already applied: [2018-04-01] counter without on input line 11918.
+Already applied: [0000-00-00] counter without on input line 11933.
+Applying: [2015/01/01] Use \TextOrMath  on input line 11938.
+Already applied: [0000/00/00] Use \TextOrMath  on input line 11952.
+Applying: [2015/01/01] \TextOrMath  on input line 11958.
+Already applied: [0000/00/00] \TextOrMath  on input line 11974.
+Applying: [2015/01/01] Using \setlength with \dimen 0 on input line 11979.
+Already applied: [0000/00/00] Using \setlength with \dimen 0 on input line 1198
+3.
+Skipping: [2024/11/01] suspend tagging on input line 11987.
+Applying: [0000/00/00] suspend tagging on input line 11993.
+Applying: [2020/02/02] Maybe drop one m on input line 12000.
+Already applied: [0000/00/00] Maybe drop one m on input line 12027.
+Skipping: [2025/06/01] preload .fd file on input line 12048.
+Applying: [0000/00/00] preload .fd file on input line 12069.
+Applying: [2015/01/01] Arbitrary units in \DeclareMathSizes  on input line 1208
+8.
+Already applied: [0000/00/00] Arbitrary units in \DeclareMathSizes  on input li
+ne 12108.
+Applying: [2021/06/01] Force font face on input line 12125.
+LaTeX Info: Redefining \usefont on input line 12126.
+Already applied: [2020/02/02] Drop m in usefont on input line 12135.
+Already applied: [0000/00/00] Drop m in usefont on input line 12145.
+Applying: [2021/11/15] Handle spaces after math on input line 12155.
+Already applied: [2020/10/01] Handle spaces after math on input line 12169.
+Applying: [2020/02/02] Loading .fd files on input line 12178.
+Already applied: [0000/00/00] Loading .fd files on input line 12188.
+Applying: [2020/02/02] Provide family substitution on input line 12193.
+Already applied: [0000/00/00] Provide family substitution on input line 12224.
+Applying: [2019/10/01] No side effects please on input line 12229.
+Already applied: [0000/00/00] No side effects please on input line 12241.
+Applying: [2015/01/01] Font substitution in preamble on input line 12259.
+Already applied: [0000/00/00] Font substitution in preamble on input line 12293
+.
+Applying: [2017/01/01] XeTeX support for \showhyphens  on input line 12326.
+LaTeX Info: Redefining \showhyphens on input line 12328.
+Already applied: [0000/00/00] XeTeX support for \showhyphens  on input line 123
+88.
+Skipping: [2025/06/01] Series change rules on input line 12403.
+Applying: [2020/02/02] Series change rules on input line 13831.
+Already applied: [0000/00/00] Series change rules on input line 15172.
+Applying: [2021/06/01] delay fontseries update on input line 15178.
+LaTeX Info: Redefining \fontseries on input line 15179.
+LaTeX Info: Redefining \fontseriesforce on input line 15183.
+Already applied: [2020/02/02] delay fontseries update on input line 15189.
+Already applied: [0000/00/00] delay fontseries update on input line 15201.
+Applying: [2020/02/02] Merge series values on input line 15208.
+Already applied: [0000/00/00] Merge series values on input line 15287.
+Applying: [2020/02/02] Font shape change rules on input line 15303.
+LaTeX Info: Redefining \ulcshape on input line 15306.
+LaTeX Info: Redefining \swshape on input line 15311.
+LaTeX Info: Redefining \sscshape on input line 15316.
+Already applied: [0000/00/00] Font shape change rules on input line 15323.
+Skipping: [2025/06/01] Rules for ssc and sw on input line 15335.
+Applying: [2020/02/02] Rules for ssc and sw on input line 15412.
+Already applied: [0000/00/00] Rules for ssc and sw on input line 15493.
+Applying: [2021/06/01] Font shape change on input line 15497.
+LaTeX Info: Redefining \fontshape on input line 15498.
+LaTeX Info: Redefining \fontshapeforce on input line 15501.
+Already applied: [2020/02/02] Font shape change on input line 15506.
+Already applied: [0000/00/00] Font shape change on input line 15513.
+Applying: [2020/02/02] Font shape change rules on input line 15521.
+Already applied: [0000/00/00] Font shape change rules on input line 15594.
+Applying: [2020/10/01] NFSS series init on input line 15612.
+Already applied: [2020/02/02] NFSS series init on input line 15617.
+Already applied: [0000/00/00] NFSS series init on input line 15621.
+Applying: [2021/06/01] Add hook to \selectfont  on input line 15628.
+LaTeX Info: Redefining \selectfont on input line 15629.
+Already applied: [0000/00/00] Add hook to \selectfont  on input line 15663.
+Applying: [2020/02/02] alias size function on input line 15679.
+Already applied: [0000/00/00] alias size function on input line 15687.
+Applying: [2015/01/01] \select@group  on input line 15696.
+Already applied: [0000/00/00] \select@group  on input line 15723.
+Applying: [2021/11/15] \document@select@group  on input line 15751.
+Already applied: [2020/10/01] \document@select@group  on input line 15791.
+Already applied: [2015/01/01] \document@select@group  on input line 15821.
+Already applied: [0000/00/00] \document@select@group  on input line 15852.
+Applying: [2022/11/01] freeze math version on input line 15883.
+Already applied: [2021/11/15] freeze math version on input line 15929.
+Skipping: [2025/11/01] Support metafamily on input line 15972.
+Applying: [0000/00/00] Support metafamily on input line 16020.
+Applying: [2022/11/01] local alphabets on input line 16067.
+Already applied: [2021/11/15] local alphabets on input line 16079.
+Already applied: [0000/00/00] local alphabets on input line 16085.
+Applying: [2022/11/01] maybe drop m on input line 16090.
+Already applied: [0000/00/00] maybe drop m on input line 16137.
+Applying: [2022/11/01] maybe drop m on input line 16144.
+Already applied: [0000/00/00] maybe drop m on input line 16168.
+Applying: [2019/10/01] Make math accents robust on input line 16175.
+Already applied: [0000/00/00] Make math accents robust on input line 16222.
+Applying: [2019/10/01] makemath accents robust on input line 16264.
+Already applied: [0000/00/00] makemath accents robust on input line 16272.
+Applying: [2019/10/01] make delimiters robust on input line 16279.
+Already applied: [0000/00/00] make delimiters robust on input line 16288.
+Applying: [2021/11/15] Custom series on input line 16299.
+Already applied: [2020/02/02] Custom series on input line 16334.
+Already applied: [0000/00/00] Custom series on input line 16367.
+Applying: [2020/02/02] Custom series on input line 16389.
+Already applied: [0000/00/00] Custom series on input line 16402.
+Skipping: [2025/11/01] Support meta family on input line 16415.
+Applying: [2020/02/02] Custom series on input line 16471.
+Already applied: [0000/00/00] Custom series on input line 16524.
+Applying: [2020/02/02] Custom series on input line 16532.
+Already applied: [0000/00/00] Custom series on input line 16555.
+Applying: [2021/11/15] Custom series with hooks on input line 16562.
+LaTeX Info: Redefining \bfseries on input line 16564.
+LaTeX Info: Redefining \mdseries on input line 16589.
+Already applied: [2020/10/01] Custom series with hooks on input line 16615.
+Already applied: [2020/02/02] Custom series with hooks on input line 16662.
+Already applied: [0000/00/00] Custom series with hooks on input line 16691.
+Applying: [2020/10/01] Custom series with hooks on input line 16702.
+LaTeX Info: Redefining \rmfamily on input line 16713.
+LaTeX Info: Redefining \sffamily on input line 16718.
+LaTeX Info: Redefining \ttfamily on input line 16723.
+Already applied: [2020/02/02] Custom series with hooks on input line 16743.
+Already applied: [0000/00/00] Custom series with hooks on input line 16777.
+Applying: [2020/10/01] Font series context on input line 16803.
+LaTeX Info: Redefining \IfFontSeriesContextTF on input line 16804.
+Already applied: [0000/00/00] Font series context on input line 16838.
+Applying: [2020/02/02] Nested emph on input line 16849.
+LaTeX Info: Redefining \emreset on input line 16854.
+LaTeX Info: Redefining \em on input line 16855.
+Already applied: [2015/01/01] Nested emph on input line 16882.
+Already applied: [0000/00/00] Nested emph on input line 16895.
+Applying: [2020/10/01] XeTeX change for math on input line 16902.
+LaTeX Info: Redefining \symbol on input line 16906.
+Already applied: [0000/00/00] XeTeX change for math on input line 16910.
+Skipping: [2025/11/01] Support meta family on input line 16916.
+Applying: [2021/06/01] Cancel delayed actions on input line 16945.
+LaTeX Info: Redefining \normalfont on input line 16947.
+Already applied: [2020/10/01] Add hook to \normalfont  on input line 16961.
+Already applied: [2020/02/02] Add hook to \normalfont  on input line 16977.
+Already applied: [0000/00/00] Add hook to \normalfont  on input line 16994.
+Skipping: [2025/11/01] Set meta family on input line 17008.
+Applying: [0000/00/00] Set meta family on input line 17013.
+LaTeX Info: Redefining \fontfamily on input line 17015.
+Applying: [2017/01/01] TU encoding default on input line 17019.
+Already applied: [0000/00/00] TU encoding default on input line 17037.
+Applying: [2020/02/02] font defaults change on input line 17047.
+Already applied: [0000/00/00] font defaults change on input line 17055.
+Applying: [2018/12/01] Start LR-mode on input line 17064.
+LaTeX Info: Redefining \big on input line 17065.
+LaTeX Info: Redefining \Big on input line 17067.
+LaTeX Info: Redefining \bigg on input line 17069.
+LaTeX Info: Redefining \Bigg on input line 17071.
+Already applied: [0000/00/00] Start LR-mode on input line 17075.
+Applying: [2020/02/02] Additional text commands on input line 17084.
+LaTeX Info: Redefining \textulc on input line 17085.
+LaTeX Info: Redefining \textsw on input line 17086.
+LaTeX Info: Redefining \textssc on input line 17087.
+Already applied: [0000/00/00] Additional text commands on input line 17090.
+BEGIN module: lttextcomp (2020/02/02) on input line 17098.
+              Text Companion symbols.
+Skipping module lttextcomp on input line 17098.
+Skipping: [0000/00/00] Undefine text companion symbols on input line 17656.
+END module: lttextcomp (2020/02/02) on input line 17857.
+Applying: [2023/06/01] store five arguments on input line 17862.
+Already applied: [2022/06/01] store five arguments on input line 17879.
+Already applied: [0000/00/00] store five arguments on input line 17896.
+Applying: [2022/06/01] Add starred reference commands on input line 17912.
+Already applied: [0000/00/00] Add starred reference commands on input line 1792
+5.
+Applying: [2023/06/01] store five label arguments on input line 17932.
+Applying: [2022/06/01] Add starred version on input line 17948.
+Skipping: [2024/11/01] set theHcounter representation on input line 17952.
+Applying: [2022/06/01] set theHcounter representation on input line 17982.
+Already applied: [2022/06/01] Add starred version on input line 17991.
+Already applied: [0000/00/00] store five label arguments on input line 18001.
+Already applied: [2020/10/01] Add starred version on input line 18011.
+Applying: [2019/10/01] Add \labelformat and \Ref  on input line 18023.
+LaTeX Info: Redefining \Ref on input line 18030.
+Already applied: [0000/00/00] Add \labelformat and \Ref  on input line 18034.
+BEGIN module: ltproperties (2023/11/01) on input line 18047.
+              Cross-referencing properties.
+Skipping module ltproperties on input line 18047.
+Skipping: [0000/00/00] cross-referencing properties (undo) on input line 18308.
+
+END module: ltproperties (2023/11/01) on input line 18323.
+Applying: [2023/11/01] check property labels on input line 18327.
+Already applied: [2020/10/01] Use Hooks on input line 18394.
+Already applied: [0000/00/00] Use Hooks on input line 18458.
+Applying: [2021/06/01] kernel before hook on input line 18497.
+Already applied: [0000/00/00] kernel before hook on input line 18501.
+Applying: [2018/12/01] Mask line endings on input line 18507.
+Already applied: [0000/00/00] Mask line endings on input line 18533.
+Applying: [2020/10/01] Use hook system on input line 18546.
+Already applied: [2019/10/01] Making \begin /\end robust on input line 18567.
+Already applied: [0000/00/00] Making \begin /\end robust on input line 18578.
+Applying: [2019/10/01] Making \begin /\end robust on input line 18592.
+Already applied: [0000/00/00] Making \begin /\end robust on input line 18613.
+Skipping: [2024/11/01] New @endpe handling on input line 18621.
+Applying: [2020/10/01] Use hook system on input line 18634.
+Already applied: [2019/10/01] Making \begin /\end robust on input line 18648.
+Already applied: [0000/00/00] Making \begin /\end robust on input line 18656.
+Applying: [2020/10/01] Hooks for environments on input line 18661.
+Already applied: [0000/00/00] Hooks for environments on input line 18668.
+Applying: [2020/02/02] Make robust on input line 18677.
+Already applied: [0000/00/00] Make robust on input line 18682.
+Applying: [2020/10/01] centering, etc support calc on input line 18689.
+Already applied: [0000/00/00] centering, etc support calc on input line 18693.
+Applying: [2020/10/01] Set finaldhypendemerits on input line 18698.
+LaTeX Info: Redefining \centering on input line 18699.
+LaTeX Info: Redefining \raggedright on input line 18704.
+LaTeX Info: Redefining \raggedleft on input line 18709.
+Already applied: [2019/10/01] Make commands robust on input line 18716.
+Already applied: [0000/00/00] Make commands robust on input line 18733.
+Applying: [2023/11/01] Obeyed tabs on input line 18741.
+Already applied: [0000/00/00] Obeyed tabs on input line 18750.
+Applying: [2017-04-15] Disable hyphenation in verbatim on input line 18756.
+Already applied: [0000-00-00] Disable hyphenation in verbatim on input line 187
+77.
+Applying: [2018/12/01] Setup visible space for \verb  on input line 18798.
+LaTeX Info: Redefining \asciispace on input line 18799.
+Already applied: [0000/00/00] Setup visible space for \verb  on input line 1881
+3.
+Applying: [2023/11/01] Setup visible tab for \verb  on input line 18823.
+Already applied: [2018/12/01] Setup visible space for \verb  on input line 1883
+6.
+Already applied: [0000/00/00] Setup visible space for \verb  on input line 1884
+8.
+Applying: [2023/11/01] Setup visible tab for \verb  on input line 18852.
+Already applied: [0000/00/00] Setup visible tab for \verb  on input line 18856.
+
+Applying: [2023/11/01] Support visible tabs on input line 18860.
+Already applied: [2020/10/01] Drop spaces before \verb delimiter on input line 
+18877.
+Already applied: [2018/12/01] Setup visible space for \verb  on input line 1889
+0.
+Already applied: [0000/00/00] Setup visible space for \verb  on input line 1890
+6.
+Applying: [2017-04-15] Disable hyphenation in verb on input line 18917.
+Already applied: [0000-00-00] Disable hyphenation in verb on input line 18926.
+Applying: [2019/10/01] Make commands robust on input line 18935.
+LaTeX Info: Redefining \vphantom on input line 18936.
+LaTeX Info: Redefining \hphantom on input line 18937.
+LaTeX Info: Redefining \phantom on input line 18938.
+LaTeX Info: Redefining \mathstrut on input line 18939.
+Already applied: [0000/00/00] Make commands robust on input line 18942.
+Applying: [2018/12/01] Start LR-mode on input line 18951.
+Already applied: [0000/00/00] Start LR-mode on input line 18959.
+Applying: [2022/11/01] Guard against reboxing on input line 18966.
+Already applied: [0000/00/00] Guard against reboxing on input line 18972.
+Applying: [2018/12/01] Start LR-mode on input line 18977.
+Already applied: [0000/00/00] Start LR-mode on input line 18981.
+Applying: [2019/10/01] Make commands robust on input line 18985.
+LaTeX Info: Redefining \cases on input line 18986.
+LaTeX Info: Redefining \matrix on input line 18988.
+LaTeX Info: Redefining \pmatrix on input line 18992.
+Already applied: [0000/00/00] Make commands robust on input line 18995.
+Applying: [2020/10/01] amsmath spacing commands on input line 19003.
+LaTeX Info: Redefining \tmspace on input line 19004.
+LaTeX Info: Redefining \, on input line 19006.
+LaTeX Info: Redefining \! on input line 19008.
+LaTeX Info: Redefining \: on input line 19010.
+LaTeX Info: Redefining \negmedspace on input line 19013.
+LaTeX Info: Redefining \; on input line 19014.
+LaTeX Info: Redefining \negthickspace on input line 19016.
+Already applied: [0000/00/00] amsmath spacing commands on input line 19019.
+Applying: [2015/01/01] Make \( robust on input line 19035.
+LaTeX Info: Redefining \( on input line 19036.
+LaTeX Info: Redefining \) on input line 19038.
+Already applied: [0000/00/00] Make \( robust on input line 19041.
+Skipping: [2025/06/01] Start and end display math on input line 19050.
+Applying: [0000/00/00] Start and end display math on input line 19055.
+Applying: [2015/01/01] Make \[ robust on input line 19060.
+LaTeX Info: Redefining \[ on input line 19061.
+LaTeX Info: Redefining \] on input line 19073.
+Already applied: [2015/01/01] Make \[ robust on input line 19086.
+Already applied: [0000/00/00] Make \[ robust on input line 19111.
+Skipping: [2025/06/01] Tagging support on input line 19139.
+Applying: [0000/00/00] Tagging support on input line 19145.
+Skipping: [2025/06/01] Support for tagging on input line 19151.
+Applying: [0000/00/00] Support for tagging on input line 19178.
+Applying: [2020/10/01] eqnarray support calc syntax on input line 19206.
+Already applied: [0000/00/00] eqnarray support calc syntax on input line 19214.
+
+Applying: [2023/06/01] add ignorespaces to eqno on input line 19223.
+Already applied: [0000/00/00] add ignorespaces to eqno on input line 19230.
+Skipping: [2024/11/01] New @endpe handling on input line 19236.
+Applying: [0000/00/00] New @endpe handling on input line 19254.
+Applying: [2015/01/01] Make \makebox robust on input line 19263.
+LaTeX Info: Redefining \makebox on input line 19264.
+Already applied: [0000/00/00] Make \makebox robust on input line 19271.
+Applying: [2023/11/01] Unknown alignment warning on input line 19280.
+Already applied: [0000/00/00] Unknown alignment warning on input line 19294.
+Applying: [2020/10/01] default units on input line 19302.
+Already applied: [0000/00/00] default units on input line 19321.
+Applying: [2021/06/01] color group settings on input line 19338.
+Already applied: [0000/00/00] color group settings on input line 19347.
+Skipping: [2024/11/01] color group settings on input line 19358.
+Applying: [2021/06/01] color group settings on input line 19363.
+Already applied: [0000/00/00] color group settings on input line 19368.
+Applying: [2015/01/01] Make \savebox robust on input line 19374.
+LaTeX Info: Redefining \savebox on input line 19375.
+Already applied: [0000/00/00] Make \savebox robust on input line 19380.
+Applying: [2015/01/01] Make \framebox robust on input line 19387.
+LaTeX Info: Redefining \framebox on input line 19388.
+Already applied: [0000/00/00] Make \framebox robust on input line 19393.
+Applying: [2023/11/01] Unknown alignment warning on input line 19400.
+Already applied: [0000/00/00] Unknown alignment warning on input line 19418.
+Applying: [2015/01/01] Make \parbox robust on input line 19429.
+LaTeX Info: Redefining \parbox on input line 19430.
+Already applied: [0000/00/00] Make \parbox robust on input line 19436.
+Applying: [2023/11/01] Unknown alignment warning on input line 19444.
+Already applied: [0000/00/00] Unknown alignment warning on input line 19470.
+Applying: [2017-04-15] reset \lineskiplimit  on input line 19492.
+Already applied: [0000-00-00] reset \lineskiplimit  on input line 19512.
+Applying: [2021/11/15] footnotetext tagging on input line 19529.
+Already applied: [2021/06/01] footnotetext tagging on input line 19546.
+Already applied: [0000/00/00] footnotetext tagging on input line 19562.
+Applying: [2015/01/01] Make \rule robust on input line 19579.
+LaTeX Info: Redefining \rule on input line 19580.
+Already applied: [0000/00/00] Make \rule robust on input line 19583.
+Applying: [2015/01/01] Make \raisebox robust on input line 19588.
+LaTeX Info: Redefining \raisebox on input line 19589.
+Already applied: [0000/00/00] Make \raisebox robust on input line 19594.
+Skipping: [2024/06/01] final strut correction on input line 19601.
+Applying: [0000/00/00] final strut correction on input line 19611.
+Applying: [2020/10/01] Tabbing calc syntax on input line 19619.
+Already applied: [0000/00/00] Tabbing calc syntax on input line 19623.
+Applying: [2019/10/01] Make commands robust on input line 19628.
+LaTeX Info: Redefining \pushtabs on input line 19629.
+LaTeX Info: Redefining \poptabs on input line 19632.
+LaTeX Info: Redefining \kill on input line 19644.
+Already applied: [0000/00/00] Make commands robust on input line 19647.
+Applying: [2020/10/01] tabular support calc syntax on input line 19655.
+Already applied: [0000/00/00] tabular support calc syntax on input line 19659.
+Applying: [2020/10/01] default units on input line 19665.
+Already applied: [0000/00/00] default units on input line 19670.
+Applying: [2020/10/01] default units on input line 19674.
+Already applied: [0000/00/00] default units on input line 19686.
+Applying: [2020/10/01] default units on input line 19695.
+Already applied: [0000/00/00] default units on input line 19708.
+Applying: [2020/10/01] default units on input line 19716.
+Already applied: [0000/00/00] default units on input line 19724.
+Applying: [2020/10/01] default units on input line 19732.
+Already applied: [0000/00/00] default units on input line 19743.
+Applying: [2020/10/01] \shortstack calc support on input line 19753.
+Already applied: [0000/00/00] \shortstack calc support on input line 19757.
+Applying: [2020/10/01] default units on input line 19762.
+Already applied: [0000/00/00] default units on input line 19773.
+Applying: [2020/10/01] default units on input line 19784.
+Already applied: [0000/00/00] default units on input line 19798.
+Applying: [2020/10/01] default units on input line 19812.
+Already applied: [0000/00/00] default units on input line 19869.
+Applying: [2016/03/31] Avoid almost zero length leaders on input line 19927.
+Already applied: [0000/00/00] Avoid almost zero length leaders on input line 19
+933.
+Applying: [2020/10/01] default units on input line 19938.
+Already applied: [2016/03/31] default units on input line 19965.
+Already applied: [0000/00/00] default units on input line 19995.
+Applying: [2016/03/31] Avoid almost zero length leaders on input line 20020.
+Already applied: [0000/00/00] Avoid almost zero length leaders on input line 20
+032.
+Applying: [2016/03/31] Avoid almost zero length leaders on input line 20043.
+Already applied: [0000/00/00] Avoid almost zero length leaders on input line 20
+052.
+Applying: [2020/10/01] default units on input line 20060.
+Already applied: [0000/00/00] default units on input line 20076.
+Applying: [2020/10/01] default units on input line 20093.
+Already applied: [0000/00/00] default units on input line 20099.
+Applying: [2020/10/01] default units on input line 20103.
+Already applied: [0000/00/00] default units on input line 20162.
+Applying: [2019/10/01] Make commands robust on input line 20217.
+LaTeX Info: Command `\bezier' is already robust on input line 20218.
+LaTeX Info: Command `\circle' is already robust on input line 20219.
+LaTeX Info: Command `\linethickness' is already robust on input line 20222.
+LaTeX Info: Command `\oval' is already robust on input line 20224.
+LaTeX Info: Command `\qbezier' is already robust on input line 20226.
+LaTeX Info: Command `\shortstack' is already robust on input line 20227.
+LaTeX Info: Command `\thinlines' is already robust on input line 20228.
+Already applied: [0000/00/00] Make commands robust on input line 20232.
+Skipping: [2024/03/18] no link target on input line 20250.
+Applying: [0000/00/00] no link target on input line 20256.
+Skipping: [2024/03/18] add link targets on input line 20262.
+Applying: [0000/00/00] add link targets on input line 20269.
+Applying: [2019/10/01] Make commands robust on input line 20277.
+LaTeX Info: Redefining \title on input line 20278.
+LaTeX Info: Redefining \author on input line 20279.
+LaTeX Info: Redefining \date on input line 20280.
+LaTeX Info: Redefining \thanks on input line 20281.
+LaTeX Info: Redefining \and on input line 20285.
+Already applied: [0000/00/00] Make commands robust on input line 20291.
+Applying: [2020/10/01] fourth argument on input line 20301.
+Already applied: [2018/12/01] Mask line endings on input line 20307.
+Already applied: [0000/00/00] Mask line endings on input line 20313.
+Skipping: [2025/06/01] Extended index/label on input line 20318.
+Applying: [0000/00/00] Extended index/label on input line 20331.
+Applying: [2021/11/15] Four arguments on input line 20343.
+Already applied: [0000/00/00] Four arguments on input line 20349.
+Applying: [2018/12/01] Prevent protrusion on input line 20355.
+LaTeX Info: Redefining \noprotrusion on input line 20375.
+Already applied: [0000/00/00] Prevent protrusion on input line 20378.
+Applying: [2015/01/01] Check float options on input line 20401.
+Already applied: [0000/00/00] Check float options on input line 20469.
+Applying: [2015/01/01] float order in 2-column on input line 20537.
+Already applied: [0000/00/00] float order in 2-column on input line 20561.
+Applying: [2015/01/01] float order in 2-column on input line 20576.
+Already applied: [0000/00/00] float order in 2-column on input line 20588.
+Applying: [2021/06/01] Explicit par for marginpar on input line 20601.
+Already applied: [0000/00/00] Explicit par for marginpar on input line 20617.
+Applying: [2020/10/01] superscript baseline on input line 20634.
+Already applied: [0000/00/00] superscript baseline on input line 20639.
+Applying: [2015/01/01] \textsubscript  on input line 20645.
+LaTeX Info: Redefining \textsubscript on input line 20646.
+Already applied: [0000/00/00] \textsubscript  on input line 20650.
+Applying: [2020/10/01] subscript baseline on input line 20654.
+Already applied: [2015/01/01] subscript baseline on input line 20659.
+Already applied: [0000/00/00] subscript baseline on input line 20665.
+Applying: [2021/11/15] footnotetext tagging on input line 20669.
+Already applied: [2021/06/01] footnotetext tagging on input line 20687.
+Already applied: [0000/00/00] footnotetext tagging on input line 20704.
+Applying: [2021/06/01] Add footref on input line 20722.
+Already applied: [0000/00/00] Add footref on input line 20731.
+Applying: [2022/06/01] check for blank on input line 20739.
+LaTeX Info: Redefining \cite on input line 20740.
+Already applied: [0000/00/00] check for blank on input line 20749.
+Applying: [2021/06/01] Allow nocite in preamble on input line 20757.
+Already applied: [0000/00/00] Allow nocite in preamble on input line 20771.
+BEGIN module: ltmarks (2022/06/01) on input line 20796.
+              Marks handling.
+Skipping module ltmarks on input line 20796.
+Skipping: [0000/00/00] Undo Marks handling on input line 21199.
+END module: ltmarks (2022/06/01) on input line 21212.
+Skipping: [2025/06/01] Drop legacy mark support on input line 21217.
+Applying: [2022/06/01] New mark support on input line 21231.
+LaTeX Info: Redefining \markboth on input line 21233.
+LaTeX Info: Redefining \markright on input line 21244.
+Already applied: [2019/10/01] Make commands robust on input line 21257.
+Already applied: [0000/00/00] Make commands robust on input line 21278.
+Skipping: [2025/06/01] Use new mark mechanism on input line 21301.
+Applying: [0000/00/00] Use new mark mechanism on input line 21308.
+Applying: [2020/10/01] Add \@currpath  on input line 21320.
+Already applied: [0000/00/00] Add \@currpath  on input line 21324.
+Applying: [2020/10/01] Add \@expl@push@filename@@ and \@expl@push@filename@aux@
+@  on input line 21329.
+Already applied: [2020/02/02] Add \@expl@push@filename@@  on input line 21344.
+Already applied: [0000/00/00] Add \@expl@push@filename@@ and \@expl@push@filena
+me@aux@@  on input line 21356.
+Applying: [2020/10/01] Add \@expl@pop@filename@@  on input line 21380.
+Already applied: [2020/02/02] Add \@expl@push@filename@@  on input line 21388.
+Already applied: [0000/00/00] Add \@expl@push@filename@@ and \@expl@push@filena
+me@aux@@  on input line 21394.
+Applying: [2020/10/01] Add \@kernel@currpathstack  on input line 21407.
+Already applied: [0000/00/00] Add \@kernel@currpathstack  on input line 21424.
+Applying: [2020/10/01] Test format date on input line 21430.
+Already applied: [0000/00/00] Test format date on input line 21437.
+Applying: [2018/04/01] Guard against bad input on input line 21444.
+Already applied: [0000/00/00] Guard against bad input on input line 21455.
+Applying: [2017/01/01] Spaces in option clash check on input line 21466.
+Already applied: [0000/00/00] Spaces in option clash check on input line 21483.
+
+Skipping: [2024/06/01] Test package loading on input line 21500.
+Applying: [0000/00/00] Test package loading on input line 21507.
+Skipping: [2024/06/01] More conditionals on input line 21516.
+Applying: [0000/00/00] More conditionals on input line 21543.
+Applying: [2020/10/01] Check name with \strcmp  on input line 21573.
+Already applied: [0000/00/00] Undo: check name with \strcmp  on input line 2158
+6.
+Applying: [2020/10/01] Allow for package substitution on input line 21597.
+Already applied: [2020/02/02] Protection for package info on input line 21614.
+Already applied: [0000/00/00] Protection for package info on input line 21627.
+Applying: [0000/00/00] Track \ProvidesPackage  on input line 21640.
+Applying: [2021/06/01] Raw option lists on input line 21645.
+Already applied: [2020/10/01] Add file replacement in \@pass@ptions  on input l
+ine 21666.
+Already applied: [0000/00/00] \@pass@ptions  on input line 21682.
+Applying: [2021/06/01] filter unused option list on input line 21691.
+Already applied: [0000/00/00] filter unused option list on input line 21703.
+Applying: [2021/06/01] safer @xprocess@ptions on input line 21713.
+Already applied: [0000/00/00] safer @xprocess@ptions on input line 21729.
+Applying: [2020/10/01] Unused options issue on input line 21745.
+Already applied: [0000/00/00] Unused options issue on input line 21762.
+Applying: [2021/06/01] filter unused option list on input line 21777.
+Already applied: [0000/00/00] filter unused option list on input line 21785.
+Applying: [2017/01/01] Spaces in \ExecuteOptions  on input line 21792.
+Already applied: [0000/00/00] Spaces in \ExecuteOptions  on input line 21802.
+Applying: [2021/06/01] Raw option lists load with options on input line 21811.
+Already applied: [0000/00/00] Raw option lists load with options on input line 
+21820.
+Applying: [2020/10/01] Unused options issue on input line 21827.
+Already applied: [0000/00/00] Unused options issue on input line 21836.
+Skipping: [2024/06/01] Check Group on input line 21843.
+Applying: [0000/00/00] Check Group on input line 21855.
+Applying: [2020/10/01] ifx tests in \@fileswith@pti@ns  on input line 21862.
+Already applied: [2017/01/01] ifx tests in \@fileswith@pti@ns  on input line 21
+890.
+Already applied: [0000/00/00] ifx tests in \@fileswith@pti@ns  on input line 21
+917.
+Applying: [2020/10/01] Hooks and unused options issue on input line 21945.
+Already applied: [0000/00/00] Hooks and unused options issue on input line 2208
+9.
+Applying: [2020/10/01] Use hook system on input line 22146.
+LaTeX Info: Redefining \AtBeginDocument on input line 22147.
+LaTeX Info: Redefining \AtEndDocument on input line 22148.
+Already applied: [0000/00/00] Use hook system on input line 22151.
+Skipping: [2024/11/01] Allow for more extensions on input line 22158.
+Applying: [0000/00/00] Allow for more extensions on input line 22171.
+Applying: [2020/10/01] Define \q@curr@file directly (gh/220) on input line 2218
+1.
+Already applied: [2019/10/01] Spaces in file names + optional arg on input line
+ 22314.
+Already applied: [0000/00/00] Spaces in file names + optional arg on input line
+ 22445.
+Applying: [2020/10/01] Hook management file on input line 22536.
+Already applied: [0000/00/00] Hook management file on input line 22545.
+Applying: [2020/10/01] File helpers on input line 22554.
+Applying: [2020/10/01] Roll forward help on input line 22615.
+Applying: [2020/10/01] Hook management (files) on input line 22667.
+Already applied: [2019/10/01] Hook management (files) on input line 22702.
+Already applied: [0000/00/00] Hook management (files) on input line 22713.
+Applying: [2020/10/01] Declaring file substitution on input line 22722.
+Applying: [2020/10/01] File substitution on input line 22762.
+Already applied: [0000/00/00] File substitution on input line 22769.
+Applying: [2022/06/01] Setting current file name on input line 22776.
+Already applied: [2021/06/01] Setting current file name on input line 22806.
+Already applied: [2020/10/01] Setting current file name on input line 22829.
+Already applied: [2019/10/01] Setting current file name on input line 22850.
+Already applied: [0000/00/00] Setting current file name on input line 22864.
+Applying: [2020/10/01] Make file csname on input line 22869.
+Applying: [2020/10/01] Set curr file on input line 22888.
+Applying: [2020/10/01] Replace files detect loops on input line 22903.
+Applying: [2020/10/01] Tortoise and Hare on input line 22924.
+Applying: [2020/10/01] Disable packages on input line 22965.
+Already applied: [0000/00/00] Disable packages on input line 22980.
+Applying: [2020/10/01] 2e tmp interfaces on input line 22987.
+Already applied: [0000/00/00] 2e tmp interfaces on input line 23013.
+Applying: [2020/10/01] Hook management (shipout) on input line 23023.
+Already applied: [0000/00/00] Hook management (shipout) on input line 23452.
+Skipping: [2025/06/01] Force immediate writes on input line 23488.
+Applying: [0000/00/00] Force immediate writes on input line 23499.
+Applying: [2020/10/01] atenddvi emulation on input line 23505.
+Already applied: [0000/00/00] atenddvi emulation on input line 23518.
+Skipping: [2025/06/01] Check depth of page on input line 23524.
+Applying: [2017/04/15] Check depth of page on input line 23542.
+Already applied: [0000/00/00] Check depth of page on input line 23568.
+Applying: [2015/01/01] float order in 2-column on input line 23586.
+Already applied: [0000/00/00] float order in 2-column on input line 23595.
+Applying: [2015/01/01] float order in 2-column on input line 23600.
+Already applied: [0000/00/00] float order in 2-column on input line 23643.
+Skipping: [2025/06/01] \@makecol adding hooks/sockets on input line 23686.
+Applying: [0000/00/00] \@makecol adding hooks/sockets on input line 23905.
+Skipping: [2025/06/01] Use new mark mechanism on input line 23989.
+Applying: [2017/04/15] Reset language for hyphenation on input line 24092.
+Already applied: [0000/00/00] Reset language for hyphenation on input line 2415
+0.
+Applying: [2015/01/01] float order in 2-column on input line 24208.
+Already applied: [0000/00/00] float order in 2-column on input line 24223.
+Applying: [2015/01/01] float order in 2-column on input line 24239.
+Already applied: [0000/00/00] float order in 2-column on input line 24258.
+Applying: [2015/01/01] float order in 2-column on input line 24276.
+Already applied: [0000/00/00] float order in 2-column on input line 24298.
+Skipping: [2025/06/01] float order in 2-column on input line 24319.
+Applying: [2015/01/01] float order in 2-column on input line 24387.
+Already applied: [0000/00/00] float order in 2-column on input line 24454.
+Skipping: [2025/06/01] float order in 2-column on input line 24524.
+Applying: [2015/01/01] float order in 2-column on input line 24558.
+Already applied: [0000/00/00] float order in 2-column on input line 24591.
+Applying: [2015/01/01] float order in 2-column on input line 24623.
+Already applied: [0000/00/00] float order in 2-column on input line 24670.
+Applying: [2021/11/15] Show float register contents on input line 24717.
+Already applied: [0000/00/00] Show float register contents on input line 24739.
+
+Skipping: [2025/06/01] float placement calculation on input line 24747.
+Applying: [0000/00/00] float placement calculation on input line 24751.
+Skipping: [2025/06/01] float placement calculation on input line 24755.
+Applying: [0000/00/00] float placement calculation on input line 24772.
+Applying: [2017/01/01] negative height floats on input line 24789.
+Already applied: [0000/00/00] negative height floats on input line 24799.
+Skipping: [2025/06/01] Use new mark mechanism on input line 24809.
+Applying: [2015/01/01] 2 column marks on input line 24834.
+Already applied: [0000/00/00] 2 column marks on input line 24875.
+Applying: [2015/01/01] NFSS version1 commands on input line 24910.
+Already applied: [0000/00/00] NFSS version1 commands on input line 24930.
+Applying: [2015/01/01] Extended Allocation on input line 25053.
+Already applied: [0000/00/00] Extended Allocation on input line 25060.
+Applying: [2022/06/01] Delayed legacy marks on input line 25064.
+Already applied: [0000/00/00] Delayed legacy marks on input line 25070.
+Applying: [2015/01/01] Extended Allocation on input line 25074.
+Already applied: [0000/00/00] Extended Allocation on input line 25088.
+Applying: [2016/02/01] Start of XeTeX class allocator on input line 25106.
+Already applied: [2015/01/01] Start of XeTeX class allocator on input line 2511
+4.
+Already applied: [0000/00/00] Start of XeTeX class allocator on input line 2512
+1.
+Applying: [2021/06/01] Lua trace_stack_levels function on input line 25137.
+Already applied: [0000/00/00] Lua trace_stack_levels function on input line 251
+66.
+Applying: [2016/02/01] XeTeX character classes on input line 25170.
+Already applied: [0000/00/00] XeTeX character classes on input line 25203.
+Applying: [2017/04/15] Save language for hyphenation on input line 25227.
+Already applied: [0000/00/00] Save language for hyphenation on input line 25231
+.
+Applying: [2021/06/01] Preload glyphtounicode on input line 25235.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.te
+x)
+Already applied: [0000/00/00] Preload glyphtounicode on input line 25242.
+Applying: [2018/04/01] UTF-8 default on input line 25248.
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\utf8.def
+File: utf8.def 2022/06/07 v1.3c UTF-8 support
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\omsenc.dfu
+File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1enc.dfu
+File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.dfu
+File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01C4 (decimal 452)
+   defining Unicode char U+01C5 (decimal 453)
+   defining Unicode char U+01C6 (decimal 454)
+   defining Unicode char U+01C7 (decimal 455)
+   defining Unicode char U+01C8 (decimal 456)
+   defining Unicode char U+01C9 (decimal 457)
+   defining Unicode char U+01CA (decimal 458)
+   defining Unicode char U+01CB (decimal 459)
+   defining Unicode char U+01CC (decimal 460)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02D9 (decimal 729)
+   defining Unicode char U+02DB (decimal 731)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+1E0D (decimal 7693)
+   defining Unicode char U+1E1E (decimal 7710)
+   defining Unicode char U+1E1F (decimal 7711)
+   defining Unicode char U+1E25 (decimal 7717)
+   defining Unicode char U+1E30 (decimal 7728)
+   defining Unicode char U+1E31 (decimal 7729)
+   defining Unicode char U+1E37 (decimal 7735)
+   defining Unicode char U+1E8E (decimal 7822)
+   defining Unicode char U+1E8F (decimal 7823)
+   defining Unicode char U+1E43 (decimal 7747)
+   defining Unicode char U+1E45 (decimal 7749)
+   defining Unicode char U+1E47 (decimal 7751)
+   defining Unicode char U+1E5B (decimal 7771)
+   defining Unicode char U+1E63 (decimal 7779)
+   defining Unicode char U+1E6D (decimal 7789)
+   defining Unicode char U+1E90 (decimal 7824)
+   defining Unicode char U+1E91 (decimal 7825)
+   defining Unicode char U+1E9E (decimal 7838)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.dfu
+File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+FEFF (decimal 65279)
+)
+Already applied: [0000/00/00] UTF-8 default on input line 25328.
+Skipping: [2025/11/01] automatic par insertion on input line 25375.
+Applying: [0000/00/00] automatic par insertion on input line 25379.
+)
+(rapportPFEHIND.cls
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen149
+\ttl@minus=\dimen150
+\ttl@toksa=\toks17
+\titlewidth=\dimen151
+\titlewidthlast=\dimen152
+\titlewidthfirst=\dimen153
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip53
+\cftbeforetoctitleskip=\skip54
+\cftaftertoctitleskip=\skip55
+\cftbeforepartskip=\skip56
+\cftpartnumwidth=\skip57
+\cftpartindent=\skip58
+\cftbeforechapskip=\skip59
+\cftchapindent=\skip60
+\cftchapnumwidth=\skip61
+\cftbeforesecskip=\skip62
+\cftsecindent=\skip63
+\cftsecnumwidth=\skip64
+\cftbeforesubsecskip=\skip65
+\cftsubsecindent=\skip66
+\cftsubsecnumwidth=\skip67
+\cftbeforesubsubsecskip=\skip68
+\cftsubsubsecindent=\skip69
+\cftsubsubsecnumwidth=\skip70
+\cftbeforeparaskip=\skip71
+\cftparaindent=\skip72
+\cftparanumwidth=\skip73
+\cftbeforesubparaskip=\skip74
+\cftsubparaindent=\skip75
+\cftsubparanumwidth=\skip76
+\cftbeforeloftitleskip=\skip77
+\cftafterloftitleskip=\skip78
+\cftbeforefigskip=\skip79
+\cftfigindent=\skip80
+\cftfignumwidth=\skip81
+\c@lofdepth=\count284
+\c@lotdepth=\count285
+\cftbeforelottitleskip=\skip82
+\cftafterlottitleskip=\skip83
+\cftbeforetabskip=\skip84
+\cfttabindent=\skip85
+\cfttabnumwidth=\skip86
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count286
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen154
+\l@unhyphenated=\language79
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count287
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4206.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-fr
+ench.tex)
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 4330.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
+Language: french 2025-08-15 v4.0e French support from the babel system
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3.ldf
+Language: french 2025-08-15 v3.7e French support from the babel system
+\FB@stdchar=\count288
+Package babel Info: Making : an active character on input line 273.
+Package babel Info: Making ; an active character on input line 274.
+Package babel Info: Making ! an active character on input line 275.
+Package babel Info: Making ? an active character on input line 276.
+\FBguill@level=\count289
+\FBold@everypar=\toks18
+\FB@Mht=\dimen155
+\mc@charclass=\count290
+\mc@charfam=\count291
+\mc@charslot=\count292
+\std@mcc=\count293
+\dec@mcc=\count294
+\FB@pardim=\dimen156
+\listindentFB=\dimen157
+\descindentFB=\dimen158
+\labelindentFB=\dimen159
+\labelwidthFB=\dimen160
+\leftmarginFB=\dimen161
+\parindentFFN=\dimen162
+\FBfnindent=\dimen163
+))) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count295
+\calc@Bcount=\count296
+\calc@Adimen=\dimen164
+\calc@Bdimen=\dimen165
+\calc@Askip=\skip87
+\calc@Bskip=\skip88
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count297
+\calc@Cskip=\skip89
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Rollback for package 'amsmath' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2019-04-01.
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip90
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen166
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen167
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count303
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip17
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks23
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks24
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks25
+\multlinegap=\skip91
+\multlinetaggap=\skip92
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+\g_MT_multlinerow_int=\count310
+\l_MT_multwidth_dim=\dimen175
+\origjot=\skip93
+\l_MT_shortvdotswithinadjustabove_dim=\dimen176
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen177
+\l_MT_above_intertext_sep=\dimen178
+\l_MT_below_intertext_sep=\dimen179
+\l_MT_above_shortintertext_sep=\dimen180
+\l_MT_below_shortintertext_sep=\dimen181
+\xmathstrut@box=\box56
+\xmathstrut@dim=\dimen182
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Rollback for package 'siunitx' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2021-05-17.
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count311
+\l__siunitx_number_exponent_fixed_int=\count312
+\l__siunitx_number_min_decimal_int=\count313
+\l__siunitx_number_min_integer_int=\count314
+\l__siunitx_number_round_precision_int=\count315
+\l__siunitx_number_lower_threshold_int=\count316
+\l__siunitx_number_upper_threshold_int=\count317
+\l__siunitx_number_group_first_int=\count318
+\l__siunitx_number_group_size_int=\count319
+\l__siunitx_number_group_minimum_int=\count320
+\l__siunitx_angle_tmp_dim=\dimen183
+\l__siunitx_angle_marker_box=\box57
+\l__siunitx_angle_unit_box=\box58
+\l__siunitx_compound_count_int=\count321
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.
+sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count322
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.st
+y
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box59
+\l__siunitx_table_tmp_dim=\dimen184
+\l__siunitx_table_column_width_dim=\dimen185
+\l__siunitx_table_integer_box=\box60
+\l__siunitx_table_decimal_box=\box61
+\l__siunitx_table_uncert_box=\box62
+\l__siunitx_table_before_box=\box63
+\l__siunitx_table_after_box=\box64
+\l__siunitx_table_before_dim=\dimen186
+\l__siunitx_table_carry_dim=\dimen187
+\l__siunitx_unit_tmp_int=\count323
+\l__siunitx_unit_position_int=\count324
+\l__siunitx_unit_total_int=\count325
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Rollback for package 'array' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2023-11-01.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\array-2023-11-01.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen188
+\ar@mcellbox=\box65
+\extrarowheight=\dimen189
+\NC@list=\toks27
+\extratabsurround=\skip94
+\backup@length=\skip95
+\ar@cellbox=\box66
+))) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count326
+\float@exts=\toks28
+\float@box=\box67
+\@float@everytoks=\toks29
+\@floatcapt=\box68
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Rollback for package 'graphics' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2019-10-01.
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen190
+\Gin@req@width=\dimen191
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Rollback for package 'caption' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2022-02-20.
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Rollback for package 'caption3' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2022-02-20.
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen192
+\captionmargin=\dimen193
+\caption@leftmargin=\dimen194
+\caption@rightmargin=\dimen195
+\caption@width=\dimen196
+\caption@indent=\dimen197
+\caption@parindent=\dimen198
+\caption@hangindent=\dimen199
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count327
+\c@continuedfloat=\count328
+Package caption Info: float package is loaded.
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Rollback for package 'subcaption' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2007/12/06.
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count329
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count330
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/wallpaper\wallpaper.sty
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
+\ESO@tempdima=\dimen256
+\ESO@tempdimb=\dimen257
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+Rollback for package 'xcolor' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 0000-00-00.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor-2022-06-12.s
+ty
+
+LaTeX Warning: You have requested package `xcolor',
+               but the package provides `xcolor-2022-06-12'.
+
+Package: xcolor-2022-06-12 2022/06/12 v2.14 LaTeX color extensions (UK)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)))
+\wpXoffset=\skip96
+\wpYoffset=\skip97
+\tileXoffset=\skip98
+\tileYoffset=\skip99
+\tilewidth=\skip100
+\tileheight=\skip101
+\tileX=\skip102
+\tileY=\skip103
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count331
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.
+sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
+s)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+)
+\scr@dte@tocline@numberwidth=\skip104
+\scr@dte@tocline@numbox=\box69
+)
+Package tocbasic Info: setting babel extension for `nlo' on input line 187.
+Package tocbasic Info: setting babel extension for `nls' on input line 188.
+\nomlabelwidth=\dimen258
+\nom@tempdim=\dimen259
+\nomitemsep=\skip105
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip106
+\f@nch@offset@elh=\skip107
+\f@nch@offset@erh=\skip108
+\f@nch@offset@olh=\skip109
+\f@nch@offset@orh=\skip110
+\f@nch@offset@elf=\skip111
+\f@nch@offset@erf=\skip112
+\f@nch@offset@olf=\skip113
+\f@nch@offset@orf=\skip114
+\f@nch@height=\skip115
+\f@nch@footalignment=\skip116
+\f@nch@widthL=\skip117
+\f@nch@widthC=\skip118
+\f@nch@widthR=\skip119
+\@temptokenb=\toks32
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekey
+s.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitles
+tring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count332
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
+y
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen260
+\Hy@linkcounter=\count333
+\Hy@pagecounter=\count334
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count335
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count336
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen261
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.st
+y
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count337
+\Field@Width=\dimen262
+\Fld@charsize=\dimen263
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count338
+\c@Item=\count339
+\c@Hfootnote=\count340
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count341
+\c@bookmark@seq@number=\count342
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilech
+eck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecoun
+ter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip120
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count343
+\Gm@cntv=\count344
+\c@Gm@tempcnt=\count345
+\Gm@bindingoffset=\dimen264
+\Gm@wd@mp=\dimen265
+\Gm@odd@mp=\dimen266
+\Gm@even@mp=\dimen267
+\Gm@layoutwidth=\dimen268
+\Gm@layoutheight=\dimen269
+\Gm@layouthoffset=\dimen270
+\Gm@layoutvoffset=\dimen271
+\Gm@dimlist=\toks33
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-co
+mmon.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen272
+\pgfutil@tempdimb=\dimen273
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-la
+tex.def
+\pgfutil@abb=\box70
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.cod
+e.tex
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.c
+ode.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.co
+de.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslib
+raryfiltered.code.tex
+\pgfkeys@tmptoks=\toks37
+))
+\pgf@x=\dimen274
+\pgf@y=\dimen275
+\pgf@xa=\dimen276
+\pgf@ya=\dimen277
+\pgf@xb=\dimen278
+\pgf@yb=\dimen279
+\pgf@xc=\dimen280
+\pgf@yc=\dimen281
+\pgf@xd=\dimen282
+\pgf@yd=\dimen283
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count346
+\c@pgf@countb=\count347
+\c@pgf@countc=\count348
+\c@pgf@countd=\count349
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count350
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-p
+dftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-c
+ommon-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysso
+ftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count351
+\pgfsyssoftpath@bigbuffer@items=\count352
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyspr
+otocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.c
+ode.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.te
+x
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.cod
+e.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.c
+ode.tex
+\pgfmath@dimen=\dimen284
+\pgfmath@count=\count353
+\pgfmath@box=\box71
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.basic.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.trigonometric.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.random.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.comparison.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.base.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.round.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.misc.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunction
+s.integerarithmetics.code.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.cod
+e.tex)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.co
+de.tex
+\c@pgfmathroundto@lastzeros=\count354
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepo
+ints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen285
+\pgf@picmaxx=\dimen286
+\pgf@picminy=\dimen287
+\pgf@picmaxy=\dimen288
+\pgf@pathminx=\dimen289
+\pgf@pathmaxx=\dimen290
+\pgf@pathminy=\dimen291
+\pgf@pathmaxy=\dimen292
+\pgf@xx=\dimen293
+\pgf@xy=\dimen294
+\pgf@yx=\dimen295
+\pgf@yy=\dimen296
+\pgf@zx=\dimen297
+\pgf@zy=\dimen298
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepa
+thconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen299
+\pgf@path@lasty=\dimen300
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepa
+thusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen301
+\pgf@shorten@start@additional=\dimen302
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoresc
+opes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count355
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregr
+aphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen303
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretr
+ansformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen304
+\pgf@pt@y=\dimen305
+\pgf@pt@temp=\dimen306
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequ
+ick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreob
+jects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepa
+thprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorear
+rows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen307
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoresh
+ade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen308
+\pgf@sys@shading@range@num=\count356
+\pgf@shadingcount=\count357
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreim
+age.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreex
+ternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box75
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorela
+yers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretr
+ansparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepa
+tterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerd
+f.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulesha
+pes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box76
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplo
+t.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-
+version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen309
+\pgf@nodesepend=\dimen310
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-
+version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.co
+de.tex))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.te
+x))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.cod
+e.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen311
+\pgffor@skip=\dimen312
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\t
+ikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrary
+plothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count358
+\pgfplotmarksize=\dimen313
+)
+\tikz@lastx=\dimen314
+\tikz@lasty=\dimen315
+\tikz@lastxsaved=\dimen316
+\tikz@lastysaved=\dimen317
+\tikz@lastmovetox=\dimen318
+\tikz@lastmovetoy=\dimen319
+\tikzleveldistance=\dimen320
+\tikzsiblingdistance=\dimen321
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count359
+\tikznumberofchildren=\count360
+\tikznumberofcurrentchild=\count361
+\tikz@fig@count=\count362
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulemat
+rix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count363
+\pgfmatrixcurrentcolumn=\count364
+\pgf@matrix@numberofcolumns=\count365
+)
+\tikz@expandcount=\count366
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys
+2e.sty (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
+.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count367
+))
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count368
+\l__lipsum_a_int=\count369
+\l__lipsum_b_int=\count370
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2026/03/03 v3.8.0 Yet another Pygments shim for LaTeX
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2026/02/25 v1.14.0 fvextra - extensions and patches for fancyv
+rb
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count371
+\FV@InFile=\read4
+\FV@TabBox=\box81
+\c@FancyVerbLine=\count372
+\FV@StepNumber=\count373
+\FV@OutFile=\write4
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Rollback for package 'textcomp' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2020-02-02.
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2026/03/08 line numbers on paragraphs v5.9
+\linenopenalty=\count374
+\output=\toks46
+\linenoprevgraf=\count375
+\linenumbersep=\dimen322
+\linenumberwidth=\dimen323
+\c@linenumber=\count376
+\c@pagewiselinenumber=\count377
+\c@LN@truepage=\count378
+\c@internallinenumber=\count379
+\c@internallinenumbers=\count380
+\quotelinenumbersep=\dimen324
+\bframerule=\dimen325
+\bframesep=\dimen326
+\bframebox=\box82
+\@LN@amsmath@ams@eqpen=\count381
+)
+\c@FancyVerbWriteLine=\count382
+\c@FancyVerbBufferLine=\count383
+\c@FV@TrueTabGroupLevel=\count384
+\c@FV@TrueTabCounter=\count385
+\FV@TabBox@Group=\box83
+\FV@bgcolorstructbox=\box84
+\FV@TmpLength=\skip121
+\c@FV@HighlightLinesStart=\count386
+\c@FV@HighlightLinesStop=\count387
+\FV@LoopCount=\count388
+\FV@NCharsBox=\box85
+\FV@BreakIndent=\dimen327
+\FV@BreakIndentNChars=\count389
+\FV@BreakSymbolSepLeft=\dimen328
+\FV@BreakSymbolSepLeftNChars=\count390
+\FV@BreakSymbolSepRight=\dimen329
+\FV@BreakSymbolSepRightNChars=\count391
+\FV@BreakSymbolIndentLeft=\dimen330
+\FV@BreakSymbolIndentLeftNChars=\count392
+\FV@BreakSymbolIndentRight=\dimen331
+\FV@BreakSymbolIndentRightNChars=\count393
+\c@FancyVerbLineBreakLast=\count394
+\FV@LineBox=\box86
+\FV@LineIndentBox=\box87
+\c@FV@BreakBufferDepth=\count395
+\FV@LineWidth=\dimen332
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/latex2pydata\latex2pydata.
+sty
+Package: latex2pydata 2026/02/25 v0.7.0 latex2pydata - write data to file in Py
+thon literal format
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks47
+\pgfopts@list@add@b@toks=\toks48
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+\c@minted@FancyVerbLineTemp=\count396
+\@float@every@listing=\toks49
+\c@listing=\count397
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabtex.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aconfig.sty
+LaTeX2e detected 
+BABEL detected
+\a@moduledate=\count398
+\a@maindate=\count399
+)
+Package: arabtex 2003/08/22  3.11 ArabTeX main module
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabaux.sty
+Package: arabaux 2003/05/21  3.11 auxiliary macros for ArabTeX
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\acmd.sty
+Package: acmd 2003/08/20  3.11 Arabic command processing 
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afonts.sty
+Package: afonts 1995/11/16  3.04 define Naskh font 
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afonts2.sty
+Package: afonts2 1998/10/19  3.10 define Naskh fonts for LaTeX2e
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\ascan.sty
+Package: ascan 2003/08/22  3.11 standard ZDMG input encoding 
+
+(ArabTeX) scanner for code `arabtex' installed.
+(ArabTeX) input encoding set to ArabTeX standard conventions.)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aparse.sty
+Package: aparse 2003/05/26  3.11 get syllables 
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\awrite.sty
+Package: awrite 2003/06/05  3.11 build output word 
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\xarbsymb.sty
+Package: xarbsymb 1998/07/15  3.07 symbolic output encoding 
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabskel.sty
+Package: arabskel 2000/06/04  3.10 character skeleton definitions 
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\xarbskel.sty
+Package: xarbskel 1999/07/17  3.09 character skeleton definitions 
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aboxes.sty
+Package: aboxes 2003/05/28  3.11 build output boxes
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabtoks.sty
+Package: arabtoks 1999/07/17  3.09 ArabTeX CS token definitions 
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabchrs.sty
+Package: arabchrs 1998/07/11  3.07 letter token definitions 
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aligs.sty
+Package: aligs 2003/05/26  3.11 compute ligatures
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aoutput.sty
+Package: aoutput 2000/06/04  3.10 build output lines
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\abidir.sty
+Package: abidir 2003/08/22  3.11 bidirectional linebreaking
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\atrans.sty
+Package: atrans 2003/06/14  3.11 generate the transliteration 
+
+(ArabTeX) ZDMG transliteration.)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alatex.sty
+Package: alatex 2003/05/04  3.11 ArabTeX extensions for LaTeX 
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afoot.sty
+Package: afoot 2003/05/12  3.11 ArabTeX footnotes
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\abjad.sty
+Package: abjad 2003/04/26  3.11 abjad numerals 
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alists.sty
+Package: alists 2003/04/26  3.11 inverted list macros
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\asect.sty
+Package: asect 2003/04/26  3.11 section macros for Arabic
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\atabg.sty
+Package: atabg 1997/01/21  3.05 LaTeX tabbing macros for Arabic
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006)
+Package: apatch 2006/07/02  3.11s last minute patches 
+)
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... )
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\utf8.sty
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\utfcode.sty
+Package: utfcode 2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+\u@lb=\count429
+\u@lq=\count430
+)
+Package: utf8 2000/06/13  3.10 UTF-8 input encoding 
+
+(ArabTeX) scanner for code UTF-8 installed.)
+(ArabTeX) input encoding set to UTF-8 conventions
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen355
+\lightrulewidth=\dimen356
+\cmidrulewidth=\dimen357
+\belowrulesep=\dimen358
+\belowbottomsep=\dimen359
+\aboverulesep=\dimen360
+\abovetopsep=\dimen361
+\cmidrulesep=\dimen362
+\cmidrulekern=\dimen363
+\defaultaddspace=\dimen364
+\@cmidla=\count431
+\@cmidlb=\count432
+\@aboverulesep=\dimen365
+\@belowrulesep=\dimen366
+\@thisruleclass=\count433
+\@lastruleclass=\count434
+\@thisrulewidth=\dimen367
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Rollback for package 'longtable' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2020-02-07.
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip124
+\LTright=\skip125
+\LTpre=\skip126
+\LTpost=\skip127
+\LTchunksize=\count435
+\LTcapwidth=\dimen368
+\LT@head=\box103
+\LT@firsthead=\box104
+\LT@foot=\box105
+\LT@lastfoot=\box106
+\LT@gbox=\box107
+\LT@cols=\count436
+\LT@rows=\count437
+\c@LT@tables=\count438
+\c@LT@chunks=\count439
+\LT@p@ftn=\toks70
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen369
+\WF@size=\dimen370
+\c@WF@wrappedlines=\count440
+\WF@box=\box108
+\WF@everypar=\toks71
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.callouts.code.tex))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodepartlowerbox=\box109
+\pgfnodeparttwobox=\box110
+\pgfnodepartthreebox=\box111
+\pgfnodepartfourbox=\box112
+\pgfnodeparttwentybox=\box113
+\pgfnodepartnineteenbox=\box114
+\pgfnodeparteighteenbox=\box115
+\pgfnodepartseventeenbox=\box116
+\pgfnodepartsixteenbox=\box117
+\pgfnodepartfifteenbox=\box118
+\pgfnodepartfourteenbox=\box119
+\pgfnodepartthirteenbox=\box120
+\pgfnodeparttwelvebox=\box121
+\pgfnodepartelevenbox=\box122
+\pgfnodeparttenbox=\box123
+\pgfnodepartninebox=\box124
+\pgfnodeparteightbox=\box125
+\pgfnodepartsevenbox=\box126
+\pgfnodepartsixbox=\box127
+\pgfnodepartfivebox=\box128
+)))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrary
+arrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen371
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box129
+)
+\tc@llx=\dimen372
+\tc@lly=\dimen373
+\tc@urx=\dimen374
+\tc@ury=\dimen375
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen376
+\adjbox@Height=\dimen377
+\adjbox@Depth=\dimen378
+\adjbox@Totalheight=\dimen379
+\adjbox@pwidth=\dimen380
+\adjbox@pheight=\dimen381
+\adjbox@pdepth=\dimen382
+\adjbox@ptotalheight=\dimen383
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count441
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box130
+\sift@deathcycles=\count442
+\@vwid@loff=\dimen384
+\@vwid@roff=\dimen385
+)
+==> First Aid for varwidth.sty applied!
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks72
+\verbatim@line=\toks73
+\verbatim@in@stream=\read5
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box131
+\tcb@upperbox=\box132
+\tcb@lowerbox=\box133
+\tcb@phantombox=\box134
+\c@tcbbreakpart=\count443
+\c@tcblayer=\count444
+\c@tcolorbox@number=\count445
+\l__tcobox_tmpa_box=\box135
+\l__tcobox_tmpa_dim=\dimen386
+\tcb@temp=\box136
+\tcb@temp=\box137
+\tcb@temp=\box138
+\tcb@temp=\box139
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.t
+ex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
+\c@tcbrastercolumn=\count446
+\c@tcbrasterrow=\count447
+\c@tcbrasternum=\count448
+\c@tcbraster=\count449
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.te
+x
+Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.st
+y
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-common.s
+ty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.i
+mage.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box140
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.c
+ode.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.cod
+e.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box141
+\tcb@totalupperbox=\box142
+\tcb@totallowerbox=\box143
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.te
+x
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.code
+.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.code.
+tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
+\tcbfitdim=\dimen387
+\tcb@lowerfitdim=\dimen388
+\tcb@upperfitdim=\dimen389
+\tcb@cur@hbadness=\count450
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.
+code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code
+.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count451
+\lst@gtempboxa=\box144
+\lst@token=\toks74
+\lst@length=\count452
+\lst@currlwidth=\dimen390
+\lst@column=\count453
+\lst@pos=\count454
+\lst@lostspace=\dimen391
+\lst@width=\dimen392
+\lst@newlines=\count455
+\lst@lineno=\count456
+\lst@maxwidth=\dimen393
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count457
+\lst@skipnumbers=\count458
+\lst@framebox=\box145
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore.
+code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.co
+de.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
+)
+\c@tcblisting=\count459
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf8.
+sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.code
+.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.code
+.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.code
+.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrary
+fadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code.t
+ex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+\AM@pagewidth=\dimen394
+\AM@pageheight=\dimen395
+\AM@fboxrule=\dimen396
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count460
+\AM@pagebox=\box146
+\AM@global@opts=\toks75
+\AM@pagecnt=\count461
+\AM@toc@title=\toks76
+\AM@lof@heading=\toks77
+\c@AM@survey=\count462
+\AM@templatesizebox=\box147
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(main.aux
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 13.
+ (Chapters/chapter1.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+) (Chapters/chapter2.aux) (Chapters/chapter3.aux) (Chapters/chapter4.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Info: Redefining \degres on input line 100.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\transla
+tions-basic-dictionary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 100.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count463
+\scratchdimen=\dimen397
+\scratchbox=\box148
+\nofMPsegments=\count464
+\nofMParguments=\count465
+\everyMPshowfont=\toks78
+\MPscratchCnt=\count466
+\MPscratchDim=\dimen398
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
+\everyMPtoPDFconversion=\toks79
+)
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
+.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Rollback for package 'ltcaption' requested -> date 2023-11-01.
+         Best approximation is the release introduced on 2007-04-15.
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 100.
+
+(main.out) (main.out)
+\@outlinefile=\write7
+\openout7 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count469
+Package tocbasic Info: setting babel extension for `lol' on input line 100.
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometa
+data.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
+\a@lines=\count470
+\a@Lwidth=\dimen399
+\a@displaywidth=\dimen400
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006)
+(ArabTeX) version 3.11s (02.07.2006): second phase of patching)
+<logos/fst-logo.png, id=284, 361.35pt x 140.525pt>
+File: logos/fst-logo.png Graphic file (type png)
+<use logos/fst-logo.png>
+Package pdftex.def Info: logos/fst-logo.png  used on input line 105.
+(pdftex.def)             Requested size: 170.71652pt x 66.38982pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
+.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
+.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<logos/irisi-logo.png, id=285, 2007.5pt x 1216.545pt>
+File: logos/irisi-logo.png Graphic file (type png)
+<use logos/irisi-logo.png>
+Package pdftex.def Info: logos/irisi-logo.png  used on input line 105.
+(pdftex.def)             Requested size: 99.58464pt x 60.34818pt.
+
+Overfull \hbox (5.69199pt too wide) in paragraph at lines 105--105
+ [][] 
+ []
+
+<logos/tamtam-logo.png, id=287, 908.39375pt x 230.8625pt>
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 105.
+(pdftex.def)             Requested size: 199.16928pt x 50.61728pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+
+ []
+
+
+Overfull \hbox (96.5103pt too wide) in paragraph at lines 105--105
+$[]$ $[]$ 
+ []
+
+<logos/logo.png, id=288, 273.02pt x 260.975pt>
+File: logos/logo.png Graphic file (type png)
+<use logos/logo.png>
+Package pdftex.def Info: logos/logo.png  used on input line 105.
+(pdftex.def)             Requested size: 819.058pt x 782.9231pt.
+[1
+
+{C:/Users/PC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/logo.pn
+g> <./logos/fst-logo.png (PNG copy)> <./logos/irisi-logo.png> <./logos/tamtam-l
+ogo.png>]
+\@nomenclaturefile=\write8
+\openout8 = `main.nlo'.
+
+Package nomencl Info: Writing nomenclature file main.nlo on input line 109.
+<Meaning-of-bismillah-al-rahman-al-rahim.png, id=302, 863.225pt x 474.77374pt>
+File: Meaning-of-bismillah-al-rahman-al-rahim.png Graphic file (type png)
+<use Meaning-of-bismillah-al-rahman-al-rahim.png>
+Package pdftex.def Info: Meaning-of-bismillah-al-rahman-al-rahim.png  used on i
+nput line 116.
+(pdftex.def)             Requested size: 610.31306pt x 335.67905pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 119--122
+ [][] 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 133.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.133 \newpage
+               [1
+
+ <./Meaning-of-bismillah-al-rahman-al-rahim.png>]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 136.
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 149.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[2]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 169.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [3]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 184.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [4]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 199.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [5]
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 20
+4.
+
+(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\uxnsh.fd
+File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+)
+LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
+(Font)              scaled to size 17.28003pt on input line 204.
+LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
+(Font)              scaled to size 29.86565pt on input line 206.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 221.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [6]
+(main.toc)
+\tf@toc=\write9
+\openout9 = `main.toc'.
+
+ [7] (main.lof)
+\tf@lof=\write10
+\openout10 = `main.lof'.
+
+ [8] (main.lot)
+\tf@lot=\write11
+\openout11 = `main.lot'.
+
+ [9]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 273.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 273.
+ [1
+
+]
+\openout2 = `Chapters/chapter1.aux'.
+
+ (Chapters/chapter1.tex
+Chapitre 1.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 18.
+(pdftex.def)             Requested size: 234.73524pt x 59.65646pt.
+<image.png, id=346, 426.59375pt x 521.95pt>
+File: image.png Graphic file (type png)
+<use image.png>
+Package pdftex.def Info: image.png  used on input line 38.
+(pdftex.def)             Requested size: 111.95146pt x 136.97012pt.
+File: image.png Graphic file (type png)
+<use image.png>
+Package pdftex.def Info: image.png  used on input line 38.
+(pdftex.def)             Requested size: 111.95146pt x 136.97012pt.
+[2
+
+
+]
+<Chapters/tam-tam.png, id=352, 602.25pt x 602.25pt>
+File: Chapters/tam-tam.png Graphic file (type png)
+<use Chapters/tam-tam.png>
+Package pdftex.def Info: Chapters/tam-tam.png  used on input line 63.
+(pdftex.def)             Requested size: 187.78532pt x 187.78912pt.
+<logos/tamtam.png, id=353, 104.39pt x 95.35625pt>
+File: logos/tamtam.png Graphic file (type png)
+<use logos/tamtam.png>
+Package pdftex.def Info: logos/tamtam.png  used on input line 70.
+(pdftex.def)             Requested size: 211.26028pt x 193.00511pt.
+<Chapters/produitsTamtam.png, id=354, 1445.4pt x 813.0375pt>
+File: Chapters/produitsTamtam.png Graphic file (type png)
+<use Chapters/produitsTamtam.png>
+Package pdftex.def Info: Chapters/produitsTamtam.png  used on input line 91.
+(pdftex.def)             Requested size: 727.68068pt x 409.3215pt.
+
+Overfull \hbox (116.42151pt too wide) in paragraph at lines 90--92
+[]  [] 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 95.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[3 <./image.png> <./Chapters/tam-tam.png (PNG copy)> <./logos/tamtam.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 104.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+
+[4 <./Chapters/produitsTamtam.png (PNG copy)>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 153.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [5]
+
+LaTeX Font Warning: Font shape `T1/cmr//n' undefined
+(Font)              using `T1/cmr/bx/n' instead on input line 160.
+
+
+LaTeX Font Warning: Font shape `T1/cmr//n' undefined
+(Font)              using `T1/cmr/bx/n' instead on input line 161.
+
+
+LaTeX Font Warning: Font shape `T1/cmr//n' undefined
+(Font)              using `T1/cmr/bx/n' instead on input line 162.
+
+<Chapters/image.png, id=373, 981.6675pt x 432.61626pt>
+File: Chapters/image.png Graphic file (type png)
+<use Chapters/image.png>
+Package pdftex.def Info: Chapters/image.png  used on input line 169.
+(pdftex.def)             Requested size: 469.47049pt x 206.8943pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 179.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[6 <./Chapters/image.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 211.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [7]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 258.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [8]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
+
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 309.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[9]
+<Titre de la présentation[1].pdf.png, id=408, 963.6pt x 542.025pt>
+File: Titre de la présentation[1].pdf.png Graphic file (type png)
+<use Titre de la présentation[1].pdf.png>
+Package pdftex.def Info: Titre de la présentation[1].pdf.png  used on input li
+ne 320.
+(pdftex.def)             Requested size: 469.47049pt x 264.07277pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 335.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [10]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 355.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [11 <./Titre de la présentation[1].pdf.png>]
+<pfeProject.gan_page0.png, id=424, 3047.385pt x 1563.8425pt>
+File: pfeProject.gan_page0.png Graphic file (type png)
+<use pfeProject.gan_page0.png>
+Package pdftex.def Info: pfeProject.gan_page0.png  used on input line 364.
+(pdftex.def)             Requested size: 469.47049pt x 240.91362pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 386.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [12 <./pfeProject.gan_page0.png (PNG copy)>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 426.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [13])
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 273.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [14]
+\openout2 = `Chapters/chapter2.aux'.
+
+ (Chapters/chapter2.tex
+Chapitre 2.
+<uml-logo.png, id=438, 1204.5pt x 876.27374pt>
+File: uml-logo.png Graphic file (type png)
+<use uml-logo.png>
+Package pdftex.def Info: uml-logo.png  used on input line 26.
+(pdftex.def)             Requested size: 140.84258pt x 102.46077pt.
+[15
+
+
+
+
+]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 64.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [16 <./uml-logo.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 104.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [17]
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/cmr/bx/n/12 Utilisateur
+ []
+
+
+Overfull \hbox (5.264pt too wide) in paragraph at lines 144--144
+[]|\T1/cmr/bx/n/12 Administrateur
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 151.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[18]
+<beteAcorne.png, id=466, 3311.37125pt x 3854.4pt>
+File: beteAcorne.png Graphic file (type png)
+<use beteAcorne.png>
+Package pdftex.def Info: beteAcorne.png  used on input line 162.
+(pdftex.def)             Requested size: 399.05278pt x 464.4489pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 170.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [19]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 180.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [20 <./beteAcorne.png>]
+<useCaseoFFcourse.png, id=478, 2674.74281pt x 2890.8pt>
+File: useCaseoFFcourse.png Graphic file (type png)
+<use useCaseoFFcourse.png>
+Package pdftex.def Info: useCaseoFFcourse.png  used on input line 186.
+(pdftex.def)             Requested size: 399.05278pt x 431.26347pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 199.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [21 <./useCaseoFFcourse.png>]
+<useCaseLMS.png, id=487, 3854.4pt x 2228.325pt>
+File: useCaseLMS.png Graphic file (type png)
+<use useCaseLMS.png>
+Package pdftex.def Info: useCaseLMS.png  used on input line 229.
+(pdftex.def)             Requested size: 586.8381pt x 339.26654pt.
+
+Overfull \hbox (59.51599pt too wide) in paragraph at lines 228--230
+[]  [] 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 243.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[22]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 270.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [23 <./useCaseLMS.png>]
+<sequenceLMS.png, id=501, 1729.46124pt x 3854.4pt>
+File: sequenceLMS.png Graphic file (type png)
+<use sequenceLMS.png>
+Package pdftex.def Info: sequenceLMS.png  used on input line 286.
+(pdftex.def)             Requested size: 1729.45703pt x 3854.39066pt.
+
+Overfull \hbox (59.51599pt too wide) in paragraph at lines 285--287
+[]  [] 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 290.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[24]
+File: sequenceLMS.png Graphic file (type png)
+<use sequenceLMS.png>
+Package pdftex.def Info: sequenceLMS.png  used on input line 295.
+(pdftex.def)             Requested size: 1729.45703pt x 3854.39066pt.
+
+Overfull \hbox (59.51599pt too wide) in paragraph at lines 294--296
+[]  [] 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 301.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[25 <./sequenceLMS.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 301.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [26]
+<sequenceAdmin.png, id=518, 2605.735pt x 3854.4pt>
+File: sequenceAdmin.png Graphic file (type png)
+<use sequenceAdmin.png>
+Package pdftex.def Info: sequenceAdmin.png  used on input line 318.
+(pdftex.def)             Requested size: 469.47049pt x 694.40903pt.
+
+Overfull \hbox (45.28961pt too wide) in paragraph at lines 314--319
+[]  [] 
+ []
+
+File: sequenceAdmin.png Graphic file (type png)
+<use sequenceAdmin.png>
+Package pdftex.def Info: sequenceAdmin.png  used on input line 326.
+(pdftex.def)             Requested size: 469.47049pt x 694.40903pt.
+
+Overfull \hbox (45.28961pt too wide) in paragraph at lines 322--327
+[]  [] 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 331.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[27 <./sequenceAdmin.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 332.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [28]
+<Editor _ Mermaid Chart-2025-06-10-161411.png, id=532, 3854.4pt x 3182.89125pt>
+
+File: Editor _ Mermaid Chart-2025-06-10-161411.png Graphic file (type png)
+<use Editor _ Mermaid Chart-2025-06-10-161411.png>
+Package pdftex.def Info: Editor _ Mermaid Chart-2025-06-10-161411.png  used on 
+input line 349.
+(pdftex.def)             Requested size: 563.36314pt x 465.17422pt.
+
+Overfull \hbox (59.51599pt too wide) in paragraph at lines 348--350
+[]  [] 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 369.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[29]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 381.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [30 <./Editor _ Mermaid Chart-2025-06-10-161411.png>])
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 274.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [31]
+\openout2 = `Chapters/chapter3.aux'.
+
+
+(Chapters/chapter3.tex
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\T1/cmr/bx/n/12 GitHub Ac-
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 28--28
+[]|\T1/cmr/m/n/12 Stockage re-la-tion-nel des don-n�es avec tran-sac-tions
+ []
+
+<lmsstructure.png, id=548, 2361.82375pt x 3854.4pt>
+File: lmsstructure.png Graphic file (type png)
+<use lmsstructure.png>
+Package pdftex.def Info: lmsstructure.png  used on input line 34.
+(pdftex.def)             Requested size: 375.57782pt x 612.89375pt.
+[32
+
+
+
+
+]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 38.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [33 <./lmsstructure.png>]
+<mvc.png, id=561, 3610.48875pt x 3854.4pt>
+File: mvc.png Graphic file (type png)
+<use mvc.png>
+Package pdftex.def Info: mvc.png  used on input line 48.
+(pdftex.def)             Requested size: 469.47049pt x 501.1484pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 57.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [34 <./mvc.png>]
+<logique.png, id=569, 2065.7175pt x 3854.4pt>
+File: logique.png Graphic file (type png)
+<use logique.png>
+Package pdftex.def Info: logique.png  used on input line 85.
+(pdftex.def)             Requested size: 375.57782pt x 700.76086pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 89.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [35]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 89.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [36 <./logique.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 138.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+
+[37]
+Overfull \hbox (5.13658pt too wide) in paragraph at lines 152--153
+[]\T1/cmr/bx/n/12 src/middleware.ts \T1/cmr/m/n/12 : lo-gique midd-le-ware (au-
+then-ti-fi-ca-tion, au-to-ri-sa-tion, re-di-rec-tions). 
+ []
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 192.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[38]
+<logos/doctrine.png, id=592, 388.45125pt x 513.92pt>
+File: logos/doctrine.png Graphic file (type png)
+<use logos/doctrine.png>
+Package pdftex.def Info: logos/doctrine.png  used on input line 287.
+(pdftex.def)             Requested size: 56.33415pt x 74.52824pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 295.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [39 <./logos/doctrine.png>]
+<logos/phpunit.png, id=602, 451.6875pt x 451.6875pt>
+File: logos/phpunit.png Graphic file (type png)
+<use logos/phpunit.png>
+Package pdftex.def Info: logos/phpunit.png  used on input line 299.
+(pdftex.def)             Requested size: 140.84258pt x 140.84184pt.
+
+Overfull \hbox (70.42488pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+311.
+
+<logos/swagger.png, id=603, 847.165pt x 440.64626pt>
+File: logos/swagger.png Graphic file (type png)
+<use logos/swagger.png>
+Package pdftex.def Info: logos/swagger.png  used on input line 313.
+(pdftex.def)             Requested size: 140.84258pt x 73.25484pt.
+
+Overfull \hbox (70.42488pt too wide) in paragraph at lines 313--314
+ [][] 
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 31
+8.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+323.
+
+<logos/symfony.png, id=604, 513.92pt x 513.92pt>
+File: logos/symfony.png Graphic file (type png)
+<use logos/symfony.png>
+Package pdftex.def Info: logos/symfony.png  used on input line 325.
+(pdftex.def)             Requested size: 56.33415pt x 56.32748pt.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 33
+0.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+335.
+
+<logos/next.png, id=605, 652.4375pt x 367.3725pt>
+File: logos/next.png Graphic file (type png)
+<use logos/next.png>
+Package pdftex.def Info: logos/next.png  used on input line 337.
+(pdftex.def)             Requested size: 117.36761pt x 66.08495pt.
+
+Overfull \hbox (46.94992pt too wide) in paragraph at lines 337--338
+ [][] 
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 34
+2.
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 344.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[40 <./logos/phpunit.png> <./logos/swagger.png> <./logos/symfony.png>]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+347.
+
+<logos/Typescript_logo_2020.png, id=620, 513.92pt x 513.92pt>
+File: logos/Typescript_logo_2020.png Graphic file (type png)
+<use logos/Typescript_logo_2020.png>
+Package pdftex.def Info: logos/Typescript_logo_2020.png  used on input line 349
+.
+(pdftex.def)             Requested size: 56.33415pt x 56.32748pt.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 35
+4.
+
+<pipeline.png, id=621, 2019.545pt x 3854.4pt>
+File: pipeline.png Graphic file (type png)
+<use pipeline.png>
+Package pdftex.def Info: pipeline.png  used on input line 372.
+(pdftex.def)             Requested size: 375.57782pt x 716.75809pt.
+
+LaTeX Warning: Float too large for page by 10.02223pt on input line 375.
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 385.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[41 <./logos/next.png> <./logos/Typescript_logo_2020.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 385.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [42 <./pipeline.png>]
+<Chapters/production.png, id=636, 3854.4pt x 2459.1875pt>
+File: Chapters/production.png Graphic file (type png)
+<use Chapters/production.png>
+Package pdftex.def Info: Chapters/production.png  used on input line 393.
+(pdftex.def)             Requested size: 563.36314pt x 359.40613pt.
+
+Overfull \hbox (45.28961pt too wide) in paragraph at lines 392--394
+[]  [] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 410.
+
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 410.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+[43 <./Chapters/production.png>])
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 275.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [44]
+\openout2 = `Chapters/chapter4.aux'.
+
+ (Chapters/chapter4.tex
+Chapitre 4.
+<realisation/toutactivite.png, id=647, 1371.1225pt x 770.88pt>
+File: realisation/toutactivite.png Graphic file (type png)
+<use realisation/toutactivite.png>
+Package pdftex.def Info: realisation/toutactivite.png  used on input line 13.
+(pdftex.def)             Requested size: 469.47049pt x 263.94247pt.
+[45
+
+
+
+
+]
+<realisation/user.png, id=653, 1371.1225pt x 770.88pt>
+File: realisation/user.png Graphic file (type png)
+<use realisation/user.png>
+Package pdftex.def Info: realisation/user.png  used on input line 30.
+(pdftex.def)             Requested size: 469.47049pt x 263.94247pt.
+<realisation/userwithmot.png, id=654, 1371.1225pt x 770.88pt>
+File: realisation/userwithmot.png Graphic file (type png)
+<use realisation/userwithmot.png>
+Package pdftex.def Info: realisation/userwithmot.png  used on input line 36.
+(pdftex.def)             Requested size: 469.47049pt x 263.94247pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 39.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [46 <./realisation/toutactivite.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 47.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [47 <./realisation/user.png> <./realisation/userwithmot.png>]
+<realisation/goal.png, id=670, 1371.1225pt x 770.88pt>
+File: realisation/goal.png Graphic file (type png)
+<use realisation/goal.png>
+Package pdftex.def Info: realisation/goal.png  used on input line 54.
+(pdftex.def)             Requested size: 469.47049pt x 263.94247pt.
+<realisation/model.png, id=671, 1053.9375pt x 412.54124pt>
+File: realisation/model.png Graphic file (type png)
+<use realisation/model.png>
+Package pdftex.def Info: realisation/model.png  used on input line 71.
+(pdftex.def)             Requested size: 469.47049pt x 183.76598pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 75.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [48 <./realisation/goal.png>]
+<realisation/cherch.png, id=680, 1371.1225pt x 770.88pt>
+File: realisation/cherch.png Graphic file (type png)
+<use realisation/cherch.png>
+Package pdftex.def Info: realisation/cherch.png  used on input line 88.
+(pdftex.def)             Requested size: 469.47049pt x 263.94247pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 98.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [49 <./realisation/model.png> <./realisation/cherch.png>]
+<realisation/selection.png, id=690, 1371.1225pt x 770.88pt>
+File: realisation/selection.png Graphic file (type png)
+<use realisation/selection.png>
+Package pdftex.def Info: realisation/selection.png  used on input line 106.
+(pdftex.def)             Requested size: 469.47049pt x 263.94247pt.
+<realisation/recomendation.png, id=691, 1371.1225pt x 770.88pt>
+File: realisation/recomendation.png Graphic file (type png)
+<use realisation/recomendation.png>
+Package pdftex.def Info: realisation/recomendation.png  used on input line 124.
+
+(pdftex.def)             Requested size: 469.47049pt x 263.94247pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 128.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [50 <./realisation/selection.png>]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 151.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [51 <./realisation/recomendation.png>]
+<gantt_reel.png, id=713, 3782.13pt x 1563.8425pt>
+File: gantt_reel.png Graphic file (type png)
+<use gantt_reel.png>
+Package pdftex.def Info: gantt_reel.png  used on input line 154.
+(pdftex.def)             Requested size: 469.47049pt x 194.09581pt.
+)
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 276.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [52 <./gantt_reel.png (PNG copy)>]
+\openout2 = `Chapters/chapter5.aux'.
+
+
+(Chapters/chapter5.tex
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 29.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [53
+
+
+
+]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 33.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [54]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 60.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [55]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 127.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [56]
+<logos/hamdolilah.png, id=748, 1027.84pt x 1027.84pt>
+File: logos/hamdolilah.png Graphic file (type png)
+<use logos/hamdolilah.png>
+Package pdftex.def Info: logos/hamdolilah.png  used on input line 130.
+(pdftex.def)             Requested size: 469.47049pt x 469.47154pt.
+)
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 277.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [57 <./logos/hamdolilah.png (PNG copy)>] (main.aux (Chapters/chapter1.aux) (Ch
+apters/chapter2.aux)
+(Chapters/chapter3.aux) (Chapters/chapter4.aux) (Chapters/chapter5.aux))
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+ *File List*
+latexrelease.sty    2025/01/31 v1.0q LaTeX release emulation and tests (includi
+ng releases up to 2025-11-01)
+    utf8.def    2022/06/07 v1.3c UTF-8 support
+  omsenc.dfu    2022/06/07 v1.3c UTF-8 support
+  ot1enc.dfu    2022/06/07 v1.3c UTF-8 support
+   t1enc.dfu    2022/06/07 v1.3c UTF-8 support
+  ts1enc.dfu    2022/06/07 v1.3c UTF-8 support
+rapportPFEHIND.cls    
+  report.cls    2025/01/22 v1.4n Standard LaTeX document class
+  size12.clo    2025/01/22 v1.4n Standard LaTeX file (size option)
+titlesec.sty    2025/01/04 v2.17 Sectioning titles
+ tocloft.sty    2017/08/31 v2.3i parameterised ToC, etc., typesetting
+   babel.sty    2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+ bblopts.cfg    2005/09/08 v0.1 add Arabic and Farsi to "declared" options of b
+abel
+babel-french.tex
+  french.ldf    2025-08-15 v3.7e French support from the babel system
+scalefnt.sty    
+inputenc.sty    2024/02/08 v1.3d Input encoding file
+placeins.sty    2005/04/18  v 2.2
+ fontenc.sty    2025/07/18 v2.1d Standard LaTeX package
+mathtools.sty    2024/10/04 v1.31 mathematical typesetting tools
+  keyval.sty    2022/05/29 v1.15 key=value parser (DPC)
+    calc.sty    2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+ mhsetup.sty    2021/03/18 v1.4 programming setup (MH)
+ amsmath.sty    2025/07/09 v2.17z AMS math features
+ amstext.sty    2024/11/17 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2022/04/08 v2.04 operator names
+ siunitx.sty    2025-07-09 v3.4.14 A comprehensive (SI) units package
+translations.sty    2022/02/05 v1.12 internationalization of LaTeX2e packages (
+CN)
+etoolbox.sty    2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+pdftexcmds.sty    2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
+   iftex.sty    2024/12/12 v1.0g TeX engine tests
+ ltxcmds.sty    2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+   array.sty    2023/10/16 v2.5g Tabular extension package (FMi)
+array-2023-11-01.sty
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+graphicx.sty    2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2023/12/02 v1.11 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pdftex.def    2025/09/29 v1.2d Graphics/color driver for pdftex
+ caption.sty    2023/08/05 v3.6o Customizing captions (AR)
+caption3.sty    2023/07/31 v2.4d caption3 kernel (AR)
+subcaption.sty    2023/07/28 v1.6b Sub-captions (AR)
+wallpaper.sty    2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+  ifthen.sty    2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+ eso-pic.sty    2025/12/10 v3.0d eso-pic (RN)
+  xcolor.sty    2022/06/12 v2.14 LaTeX color extensions (UK)
+xcolor-2022-06-12.sty
+   color.cfg    2016/01/02 v1.6 sample color configuration
+mathcolor.ltx
+ nomencl.sty    2021/11/10 v5.6 Nomenclature package
+ xkeyval.sty    2022/06/16 v2.9 package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+tocbasic.sty    2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
+ scrbase.sty    2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+scrlfile.sty    2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
+scrlfile-hook.sty    2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hooks)
+
+ scrlogo.sty    2026/02/02 v3.49.2 KOMA-Script package (logo)
+fancyhdr.sty    2025/02/07 v5.2 Extensive control of page headers and footers
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+hyperref.sty    2026-01-29 v7.01p Hypertext links for LaTeX
+kvsetkeys.sty    2022-10-05 v1.19 Key value parser (HO)
+kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
+pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ hycolor.sty    2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+ nameref.sty    2026-01-29 v2.58 Cross-referencing by name of section
+refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
+gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
+kvoptions.sty    2022-06-15 v3.15 Key value format for package options (HO)
+stringenc.sty    2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+  pd1enc.def    2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+ intcalc.sty    2019/12/15 v1.3 Expandable calculations with integers (HO)
+   puenc.def    2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+  bitset.sty    2019/12/09 v1.3 Handle bit-vector datatype (HO)
+bigintcalc.sty    2019/12/15 v1.5 Expandable calculations on big integers (HO)
+ hpdftex.def    2026-01-29 v7.01p Hyperref driver for pdfTeX
+rerunfilecheck.sty    2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+uniquecounter.sty    2019/12/15 v1.4 Provide unlimited unique counter (HO)
+geometry.sty    2026/03/07 v6.0 Page Geometry
+  ifvtex.sty    2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+geometry.cfg
+    tikz.sty    2025-08-29 v3.1.11a (3.1.11a)
+     pgf.sty    2025-08-29 v3.1.11a (3.1.11a)
+  pgfrcs.sty    2025-08-29 v3.1.11a (3.1.11a)
+pgfrcs.code.tex
+ pgfcore.sty    2025-08-29 v3.1.11a (3.1.11a)
+  pgfsys.sty    2025-08-29 v3.1.11a (3.1.11a)
+pgfsys.code.tex
+pgfsyssoftpath.code.tex    2025-08-29 v3.1.11a (3.1.11a)
+pgfsysprotocol.code.tex    2025-08-29 v3.1.11a (3.1.11a)
+pgfcore.code.tex
+pgfcomp-version-0-65.sty    2025-08-29 v3.1.11a (3.1.11a)
+pgfcomp-version-1-18.sty    2025-08-29 v3.1.11a (3.1.11a)
+  pgffor.sty    2025-08-29 v3.1.11a (3.1.11a)
+ pgfkeys.sty    
+pgfkeys.code.tex
+ pgfmath.sty    
+pgfmath.code.tex
+pgffor.code.tex
+tikz.code.tex
+  lipsum.sty    2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+l3keys2e.sty    2025-10-09 LaTeX2e option processing using LaTeX3 keys
+   expl3.sty    2026-01-19 L3 programming layer (loader) 
+l3backend-pdftex.def    2025-10-09 L3 backend support: PDF output (pdfTeX)
+  lipsum.ltd
+  minted.sty    2026/03/03 v3.8.0 Yet another Pygments shim for LaTeX
+catchfile.sty    2019/12/09 v1.8 Catch the contents of a file (HO)
+etexcmds.sty    2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+ fvextra.sty    2026/02/25 v1.14.0 fvextra - extensions and patches for fancyvr
+b
+fancyvrb.sty    2025/07/28 4.6 verbatim text (tvz,hv)
+ upquote.sty    2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
+im
+textcomp.sty    2024/04/24 v2.1b Standard LaTeX package
+  lineno.sty    2026/03/08 line numbers on paragraphs v5.9
+latex2pydata.sty    2026/02/25 v0.7.0 latex2pydata - write data to file in Pyth
+on literal format
+ pgfopts.sty    2014/07/10 v2.1a LaTeX package options with pgfkeys
+shellesc.sty    2023/07/08 v1.0d unified shell escape interface for LaTeX
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+    utf8.sty    2000/06/13  3.10 UTF-8 input encoding 
+ utfcode.sty    2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+booktabs.sty    2020/01/12 v1.61803398 Publication quality tables
+longtable.sty    2025-10-13 v4.24 Multi-page Table package (DPC)
+ wrapfig.sty    2003/01/31  v 3.6
+adjustbox.sty    2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ adjcalc.sty    2012/05/16 v1.1 Provides advanced setlength with multiple back-
+ends (calc, etex, pgfmath)
+trimclip.sty    2025/02/21 v1.2a Trim and clip general TeX material
+collectbox.sty    2022/10/17 v0.4c Collect macro arguments as boxes
+tc-pdftex.def    2025/02/26 v2.3 Clipping driver for pdftex
+ifoddpage.sty    2022/10/18 v1.2 Conditionals for odd/even page detection
+varwidth.sty    2009/03/30 ver 0.92;  Variable-width minipages
+tcolorbox.sty    2025/11/28 version 6.9.0 text color boxes
+verbatim.sty    2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+ environ.sty    2014/05/04 v0.3 A new way to define environments
+trimspaces.sty    2009/09/17 v1.1 Trim spaces around a token list
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+tikzfill.image.sty    2023/08/08 v1.0.1 Image filling library for TikZ
+tikzfill-common.sty    2023/08/08 v1.0.1 Auxiliary code for tikzfill
+  pdfcol.sty    2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+listings.sty    2025/11/14 1.11b (Carsten Heinz)
+lstpatch.sty    2025/11/14 1.11b (Carsten Heinz)
+ lstmisc.sty    2025/11/14 1.11b (Carsten Heinz)
+listings.cfg    2025/11/14 1.11b listings configuration
+listingsutf8.sty    2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+pdfpages.sty    2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+pppdftex.def    2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+setspace.sty    2022/12/04 v6.7b set line spacing
+translations-basic-dictionary-french.trsl    (french translation file `translat
+ions-basic-dictionary')
+supp-pdf.mkii
+epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
+epstopdf-sys.cfg    2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ltcaption.sty    2021/01/08 v1.4c longtable captions (AR)
+    main.out
+    main.out
+pdflscape.sty    2022-10-27 v0.13 Display of landscape pages in PDF
+pdflscape-nometadata.sty    2022-10-28 v0.13 Display of landscape pages in PDF 
+(HO)
+  lscape.sty    2020/05/28 v3.02 Landscape Pages (DPC)
+  apatch.sty    2006/07/02  3.11s last minute patches 
+logos/fst-logo.png
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+logos/irisi-logo.png
+logos/tamtam-logo.png
+logos/logo.png
+Meaning-of-bismillah-al-rahman-al-rahim.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+   uxnsh.fd     1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Chapters/chapter1.tex
+logos/tamtam-logo.png
+   image.png    Graphic file (type png)
+   image.png    Graphic file (type png)
+Chapters/tam-tam.png
+logos/tamtam.png
+Chapters/produitsTamtam.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Chapters/image.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Titre de la présentation[1].pdf.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+pfeProject.gan_page0.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Chapters/chapter2.tex
+uml-logo.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+beteAcorne.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+useCaseoFFcourse.png    Graphic file (type png)
+logos/tamtam-logo.png
+useCaseLMS.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+sequenceLMS.png    Graphic file (type png)
+logos/tamtam-logo.png
+sequenceLMS.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+sequenceAdmin.png    Graphic file (type png)
+sequenceAdmin.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Editor _ Mermaid Chart-2025-06-10-161411.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Chapters/chapter3.tex
+lmsstructure.png    Graphic file (type png)
+logos/tamtam-logo.png
+     mvc.png    Graphic file (type png)
+logos/tamtam-logo.png
+ logique.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/doctrine.png
+logos/tamtam-logo.png
+logos/phpunit.png
+logos/swagger.png
+logos/symfony.png
+logos/next.png
+logos/tamtam-logo.png
+logos/Typescript_logo_2020.png
+pipeline.png    Graphic file (type png)
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Chapters/production.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+Chapters/chapter4.tex
+realisation/toutactivite.png
+realisation/user.png
+realisation/userwithmot.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+realisation/goal.png
+realisation/model.png
+logos/tamtam-logo.png
+realisation/cherch.png
+logos/tamtam-logo.png
+realisation/selection.png
+realisation/recomendation.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+gantt_reel.png    Graphic file (type png)
+logos/tamtam-logo.png
+Chapters/chapter5.tex
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/hamdolilah.png
+logos/tamtam-logo.png
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 9DA2AD85D5DB343675949542EBAC325E;11008
+(rerunfilecheck)             After:  4C56D9FFFCF3D51DEAEBA447FB8E318F;14518.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 100 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 50188 strings out of 467866
+ 1089692 string characters out of 5419765
+ 1755610 words of memory out of 5000000
+ 77983 multiletter control sequences out of 15000+600000
+ 641621 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,17n,121p,939b,4583s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ectt1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecti1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\tcrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\PC\AppData\Local\MiKTeX\f
+onts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\PC\AppData\Local\MiKTe
+X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb>
+Output written on main.pdf (67 pages, 9397847 bytes).
+PDF statistics:
+ 1325 PDF objects out of 1440 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
+ 853 words of extra memory for PDF output out of 10000 (max. 10000000)
+

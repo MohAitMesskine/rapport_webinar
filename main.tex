@@ -1,0 +1,279 @@
+\RequirePackage[2023-11-01]{latexrelease}
+\documentclass{rapportPFEHIND}
+
+% ---- Packages supplémentaires (non chargés dans le .cls) ----
+\usepackage{lipsum}
+\usepackage{minted}
+\usepackage{arabtex}
+\usepackage{utf8}
+\setcode{utf8}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usetikzlibrary{shapes,arrows,positioning}
+\usepackage[export]{adjustbox}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\tcbuselibrary{most}
+\usepackage{pdfpages}
+\usepackage{setspace}
+\onehalfspacing
+% Police Times supprimée (conflit avec scalefnt/arabtex)
+
+% ---- Marges (geometry déjà chargé dans le .cls, on ajuste seulement) ----
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2cm}
+
+% ---- Couleurs personnalisées ----
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\definecolor{tamtamblue}{RGB}{35,100,170}
+\definecolor{sectioncolor}{RGB}{35,100,170}
+\definecolor{subsectioncolor}{RGB}{70,130,180}
+\definecolor{chapterblue}{RGB}{35,100,170}
+\definecolor{lineblue}{RGB}{35,100,170}
+
+% ---- tocloft ----
+\renewcommand{\cftfigfont}{\normalfont}
+\renewcommand{\cftfigpagefont}{\normalfont}
+\renewcommand{\listfigurename}{Liste des figures}
+\renewcommand{\listtablename}{Liste des tableaux}
+
+% ---- Espacement des paragraphes ----
+\setlength{\parskip}{6pt}
+
+% ---- Configuration des titres ----
+\titleformat{\section}
+  {\fontsize{16}{19.2}\bfseries\color{sectioncolor}}
+  {\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{6pt}{6pt}
+
+\titleformat{\subsection}
+  {\fontsize{14}{16.8}\bfseries\color{subsectioncolor}}
+  {\thesubsection}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{6pt}{6pt}
+
+\titleformat{\subsubsection}
+  {\fontsize{12}{14.4}\bfseries}
+  {\thesubsubsection}{0.5em}{}
+\titlespacing*{\subsubsection}{0pt}{6pt}{6pt}
+
+\titleformat{\chapter}[display]
+{\fontsize{16}{19.2}\bfseries\color{chapterblue}}
+{\chaptertitlename\ \thechapter }
+{20pt}
+{\fontsize{18}{21.6}\color{chapterblue}}
+[\vspace{10pt}{\color{lineblue}\rule{\textwidth}{2pt}}]
+
+% ---- Commandes personnalisées ----
+\newcommand{\chaptertoc}{%
+    \vspace{1cm}
+    \begin{tikzpicture}
+        \node[anchor=west, font=\large\bfseries, color=chapterblue] at (0,1.5) {$\triangleright$ Étude fonctionnelle};
+        \node[anchor=west, font=\large\bfseries, color=chapterblue] at (0,0.8) {$\triangleright$ Méthodologie de conception};
+    \end{tikzpicture}
+    \vspace{1cm}
+    {\color{lineblue}\hrule height 2pt}
+    \vspace{1cm}
+}
+
+\newcommand{\chapterintro}[1]{%
+    \begin{flushleft}
+    \textit{#1}
+    \end{flushleft}
+    \vspace{1cm}
+}
+
+\newcommand{\roundedimage}[2]{%
+    \begin{tikzpicture}
+        \node[inner sep=0pt] (image) {\includegraphics[width=#1]{#2}};
+        \begin{scope}
+            \clip[rounded corners=3mm] (image.south west) rectangle (image.north east);
+            \node[inner sep=0pt] {\includegraphics[width=#1]{#2}};
+        \end{scope}
+    \end{tikzpicture}%
+}
+
+\title{Rapport de Projet de Fin d'Études}
+\date{\today}
+
+\begin{document}
+
+\pagenumbering{Roman}
+
+% Page de garde
+\fairepagedegarde
+\newpage
+\cleardoublepage
+\setcounter{page}{1}
+\fairemarges
+
+% Page Bismillah
+\newpage
+\vspace{2cm}    
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=1.3\textwidth,center]{Meaning-of-bismillah-al-rahman-al-rahim.png}
+   \label{fig:bismillah}
+\end{figure}
+\rule{\textwidth}{0.5pt}
+\vspace{1cm}
+{\centering
+\\
+\LARGE
+Bismillah is the key to all success,\\
+A light before each word I confess.
+
+Bismillah grants me strength and firmness,\\
+Guiding my path with divine awareness.
+
+Through faith and knowledge, I bear witness,\\
+That Allah's name brings boundless blessedness.\\}
+
+\newpage
+
+% Dédicaces
+\section*{Dédicaces}
+
+Il est de la noblesse des gens de savoir de rendre hommage à qui de droit. La grâce revient d'abord et avant tout à \textbf{Allah, le Tout-Puissant}, qui m'a accordé la patience, la force et la sagesse nécessaires pour mener à bien ce travail. Avant cela, Il m'avait déjà fait la grâce insigne de m'ouvrir les portes de l'ingénierie et de me mener vers des horizons que je n'aurais jamais imaginés atteindre.
+
+Ensuite, toute ma reconnaissance et ma gratitude vont à mes \textbf{chers parents bien-aimés} pour leurs sacrifices incommensurables, leurs efforts constants et leur dévouement sans limite depuis mon plus jeune âge. Cette dédicace leur est entièrement consacrée, eux qui sont la lumière de mon cœur, la source de mon éducation et les piliers de ma réussite. Voici que les fruits de leurs efforts et de leur patience commencent enfin à porter leurs résultats, alors à eux tout mon respect, ma gratitude éternelle et mon amour inconditionnel.
+
+À mes \textbf{frères et sœurs bien-aimés} : Zeinab, Asma et Anas, mes compagnons de vie, mes soutiens constants dans les moments difficiles et mes partenaires de joie dans les moments heureux.
+
+À mon \textbf{amie chère Saadia}, ma fidèle compagne de route tout au long de ces trois années d'études universitaires, de persévérance et de croissance intellectuelle. Son amitié sincère et son soutien moral ont été des éléments précieux de mon parcours.
+
+Enfin, j'adresse cette dédicace à toutes les \textbf{victimes des conflits dans le monde}, aux orphelins et aux endeuillés qui portent le poids de la perte, et aux étudiants privés de leurs universités et de leur droit fondamental à l'éducation. Puisse chacun d'eux trouver son chemin vers un avenir meilleur, plus juste et empli d'espoir.
+
+\vspace{2cm}
+\newpage
+
+% Remerciements
+\section*{Remerciements}
+\addcontentsline{toc}{section}{Remerciements}
+
+Il m'est particulièrement agréable de m'acquitter d'une dette de reconnaissance auprès de toutes les personnes dont l'intervention bienveillante au cours de ce projet a favorisé son aboutissement dans les meilleures conditions possibles.
+
+Mes sincères remerciements s'adressent en premier lieu au \textbf{Professeur Laila AMIR}, mon encadrante pédagogique, pour son soutien constant, ses conseils judicieux et perspicaces, ainsi que son encadrement rigoureux et méthodique tout au long de ma période de stage. Sa disponibilité remarquable, son expertise technique et sa bienveillance pédagogique ont été déterminantes dans la réussite de ce projet.
+
+Dans ce contexte, je remercie respectueusement \textbf{Monsieur Emmanuel DEGRÈVE}, directeur fondateur de l'entreprise TAMTAM International, pour m'avoir accordé sa confiance en m'acceptant comme stagiaire au sein de son entreprise innovante et dynamique. Son leadership visionnaire et sa philosophie d'entreprise ont créé un environnement propice à l'apprentissage et au développement professionnel.
+
+Je tiens à exprimer ma profonde gratitude à l'entreprise \textbf{TAMTAM International} pour m'avoir offert cette opportunité de stage exceptionnellement enrichissante et formatrice. Mes remerciements particuliers vont à \textbf{Monsieur Ibrahim YOUSSEF} pour sa disponibilité remarquable, son écoute attentive et bienveillante, ainsi que son encadrement méticuleux et professionnel qui ont grandement favorisé ma progression technique et mon épanouissement professionnel.
+
+Par ailleurs, j'adresse mes chaleureux remerciements à toute l'équipe TAMTAM International, et en particulier aux membres talentueux de l'équipe "oFFFCourse" : \textbf{Youssef ATTAR}, \textbf{Yassine MESTAOUI} et \textbf{Youness OULAMINE}, pour leur accueil bienveillant, leur professionnalisme exemplaire, leur collaboration fructueuse et leur aide précieuse pendant cette période de formation intensive.
+
+J'exprime également ma profonde gratitude et mes vifs remerciements à tous les membres du jury, \textbf{Monsieur Soulaimane KALOUN} et \textbf{Madame Oumaima BANOUAR}, qui m'ont fait l'honneur d'accepter d'évaluer mon travail avec bienveillance et rigueur académique.
+
+Enfin, je remercie sincèrement tout le corps professoral et administratif de la \textbf{Faculté des Sciences et Techniques de Marrakech} pour la formation de qualité exceptionnelle qu'ils m'ont prodiguée tout au long de mon cursus universitaire.
+
+\newpage
+
+% Résumé
+\section*{Résumé}
+\addcontentsline{toc}{section}{Résumé}
+
+Ce rapport présente le travail réalisé dans le cadre du projet de fin d'études pour l'obtention du diplôme d'Ingénieur en Réseaux et Systèmes d'Information à la Faculté des Sciences et Techniques de Marrakech. Le stage s'est déroulé au sein de TAMTAM International avec pour objectif de développer une application web et mobile de gestion d'événements destinée aux fiduciaires belges.
+
+Une étude fonctionnelle et technique approfondie a été menée, suivie d'une modélisation UML complète. La méthodologie Agile SCRUM a été adoptée pour le développement, utilisant un stack technologique moderne : Symfony (PHP) pour le backend, ReactJS/NextJS pour le frontend, et MySQL pour la base de données.
+
+La solution développée permet aux utilisateurs de s'inscrire facilement aux événements, consulter les disponibilités en temps réel, et recevoir automatiquement des attestations personnalisées. Cette plateforme offre une gestion centralisée et intuitive des événements professionnels, améliorant significativement l'expérience utilisateur et l'efficacité opérationnelle.
+
+\vspace{3cm}
+\textbf{Mots-clés :} SCRUM, Symfony, ReactJS, NextJS, MySQL, Gestion d'événements, Plateforme web/mobile, Fiduciaires, UML.
+
+\newpage
+
+% Abstract
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+This report presents the work carried out during a final year project for obtaining the Engineer degree in Networks and Information Systems at the Faculty of Sciences and Technology of Marrakech. The internship was conducted at TAMTAM International, a Belgian company specializing in digital solutions for financial professionals, with the primary objective of developing and enhancing a comprehensive web and mobile event management application specifically designed for Belgian fiduciaries.
+
+The project began with an in-depth functional and technical analysis, encompassing stakeholder requirements gathering, system architecture evaluation, and comprehensive UML modeling. The development process followed the Agile SCRUM methodology to ensure iterative delivery and continuous improvement. The technical implementation leveraged a modern and robust technology stack: Symfony (PHP) for robust backend development, ReactJS/NextJS for dynamic and responsive frontend interfaces, and MySQL for reliable database management.
+
+The developed solution addresses critical business needs by enabling users to seamlessly register for professional events, access real-time availability information, and automatically receive personalized attendance certificates. The platform provides centralized, intuitive management of professional events while ensuring scalability and user-friendly interfaces.
+
+\vspace{3cm}
+\textbf{Keywords:} SCRUM, Agile Development, Symfony, ReactJS, NextJS, MySQL, Event Management, Web/Mobile Platform, Belgian Fiduciaries, UML Modeling, Digital Transformation.
+
+\newpage
+
+% Résumé en arabe
+\section*{Résumé en arabe}
+\addcontentsline{toc}{section}{Résumé en arabe}
+\begin{RLtext}
+
+\LARGE{ملخص}
+\end{RLtext}
+\begin{RLtext}
+
+يعرض هذا التقرير العمل المنجز في إطار مشروع التخرج للحصول على دبلوم مهندس في شبكات وأنظمة المعلومات بكلية العلوم والتقنيات بمراكش. تم إجراء التدريب في شركة TAMTAM International، وهي شركة بلجيكية متخصصة في الحلول الرقمية للمهنيين الماليين، بهدف تطوير وتحسين تطبيق شامل لإدارة الأحداث عبر الويب والهاتف المحمول مصمم خصيصاً للخبراء الماليين البلجيكيين.
+
+بدأ المشروع بتحليل وظيفي وتقني متعمق، شمل جمع متطلبات أصحاب المصلحة، وتقييم هندسة النظام، ونمذجة UML شاملة. اتبعت عملية التطوير منهجية Agile SCRUM لضمان التسليم التدريجي والتحسين المستمر.
+
+يلبي الحل المطور الاحتياجات التجارية الحاسمة من خلال تمكين المستخدمين من التسجيل بسلاسة في الأحداث المهنية، والوصول إلى معلومات التوفر في الوقت الفعلي، وتلقي شهادات الحضور المخصصة تلقائياً.
+
+\vspace{3cm}
+\end{RLtext}
+
+\textbf{Mots-clés (ar):} SCRUM, Agile Development, Symfony, ReactJS, NextJS, MySQL, Event Management, Web/Mobile Platform, UML Modeling, Digital Transformation.
+
+\newpage
+
+% Table des matières
+\tableofcontents
+\newpage
+
+\listoffigures
+\addcontentsline{toc}{section}{Liste des figures}
+\newpage
+
+\listoftables
+\addcontentsline{toc}{section}{Liste des tableaux}
+\newpage
+
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Introduction générale
+\section*{Introduction générale}
+\addcontentsline{toc}{section}{Introduction générale}
+
+Dans un monde où la digitalisation des processus métiers devient quasiment incontournable, \textbf{Tamtam International} a mis en place un écosystème pensé pour répondre aux attentes des professionnels dans le monde économique. Cette solution tout-en-un a pour but principal de regrouper tous les outils de gestion et de communication pour les fiduciaires, ainsi que d'autres types d'utilisateurs professionnels.
+
+Ce rapport de stage vise à présenter mon expérience au sein de TamTam International, en particulier dans l'équipe \textbf{OffCourse}, décrivant les missions qui m'ont été confiées, les compétences que j'ai acquises et les défis auxquels j'ai été confronté.
+
+Dans ce cadre, pendant mon stage de fin d'études, j'ai intégré l'équipe, avec une mission orientée sur l'optimisation et l'enrichissement des fonctionnalités d'une plateforme dédiée à la gestion des événements financiers. Les principaux objectifs étaient :
+\begin{itemize}
+    \item Renforcer les modules de communication, en particulier la gestion des événements.
+    \item Ajouter des fonctionnalités utiles et adaptées aux besoins changeants des utilisateurs.
+\end{itemize}
+
+Mon implication dans ce projet s'est articulée autour de trois grands volets :
+\begin{itemize}
+    \item Une analyse approfondie des besoins des utilisateurs finaux et des partenaires.
+    \item La conception et le développement de nouvelles features.
+    \item Et une intégration fluide avec l'infrastructure déjà existante de la plateforme.
+\end{itemize}
+
+Le présent rapport est structuré comme suit :
+
+\textbf{Chapitre 1 : Cadre du projet} - Présentation de la société Tamtam International et de sa solution OffCourse, focus sur le module communication (événements + mails), objectifs fixés et défis rencontrés durant l'amélioration.
+
+\textbf{Chapitre 2 : Analyse \& conception} - Démarche adoptée pour la collecte des besoins, modélisation UML des nouvelles fonctionnalités, schéma de l'architecture technique.
+
+\textbf{Chapitre 3 : Réalisation technique} - Stack utilisée côté frontend et backend, processus d'intégration des ajouts avec l'existant, explication des différentes fonctionnalités développées.
+
+\textbf{Chapitre 4 : Résultats et validation} - Aperçu visuel des nouvelles interfaces, étapes de test et validation technique, ouvertures possibles et idées pour faire évoluer la plateforme.
+
+Ce projet m'a permis de faire le lien entre les contraintes techniques et les besoins concrets du métier. J'ai pu contribuer à faire évoluer une plateforme utilisée chaque jour par des centaines de professionnels — une expérience à la fois formatrice et valorisante.
+
+% Corps du rapport
+\include{Chapters/chapter1}
+\include{Chapters/chapter2}
+\include{Chapters/chapter3}
+\include{Chapters/chapter4}
+\include{Chapters/chapter5}
+
+\end{document}
