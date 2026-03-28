@@ -366,6 +366,70 @@ Le modèle révèle une architecture centrée sur l'entité \texttt{User} qui pe
 
 Les relations entre ces entités permettent de gérer la complexité des interactions organisationnelles tout en maintenant la flexibilité nécessaire pour les utilisateurs individuels.
 
+\subsection{Complément UML du module Webinar}
+
+Afin d'aligner la conception avec les artefacts du rapport de référence, nous avons également intégré les diagrammes UML spécifiques au module \textbf{TamTam Webinar}. Ces vues complètent la modélisation globale du LMS par une lecture centrée sur les cas d'usage métier de la gestion des webinaires.
+
+\subsubsection{Cas d'utilisation par acteur}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_admin.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Administrateur}
+    \label{fig:webinar-usecase-admin}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_moderateur.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Modérateur}
+    \label{fig:webinar-usecase-moderateur}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_orateur.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Orateur}
+    \label{fig:webinar-usecase-orateur}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_participant.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Participant}
+    \label{fig:webinar-usecase-participant}
+\end{figure}
+
+\subsubsection{Diagrammes de séquence et de classes}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image_webinar/sequence_authentification.jpg}
+    \caption{Diagramme de séquence --- Authentification}
+    \label{fig:webinar-seq-auth}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image_webinar/sequance_association_webinar.jpg}
+    \caption{Diagramme de séquence --- Association à un webinar}
+    \label{fig:webinar-seq-association}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image_webinar/sequence_webinar.jpg}
+    \caption{Diagramme de séquence --- Gestion d'un webinar}
+    \label{fig:webinar-seq-main}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image_webinar/diagramme_classe.jpg}
+    \caption{Diagramme de classes du module Webinar}
+    \label{fig:webinar-class-diagram}
+\end{figure}
+
 \section{Conclusion}
 
 Ce chapitre d'analyse et de conception a permis d'établir une base solide pour le développement du système LMS. L'utilisation d'UML nous a fourni un langage commun pour exprimer les besoins et modéliser l'architecture du système.

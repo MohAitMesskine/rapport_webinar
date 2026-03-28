@@ -3,9 +3,10 @@
 \contentsline {section}{Résumé}{IV}{figure.caption.1}%
 \contentsline {section}{Abstract}{V}{figure.caption.1}%
 \contentsline {section}{Résumé en arabe}{VI}{figure.caption.1}%
-\contentsline {section}{Liste des figures}{VIII}{figure.caption.1}%
-\contentsline {section}{Liste des tableaux}{IX}{figure.caption.1}%
-\contentsline {section}{Introduction générale}{1}{figure.caption.1}%
+\contentsline {section}{Table des matières}{VII}{section*.2}%
+\contentsline {section}{Liste des figures}{X}{section*.3}%
+\contentsline {section}{Liste des tableaux}{XII}{section*.4}%
+\contentsline {section}{Introduction générale}{1}{section*.4}%
 \contentsline {chapter}{\numberline {1}Cadre du projet}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Présentation de l’organisme d’accueil (Tamtam International)}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1} Fondateur Tamtam International}{2}{subsection.1.1.1}%
@@ -15,21 +16,21 @@
 \contentsline {subsection}{\numberline {1.1.5}Clients de Tamtam International}{6}{subsection.1.1.5}%
 \contentsline {section}{\numberline {1.2}Présentation du projet de stage}{6}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Contexte général du projet}{7}{subsection.1.2.1}%
-\contentsline {subsubsection}{Objectifs du projet de fin d'études}{7}{subsubsection*.7}%
+\contentsline {subsubsection}{Objectifs du projet de fin d'études}{7}{subsubsection*.10}%
 \contentsline {subsection}{\numberline {1.2.2}Problématique}{7}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Étude des solutions existantes sur le Marché}{8}{subsection.1.2.3}%
-\contentsline {subsubsection}{Plateformes généralistes (LMS polyvalents)}{8}{subsubsection*.8}%
-\contentsline {subsubsection}{Solutions spécialisées pour les fiduciaires}{8}{subsubsection*.9}%
-\contentsline {subsubsection}{Analyse des lacunes du marché}{8}{subsubsection*.10}%
-\contentsline {subsubsection}{Positionnement de Tamtam Pro}{9}{subsubsection*.11}%
+\contentsline {subsubsection}{Plateformes généralistes (LMS polyvalents)}{8}{subsubsection*.11}%
+\contentsline {subsubsection}{Solutions spécialisées pour les fiduciaires}{8}{subsubsection*.12}%
+\contentsline {subsubsection}{Analyse des lacunes du marché}{8}{subsubsection*.13}%
+\contentsline {subsubsection}{Positionnement de Tamtam Pro}{9}{subsubsection*.14}%
 \contentsline {section}{\numberline {1.3}Conduite de projet}{9}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Méthodologie de travail}{9}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Répartition des rôles}{9}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Workflow }{10}{subsection.1.3.3}%
-\contentsline {subsubsection}{Sprint planning:}{10}{subsubsection*.14}%
-\contentsline {subsubsection}{Sprint review:}{11}{subsubsection*.15}%
-\contentsline {subsubsection}{Stand up meeting (Daily scrum meeting):}{11}{subsubsection*.16}%
-\contentsline {subsubsection}{La réunion de rétrospective (Sprint retrospective):}{11}{subsubsection*.17}%
+\contentsline {subsubsection}{Sprint planning:}{10}{subsubsection*.17}%
+\contentsline {subsubsection}{Sprint review:}{11}{subsubsection*.18}%
+\contentsline {subsubsection}{Stand up meeting (Daily scrum meeting):}{11}{subsubsection*.19}%
+\contentsline {subsubsection}{La réunion de rétrospective (Sprint retrospective):}{11}{subsubsection*.20}%
 \contentsline {subsection}{\numberline {1.3.4}Gestion des tâches et suivis}{12}{subsection.1.3.4}%
 \contentsline {subsection}{\numberline {1.3.5}Description du diagramme de Gantt}{12}{subsection.1.3.5}%
 \contentsline {section}{\numberline {1.4}Conclusion}{13}{section.1.4}%
@@ -41,72 +42,81 @@
 \contentsline {section}{\numberline {2.2}Capture des besoins}{16}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Méthodologie de capture des besoins}{16}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Besoins fonctionnels}{17}{subsection.2.2.2}%
-\contentsline {subsubsection}{Gestion des formations (Utilisateur Simple)}{17}{subsubsection*.20}%
-\contentsline {subsubsection}{Gestion des objectifs organisationnels (Collaborateur)}{17}{subsubsection*.21}%
-\contentsline {subsubsection}{Administration LMS (Administrateur Premium)}{17}{subsubsection*.22}%
+\contentsline {subsubsection}{Gestion des formations (Utilisateur Simple)}{17}{subsubsection*.23}%
+\contentsline {subsubsection}{Gestion des objectifs organisationnels (Collaborateur)}{17}{subsubsection*.24}%
+\contentsline {subsubsection}{Administration LMS (Administrateur Premium)}{17}{subsubsection*.25}%
 \contentsline {subsection}{\numberline {2.2.3}Besoins non fonctionnels}{18}{subsection.2.2.3}%
-\contentsline {subsubsection}{Ergonomie et accessibilité}{18}{subsubsection*.23}%
-\contentsline {subsubsection}{Performance et scalabilité}{18}{subsubsection*.24}%
-\contentsline {subsubsection}{Sécurité et confidentialité}{18}{subsubsection*.25}%
-\contentsline {subsubsection}{Fiabilité et robustesse}{18}{subsubsection*.26}%
+\contentsline {subsubsection}{Ergonomie et accessibilité}{18}{subsubsection*.26}%
+\contentsline {subsubsection}{Performance et scalabilité}{18}{subsubsection*.27}%
+\contentsline {subsubsection}{Sécurité et confidentialité}{18}{subsubsection*.28}%
+\contentsline {subsubsection}{Fiabilité et robustesse}{18}{subsubsection*.29}%
 \contentsline {section}{\numberline {2.3}Identification des acteurs}{18}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Diagrammes UML}{19}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Diagramme Bête à Cornes}{19}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Diagrammes de cas d'utilisation}{20}{subsection.2.4.2}%
-\contentsline {subsubsection}{Cas d'utilisation - Application OffCourse}{21}{subsubsection*.29}%
-\contentsline {subsubsection}{Cas d'utilisation - Interface LMS United Associate}{22}{subsubsection*.31}%
-\contentsline {paragraph}{Acteurs du système :}{22}{paragraph*.33}%
-\contentsline {paragraph}{Fonctionnalités principales :}{23}{paragraph*.34}%
+\contentsline {subsubsection}{Cas d'utilisation - Application OffCourse}{21}{subsubsection*.32}%
+\contentsline {subsubsection}{Cas d'utilisation - Interface LMS United Associate}{22}{subsubsection*.34}%
+\contentsline {paragraph}{Acteurs du système :}{22}{paragraph*.36}%
+\contentsline {paragraph}{Fonctionnalités principales :}{23}{paragraph*.37}%
 \contentsline {subsection}{\numberline {2.4.3}Diagrammes de séquence du système}{24}{subsection.2.4.3}%
-\contentsline {subsubsection}{Séquence — Utilisateur OffCourse}{24}{subsubsection*.35}%
-\contentsline {subsubsection}{Séquence — Administrateur United Associate}{27}{subsubsection*.38}%
+\contentsline {subsubsection}{Séquence — Utilisateur OffCourse}{24}{subsubsection*.38}%
+\contentsline {subsubsection}{Séquence — Administrateur United Associate}{27}{subsubsection*.41}%
 \contentsline {subsection}{\numberline {2.4.4}Modèle du domaine}{29}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Conclusion}{30}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Étude technique}{32}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Architecture du projet}{32}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Architecture physique}{32}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Architecture logique}{34}{subsection.3.1.2}%
-\contentsline {subsubsection}{Modèle MVC amélioré}{34}{subsubsection*.44}%
-\contentsline {subsubsection}{Structure du projet}{35}{subsubsection*.46}%
-\contentsline {paragraph}{Architecture logique complète}{35}{paragraph*.47}%
-\contentsline {paragraph}{Côté Back-end}{37}{paragraph*.49}%
-\contentsline {paragraph}{Côté Front-end}{37}{paragraph*.50}%
-\contentsline {section}{\numberline {3.2}Qualité de code}{38}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Outils de linting}{38}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Git Hooks}{39}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Conventional Commits}{39}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Spécification technologique}{39}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Back-end}{39}{subsection.3.3.1}%
-\contentsline {paragraph}{Doctrine}{39}{paragraph*.51}%
-\contentsline {paragraph}{PHPUnit}{40}{paragraph*.53}%
-\contentsline {paragraph}{Swagger/OpenAPI}{40}{paragraph*.55}%
-\contentsline {paragraph}{Symfony Framework}{40}{paragraph*.57}%
-\contentsline {paragraph}{Next.js}{40}{paragraph*.59}%
-\contentsline {paragraph}{TypeScript}{41}{paragraph*.61}%
-\contentsline {section}{\numberline {3.4}Processus d'intégration continue}{41}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}GitHub Actions}{41}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Release automation}{41}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Architecture de déploiement}{43}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Infrastructure de production}{43}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Caractéristiques de l'infrastructure}{43}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Conclusion}{44}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Réalisation}{45}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{45}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Présentation des interfaces}{45}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Interface principale du tableau de bord}{45}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Interface de gestion des recommandations}{46}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Interface de création d'objectifs}{48}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Interface de configuration des objectifs collaborateurs}{48}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Interface de recommandation de formations}{49}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Interface de sélection et assignation}{50}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Interface de suivi des recommandations}{50}{subsection.4.2.7}%
-\contentsline {section}{\numberline {4.3}Fonctionnalités transversales}{51}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Système de notification}{51}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Tableaux de bord personnalisés}{51}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Système de reporting}{51}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Planification et suivi du projet}{51}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Diagramme de Gantt réel}{52}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Conclusion}{52}{section.4.5}%
-\contentsline {section}{Bilan }{53}{section.4.5}%
-\contentsline {section}{Conclusion générale et perspectives}{55}{section.4.5}%
-\contentsline {section}{Références bibliographiques}{56}{section.4.5}%
+\contentsline {subsection}{\numberline {2.4.5}Complément UML du module Webinar}{29}{subsection.2.4.5}%
+\contentsline {subsubsection}{Cas d'utilisation par acteur}{29}{subsubsection*.45}%
+\contentsline {subsubsection}{Diagrammes de séquence et de classes}{29}{subsubsection*.50}%
+\contentsline {section}{\numberline {2.5}Conclusion}{35}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Étude technique}{36}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Architecture du projet}{36}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Architecture physique}{36}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Architecture logique}{38}{subsection.3.1.2}%
+\contentsline {subsubsection}{Modèle MVC amélioré}{38}{subsubsection*.57}%
+\contentsline {subsubsection}{Structure du projet}{39}{subsubsection*.59}%
+\contentsline {paragraph}{Architecture logique complète}{39}{paragraph*.60}%
+\contentsline {paragraph}{Côté Back-end}{41}{paragraph*.62}%
+\contentsline {paragraph}{Côté Front-end}{41}{paragraph*.63}%
+\contentsline {section}{\numberline {3.2}Qualité de code}{42}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Outils de linting}{42}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Git Hooks}{43}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Conventional Commits}{43}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Spécification technologique}{43}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Back-end}{43}{subsection.3.3.1}%
+\contentsline {paragraph}{Doctrine}{43}{paragraph*.64}%
+\contentsline {paragraph}{PHPUnit}{44}{paragraph*.66}%
+\contentsline {paragraph}{Swagger/OpenAPI}{44}{paragraph*.68}%
+\contentsline {paragraph}{Symfony Framework}{44}{paragraph*.70}%
+\contentsline {paragraph}{Next.js}{44}{paragraph*.72}%
+\contentsline {paragraph}{TypeScript}{45}{paragraph*.74}%
+\contentsline {section}{\numberline {3.4}Processus d'intégration continue}{45}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}GitHub Actions}{45}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Release automation}{45}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Architecture de déploiement}{47}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Infrastructure de production}{47}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Caractéristiques de l'infrastructure}{47}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Conclusion}{48}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Réalisation}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{49}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Présentation des interfaces}{49}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Interface principale du tableau de bord}{49}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Interface de gestion des recommandations}{50}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Interface de création d'objectifs}{52}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Interface de configuration des objectifs collaborateurs}{52}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Interface de recommandation de formations}{53}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Interface de sélection et assignation}{54}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Interface de suivi des recommandations}{54}{subsection.4.2.7}%
+\contentsline {section}{\numberline {4.3}Fonctionnalités transversales}{55}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Système de notification}{55}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Tableaux de bord personnalisés}{55}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Système de reporting}{55}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Planification et suivi du projet}{55}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Diagramme de Gantt réel}{56}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Conclusion}{56}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Bilan, conclusion et perspectives}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{57}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Bilan de stage}{57}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Bilan professionnel}{57}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Bilan technique}{57}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Bilan personnel}{58}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Conclusion générale}{58}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Perspectives}{58}{section.5.4}%
+\contentsline {section}{Références bibliographiques}{59}{section.5.4}%

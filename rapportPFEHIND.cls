@@ -1,4 +1,4 @@
-\LoadClass[a4paper,12pt]{report} % Classe du document
+\LoadClass[a4paper,12pt]{report}
 
 %--------------------- Packages ------------------------
 
@@ -19,17 +19,15 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{url}
 \RequirePackage[hidelinks]{hyperref}
-\RequirePackage[left=2.5cm,right=2.5cm,top=2cm,bottom=3.5cm]{geometry}
-\RequirePackage{tikz} % FIX: était \usepackage{tikz} — doit être \RequirePackage dans un .cls
+\RequirePackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
+\RequirePackage{tikz}
 
 \providecommand{\UE}{}
 \providecommand{\titre}{}
 
-% Customize chapter titles
 \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 
-% Customize section titles
 \titleformat{\section}
   {\normalfont\Large\bfseries}{\thesection}{1em}{}
 
@@ -38,82 +36,92 @@
 \newcommand{\fairepagedegarde}{
    \AddToShipoutPictureBG*{%
         \begin{tikzpicture}[remember picture, overlay]
-            \node[opacity=0.7, rotate=66 ] at ([xshift=0.6cm, yshift=3.55cm] current page.south east) 
+            \node[opacity=0.7, rotate=66] at ([xshift=0.6cm, yshift=3.55cm] current page.south east)
                 {\includegraphics[scale=3]{logos/logo.png}};
         \end{tikzpicture}%
     }
-    
+
 \begin{titlepage}
-    \begin{minipage}{0.5\textwidth}
-        \includegraphics[width=6cm]{logos/fst-logo.png}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.3\textwidth}
-        \centering
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.2\textwidth}
-        \centering
-        \includegraphics[width=3.5cm]{logos/irisi-logo.png}
-    \end{minipage}
+\setlength{\parskip}{0pt}
 
-    \vspace{1cm}
-
-\begin{center}
-    {\large \textbf{RAPPORT DE STAGE DE FIN D'ÉTUDES}} \\
-    \vspace{0.3cm}
-    {\large En vue de l'obtention du diplôme d'Ingénieur d'État :} \\
-    {\large Ingénierie en Réseaux et Systèmes d'Information (IRISI)}
-\end{center}
-
-\begin{center}
-    \rule{\textwidth}{0.5pt}
-    \vspace{0.4cm}\\
-    {\Huge \textbf{Contribution à la conception et au développement d'une application de gestion des événements}}
-    \vspace{0.3cm}
-    \rule{\textwidth}{0.5pt}
-\end{center}
-    \begin{center}
-        \includegraphics[width=7cm]{logos/tamtam-logo.png}
-        
-        \vspace{0.5cm}
-        Du 17 février au 17 Août 2025
-    \end{center}
-
-        \vspace{0.5cm}
+    % ---- Logos haut ----
     \noindent
-\begin{minipage}{0.6\textwidth}
-    \textbf{Encadré par :} \\
-  \hspace*{1cm}   \textbf{Pr. AMIR Laila} \\ 
-    \hspace*{2cm}
-    Encadrante à la FSTG \\
-  \hspace*{1cm}  \textbf{M. IDBRAIM Youssef} \\
-     \hspace*{2cm}Encadrants de Stage 
-    \hfill
-    \\
-\end{minipage}
-    \begin{minipage}{0.60\textwidth}
-        \textbf{Réalisé par :} \\
-         \hspace*{2cm}\textbf{AIT TALEB Hind}
+    \begin{minipage}[c]{0.45\textwidth}
+        \includegraphics[width=8.5cm]{logos/ucca.png}
     \end{minipage}
- 
+    \hfill
+    \begin{minipage}[c]{0.45\textwidth}
+        \raggedleft
+        \includegraphics[width=5.8cm]{logos/fssm.png}
+    \end{minipage}
+
+    \vspace{0.5cm}
+
+    % ---- Titre principal ----
     \begin{center}
-        Soutenu le 24 juin 2025 devant le jury :
+        {\large \textbf{RAPPORT DE STAGE DE FIN D'ÉTUDES}} \\[3pt]
+        {\normalsize En vue de l'obtention du diplôme Master :} \\[2pt]
+        {\normalsize \textbf{Ingénierie des Systèmes d'Information (ISI)}}
     \end{center}
+
+    \vspace{0.2cm}
+
+    \begin{center}
+        \rule{\textwidth}{0.5pt}
+        \vspace{0.25cm}\\
+        {\LARGE \textbf{CONTRIBUTION À LA CONCEPTION ET AU DÉVELOPPEMENT}}\\[4pt]
+        {\LARGE \textbf{D'UNE APPLICATION DE GESTION DES PRÉSENTATIONS}}
+        \vspace{0.25cm}\\
+        \rule{\textwidth}{0.5pt}
+    \end{center}
+
+    \vspace{0.3cm}
+
+    % ---- Logo TamTam + Dates ----
+    \begin{center}
+        \includegraphics[width=5.5cm]{logos/tamtam-logo.png}\\[5pt]
+        {\small \textit{Du 17 février au 17 Août 2025}}
+    \end{center}
+
+    \vspace{0.35cm}
+
+    % ---- Encadrants / Réalisé par ----
+    \noindent
+    \begin{minipage}[t]{0.55\textwidth}
+        \textbf{Encadré par :} \\[3pt]
+        \hspace*{0.5cm}\textbf{Pr. ELKHROF Leila} \\
+        \hspace*{1cm}{\small \textit{Encadrante à la FSSM}} \\[3pt]
+        \hspace*{0.5cm}\textbf{Mme. ELKHROF Leila} \\
+        \hspace*{1cm}{\small \textit{Encadrante de Stage}}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.40\textwidth}
+        \textbf{Réalisé par :} \\[3pt]
+        \hspace*{0.5cm}\textbf{Mohamed Ait Messkine}
+    \end{minipage}
+
+    \vspace{0.4cm}
+
+    % ---- Jury ----
+    \begin{center}
+        {\small \textit{Soutenu le 24 juin 2025 devant le jury composé de :}}
+    \end{center}
+    \vspace{0.1cm}
     \begin{center}
         \begin{tabular}{ll}
-            \textbf{Pr. AMIR Laila } & Professeur à la FST de Marrakech \\
-            \textbf{Pr. KALOUN Soulaimane } & Professeur à la FST de Marrakech \\
-            \textbf{Pr. BANOUAR Oumayma } & Professeur à la FST de Marrakech \\
+            \textbf{Pr. ..........}     & Professeur à la FSSM de Marrakech \\[2pt]
+            \textbf{Pr. ...... ....} & Professeur à la FSSM de Marrakech \\[2pt]
+            \textbf{Pr. ..... ....}  & Professeur à la FSSM de Marrakech \\
         \end{tabular}
     \end{center}
-    
+
     \vfill
-        \vspace{0.5cm}
+
+    % ---- Année universitaire ----
     \begin{center}
-        Année universitaire 2024/2025
+        \textbf{Année universitaire 2024/2025}
     \end{center}
-    
+
 \end{titlepage}
 }
 
@@ -126,7 +134,7 @@
 \lhead{\includegraphics[scale=0.1]{logos/tamtam-logo.png}}
 \rhead{\nouppercase{\leftmark}}
 \rfoot{\thepage}
-\cfoot{Rapport - \textbf{\titre}}
+\cfoot{Rapport -- \textbf{\titre}}
 \lfoot{\UE}
 }
 
@@ -140,6 +148,6 @@
 \centering
 \includegraphics[height=#2]{#1}
 \caption{#3}
-\label{fig: #4}
+\label{fig:#4}
 \end{figure}
 }

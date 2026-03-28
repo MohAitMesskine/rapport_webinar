@@ -1,42 +1,51 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo officiel de l'entreprise TamTam International}}{2}{figure.caption.2}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Fondateur de Tamtam International}}{3}{figure.caption.3}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Tam-tam}}{3}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces logo Tamtam international}}{3}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces produit tamtam internationel}}{4}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Clients de Tamtam International}}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Cycle de vie SCRUM}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces diagramme de gant }}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo officiel de l'entreprise TamTam International}}{2}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Fondateur de Tamtam International}}{3}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Tam-tam}}{3}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces logo Tamtam international}}{3}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces produit tamtam internationel}}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Clients de Tamtam International}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Cycle de vie SCRUM}}{11}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces diagramme de gant }}{12}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Logo UML - Unified Modeling Language}}{16}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme Bête à Cornes - System LMS OffCourse}}{20}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d'utilisation - Gestion des formations OffCourse}}{21}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de cas d'utilisation - Interface LMS United Associate}}{23}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 1)}}{25}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 2)}}{26}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme de séquence — Processus administratif LMS United Associate}}{27}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme de séquence — Processus administratif LMS United Associate}}{28}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Modèle du domaine - Système LMS}}{30}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Logo UML - Unified Modeling Language}}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme Bête à Cornes - System LMS OffCourse}}{20}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d'utilisation - Gestion des formations OffCourse}}{21}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de cas d'utilisation - Interface LMS United Associate}}{23}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 1)}}{25}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 2)}}{26}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme de séquence — Processus administratif LMS United Associate}}{27}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme de séquence — Processus administratif LMS United Associate}}{28}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Modèle du domaine - Système LMS}}{30}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Cas d'utilisation du module Webinar --- Administrateur}}{30}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Cas d'utilisation du module Webinar --- Modérateur}}{31}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Cas d'utilisation du module Webinar --- Orateur}}{31}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Cas d'utilisation du module Webinar --- Participant}}{31}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Diagramme de séquence --- Authentification}}{32}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Diagramme de séquence --- Association à un webinar}}{32}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Diagramme de séquence --- Gestion d'un webinar}}{33}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Diagramme de classes du module Webinar}}{34}{figure.caption.54}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture technique du système LMS Didier}}{33}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Flow MVC adapté pour le LMS}}{34}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Structure logique du projet LMS}}{36}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Logo Doctrine}}{39}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo PHPUnit}}{40}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo Swagger}}{40}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Logo Symfony}}{40}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Logo Next.js}}{41}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo TypeScript}}{41}{figure.caption.62}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Pipeline GitHub Actions automatisé}}{42}{figure.caption.63}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Architecture de déploiement haute disponibilité}}{43}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture technique du système LMS Didier}}{37}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Flow MVC adapté pour le LMS}}{38}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Structure logique du projet LMS}}{40}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Logo Doctrine}}{43}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo PHPUnit}}{44}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo Swagger}}{44}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Logo Symfony}}{44}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Logo Next.js}}{45}{figure.caption.73}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo TypeScript}}{45}{figure.caption.75}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Pipeline GitHub Actions automatisé}}{46}{figure.caption.76}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Architecture de déploiement haute disponibilité}}{47}{figure.caption.77}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Interface principale du LMS}}{46}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Interface des recommandations d'un collaborateur}}{47}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Interface des recommandations}}{47}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Interface de création d'objectifs}}{48}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Interface de configuration des objectifs}}{49}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Interface de recherche de formations}}{49}{figure.caption.70}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface de sélection des formations}}{50}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Interface de suivi des recommandations}}{51}{figure.caption.72}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagramme de Gantt réel du projet LMS}}{52}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Interface principale du LMS}}{50}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Interface des recommandations d'un collaborateur}}{51}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Interface des recommandations avec nuage de mots}}{51}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Interface de création d'objectifs}}{52}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Interface de configuration des objectifs}}{53}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Interface de recherche de formations}}{53}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface de sélection des formations}}{54}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Interface de suivi des recommandations}}{55}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagramme de Gantt réel du projet LMS}}{56}{figure.caption.86}%
+\addvspace {10\p@ }
