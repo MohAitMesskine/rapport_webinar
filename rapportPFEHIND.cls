@@ -47,14 +47,10 @@
     % ---- Logos haut ----
     \noindent
     \begin{minipage}[c]{0.45\textwidth}
-        \includegraphics[width=8.5cm]{logos/ucca.png}
+      \includegraphics[width=16cm]{logo_fssm.png}
     \end{minipage}
     \hfill
-    \begin{minipage}[c]{0.45\textwidth}
-        \raggedleft
-        \includegraphics[width=5.8cm]{logos/fssm.png}
-    \end{minipage}
-
+    
     \vspace{0.5cm}
 
     % ---- Titre principal ----
@@ -89,7 +85,7 @@
     \noindent
     \begin{minipage}[t]{0.55\textwidth}
         \textbf{Encadré par :} \\[3pt]
-        \hspace*{0.5cm}\textbf{Pr. ELKHROF Leila} \\
+        \hspace*{0.5cm}\textbf{Pr. Tarik Agouti} \\
         \hspace*{1cm}{\small \textit{Encadrante à la FSSM}} \\[3pt]
         \hspace*{0.5cm}\textbf{Mme. ELKHROF Leila} \\
         \hspace*{1cm}{\small \textit{Encadrante de Stage}}

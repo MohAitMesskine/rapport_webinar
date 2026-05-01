@@ -2,10 +2,9 @@
 \contentsline {section}{Remerciements}{III}{figure.caption.1}%
 \contentsline {section}{Résumé}{IV}{figure.caption.1}%
 \contentsline {section}{Abstract}{V}{figure.caption.1}%
-\contentsline {section}{Résumé en arabe}{VI}{figure.caption.1}%
-\contentsline {section}{Table des matières}{VII}{section*.2}%
-\contentsline {section}{Liste des figures}{X}{section*.3}%
-\contentsline {section}{Liste des tableaux}{XII}{section*.4}%
+\contentsline {section}{Table des matières}{VI}{section*.2}%
+\contentsline {section}{Liste des figures}{IX}{section*.3}%
+\contentsline {section}{Liste des tableaux}{XI}{section*.4}%
 \contentsline {section}{Introduction générale}{1}{section*.4}%
 \contentsline {chapter}{\numberline {1}Cadre du projet}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Présentation de l’organisme d’accueil (Tamtam International)}{2}{section.1.1}%
@@ -15,23 +14,23 @@
 \contentsline {subsection}{\numberline {1.1.4}Produits de Tamtam International}{4}{subsection.1.1.4}%
 \contentsline {subsection}{\numberline {1.1.5}Clients de Tamtam International}{6}{subsection.1.1.5}%
 \contentsline {section}{\numberline {1.2}Présentation du projet de stage}{6}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Contexte général du projet}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}Contexte général du projet}{6}{subsection.1.2.1}%
 \contentsline {subsubsection}{Objectifs du projet de fin d'études}{7}{subsubsection*.10}%
 \contentsline {subsection}{\numberline {1.2.2}Problématique}{7}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Étude des solutions existantes sur le Marché}{8}{subsection.1.2.3}%
 \contentsline {subsubsection}{Plateformes généralistes (LMS polyvalents)}{8}{subsubsection*.11}%
 \contentsline {subsubsection}{Solutions spécialisées pour les fiduciaires}{8}{subsubsection*.12}%
 \contentsline {subsubsection}{Analyse des lacunes du marché}{8}{subsubsection*.13}%
-\contentsline {subsubsection}{Positionnement de Tamtam Pro}{9}{subsubsection*.14}%
+\contentsline {subsubsection}{Positionnement de Tamtam Pro}{8}{subsubsection*.14}%
 \contentsline {section}{\numberline {1.3}Conduite de projet}{9}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Méthodologie de travail}{9}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Répartition des rôles}{9}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Workflow }{10}{subsection.1.3.3}%
 \contentsline {subsubsection}{Sprint planning:}{10}{subsubsection*.17}%
-\contentsline {subsubsection}{Sprint review:}{11}{subsubsection*.18}%
+\contentsline {subsubsection}{Sprint review:}{10}{subsubsection*.18}%
 \contentsline {subsubsection}{Stand up meeting (Daily scrum meeting):}{11}{subsubsection*.19}%
 \contentsline {subsubsection}{La réunion de rétrospective (Sprint retrospective):}{11}{subsubsection*.20}%
-\contentsline {subsection}{\numberline {1.3.4}Gestion des tâches et suivis}{12}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.4}Gestion des tâches et suivis}{11}{subsection.1.3.4}%
 \contentsline {subsection}{\numberline {1.3.5}Description du diagramme de Gantt}{12}{subsection.1.3.5}%
 \contentsline {section}{\numberline {1.4}Conclusion}{13}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Analyse et Conception}{15}{chapter.2}%
