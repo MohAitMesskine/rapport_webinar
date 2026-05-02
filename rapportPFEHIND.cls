@@ -115,7 +115,7 @@
 
     % ---- Année universitaire ----
     \begin{center}
-        \textbf{Année universitaire 2024/2025}
+        \textbf{Année universitaire 2025/2026}
     \end{center}
 
 \end{titlepage}

@@ -1,169 +1,459 @@
 \chapter{Réalisation}
 
 \section{Introduction}
-L'objectif de cette partie est de donner aux lecteurs de ce rapport un aperçu détaillé des différentes interfaces du système de gestion de l'apprentissage (LMS) de United Associates, développé en partenariat avec DEG\&PARTNERS. Ce chapitre présente les fonctionnalités offertes aux différents acteurs du système, notamment les collaborateurs, les gestionnaires et les formateurs.
+L'objectif de cette partie est de donner aux lecteurs de ce rapport un aperçu détaillé des différentes interfaces de la plateforme Webinar TamTam, développée dans le cadre de ce projet. Ce chapitre présente les fonctionnalités offertes aux différents acteurs du système, notamment les participants, les administrateurs, les orateurs et les modérateurs.
 
-\section{Présentation des interfaces}
+\section{Présentation de la plateforme}
 
-\subsection{Interface principale du tableau de bord}
-L'interface principale du LMS constitue le point d'entrée central pour tous les utilisateurs. Elle présente une vue d'ensemble personnalisée des activités de formation et des objectifs temporels.
+Dans cette partie, nous nous intéresserons aux captures d'écran de la plateforme, accompagnées par des explications démontrant l'utilité de chacune des interfaces (IHM~: Interaction Homme Machine).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{realisation/toutactivite.png}
-    \caption{Interface principale du LMS}
-    \label{fig:interface_principale}
-\end{figure}
+Nous allons présenter les interfaces suivant le scénario ci-dessous :
+\begin{enumerate}
+    \item Authentification
+    \item Page administrateur
+    \item Activités lors du webinaire
+\end{enumerate}
 
-Cette interface comprend plusieurs sections principales :
-\begin{itemize}
-    \item \textbf{Barre de navigation} : Permettant l'accès aux différentes fonctionnalités (Toutes les activités, Recommandations, Configuration d'objectifs)
-    \item \textbf{Panneau d'activités} : Affichant les formations en cours, terminées et à venir avec leurs statuts respectifs
-    \item \textbf{Section objectifs temporels} : Présentant les progrès individuels des collaborateurs avec des indicateurs visuels
-\end{itemize}
+% -------------------------------------------------------
+\subsection{Interface d'authentification}
+% -------------------------------------------------------
 
-\subsection{Interface de gestion des recommandations}
-Cette interface permet aux utilisateurs de consulter et gérer les recommandations de formation personnalisées.
+Pour pouvoir accéder aux fonctionnalités offertes par la plateforme TamTam Webinar, l'utilisateur doit d'abord s'authentifier via l'application Home. Toute tentative d'accès sans authentification préalable redirige le visiteur vers la page de connexion.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{realisation/user.png}    
-    \caption{Interface des recommandations d'un collaborateur}
-    \label{fig:interface_recommandations}
-
+    \includegraphics[width=0.80\textwidth]{realisation/img-143.jpg}
+    \caption{Page affichée aux visiteurs non authentifiés}
+    \label{fig:auth_non_connecte}
 \end{figure}
-\begin{figure}[H]
-    \includegraphics[width=\textwidth]{realisation/userwithmot.png}
-    \caption{Interface des recommandations avec nuage de mots}
-    \label{fig:interface_recommandations_mots}
-\end{figure}
-
-L'interface des recommandations offre :
-\begin{itemize}
-    \item \textbf{Profil utilisateur} : Affichage des informations personnelles et du statut Premium
-    \item \textbf{Rapport des recommandations obligatoires} : Visualisation graphique des formations obligatoires avec indicateurs de progression
-    \item \textbf{Matière de compétences} : Nuage de mots interactif présentant les domaines de compétences
-    \item \textbf{Historique des formations} : Liste détaillée des formations suivies et à suivre
-\end{itemize}
-
-\subsection{Interface de création d'objectifs}
-Cette interface permet aux gestionnaires de définir et configurer les objectifs de formation pour leurs équipes.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{realisation/goal.png}
-    \caption{Interface de création d'objectifs}
-    \label{fig:creation_objectifs}
+    \includegraphics[width=0.80\textwidth]{realisation/img-144.jpg}
+    \caption{Interface d'authentification}
+    \label{fig:auth_connecte}
 \end{figure}
 
-Les fonctionnalités incluent :
+L'utilisateur dispose de plusieurs modes de connexion :
 \begin{itemize}
-    \item \textbf{Création de modèles d'objectifs} : Définition de titres et paramètres personnalisés
-    \item \textbf{Gestion par trimestre} : Répartition des objectifs sur l'année avec durées spécifiques
-    \item \textbf{Objectifs annuels} : Configuration d'objectifs globaux avec suivi temporel
+    \item \textbf{Connexion classique} : Via son adresse email et son mot de passe.
+    \item \textbf{Connexion sociale} : Via un compte LinkedIn ou Google pour initialiser la session.
+    \item \textbf{Création de compte} : Pour les nouveaux utilisateurs sur la plateforme TamTam.
 \end{itemize}
 
-\subsection{Interface de configuration des objectifs collaborateurs}
-Cette interface permet une gestion détaillée des objectifs individuels des collaborateurs.
+% -------------------------------------------------------
+\subsection{Interface de la page administrateur}
+% -------------------------------------------------------
+
+Une fois les informations saisies correctement, l'utilisateur accède à la page d'administration. Les fonctionnalités ne sont accessibles qu'aux utilisateurs disposant des droits appropriés ; dans le cas contraire, un message de restriction est affiché.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{realisation/model.png}
-    \caption{Interface de configuration des objectifs}
-    \label{fig:config_objectifs}
+    \includegraphics[width=0.80\textwidth]{realisation/img-146.jpg}
+    \caption{Utilisateur sans accès à la page d'administration}
+    \label{fig:admin_non_autorise}
 \end{figure}
-
-Elle comprend :
-\begin{itemize}
-    \item \textbf{Gestion par période} : Visualisation des objectifs par trimestre avec dates précises
-    \item \textbf{Objectifs personnalisés} : Configuration d'heures de formation par collaborateur
-    \item \textbf{Suivi des performances} : Affichage des objectifs annuels et du progrès réalisé
-\end{itemize}
-
-\subsection{Interface de recommandation de formations}
-Cette interface facilite la recherche et l'assignation de formations aux collaborateurs.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{realisation/cherch.png}
-    \caption{Interface de recherche de formations}
-    \label{fig:recherche_formations}
+    \includegraphics[width=0.80\textwidth]{realisation/img-147.jpg}
+    \caption{Utilisateur avec accès à la page d'administration}
+    \label{fig:admin_autorise}
 \end{figure}
 
-Les fonctionnalités principales sont :
-\begin{itemize}
-    \item \textbf{Moteur de recherche} : Recherche par mots-clés dans le catalogue de formations
-    \item \textbf{Filtrage avancé} : Sélection de formations spécifiques par critères
-    \item \textbf{Assignation multiple} : Possibilité d'assigner des formations à plusieurs collaborateurs
-    \item \textbf{Planification} : Configuration des échéances et modalités de formation
-\end{itemize}
+Via cette interface, l'administrateur peut gérer l'ensemble des ressources de la plateforme, décrites dans les sous-sections suivantes.
 
-\subsection{Interface de sélection et assignation}
-Cette interface permet une gestion fine de l'assignation des formations aux équipes.
+% -------------------------------------------------------
+\subsubsection{Gestion des webinaires}
+% -------------------------------------------------------
+
+Cette section permet à l'administrateur de superviser et contrôler le cycle de vie de chaque webinaire.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{realisation/selection.png}
-    \caption{Interface de sélection des formations}
-    \label{fig:selection_formations}
+    \includegraphics[width=0.80\textwidth]{realisation/img-149.jpg}
+    \caption{Actions disponibles sur un webinaire}
+    \label{fig:actions_webinaire}
 \end{figure}
-
-Elle offre :
-\begin{itemize}
-    \item \textbf{Sélection multiple} : Choix de plusieurs formations simultanément
-    \item \textbf{Types de recommandations} : Distinction entre formations obligatoires et suggestions
-    \item \textbf{Gestion des collaborateurs} : Assignation ciblée par collaborateur
-    \item \textbf{Planification temporelle} : Configuration des dates d'échéance
-\end{itemize}
-
-\subsection{Interface de suivi des recommandations}
-Cette interface présente le suivi des formations recommandées et leur statut d'avancement.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{realisation/recomendation.png}
-    \caption{Interface de suivi des recommandations}
-    \label{fig:suivi_recommandations}
+    \includegraphics[width=0.80\textwidth]{realisation/img-150.jpg}
+    \caption{Interface de modification d'un webinaire}
+    \label{fig:modifier_webinaire}
 \end{figure}
 
-Les éléments clés comprennent :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-152.jpg}
+    \caption{Vérification des participants depuis l'interface admin}
+    \label{fig:verif_participants}
+\end{figure}
+
+Les fonctionnalités disponibles incluent :
 \begin{itemize}
-    \item \textbf{Tableau de suivi} : Vue d'ensemble des formations assignées
-    \item \textbf{Statuts de recommandation} : Distinction entre obligations et suggestions
-    \item \textbf{Suivi par collaborateur} : Visualisation des formations par équipe
-    \item \textbf{Indicateurs de progression} : Suivi des échéances et de l'avancement
+    \item \textbf{Consultation de la liste} : Visualisation des webinaires créés, démarrés et arrêtés, avec toutes leurs informations (organisateur, date, modérateurs).
+    \item \textbf{Filtrage avancé} : Recherche par EventId, date, nom ou statut (\textit{DEFAULT}, \textit{STARTED}, \textit{ENDED}).
+    \item \textbf{Actions sur le webinaire} : Démarrer, arrêter, modifier, réinitialiser ou vérifier la synchronisation du nombre de participants.
 \end{itemize}
 
+% -------------------------------------------------------
+\subsubsection{Configuration des sondages automatiques}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-153.jpg}
+    \caption{Configuration des sondages automatiques}
+    \label{fig:sondages_auto}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{realisation/img-155.jpg}
+    \caption{Formulaire d'ajout d'un sondage en une langue}
+    \label{fig:form_sondage}
+\end{figure}
+
+Dans cet onglet, l'administrateur ajoute, supprime et modifie les sondages programmés pour être publiés automatiquement durant une session. Dix sondages ont été configurés, chacun disponible en deux langues (français et néerlandais). Pour chaque webinaire, quatre sondages sont sélectionnés aléatoirement parmi eux et publiés à intervalles réguliers. Cette fonctionnalité constitue un filet de sécurité pour garantir la présence de sondages même en l'absence d'action manuelle de l'orateur.
+
+% -------------------------------------------------------
+\subsubsection{Configuration des questions automatiques}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-157.jpg}
+    \caption{Configuration des questions automatiques de l'examen final}
+    \label{fig:questions_auto}
+\end{figure}
+
+Cet onglet contient la liste des questions ajoutées automatiquement à l'examen final lorsqu'aucun utilisateur (administrateur, modérateur ou orateur) ne les a saisies manuellement. L'administrateur peut gérer ces questions dans différentes langues~: français, anglais et néerlandais.
+
+% -------------------------------------------------------
+\subsubsection{Gestion des administrateurs}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-158.jpg}
+    \caption{Liste des administrateurs de la plateforme}
+    \label{fig:liste_admins}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-160.jpg}
+    \caption{Recherche d'un utilisateur par adresse email}
+    \label{fig:recherche_admin}
+\end{figure}
+
+Cette section permet à l'administrateur de gérer les droits d'accès à la plateforme. En saisissant une adresse email, une recherche globale est effectuée parmi tous les utilisateurs TamTam. Un simple interrupteur permet d'accorder ou de révoquer les droits administrateurs.
+
+% -------------------------------------------------------
+\subsection{Activités lors du webinaire}
+% -------------------------------------------------------
+
+Dans cette partie, nous présentons les différentes interfaces et activités disponibles lors du déroulement d'un webinaire.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Participants}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{realisation/img-161.jpg}
+    \caption{Onglet Participants}
+    \label{fig:tab_participants}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{realisation/img-163.jpg}
+    \caption{Discussion privée entre deux utilisateurs}
+    \label{fig:discussion_privee}
+\end{figure}
+
+Cette interface liste les différents participants du webinaire en indiquant le rôle de chacun, et permet de les filtrer selon leurs statuts. Un clic sur un participant permet d'ouvrir une discussion privée avec lui.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Conversation}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{realisation/img-164.jpg}
+    \caption{Onglet Conversation (chat public)}
+    \label{fig:tab_conversation}
+\end{figure}
+
+Cet espace est dédié aux conversations instantanées publiques entre tous les participants du webinaire, favorisant les échanges en temps réel.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Questions / Réponses}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-166.jpg}
+        \caption{Vue côté participant 1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-167.jpg}
+        \caption{Vue côté participant 2}
+    \end{subfigure}
+    \caption{Onglet Questions / Réponses}
+    \label{fig:tab_qr}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{realisation/img-168.jpg}
+    \caption{Question répondue dans l'onglet Q/R}
+    \label{fig:qr_repondue}
+\end{figure}
+
+Cet onglet est réservé aux questions posées par les participants. Les orateurs et modérateurs peuvent uniquement y répondre, garantissant ainsi une interaction structurée et ordonnée.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Sondages}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-170.jpg}
+        \caption{Formulaire de sondage}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-171.jpg}
+        \caption{Vue orateur du sondage}
+    \end{subfigure}
+    \caption{Onglet Sondages}
+    \label{fig:tab_sondages}
+\end{figure}
+
+Les sondages interactifs permettent de recueillir les avis des participants en temps réel. Ils peuvent être publiés manuellement par l'orateur ou automatiquement par le système selon la configuration définie.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Annonces}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-173.jpg}
+        \caption{Annonces (vue 1)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-174.jpg}
+        \caption{Annonces (vue 2)}
+    \end{subfigure}
+    \caption{Onglet Annonces}
+    \label{fig:tab_annonces}
+\end{figure}
+
+Cet onglet permet aux modérateurs de diffuser des annonces officielles à l'ensemble des participants du webinaire.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Documents}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-176.jpg}
+        \caption{Documents (vue 1)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-177.jpg}
+        \caption{Documents (vue 2)}
+    \end{subfigure}
+    \caption{Onglet Documents}
+    \label{fig:tab_documents}
+\end{figure}
+
+Les participants peuvent accéder aux documents partagés par les orateurs durant la session, tels que les supports de présentation ou les ressources complémentaires.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Examen Final}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{realisation/img-178.jpg}
+    \caption{Onglet Examen Final}
+    \label{fig:tab_examen}
+\end{figure}
+
+À la fin du webinaire, les participants peuvent passer l'examen final composé de questions configurées manuellement ou générées automatiquement par le système.
+
+% -------------------------------------------------------
+\subsubsection{Onglet Live Config}
+% -------------------------------------------------------
+
+Cet onglet est accessible uniquement au modérateur. Il permet de configurer le type de diffusion en direct selon trois modes :
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.32\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-180.jpg}
+        \caption{Mode Medialive}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-181.jpg}
+        \caption{Mode Studio}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \includegraphics[width=\textwidth]{realisation/img-182.jpg}
+        \caption{Mode Daily}
+    \end{subfigure}
+    \caption{Onglet Live Config — les trois modes de diffusion}
+    \label{fig:tab_live_config}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Medialive} : Pour la diffusion de vidéos préenregistrées.
+    \item \textbf{Studio} : Pour la diffusion de sessions en direct.
+    \item \textbf{Daily} : Pour les réunions en vidéoconférence.
+\end{itemize}
+
+% -------------------------------------------------------
+\subsection{Système de pilotage et de prompteur}
+% -------------------------------------------------------
+
+Durant la phase de configuration et de diffusion du webinaire, une interface centralisée de pilotage permet au modérateur de gérer tous les éléments dynamiques affichés pendant l'événement.
+
+% -------------------------------------------------------
+\subsubsection{Ajout d'images et gestion des tags}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-pilotage.jpg}
+    \caption{Interface de configuration et pilotage du webinaire}
+    \label{fig:config_pilotage}
+\end{figure}
+
+Lors d'un clic sur l'icône d'ajout, une fenêtre contextuelle s'affiche listant les images disponibles. L'utilisateur peut sélectionner une ou plusieurs images via une recherche par mots-clés, leur associer des tags catégoriels (ex.~: \textit{Marketing}, \textit{Technique}), et les lier à des sections spécifiques du webinaire. Les images sélectionnées sont dynamiquement mises à jour dans un tableau dédié avec un aperçu visuel.
+
+% -------------------------------------------------------
+\subsubsection{Prompteur Régie}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-57.jpg}
+    \caption{Gestion des contenus du Prompteur Régie}
+    \label{fig:prompteur_regie}
+\end{figure}
+
+Le Prompteur Régie regroupe l'ensemble des éléments affichés dans le Prompteur Public~: textes, images, articles, orateurs et sondages. Tous ces éléments sont associés aux sections du webinaire et peuvent être pilotés en temps réel. Le système affiche également le temps consommé ou dépassé pour chaque section ou publication.
+
+% -------------------------------------------------------
+\subsubsection{Prompteur Public}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-62.jpg}
+    \caption{Contenus affichés dans le Prompteur Public}
+    \label{fig:prompteur_public}
+\end{figure}
+
+Le Prompteur Public diffuse sur un écran visible du public les contenus sélectionnés depuis la table de régie. Le contenu s'adapte automatiquement à sa nature~:
+\begin{itemize}
+    \item \textbf{Image} : affichée directement.
+    \item \textbf{Article} : le titre, la description et les informations associées sont présentés.
+    \item \textbf{Orateur} : son nom, son organisation et ses articles publiés sont affichés.
+\end{itemize}
+
+% -------------------------------------------------------
+\subsubsection{Prompteur Compteur}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-63.jpg}
+    \caption{Contenus du Prompteur Compteur}
+    \label{fig:prompteur_compteur}
+\end{figure}
+
+Le Prompteur Compteur permet de suivre en temps réel l'écart entre le temps consommé et le temps planifié pour chaque section, aidant ainsi l'équipe à respecter le timing global du webinaire.
+
+% -------------------------------------------------------
+\subsubsection{Prompteur Présentateur}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-64.jpg}
+    \caption{Contenus du Prompteur Présentateur}
+    \label{fig:prompteur_presentateur}
+\end{figure}
+
+Le Prompteur Présentateur affiche les textes et paragraphes du script de l'orateur, organisés par section. La navigation entre les paragraphes est contrôlée par la télécommande.
+
+% -------------------------------------------------------
+\subsubsection{Télécommande}
+% -------------------------------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-65.jpg}
+    \caption{Interface de la Télécommande}
+    \label{fig:telecommande}
+\end{figure}
+
+Un QR code ou un lien partagé permet d'accéder à une télécommande connectée depuis un téléphone ou tout autre appareil. Depuis cette interface, le présentateur peut naviguer entre les slides du prompteur et gérer les sondages en temps réel.
+
+% -------------------------------------------------------
+\subsection{Interface de clôture du webinaire (ClosingPage)}
+% -------------------------------------------------------
+
+Une fois la formation terminée, les utilisateurs sont redirigés vers la page de clôture, dont le contenu diffère selon leur rôle.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-184.jpg}
+    \caption{Page de clôture — côté orateur/modérateur}
+    \label{fig:closing_orateur}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{realisation/img-185.jpg}
+    \caption{Page de clôture — côté participant}
+    \label{fig:closing_participant}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Orateurs et modérateurs} : accès aux statistiques du webinaire, possibilité de revoir le replay ou de demander la réouverture de la session.
+    \item \textbf{Participants} : possibilité de donner leur avis, de passer l'examen final et de revoir le replay.
+\end{itemize}
+
+% -------------------------------------------------------
 \section{Fonctionnalités transversales}
+% -------------------------------------------------------
 
-\subsection{Système de notification}
-Le système intègre un mécanisme de notifications pour informer les utilisateurs des échéances, nouvelles formations et objectifs à atteindre.
+\subsection{Système de notifications}
+La plateforme intègre un mécanisme de notifications pour alerter les utilisateurs des actions importantes~: démarrage imminent d'un webinaire, publication d'un sondage, disponibilité de l'examen final ou dépassement de délais de sections.
 
-\subsection{Tableaux de bord personnalisés}
-Chaque utilisateur dispose d'un tableau de bord adapté à son rôle (collaborateur, gestionnaire, formateur) avec des métriques pertinentes.
+\subsection{Gestion des rôles et des droits d'accès}
+Chaque utilisateur dispose d'une interface adaptée à son rôle (participant, orateur, modérateur, administrateur) avec des permissions et des vues personnalisées, garantissant la sécurité et la cohérence des interactions.
 
 \subsection{Système de reporting}
-Des rapports détaillés permettent le suivi des performances individuelles et collectives, facilitant la prise de décision managériale.
-\section{Planification et suivi du projet}
+Des statistiques détaillées sont générées à l'issue de chaque webinaire, permettant le suivi des performances (taux de participation, résultats aux examens, engagement sur les sondages) et facilitant la prise de décision.
 
-\subsection{Diagramme de Gantt réel}
-Le diagramme de Gantt ci-dessous présente la planification réelle du projet de développement du LMS de United Associates, montrant les différentes phases de réalisation, les jalons importants et l'état d'avancement des tâches sur la période de février à juillet 2025.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{gantt_reel.png}
-    \caption{Diagramme de Gantt réel du projet LMS}
-    \label{fig:gantt_reel}
-\end{figure}
-Ce diagramme illustre :
-\begin{itemize}
-    \item \textbf{Phases de développement} : Répartition temporelle des différentes étapes du projet
-    \item \textbf{Jalons critiques} : Points de contrôle et livrables importants marqués par des losanges
-    \item \textbf{Progression réelle} : Comparaison entre la planification initiale et l'avancement effectif
-    \item \textbf{Tâches parallèles} : Identification des activités menées simultanément
-    \item \textbf{Dépendances} : Relations entre les différentes tâches du projet
-\end{itemize}
-
-L'analyse de ce diagramme révèle que le projet a globalement respecté les échéances prévues, avec quelques ajustements mineurs dans la planification pour optimiser les ressources et la qualité des livrables.
+% -------------------------------------------------------
 \section{Conclusion}
-Ce chapitre a présenté les principales interfaces LMS, illustrant la richesse fonctionnelle de la plateforme. L'ensemble des interfaces développées offre une expérience utilisateur complète, allant de la gestion des objectifs individuels au suivi global des formations, en passant par un système de recommandations personnalisées. Le diagramme de Gantt réel témoigne du respect de la planification et de la bonne gestion temporelle du projet. Cette architecture modulaire permet une adaptation flexible aux besoins spécifiques de chaque organisation tout en maintenant une cohérence ergonomique et fonctionnelle.
+% -------------------------------------------------------
+
+Ce chapitre a présenté l'ensemble des interfaces de la plateforme Webinar TamTam, illustrant la richesse fonctionnelle du système développé. De l'authentification à la clôture de session, en passant par la gestion administrative, le pilotage en temps réel et les outils d'interaction, la plateforme offre une expérience complète et cohérente pour tous les acteurs d'un webinaire. L'architecture modulaire adoptée permet une grande flexibilité d'adaptation aux besoins spécifiques de chaque organisation, tout en maintenant une ergonomie intuitive et une robustesse technique.
