@@ -172,9 +172,41 @@ Les principaux clients de Tamtam International sont les organisations des fiduci
     \label{fig:clients-tamtam}
 \end{figure}
 \section{Présentation du projet de stage}
-Durant mon passage chez Tamtam International, j’ai eu la chance de contribuer à un projet clé reflétant la volonté de l’entreprise de s’adapter aux attentes diversifiées de sa clientèle fiduciaire en Belgique.
 
-\subsection{Contexte général du projet}
+« TamTam Webinar » est de développer une plateforme dédiée à l’apprentissage et à la formation dans le domaine économique de manière globale. Conçue comme un espace interactif, elle intègre un ensemble d’outils permettant aux membres d’une communauté de collaborer, d’échanger, de planifier et de partager efficacement. Cette solution offre à chaque utilisateur la possibilité de suivre des parcours de formation structurés, au terme desquels une certification est délivrée. Ces certifications, reconnues officiellement par le Forum For the Future (FFF) — le congrès annuel rassemblant les professionnels du secteur économique tels que les experts-comptables, les fiscalistes agréés et les conseillers fiscaux — renforcent la crédibilité et la valeur ajoutée de la plateforme.
+
+\subsection{Problématique}
+
+Dans le cadre des émissions live de webinars, le présentateur s'appuie sur des supports PowerPoint pour structurer son intervention et fournit à la régie une variété de ressources (images, articles, affiches d’intervenants, publicités) à publier en temps réel. Par ailleurs, il imprime son script sous format papier pour disposer d’un aide-mémoire lors de l’animation. Cette méthode, bien que fonctionnelle, présente plusieurs limites : fragmentation des outils, risques d’erreurs de synchronisation, manque de flexibilité et dépendance au format papier. Ces pratiques soulèvent un ensemble de problématiques concrètes dans la gestion des webinars :
+
+\begin{itemize}
+    \item Usage excessif du papier pour la planification ou la gestion des interventions, ce qui engendre une perte de temps et un manque d'efficacité.
+    \item Mauvaise organisation des contenus présentés lors des sessions, rendant difficile la coordination entre les intervenants (orateurs, modérateurs).
+    \item Manque de visibilité et de contrôle sur les interfaces affichées aux participants en temps réel (sections de texte, annonces, sondages, etc.).
+    \item Absence d’un système centralisé pour structurer les différentes composantes d’un webinaire, comme les publications, les articles associés, les sondages ou les documents partagés.
+    \item Difficulté à gérer dynamiquement l’affichage des contenus selon les rôles (orateur, modérateur, participant) et les phases du webinaire (introduction, contenu principal, clôture).
+\end{itemize}
+
+Face à ces contraintes, comment concevoir et implémenter une solution numérique intégrée — un prompteur digital — permettant au présentateur de visualiser son script, gérer le déroulé de l’émission et faciliter la coordination avec la régie, tout en centralisant les supports et ressources nécessaires à l’animation en direct ?
+
+\subsection{Objectifs à atteindre}
+
+Pour répondre aux limitations identifiées dans l’organisation et la gestion des émissions live de webinars, une interface de gestion centralisée, appelée Prompteur, a été conçue dans le cadre du projet Tamtam Webinar. Cette solution a pour objectif principal d’optimiser la conduite des webinaires en offrant aux différents intervenants un contrôle complet, en temps réel, sur le déroulement de la session, tout en améliorant la coordination et l’expérience utilisateur. Le prompteur vise à remplacer efficacement les supports papiers et à centraliser les différentes ressources nécessaires à l’animation.
+
+Les objectifs spécifiques du projet sont les suivants :
+\begin{itemize}
+    \item Configurer entièrement une présentation de webinar : chaque intervention est structurée à partir de modèles composés de plusieurs sections et publications, permettant une meilleure organisation des contenus à diffuser tout au long de l’émission.
+    \item Gérer dynamiquement l’affichage en temps réel : offrir à la régie et aux modérateurs une interface simple et intuitive permettant de contrôler, en direct, les éléments visibles par les participants (textes, images, sondages, discussions, etc.).
+    \item Adapter l’interface selon les rôles utilisateurs :
+        \begin{itemize}
+            \item Participants : affichage fluide et ciblé des contenus à visualiser.
+            \item Orateurs : interface conçue comme un script interactif, avec les textes à lire, les documents à partager, et les annonces à effectuer.
+            \item Modérateurs : tableau de bord complet pour superviser et orchestrer l’ensemble de la session.
+        \end{itemize}
+    \item Associer des contenus enrichis à chaque section : possibilité de lier chaque partie de la présentation à des articles, ressources visuelles (images) ou intervenants, afin d'enrichir l'expérience de diffusion.
+    \item Contrôler le temps et la progression du webinar : permettre une meilleure gestion du timing grâce à une vue sur les temps forts, les pauses prévues et les transitions entre les différentes parties du programme.
+    \item Support multilingue (internationalisation) : l’ensemble de l’application a été déployé en trois langues : français, anglais et néerlandais, afin de répondre aux besoins d’un public international.
+\end{itemize}
 
 Tamtam Pro se positionne comme une plateforme belge innovante, dédiée à l'accompagnement des professionnels fiduciaires à travers le pays. La particularité de cette structure réside dans son approche modulaire, où chaque projet répond à des besoins sectoriels distincts, nécessitant une adaptation permanente de la part des équipes techniques.
 
@@ -185,235 +217,321 @@ Cette initiative s'inscrit dans la philosophie d'innovation permanente qui carac
 La création de ces outils répondait à un double impératif :
  \begin{enumerate}
      \item Simplifier les processus métiers exigeants.
-     \item Optimiser le ratio effort/rendement professionnel.
- \end{enumerate}
+    \subsection{Gestion des tâches et suivis}
 
-Structurellement, Tamtam opère actuellement à travers deux pôles complémentaires :
-\begin{itemize}
-    \item oFFcourse.be (équipe d'accueil de mon PFE)
-    \item UnitedAssociate.be
-\end{itemize}
+    \subsubsection{1.4.1 Détails des Tâches}
 
-\subsubsection{Objectifs du projet de fin d'études}
-Mon intervention s'articule autour de deux axes principaux :
- \begin{enumerate}
-     \item L'optimisation des fonctionnalités existantes pour répondre aux nouvelles attentes utilisateurs.
-     \item Le développement d'un système LMS dédié au management des compétences, permettant :\begin{itemize}
-     \item La définition d'objectifs formatifs trimestriels (en heures-crédits).
-   \item Un mécanisme de recommandation intelligente de parcours pédagogiques.
-  \item Le suivi granularisé des progressions individuelles.
-     \end{itemize}
- \end{enumerate}
+    Cette section présente la vue d'ensemble des tâches du projet. La figure ci‑dessous synthétise la planification globale, montrant la répartition des tâches par sprint et la chronologie estimée. Elle permet d'appréhender l'effort total et le séquencement des principaux livrables.
 
-\subsection{Problématique}
-Aujourd’hui, le marché belge de la formation fiduciaire devient de plus en plus concurrentiel, avec des exigences croissantes en matière de suivi et de personnalisation des apprentissages. Face à cette évolution, Tamtam Pro cherche à renforcer son écosystème en y intégrant une nouvelle interface LMS complète, capable de répondre aux besoins spécifiques des fiduciaires.
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Chapters/sprint/totalSprint.png}
+        \caption{Diagramme de Gantt global — répartition des tâches (février -- juin 2026)}
+        \label{fig:gantt-total}
+    \end{figure}
 
-La question centrale se pose alors : comment Tamtam Pro peut-il réussir cette transition vers un système plus performant, tout en gardant son avantage concurrentiel ?
+    \paragraph{Sprint 1 :}
+    Mise en place de l’ajout et de l’affichage d’images liées aux sections dans la régie. Ajout de la gestion des tags, des thèmes et leur liaison avec les modèles de section/publication. Développement des interfaces de configuration avec affichage en tableau dans la régie.
 
-D’une part, il s’agit d’automatiser le suivi des obligations de formation continues, un enjeu clé pour les fiduciaires soumis à des réglementations strictes. D’autre part, le système doit personnaliser les parcours d’apprentissage en fonction des profils métiers, permettant ainsi à chaque collaborateur de progresser efficacement.
+    \begin{table}[h]
+        \centering
+        \caption{Tâches de Sprint 1}
+        \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+            	oprule
+            ID & Nom de la Tâche & Début & Fin & Tâche Précédente \\
+            \midrule
+            T11 & Mise en œuvre d’ajout d’images & 2026-03-10 & 2026-03-12 & Aucune \\
+            T12 & Amélioration de la recherche par tag & 2026-03-13 & 2026-03-14 & T11 \\
+            T13 & Création de thèmes visuels & 2026-03-10 & 2026-03-12 & Aucune \\
+            T14 & Sélection d’images liées aux tags & 2026-03-13 & 2026-03-13 & T11 \\
+            T15 & Association de tags aux images & 2026-03-17 & 2026-03-17 & T14 \\
+            T16 & Ajout du bouton "Afficher plus" & 2026-03-17 & 2026-03-17 & T12 \\
+            T17 & Sélecteur de section & 2026-03-13 & 2026-03-13 & T11 \\
+            T18 & Association thème au webinaire & 2026-03-13 & 2026-03-17 & T13 \\
+            T19 & CRUD des thèmes et liaison avec modèles & 2026-03-18 & 2026-03-21 & T18 \\
+            T111 & Suppression/Modification des tags & 2026-03-18 & 2026-03-19 & T16 \\
+            T112 & Affichage dynamique des images & 2026-03-20 & 2026-03-20 & T111 \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
 
-Enfin, cette solution doit se différencier des plateformes existantes, en offrant une flexibilité accrue et des outils de reporting avancés, adaptés aux réalités opérationnelles des cabinets fiduciaires.
-
-En résumé, le défi consiste à concevoir un LMS qui soit à la fois structuré, personnalisable et intégré harmonieusement dans l’écosystème Tamtam, tout en répondant aux attentes précises des professionnels du secteur.
-
-\subsection{Étude des solutions existantes sur le Marché}
-\label{sec:solutions-existantes}
-
-Dans le domaine des \textbf{Learning Management Systems (LMS)} dédiés aux fiduciaires et aux métiers réglementés, plusieurs solutions se démarquent. Cette analyse comparative permet d'identifier les \textbf{forces et faiblesses} des plateformes concurrentes, tout en mettant en lumière les \textbf{opportunités d'innovation} pour Tamtam Pro.
-
-\subsubsection{Plateformes généralistes (LMS polyvalents)}
-\begin{itemize}
-    \item \textbf{Moodle, LearnDash, TalentLMS}
+    \noindent\textbf{Détails des tâches du Sprint 1 :}
     \begin{itemize}
-        \item[\checkmark] \textbf{Avantages} : flexibilité, personnalisation des parcours, outils de suivi basiques.
-        \item[\texttimes] \textbf{Limites} : non adaptés spécifiquement aux besoins des fiduciaires.
+        \item \textbf{Ajout d’images} : Cliquer sur une icône d’ajout – sélectionner ou rechercher des images – ajouter plusieurs images – sauvegarder pour affichage dans la liste – ajouter des tags personnalisés – suppression de tags ou images.
+        \item \textbf{Afficher plus} : Ajouter la fonctionnalité d’affichage "Afficher plus" pour la pagination; optimiser la récupération des données (fetch) et l'utilisation mémoire côté web.
+        \item \textbf{Association de tags aux images} : Ajouter et lier des tags à chaque image; support multi-tags.
+        \item \textbf{Sélecteur de section} : Liste des sections – sélection d’une ou plusieurs sections – association image–section.
+        \item \textbf{Création de thèmes visuels} : Choix de couleurs – ajout de logos et images de fond – sauvegarde du thème.
+        \item \textbf{Association thème + modèle} : Sélection du thème – application sur un modèle (template) – activation via bouton "Appliquer".
     \end{itemize}
-\end{itemize}
 
-\subsubsection{Solutions spécialisées pour les fiduciaires}
-\begin{itemize}
-    \item \textbf{FiscalTalent (payroll \& legal training)}
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Chapters/sprint/sprint1.png}
+        \caption{Diagramme de Gantt — Sprint 1}
+        \label{fig:gantt-sprint1}
+    \end{figure}
+
+    \paragraph{Sprint 2 :}
+    Ajout et association d’articles aux sections, affichage dans la table de régie, et configuration manuelle de sondages personnalisés.
+
+    \begin{table}[h]
+        \centering
+        \caption{Tâches de Sprint 2}
+        \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+            	oprule
+            ID & Nom de la tâche & Date début & Date fin & Tâche précédente \\
+            \midrule
+            T21 & Intégrer le sélecteur d’articles dans l’interface & 2026-03-24 & 2026-03-25 & Aucune \\
+            T22 & Afficher les articles liés au webinaire & 2026-03-26 & 2026-03-27 & T21 \\
+            T23 & Lister les articles créés par l’orateur & 2026-03-26 & 2026-03-27 & T21 \\
+            T24 & Implémenter la pagination dynamique (20 par 20 + "Voir plus") & 2026-03-28 & 2026-03-28 & T22, T23 \\
+            T25 & Lier les articles sélectionnés au webinaire & 2026-03-31 & 2026-04-01 & T24 \\
+            T26 & Associer un article à une section pour affichage programmé & 2026-04-02 & 2026-04-04 & T25 \\
+            T27 & Configurer l’affichage des articles dans le prompteur régie & 2026-04-07 & 2026-04-07 & T25 \\
+            T28 & Gérer les sondages personnalisés à afficher manuellement & 2026-04-02 & 2026-04-04 & Aucune \\
+            T29 & Sélectionner les sondages par section et afficher dans la régie & 2026-04-03 & 2026-04-04 & T28 \\
+            T211 & Valider globalement les fonctionnalités (tests finaux) & 2026-04-08 & 2026-04-11 & T29 \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+
+    \noindent\textbf{Détails des tâches du Sprint 2 :}
     \begin{itemize}
-        \item[\checkmark] \textbf{Points forts} : contenus préétablis pour les formations fiscales.
-        \item[\texttimes] \textbf{Défis} : rigidité dans la gestion des objectifs
+        \item \textbf{Sélecteur d’articles} : Création d’une icône "ajouter article"; ouverture d’un modal listant les articles disponibles; liaison des articles au webinaire courant (image, titre, description).
+        \item \textbf{Pagination dynamique} : Affichage initial limité à 20 articles; bouton "voir plus" pour charger les suivants (20 par 20); implémentation en lazy loading ou pagination par scroll.
+        \item \textbf{Prompteur régie} : Interface côté régie affichant dynamiquement les articles liés à la section active.
+        \item \textbf{Sondages personnalisés} : Liste des sondages créés manuellement; interface pour modifier/réorganiser; option d’affectation aux sections.
+        \item \textbf{Tests et validation} : Tests unitaires et fonctionnels; tests d’enchaînement des interactions (sélection → sauvegarde → affichage); vérification UX/UI.
     \end{itemize}
-    
-    \item \textbf{Acerta Academy}
+
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Chapters/sprint/sprint2.png}
+        \caption{Diagramme de Gantt — Sprint 2}
+        \label{fig:gantt-sprint2}
+    \end{figure}
+
+    \paragraph{Sprint 3 :}
+    Création de composants de type article, image et orateur (speaker), avec affichage responsif dans la régie et synchronisation avec le prompteur public.
+
+    \begin{table}[h]
+        \centering
+        \caption{Tâches de Sprint 3}
+        \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+            	oprule
+            ID & Nom de la tâche & Date début & Date fin & Tâche précédente \\
+            \midrule
+            T31 & Développer le composant article & 2026-04-14 & 2026-04-17 & Aucune \\
+            T32 & Intégrer le composant article dans l’interface régie & 2026-04-18 & 2026-04-18 & T31 \\
+            T33 & Implémenter le support d’image avec ratio 16/9 & 2026-04-21 & 2026-04-22 & T32 \\
+            T34 & Créer le composant orateur (speaker) & 2026-04-21 & 2026-04-24 & Aucune \\
+            T35 & Intégrer orateur et image dans la régie & 2026-04-25 & 2026-04-25 & T34 \\
+            T36 & Activer l’affichage direct dans le prompteur public & 2026-04-28 & 2026-04-28 & T35 \\
+            T37 & Réaliser les tests et la validation (Release) & 2026-04-29 & 2026-05-02 & T34 \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+
+    \noindent\textbf{Détails des tâches du Sprint 3 :}
     \begin{itemize}
-        \item[\checkmark] \textbf{Atouts} : intégration avec les outils RH
-        \item[\texttimes] \textbf{Faiblesses} : interface peu intuitive.
+        \item Mise en œuvre du composant article : affichage dynamique (titre, description, image).
+        \item Intégration dans la régie : permettre la sélection et gestion en temps réel par l’orateur/modérateur.
+        \item Support d’image 16/9 : compatibilité prompteur et écrans studio.
+        \item Composant orateur (speaker) : informations (nom, organisation, logo, articles associés).
+        \item Liaison prompteur : envoi immédiat au prompteur public lors d’une interaction.
+        \item Tests et validation de la release.
     \end{itemize}
-\end{itemize}
 
-\subsubsection{Analyse des lacunes du marché}
-Les solutions actuelles présentent \textbf{trois principales limites} :
-\begin{enumerate}
-    \item Manque d'adaptation aux cycles trimestriels
-    \item Absence de mécanismes intelligents de recommandation
-    \item Peu de flexibilité dans le suivi des formations hybrides.
-\end{enumerate}
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Chapters/sprint/sprint3.png}
+        \caption{Diagramme de Gantt — Sprint 3}
+        \label{fig:gantt-sprint3}
+    \end{figure}
 
-\subsubsection{Positionnement de Tamtam Pro}
-Pour se différencier, le futur LMS \textbf{« Didier »} devra :
-\begin{itemize}
-    \item[\textbullet] Combler les lacunes des solutions existantes.
-    \item[\textbullet] Offrir une expérience unifiée dans l'écosystème Tamtam.
-    \item[\textbullet] Automatiser le suivi avec personnalisation fine.
+    \paragraph{Sprint 4 :}
+    Déploiement des sondages automatiques selon un timing défini et création d’une télécommande pour permettre aux orateurs de piloter leur contenu affiché (textes, slides, sondages).
 
-\end{itemize}
+    \begin{table}[h]
+        \centering
+        \caption{Tâches de Sprint 4}
+        \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+            	oprule
+            ID & Nom de la tâche & Date début & Date fin & Tâche précédente \\
+            \midrule
+            T41 & Implémenter les sondages automatiques & 2026-05-05 & 2026-05-07 & — \\
+            T42 & Configurer les redirections pour la télécommande & 2026-05-07 & 2026-05-07 & — \\
+            T43 & Connecter les sondages à la régie et section courante & 2026-05-08 & 2026-05-12 & T41 \\
+            T44 & Développer l'interface de la télécommande & 2026-05-08 & 2026-05-09 & T42 \\
+            T45 & Ajouter la consultation des sondages personnalisés & 2026-05-12 & 2026-05-13 & T44 \\
+            T46 & Activer le déclenchement manuel des sondages & 2026-05-14 & 2026-05-14 & T45 \\
+            T47 & Afficher les résultats de sondages dans la télécommande & 2026-05-15 & 2026-05-16 & T46 \\
+            T48 & Intégrer l'affichage des slides dans la télécommande & 2026-05-12 & 2026-05-13 & T44 \\
+            T49 & Implémenter la navigation entre slides depuis la télécommande & 2026-05-14 & 2026-05-15 & T45 \\
+            T411 & Configurer l'affichage dédié dans le prompteur présentateur & 2026-05-16 & 2026-05-16 & T49 \\
+            T412 & Tests et validation finale & 2026-05-19 & 2026-05-23 & T41..T411 \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
 
-\begin{quote}
-\textit{Cette étude confirme l'opportunité stratégique pour Tamtam Pro de développer une solution à la fois spécialisée, intuitive et intégrée, répondant mieux aux attentes des fiduciaires que les alternatives actuelles.}
-\end{quote}
+    \noindent\textbf{Détails des tâches du Sprint 4 :}
+    \begin{itemize}
+        \item Sondages automatiques : création et déclenchement selon délai configuré; affichage automatique en régie et section active.
+        \item Télécommande : interface mobile responsive permettant à l’orateur de contrôler textes, slides et sondages.
+        \item Consultation et déclenchement manuel des sondages depuis la télécommande; affichage des résultats en temps réel.
+        \item Navigation et affichage des slides dans la télécommande; affichage dédié dans le prompteur présentateur.
+        \item Tests finaux et validation de la release.
+    \end{itemize}
 
-\section{Conduite de projet}
-La gestion et la planification de projet constituent le pilier central pour mener à bien toute initiative. Une démarche méthodique s'impose pour structurer l'ensemble des activités, depuis l'identification précise des tâches jusqu'à leur séquencement optimal. Ce processus exige notamment d'évaluer avec justesse la durée nécessaire pour chaque action et d'établir une chronologie rigoureuse des phases. Cette approche disciplinée permet non seulement de cadrer efficacement le déroulement des opérations, mais aussi de maîtriser les délais et d'anticiper les éventuels aléas. Dans le cadre de notre projet LMS, cette méthodologie prend tout son sens pour garantir une implémentation fluide et conforme aux attentes.
-\subsection{Méthodologie de travail}
-Le choix d'une méthodologie adaptée constitue un facteur clé de succès pour tout projet informatique, permettant à l'ensemble des acteurs de collaborer efficacement selon des règles bien définies. Cette sélection stratégique doit répondre précisément aux spécifications du projet tout en garantissant un produit final conforme aux attentes clients. Chez Tamtam International, nous avons opté pour Scrum comme méthodologie de référence, pour plusieurs raisons déterminantes : son efficacité éprouvée dans divers contextes projet, sa capacité à se rapprocher au plus près des besoins clients, sa simplicité de mise en œuvre, et la transparence qu'elle offre sur l'avancement des travaux. Cette approche agile permet non seulement d'optimiser la qualité des livrables, mais aussi de maintenir une visibilité constante sur l'état du projet.
-\subsection{Répartition des rôles}
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Chapters/sprint/sprint4.png}
+        \caption{Diagramme de Gantt — Sprint 4}
+        \label{fig:gantt-sprint4}
+    \end{figure}
 
-Le cadre Scrum distingue trois types de participants :
+    \subsubsection{1.4.2 Diagramme de Gantt}
+    Durant la phase d’intégration, plusieurs sessions de formation et étapes d'installation ont eu lieu. La planification ci-dessous représente la répartition des tâches sur la période ciblée.
+
+    % Fin de la section gestion des tâches et suivis
+
+\paragraph{Sprint 1 :}
+Mise en place de l’ajout et de l’affichage d’images liées aux sections dans la régie. Ajout de la gestion des tags, des thèmes et leur liaison avec les modèles de section/publication. Développement des interfaces de configuration avec affichage en tableau dans la régie.
 
 \begin{table}[h]
-  \centering
-  \caption{Cycle de vie Scrum}
-  \label{tab:cycle-vie-scrum}
-  \begin{tabular}{p{4cm} p{10cm}}
-    \toprule
-    \textbf{Acteur} & \textbf{Description} \\\\
-    \midrule
-    Product Owner &
-      Il est incarné par Monsieur Emmanuel DEGRÈVE.
-      Il apporte l’expertise fonctionnelle et opère les arbitrages indispensables à la priorisation des développements. \\
-      \\
-    \addlinespace
-    Scrum Master &
-      Il est incarné par Madame ELKHROF Leila, membre de l’équipe,
-      et sa mission principale est d’optimiser la capacité de production
-      de l’équipe en l’accompagnant dans une amélioration continue. \\
-      \\
-    \addlinespace
-    Équipe de développement &
-      Elle prend en charge la réalisation du produit (planification,
-      conception, codage, tests, documentation) sans spécialisation des
-      rôles. La particularité d’une équipe Scrum est d’être « auto-organisée »,
-      et donc dépourvue de toute hiérarchie. \\
-    \bottomrule
-  \end{tabular}
+    \centering
+    \caption{Tâches de Sprint 1}
+    \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+        \toprule
+        ID & Nom de la Tâche & Début & Fin & Tâche Précédente \\
+        \midrule
+        T11 & Mise en œuvre d’ajout d’images & 2025-03-10 & 2025-03-12 & Aucune \\
+        T12 & Amélioration de la recherche par tag & 2025-03-13 & 2025-03-14 & T11 \\
+        T13 & Création de thèmes visuels & 2025-03-10 & 2025-03-12 & Aucune \\
+        T14 & Sélection d’images liées aux tags & 2025-03-13 & 2025-03-13 & T11 \\
+        T15 & Association de tags aux images & 2025-03-17 & 2025-03-17 & T14 \\
+        T16 & Ajout du bouton "Afficher plus" & 2025-03-17 & 2025-03-17 & T12 \\
+        T17 & Sélecteur de section & 2025-03-13 & 2025-03-13 & T11 \\
+        T18 & Association thème au webinaire & 2025-03-13 & 2025-03-17 & T13 \\
+        T19 & CRUD des thèmes et liaison avec modèles & 2025-03-18 & 2025-03-21 & T18 \\
+        T111 & Suppression/Modification des tags & 2025-03-18 & 2025-03-19 & T16 \\
+        T112 & Affichage dynamique des images & 2025-03-20 & 2025-03-20 & T111 \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 
-Étant donné que Scrum suit un processus itératif, les unités de temps centrales sont le \textbf{Sprint} et la \textbf{Release}.\\
+\noindent\textbf{Détails des tâches du Sprint 1 :}
+\begin{itemize}
+    \item \textbf{Ajout d’images} : Cliquer sur une icône d’ajout – sélectionner ou rechercher des images – ajouter plusieurs images – sauvegarder pour affichage dans la liste – ajouter des tags personnalisés – suppression de tags ou images.
+    \item \textbf{Afficher plus} : Ajouter la fonctionnalité d’affichage "Afficher plus" pour la pagination; optimiser la récupération des données (fetch) et l'utilisation mémoire côté web.
+    \item \textbf{Association de tags aux images} : Ajouter et lier des tags à chaque image; support multi-tags.
+    \item \textbf{Sélecteur de section} : Liste des sections – sélection d’une ou plusieurs sections – association image–section.
+    \item \textbf{Création de thèmes visuels} : Choix de couleurs – ajout de logos et images de fond – sauvegarde du thème.
+    \item \textbf{Association thème + modèle} : Sélection du thème – application sur un modèle (template) – activation via bouton "Appliquer".
+\end{itemize}
 
-Dans le cadre du projet \textit{Tamtam}, une nouvelle approche est adoptée cette année avec une Release de 6 semaines, au lieu de 4. Cette Release comprend 4 Sprints :\\
-- Deux Sprints principaux de 2 semaines chacun \\
-- Deux Sprints appelés \textit{Sprint-Release} d’une semaine chacun, dédiés à la mise en production, à la finalisation de la documentation, et à la prise en compte des retours des parties prenantes.\\
+\paragraph{Sprint 2 :}
+Ajout et association d’articles aux sections, affichage dans la table de régie, et configuration manuelle de sondages personnalisés.
 
-Le contenu de cette Release est fixé lors d’une réunion de planification initiale, garantissant ainsi son périmètre.
-
-\subsection{Workflow
-}
-Nous explorerons les principes fondamentaux de Scrum, une méthodologie Agile populaire pour
-la gestion de projets. Cela inclut une compréhension approfondie des rôles, des événements et
-des artefacts de Scrum, ainsi qu'une analyse de son workflow typique, qui guide les équipes à
-travers les phases de planification, de développement, de revue et de rétrospective.
-\begin{figure}[htbp]
+\begin{table}[h]
     \centering
-    \includegraphics[width=1\linewidth]{Titre de la présentation[1].pdf.png}
-    \caption{Cycle de vie SCRUM}
-    \label{fig:workflow-scrum}
-\end{figure}
-\subsubsection{Sprint planning:}
-Sprint planning est une étape clé dans la méthodologie agile, particulièrement dans le cadre de
-Scrum. Elle vise à définir le travail à accomplir lors du prochain sprint.
-Figure 11 Sprint Planning meeting
+    \caption{Tâches de Sprint 2}
+    \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+        \toprule
+        ID & Nom de la tâche & Date début & Date fin & Tâche précédente \\
+        \midrule
+        T21 & Intégrer le sélecteur d’articles dans l’interface & 2025-03-24 & 2025-03-25 & Aucune \\
+        T22 & Afficher les articles liés au webinaire & 2025-03-26 & 2025-03-27 & T21 \\
+        T23 & Lister les articles créés par l’orateur & 2025-03-26 & 2025-03-27 & T21 \\
+        T24 & Implémenter la pagination dynamique (20 par 20 + "Voir plus") & 2025-03-28 & 2025-03-28 & T22, T23 \\
+        T25 & Lier les articles sélectionnés au webinaire & 2025-03-31 & 2025-04-01 & T24 \\
+        T26 & Associer un article à une section pour affichage programmé & 2025-04-02 & 2025-04-04 & T25 \\
+        T27 & Configurer l’affichage des articles dans le prompteur régie & 2025-04-07 & 2025-04-07 & T25 \\
+        T28 & Gérer les sondages personnalisés à afficher manuellement & 2025-04-02 & 2025-04-04 & Aucune \\
+        T29 & Sélectionner les sondages par section et afficher dans la régie & 2025-04-03 & 2025-04-04 & T28 \\
+        T211 & Valider globalement les fonctionnalités (tests finaux) & 2025-04-08 & 2025-04-11 & T29 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
-- L'équipe se réunit pour étudier les exigences fonctionnelles.
-- Les fonctionnalités sont divisées en tâches.
-- Chaque tâche est attribuée un point par la méthode du planning poker qui représente sa
-difficulté.
-- Les tâches sont distribuées sur l'ensemble de l'équipe en fonction de l'expertise et des
-compétences de chacun.
-\subsubsection{Sprint review:}
-La Sprint review, dernière étape de chaque sprint Scrum, offre l'opportunité d'examiner
-l'incrément de produit. Elle permet à l'équipe de présenter ses réalisations aux parties prenantes,
-de recueillir leurs retours et d'ajuster le backlog produit en conséquence. Cette réunion favorise
-la transparence et la collaboration, garantissant que le produit évolue de manière alignée sur les
-besoins du client tout au long du processus de développement.\\
-- L'équipe s'assemble pour présenter une démonstration au PO (Product Owner).\\
-- Le PO valide l'état d'avancement et propose des changements.\\
-- Le PO spécifie aussi et explique le BR (Business Requirement) à développer pour le
-prochain sprint.\\
-Durant cette période de stage, nous avions l’habitude d’effectuer deux autres types de réunions :
-\subsubsection{Stand up meeting (Daily scrum meeting):}
-Chaque jour, nous faisions une petite réunion avec le Scrum master, pour savoir ce qui a été
-complété, ce qui est en cours ou planifié, les problèmes et obstacles rencontrés.
+\noindent\textbf{Détails des tâches du Sprint 2 :}
+\begin{itemize}
+    \item \textbf{Sélecteur d’articles} : Création d’une icône "ajouter article"; ouverture d’un modal listant les articles disponibles; liaison des articles au webinaire courant (image, titre, description).
+    \item \textbf{Pagination dynamique} : Affichage initial limité à 20 articles; bouton "voir plus" pour charger les suivants (20 par 20); implémentation en lazy loading ou pagination par scroll.
+    \item \textbf{Prompteur régie} : Interface côté régie affichant dynamiquement les articles liés à la section active.
+    \item \textbf{Sondages personnalisés} : Liste des sondages créés manuellement; interface pour modifier/réorganiser; option d’affectation aux sections.
+    \item \textbf{Tests et validation} : Tests unitaires et fonctionnels; tests d’enchaînement des interactions (sélection → sauvegarde → affichage); vérification UX/UI.
+\end{itemize}
 
-\subsubsection{La réunion de rétrospective (Sprint retrospective):}
-La rétrospective eut lieu juste après la sprint review, pour discuter le feed-back sur ce qui a été
-réalisé, proposer des améliorations du produit, planifier le prochain sprint et assigner les
-nouvelles tâches.
+\paragraph{Sprint 3 :}
+Création de composants de type article, image et orateur (speaker), avec affichage responsif dans la régie et synchronisation avec le prompteur public.
 
-\subsection{Gestion des tâches et suivis}
-Au sein de notre équipe, Notion joue un rôle central dans la gestion, la collaboration et le suivi
-de nos projets. Cet outil polyvalent nous permet de structurer nos tâches, de collaborer de
-manière efficace et de maintenir une visibilité claire sur l'avancement de nos projets. Grâce à ses
-fonctionnalités flexibles, nous pouvons personnaliser notre espace de travail pour répondre aux
-besoins spécifiques de chaque projet, ce qui contribue à une gestion efficace des ressources et à
-une coordination harmonieuse des efforts d'équipe.
-\begin{figure}[hb!]
+\begin{table}[h]
     \centering
-    \includegraphics[width=1\linewidth]{pfeProject.gan_page0.png}
-    \caption{diagramme de gant }
-    \label{fig:gantt-previsionnel}
-\end{figure}
-\subsection{Description du diagramme de Gantt}
+    \caption{Tâches de Sprint 3}
+    \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+        \toprule
+        ID & Nom de la tâche & Date début & Date fin & Tâche précédente \\
+        \midrule
+        T31 & Développer le composant article & 2025-04-14 & 2025-04-17 & Aucune \\
+        T32 & Intégrer le composant article dans l’interface régie & 2025-04-18 & 2025-04-18 & T31 \\
+        T33 & Implémenter le support d’image avec ratio 16/9 & 2025-04-21 & 2025-04-22 & T32 \\
+        T34 & Créer le composant orateur (speaker) & 2025-04-21 & 2025-04-24 & Aucune \\
+        T35 & Intégrer orateur et image dans la régie & 2025-04-25 & 2025-04-25 & T34 \\
+        T36 & Activer l’affichage direct dans le prompteur public & 2025-04-28 & 2025-04-28 & T35 \\
+        T37 & Réaliser les tests et la validation (Release) & 2025-04-29 & 2025-05-02 & T34 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
-Ce diagramme de Gantt présente la planification détaillée du projet sur une période de 5 mois (février à juin 2025), intégrant à la fois les tâches liées au développement du système LMS et d'autres activités de l'équipe Tamtam. La structure reflète l'approche Scrum avec des sprints de 2 semaines.
-
-\textbf{Tâches identifiées dans le diagramme :}
-
-\textbf{Sprint 1-2 (Février - début Mars) - Tâches autour oFFFcourse :}
+\noindent\textbf{Détails des tâches du Sprint 3 :}
 \begin{itemize}
-    \item Configuration de l'environnement de développement
-    \item Maintenance et amélioration des applications existantes (oFFcourse, Blog, etc.)
-    \item Résolution de bugs critiques sur les modules Tamtam
-    \item Mise à jour des dépendances techniques
+    \item Mise en œuvre du composant article : affichage dynamique (titre, description, image).
+    \item Intégration dans la régie : permettre la sélection et gestion en temps réel par l’orateur/modérateur.
+    \item Support d’image 16/9 : compatibilité prompteur et écrans studio.
+    \item Composant orateur (speaker) : informations (nom, organisation, logo, articles associés).
+    \item Liaison prompteur : envoi immédiat au prompteur public lors d’une interaction.
+    \item Tests et validation de la release.
 \end{itemize}
 
-\textbf{Sprint 3-4 (Mi-Mars - début Avril) - Début des tâches LMS :}
+\paragraph{Sprint 4 :}
+Déploiement des sondages automatiques selon un timing défini et création d’une télécommande pour permettre aux orateurs de piloter leur contenu affiché (textes, slides, sondages).
+
+\begin{table}[h]
+    \centering
+    \caption{Tâches de Sprint 4}
+    \begin{tabular}{p{1.2cm} p{6.5cm} p{2.2cm} p{2.2cm} p{2.0cm}}
+        \toprule
+        ID & Nom de la tâche & Date début & Date fin & Tâche précédente \\
+        \midrule
+        T41 & Implémenter les sondages automatiques & 2025-05-05 & 2025-05-07 & — \\
+        T42 & Configurer les redirections pour la télécommande & 2025-05-07 & 2025-05-07 & — \\
+        T43 & Connecter les sondages à la régie et section courante & 2025-05-08 & 2025-05-12 & T41 \\
+        T44 & Développer l'interface de la télécommande & 2025-05-08 & 2025-05-09 & T42 \\
+        T45 & Ajouter la consultation des sondages personnalisés & 2025-05-12 & 2025-05-13 & T44 \\
+        T46 & Activer le déclenchement manuel des sondages & 2025-05-14 & 2025-05-14 & T45 \\
+        T47 & Afficher les résultats de sondages dans la télécommande & 2025-05-15 & 2025-05-16 & T46 \\
+        T48 & Intégrer l'affichage des slides dans la télécommande & 2025-05-12 & 2025-05-13 & T44 \\
+        T49 & Implémenter la navigation entre slides depuis la télécommande & 2025-05-14 & 2025-05-15 & T45 \\
+        T411 & Configurer l'affichage dédié dans le prompteur présentateur & 2025-05-16 & 2025-05-16 & T49 \\
+        T412 & Tests et validation finale & 2025-05-19 & 2025-05-23 & T41..T411 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent\textbf{Détails des tâches du Sprint 4 :}
 \begin{itemize}
-    \item Analyse des besoins fonctionnels du LMS
-    \item Étude des solutions existantes sur le marché
-    \item Conception de l'architecture système
-    \item Définition des user stories et du backlog produit
-    \item Création des maquettes et prototypes UI/UX
+    \item Sondages automatiques : création et déclenchement selon délai configuré; affichage automatique en régie et section active.
+    \item Télécommande : interface mobile responsive permettant à l’orateur de contrôler textes, slides et sondages.
+    \item Consultation et déclenchement manuel des sondages depuis la télécommande; affichage des résultats en temps réel.
+    \item Navigation et affichage des slides dans la télécommande; affichage dédié dans le prompteur présentateur.
+    \item Tests finaux et validation de la release.
 \end{itemize}
 
-\textbf{Sprint 5-6 (Avril) - Développement core LMS :}
-\begin{itemize}
-    \item Implémentation du système d'authentification
-    \item Développement du module de gestion des utilisateurs
-    \item Création de la base de données des formations
-    \item Développement de l'interface d'administration
-\end{itemize}
 
-\textbf{Sprint 7-8 (Mai) - Fonctionnalités avancées LMS :}
-\begin{itemize}
-    \item Implémentation du système de recommandations
-    \item Développement du module de suivi des objectifs trimestriels
-    \item Création des tableaux de bord et reporting
-    \item Intégration avec l'écosystème Tamtam existant
-\end{itemize}
 
-\textbf{Sprint 9-10 (Juin) - Finalisation et déploiement :}
-\begin{itemize}
-    \item Tests d'intégration et de performance
-    \item Documentation technique et utilisateur
-    \item Formation des utilisateurs finaux
-    \item Déploiement en production et mise en ligne
-\end{itemize}
-
-Cette planification montre clairement que le développement du LMS représente environ 70\% du temps total du projet, les 30\% restants étant consacrés aux formations et aux activités de maintenance et d'amélioration de l'écosystème Tamtam existant.
+% Fin de la section gestion des tâches et suivis
 
 \section{Conclusion}
 

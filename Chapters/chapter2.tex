@@ -152,6 +152,40 @@ Responsable d'une organisation avec des privilèges étendus. Il peut gérer les
 Dans cette section, nous plongerons dans l'univers des diagrammes UML. Nous examinerons
 comment chaque type de diagramme peut être utilisé pour modéliser différents aspects d'un
 système logiciel, de la structure des classes à la séquence des interactions entre les objets.
+Cette section présente les principaux diagrammes UML utilisés pour modéliser le module TT Webinar. Nous commençons par une brève description des types de diagrammes, puis présentons les cas d'utilisation par acteur suivis des diagrammes de séquence et de classes.
+
+\subsubsection{Cas d'utilisation par acteur}
+
+Les diagrammes suivants décrivent les principaux cas d'utilisation du module TT Webinar, classés par acteur. Ils illustrent les fonctionnalités accessibles et les interactions attendues pour chaque rôle.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_admin.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Administrateur}
+    \label{fig:webinar-usecase-admin}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_moderateur.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Modérateur}
+    \label{fig:webinar-usecase-moderateur}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_orateur.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Orateur}
+    \label{fig:webinar-usecase-orateur}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{image_webinar/cas_utilisateur_participant.jpg}
+    \caption{Cas d'utilisation du module Webinar --- Participant}
+    \label{fig:webinar-usecase-participant}
+\end{figure}
+
 \subsection{Diagramme Bête à Cornes}
 
 Le diagramme Bête à Cornes nous permet d'analyser la finalité du système en répondant aux questions fondamentales : à qui rend-il service, sur quoi agit-il, et dans quel but.
@@ -421,6 +455,19 @@ Afin d'aligner la conception avec les artefacts du rapport de référence, nous 
     \includegraphics[width=0.95\linewidth]{image_webinar/sequence_webinar.jpg}
     \caption{Diagramme de séquence --- Gestion d'un webinar}
     \label{fig:webinar-seq-main}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image_webinar/sequence_sondage.jpg}
+    \caption{Diagramme de séquence --- Gestion d'un sondage}
+    \label{fig:webinar-seq-sondage}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image_webinar/sequence_telecommande_webinar.jpg}
+    \caption{Diagramme de séquence --- Télécommande / Orateur}
+    \label{fig:webinar-seq-telecommande}
 \end{figure}
 
 \begin{figure}[htbp]
