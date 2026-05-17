@@ -1,22 +1,23 @@
 \chapter{Étude technique}
 \label{chap:technique}
-Ce chapitre est consacré à l’étude technique réalisée pour la mise en œuvre du projet. En
-abordant les besoins techniques, la définition de l’architecture technique du système, et en
+Ce chapitre est consacré à l'étude technique réalisée pour la mise en œuvre du projet. En
+abordant les besoins techniques, la définition de l'architecture technique du système, et en
 présentant par la suite les technologies et les outils utilisés dans la phase de réalisation. Et en
-clôturant par l’illustration des environnements matériels et logiciels utilisés dans le projet ainsi
+clôturant par l'illustration des environnements matériels et logiciels utilisés dans le projet ainsi
 que les outils définis pour supporter la méthodologie de travail.
 
+%------------------------------------------------------------
 \section{Architecture du projet}
 Dans le contexte du développement logiciel, l'architecture d'un projet se réfère à la structure et à
 l'organisation des principaux composants du système, ainsi qu'à la manière dont ils interagissent
 entre eux. Elle englobe divers aspects, tels que la stratégie commerciale, les attributs de qualité,
-la dynamique humaine, la conception et l'environnement informatique. 
+la dynamique humaine, la conception et l'environnement informatique.
+
 \subsection{Architecture physique}
 
 L'architecture technique du système LMS repose sur une infrastructure moderne et scalable, conçue pour supporter les exigences des fiduciaires belges. Notre solution combine robustesse et flexibilité grâce aux composants suivants :
 
-\begin{table}
-
+\begin{table}[htbp]
 \centering
 \begin{tabular}{|p{3cm}|p{10cm}|}
 \hline
@@ -29,116 +30,88 @@ L'architecture technique du système LMS repose sur une infrastructure moderne e
 \end{tabular}
 \end{table}
 
-\begin{figure}[tp!]
+\begin{figure}[htbp]
 \centering
-    \includegraphics[width=0.8\linewidth]{lmsstructure.png}
-\caption{Architecture technique du système LMS Didier}
+\includegraphics[width=0.8\linewidth]{lmsstructure.png}
+\caption{Architecture technique du système Webinar Didier}
 \label{fig:archi-tech}
 \end{figure}
 \newpage
+
 \subsection{Architecture logique}
-L’architecture logique décrit comment le code est organisé ainsi que les standards de
-programmation suivi au sein de l’environnement TAMTAM
+L'architecture logique décrit comment le code est organisé ainsi que les standards de
+programmation suivis au sein de l'environnement TAMTAM.
+
 \subsubsection{Modèle MVC amélioré}
 Notre implémentation du pattern MVC intègre des bonnes pratiques spécifiques au contexte LMS :
 
-
 \begin{figure}[ht!]
 \centering
-    \includegraphics[width=1\linewidth]{mvc.png}
+\includegraphics[width=1\linewidth]{mvc.png}
 \caption{Flow MVC adapté pour le LMS}
 \label{fig:mvc-flow}
 \end{figure}
 
 \begin{itemize}
-\item \textbf{Modèle} : 
+\item \textbf{Modèle} :
 \begin{itemize}
 \item Couche métier enrichie pour gérer les règles complexes de calcul des heures de formation
 \item Validation stricte des données pédagogiques
 \end{itemize}
-
-\item \textbf{Vue} : 
+\item \textbf{Vue} :
 \begin{itemize}
 \item Génération dynamique des interfaces en fonction des droits utilisateur
 \item Templates adaptatifs pour différents devices
 \end{itemize}
-
-\item \textbf{Contrôleur} : 
+\item \textbf{Contrôleur} :
 \begin{itemize}
 \item Gestion centralisée des exceptions métier
 \item Journalisation détaillée des actions sensibles
 \end{itemize}
 \end{itemize}
 
-
-
 \subsubsection{Structure du projet}
-Nous avons conçu l’architecture de notre projet en respectant l’architecture logique que nous
-avons établie lors de l’étude technique. Notre application est divisée en 2 parties, coté BackEnd et coté Front-end, on va essayer de présenter les dossiers et les répertoires de projet et leurs
-fonctionnalités par rapport à l’objectif de projet LMS.
+Nous avons conçu l'architecture de notre projet en respectant l'architecture logique établie lors de l'étude technique. Notre application est divisée en deux parties : côté Back-end et côté Front-end. Nous allons présenter les dossiers et les répertoires du projet ainsi que leurs fonctionnalités par rapport à l'objectif du projet LMS.
+
 \paragraph{Architecture logique complète}
 La structure du projet LMS s'articule autour d'une architecture modulaire qui sépare clairement les responsabilités entre le back-end et le front-end, tout en maintenant une cohésion fonctionnelle optimale.
 
-
-\begin{figure}[p!]
+\begin{figure}[htbp]
 \centering
-    \includegraphics[width=0.8\linewidth]{logique.png}
+\includegraphics[width=0.8\linewidth]{logique.png}
 \caption{Structure logique du projet LMS}
 \label{fig:structure-projet}
 \end{figure}
 \newpage
+
 \paragraph{Côté Back-end}
-La partie back-end est centralisée dans une grande API qui contient plusieurs bundles. Chaque projet TAMTAM se représente par un bundle, ce dernier étant un ensemble de fichiers et de répertoires permettant d'implémenter les fonctionnalités d'une application précise. Dans le cas de ce projet, le back-end de l'application est représenté par le EventBundle situé sous le dossier src/TTP.
+La partie back-end est centralisée dans une grande API qui contient plusieurs bundles. Chaque projet TAMTAM se représente par un bundle, ce dernier étant un ensemble de fichiers et de répertoires permettant d'implémenter les fonctionnalités d'une application précise. Dans le cas de ce projet, le back-end est représenté par le \texttt{EventBundle} situé sous le dossier \texttt{src/TTP}.
 
 Voici une description de quelques dossiers du Bundle EventBundle :
 
 \begin{itemize}
-\item \textbf{Repository} : Un repository est un fichier qui contient les requêtes qui demandent des jointures complexes, le but étant de les réutiliser afin d'éviter les duplications du code.
-
+\item \textbf{Repository} : Contient les requêtes avec jointures complexes, réutilisables pour éviter les duplications de code.
 \item \textbf{Resources} : Contient plusieurs fichiers de configuration de l'application en format YAML.
-
-\item \textbf{Controller} : Un contrôleur est un fichier qui gère les requêtes HTTP et coordonne les interactions entre les différentes couches de l'application.
-
-\item \textbf{Service} : Un service est simplement un objet PHP qui remplit une ou plusieurs fonctions associées à une configuration.
-
-\item \textbf{Entity} : Dans ce dossier, on trouve toutes les entités de notre projet, autrement dit, les tables dans notre base de données.
-
-\item \textbf{Event} : Ce dossier contient tous les événements qui seront déclenchés selon une action effectuée par l'utilisateur.
-
-\item \textbf{Utils} : Dossier contenant des classes ayant des méthodes utiles prédéfinies qu'on peut utiliser.
-
-\item \textbf{Tests} : Le dossier contenant les tests fonctionnels et unitaires de l'application ainsi qu'un dossier DataFixtures pour générer des données factices pour les tests.
-
-\item \textbf{Validator} : Pour la validation des attributs de l'entité, soit par filtrage, soit par rôle.
+\item \textbf{Controller} : Gère les requêtes HTTP et coordonne les interactions entre les différentes couches de l'application.
+\item \textbf{Service} : Un objet PHP remplissant une ou plusieurs fonctions associées à une configuration.
+\item \textbf{Entity} : Contient toutes les entités du projet, c'est-à-dire les tables de la base de données.
+\item \textbf{Event} : Contient tous les événements déclenchés selon les actions de l'utilisateur.
+\item \textbf{Utils} : Classes utilitaires avec des méthodes prédéfinies réutilisables.
+\item \textbf{Tests} : Tests fonctionnels et unitaires, ainsi qu'un dossier DataFixtures pour les données de test.
+\item \textbf{Validator} : Validation des attributs des entités, par filtrage ou par rôle.
 \end{itemize}
 
-Entités principales dans le systeme LMS :
+Entités principales dans le système LMS :
 \begin{itemize}
-\item \textbf{Entity} : 
-\begin{itemize}
-\item \texttt{TrainingGoal} - Objectifs de formation
-\item \texttt{Recommendation} - Suggestions pédagogiques
-\item \texttt{Quarter} - Périodes trimestrielles
-\end{itemize}
-\item \textbf{Repository} : 
-\begin{itemize}
-\item Requêtes optimisées pour les rapports de progression
-\item Jointures complexes pour le suivi des heures
-\end{itemize}
-\item \textbf{Service} : 
-\begin{itemize}
-\item Calcul automatique des heures validées
-\item Gestion des recommandations
-\end{itemize}
+\item \texttt{TrainingGoal} — Objectifs de formation
+\item \texttt{Recommendation} — Suggestions pédagogiques
+\item \texttt{Quarter} — Périodes trimestrielles
 \end{itemize}
 
 \paragraph{Côté Front-end}
-Notre projet Next.js 13.4 adopte l'approche de colocation pour s'aligner avec la nouvelle architecture Next.js. La colocation est une fonctionnalité de Next.js 13.4 qui nous permet d'organiser les fichiers et dossiers de notre projet de manière logique pour notre application.
+Notre projet Next.js 13.4 adopte l'approche de colocation pour s'aligner avec la nouvelle architecture Next.js. Nous utilisons la convention \texttt{kebab-case} pour nommer les fichiers et dossiers, et travaillons avec TypeScript.
 
-Nous utilisons la convention `kebab-case` pour nommer nos fichiers et dossiers, ce qui signifie que nous utilisons des tirets pour séparer les mots dans les noms de fichiers et de dossiers. Nous travaillons également avec TypeScript.
-
-La structure de dossiers de notre projet est la suivante :
-
+La structure de dossiers du projet est la suivante :
 \begin{itemize}
 \item \textbf{src/} : dossier racine de l'application.
 \item \textbf{src/app/[lang]/feature/} : code d'une fonctionnalité (page, composants, hooks, services, constantes, types).
@@ -152,67 +125,23 @@ La structure de dossiers de notre projet est la suivante :
 \item \textbf{src/middleware.ts} : logique middleware (authentification, autorisation, redirections).
 \end{itemize}
 
-
-Architecture moderne de l'application Next.js :
-\begin{itemize}
-\item \textbf{App Router} : 
-\begin{itemize}
-\item Routage basé sur les fichiers
-\item Chargement intelligent des composants
-\end{itemize}
-\item \textbf{Colocation} : 
-\begin{itemize}
-\item Organisation par fonctionnalité
-\item Composants auto-suffisants
-\end{itemize}
-\end{itemize}
+%------------------------------------------------------------
 \section{Qualité de code}
 
 \subsection{Outils de linting}
 Nous appliquons une discipline stricte de qualité de code avec :
-
 \begin{itemize}
-\item \textbf{ESLint} : 
-\begin{itemize}
-\item Configuration personnalisée basée sur Airbnb
-\item Détection des patterns problématiques
-\item Règles TypeScript strictes
-\end{itemize}
-
-\item \textbf{Prettier} : 
-\begin{itemize}
-\item Formatage automatique du code
-\item Configuration partagée en équipe
-\end{itemize}
-
-\item \textbf{Stylelint} : 
-\begin{itemize}
-\item Cohérence CSS/SCSS
-\item Bonnes pratiques de style
-\end{itemize}
+\item \textbf{ESLint} : Configuration personnalisée basée sur Airbnb, détection des patterns problématiques, règles TypeScript strictes.
+\item \textbf{Prettier} : Formatage automatique du code avec configuration partagée en équipe.
+\item \textbf{Stylelint} : Cohérence CSS/SCSS et bonnes pratiques de style.
 \end{itemize}
 
 \subsection{Git Hooks}
 Automatisation des vérifications via Husky :
-
 \begin{itemize}
-\item \textbf{pre-commit} : 
-\begin{itemize}
-\item Exécution de lint-staged
-\item Vérification des types TypeScript
-\end{itemize}
-
-\item \textbf{commit-msg} : 
-\begin{itemize}
-\item Validation du format Conventional Commits
-\item Exemple : \texttt{feat(lms): ajout calcul heures trimestrielles}
-\end{itemize}
-
-\item \textbf{pre-push} : 
-\begin{itemize}
-\item Exécution des tests unitaires
-\item Vérification de la build
-\end{itemize}
+\item \textbf{pre-commit} : Exécution de lint-staged et vérification des types TypeScript.
+\item \textbf{commit-msg} : Validation du format Conventional Commits. Exemple : \texttt{feat(lms): ajout calcul heures trimestrielles}.
+\item \textbf{pre-push} : Exécution des tests unitaires et vérification de la build.
 \end{itemize}
 
 \subsection{Conventional Commits}
@@ -231,189 +160,147 @@ Standardisation des messages de commit :
 \texttt{chore} & Tâches de maintenance \\ \hline
 \end{longtable}
 
+%------------------------------------------------------------
 \section{Spécification technologique}
 Pour décrire les spécifications technologiques de notre application, nous allons présenter les
-technologies utilisées dans le développement. 
-\subsection{Back-end}
+technologies utilisées dans le développement.
 
-% \begin{itemize}
-% \item \textbf{Symfony 6} : 
-% \begin{itemize}
-% \item Architecture modulaire
-% \item Sécurité renforcée
-% \end{itemize}
+\subsection{Outils de développement}
 
-% \item \textbf{Doctrine} : 
-% \begin{itemize}
-% \item ORM performant
-% \item Migrations structurées
-% \end{itemize}
+% ==============================================================
+% MACRO : logo à gauche + titre + texte à droite (style image)
+% ==============================================================
+\newcommand{\techitem}[4][l]{%
+\noindent
+\begin{minipage}[t]{0.18\textwidth}
+    \raggedright
+    \vspace{0pt}
+    \includegraphics[width=0.90\linewidth]{#2}\\[4pt]
+    {\small\textit{Figure : logo #3}}
+\end{minipage}%
+\hspace{0.04\textwidth}%
+\begin{minipage}[t]{0.75\textwidth}
+    \vspace{0pt}
+    {\large $\clubsuit$ \quad \textbf{#3 :}}\\[6pt]
+    #4
+\end{minipage}
+\vspace{1.2em}
+}
 
-% \item \textbf{API REST} : 
-% \begin{itemize}
-% \item Documentation Swagger
-% \item Versioning sémantique
-% \end{itemize}
-% \end{itemize}
+% ---- Node.js ----
+\techitem{Chapters/img/nodejs.png}{Node.JS}{%
+Node.js est \underline{une plateforme de développement JavaScript intégrant un serveur HTTP}.
+Son fonctionnement se base sur une boucle événementielle qui lui permet le support de fortes montées en charge.
+Dans notre projet, Node.js est utilisé pour bâtir des APIs légères, des services en temps réel
+et des outils d'automatisation (scripts, watchers, serveurs de développement).%
+}
 
-% \subsection{Front-end}
+% ---- React.js ----
+\techitem{Chapters/img/react.png}{React.js}{%
+React.js est une bibliothèque JavaScript dédiée à la construction d'interfaces utilisateur réactives et modulaires.
+Son modèle basé sur les composants favorise la réutilisabilité et la maintenabilité du code front-end.
+Dans notre contexte Webinar, il facilite la conception d'écrans interactifs et la gestion d'états complexes
+via le Virtual DOM.%
+}
 
-% \begin{itemize}
-% \item \textbf{Next.js 13} : 
-% \begin{itemize}
-% \item Rendu hybride
-% \item Optimisations intégrées
-% \end{itemize}
+% ---- Meteor.js ----
+\techitem{Chapters/img/metor.png}{Meteor.js}{%
+Meteor.js est une plateforme JavaScript full-stack qui simplifie le développement d'applications en temps réel.
+Elle fournit un environnement unifié client/serveur et utilise le protocole DDP pour la synchronisation des données.
+Dans le cadre du LMS, Meteor est utilisé pour les fonctionnalités collaboratives en temps réel
+(chat, notifications, synchronisation d'état).%
+}
 
-% \item \textbf{React Query} : 
-% \begin{itemize}
-% \item Gestion du cache
-% \item Synchronisation en background
-% \end{itemize}
+% ---- Symfony ----
+\techitem{logos/symfony.png}{Symfony Framework}{%
+Symfony est un framework PHP de développement d'applications web fournissant une architecture MVC robuste
+et des composants réutilisables. Il offre un routing flexible, un conteneur d'injection de dépendances,
+un système de templating Twig, et de nombreux bundles. Sa philosophie DRY (\textit{Don't Repeat Yourself})
+favorise la réutilisabilité du code et réduit les erreurs de développement.%
+}
 
-% \item \textbf{Tailwind CSS} : 
-% \begin{itemize}
-% \item Design system cohérent
-% \item Personnalisation aisée
-% \end{itemize}
-% \end{itemize}
+% ---- Doctrine ----
+\techitem{logos/doctrine.png}{Doctrine}{%
+Doctrine est un ORM (Object-Relational Mapping) pour PHP permettant de manipuler les entités de la base de données.
+Il est livré par défaut avec Symfony et crée l'illusion d'une base de données orientée objet à partir d'une
+base de données relationnelle en définissant des correspondances entre les deux mondes.%
+}
 
+% ---- PHPUnit ----
+\techitem{logos/phpunit.png}{PHPUnit}{%
+PHPUnit est un framework open source de tests unitaires dédié au langage PHP.
+Il permet l'implémentation de tests de régression en vérifiant que les exécutions correspondent aux
+assertions prédéfinies. Les appels aux services, bases de données ou fichiers sont simulés (\textit{mocked})
+afin d'assurer des tests vraiment unitaires.%
+}
 
-% \subsubsection{Autres composants}
+% ---- Swagger ----
+\techitem{logos/swagger.png}{Swagger / OpenAPI}{%
+Swagger est un ensemble d'outils open source permettant de concevoir, documenter et consommer des services web REST.
+Il utilise la spécification OpenAPI pour décrire les APIs de manière standardisée et génère une documentation
+interactive permettant de tester les endpoints directement depuis l'interface web.%
+}
 
-\paragraph{Doctrine}
-\begin{wrapfigure}{l}{0.15\textwidth}
-\centering
-\includegraphics[width=0.12\textwidth]{logos/doctrine.png}
-\caption{Logo Doctrine}
-\label{fig:doctrine}
-\end{wrapfigure}
+% ---- Next.js ----
+\techitem{logos/next.png}{Next.js}{%
+Next.js est un framework React de nouvelle génération permettant de créer des applications web modernes
+avec un rendu côté serveur (SSR) et une génération de sites statiques (SSG) optimisée.
+Son App Router introduit les Server Components, le routage automatique basé sur les fichiers,
+et le support natif de TypeScript.%
+}
 
-\textbf{Doctrine} est un ORM (couche d'abstraction à la base de données) pour PHP pour manipuler nos entités. Il s'agit d'un logiciel libre sous licence GNU/GPL. Doctrine est livré par défaut du Framework Symfony.
+% ---- TypeScript ----
+\techitem{logos/Typescript_logo_2020.png}{TypeScript}{%
+TypeScript est un sur-ensemble typé de JavaScript qui compile vers du JavaScript standard.
+Il apporte un système de types statiques permettant de détecter les erreurs à la compilation
+plutôt qu'à l'exécution. Dans notre projet, TypeScript est utilisé côté front-end pour améliorer
+la maintenabilité, la lisibilité et la robustesse du code.%
+}
 
-Un mapping objet-relationnel (en anglais object-relational mapping ou ORM) est une technique de programmation informatique qui crée l'illusion d'une base de données orientée objet à partir d'une base de données relationnelle en définissant des correspondances entre cette base de données et les objets du langage utilisé. On pourrait le désigner par « correspondance entre monde objet et monde relationnel ».
-
-\paragraph{PHPUnit}
-\begin{wrapfigure}{r}{0.15\textwidth}
-\centering
-\includegraphics[width=0.3\textwidth]{logos/phpunit.png}
-\caption{Logo PHPUnit}
-\label{fig:phpunit}
-\end{wrapfigure}
-
-Afin d'améliorer la qualité du projet on a adopté une méthode qui consiste à faire des tests unitaires et fonctionnels pour chaque traitement.
-
-\textbf{PHPUnit} est un framework open source de tests unitaires dédié au langage de programmation PHP. Il permet l'implémentation de tests de régression en vérifiant que les exécutions correspondent aux assertions prédéfinies.
-
-Un test unitaire doit être véritablement unitaire. Pour cela, les appels aux services, aux bases de données ou aux systèmes de fichiers doivent être simulés (mocked). PHPUnit fournit des outils pour créer ces simulations et vérifier leur utilisation correcte.
-
-\paragraph{Swagger/OpenAPI}
-\begin{wrapfigure}{l}{0.15\textwidth}
-\centering
-\includegraphics[width=0.3\textwidth]{logos/swagger.png}
-\caption{Logo Swagger}
-\label{fig:swagger}
-\end{wrapfigure}
-
-\textbf{Swagger} est un ensemble d'outils open source qui permet de concevoir, construire, documenter et consommer des services web REST. Il facilite la documentation automatique des APIs et améliore la collaboration entre les équipes.
-
-Swagger utilise la spécification OpenAPI pour décrire les APIs REST de manière standardisée. Il génère une documentation interactive qui permet aux développeurs de tester les endpoints directement depuis l'interface web. Cette approche améliore considérablement l'expérience de développement et facilite l'intégration entre les équipes front-end et back-end.
-
-\paragraph{Symfony Framework}
-\begin{wrapfigure}{r}{0.15\textwidth}
-\centering
-\includegraphics[width=0.12\textwidth]{logos/symfony.png}
-\caption{Logo Symfony}
-\label{fig:symfony}
-\end{wrapfigure}
-
-\textbf{Symfony} est un framework PHP de développement d'applications web. Il fournit une architecture MVC robuste et des composants réutilisables qui accélèrent le développement et garantissent la maintenabilité du code.
-
-Symfony suit les meilleures pratiques de développement PHP et implémente de nombreux design patterns. Il offre un système de routing flexible, un container d'injection de dépendances, un système de templating Twig, et de nombreux bundles pour étendre les fonctionnalités. Sa philosophie "Don't Repeat Yourself" (DRY) favorise la réutilisabilité du code et réduit les erreurs de développement.
-
-\paragraph{Next.js}
-\begin{wrapfigure}{l}{0.15\textwidth}
-\centering
-\includegraphics[width=0.25\textwidth]{logos/next.png}
-\caption{Logo Next.js}
-\label{fig:nextjs}
-\end{wrapfigure}
-
-\textbf{Next.js} est un framework React de nouvelle génération qui permet de créer des applications web modernes avec un rendu côté serveur et une génération de sites statiques optimisée pour les performances.
-
-Next.js offre de nombreuses fonctionnalités avancées comme le routing automatique basé sur les fichiers, le rendu hybride (SSR/SSG), l'optimisation automatique des images, le code splitting intelligent, et le support natif de TypeScript. Son App Router introduit une nouvelle approche de l'architecture React avec les Server Components et la colocation des fichiers.
-
-\paragraph{Meteor.js}
-\begin{wrapfigure}{l}{0.15\textwidth}
-\centering
-\includegraphics[width=0.25\textwidth]{img/metor.png}
-\caption{Logo Meteor.js}
-\label{fig:meteorjs}
-\end{wrapfigure}
-\textbf{Meteor.js} est une plateforme full-stack JavaScript qui accélère le développement d'applications web en temps réel. Elle intègre nativement le client, le serveur et la base de données pour offrir une expérience de développement unifiée.
-
-Meteor.js simplifie la synchronisation des données grâce au protocole DDP et permet une mise à jour automatique de l'interface côté client. Cette approche est particulièrement utile pour les modules collaboratifs et les fonctionnalités nécessitant des interactions en temps réel.
-
-\paragraph{React.js}
-\textbf{React.js} est une bibliothèque JavaScript dédiée à la construction d'interfaces utilisateur réactives et modulaires. Son modèle basé sur les composants favorise la réutilisabilité et la maintenabilité du code front-end.
-
-React.js permet de créer des interfaces dynamiques avec un rendu efficace via le Virtual DOM. Dans notre contexte LMS, il facilite la conception d'écrans interactifs, la gestion d'états complexes et l'amélioration de l'expérience utilisateur.
-
-\paragraph{TypeScript}
-\begin{wrapfigure}{r}{0.15\textwidth}
-\centering
-\includegraphics[width=0.12\textwidth]{logos/Typescript_logo_2020.png}
-\caption{Logo TypeScript}
-\label{fig:typescript}
-\end{wrapfigure}
-
-\textbf{TypeScript} est un sur-ensemble de JavaScript développé par Microsoft qui ajoute un système de typage statique optionnel au langage. Il permet d'écrire du code plus robuste et maintenable en détectant les erreurs lors de la compilation.
-
-TypeScript améliore l'expérience de développement grâce à l'autocomplétion intelligente, la refactorisation sécurisée, et la documentation automatique du code. Il est particulièrement utile dans les projets de grande envergure où la collaboration entre développeurs est cruciale. Le code TypeScript est transcompilé en JavaScript standard, garantissant ainsi une compatibilité totale avec l'écosystème JavaScript existant.
-\section{Processus d'intégration continue}
-
+%------------------------------------------------------------
 \subsection{GitHub Actions}
 Pipeline automatisé avec :
-
 \begin{itemize}
 \item \textbf{Tests unitaires} : Exécution sur chaque push
 \item \textbf{Analyse de code} : Vérification des vulnérabilités
 \item \textbf{Déploiement} : Mise en production conditionnelle
 \end{itemize}
 
-Le processus d'intégration continue du LMS Didier garantit la qualité et la fiabilité de chaque déploiement grâce à un pipeline automatisé sophistiqué.
+Le processus d'intégration continue du LMS Didier garantit la qualité et la fiabilité de chaque déploiement
+grâce à un pipeline automatisé sophistiqué.
 
 \begin{figure}[htbp]
 \centering
-        \includegraphics[width=0.8\linewidth]{pipeline.png}
+\includegraphics[width=0.8\linewidth]{pipeline.png}
 \caption{Pipeline GitHub Actions automatisé}
 \label{fig:cicd-pipeline}
 \end{figure}
+
 \subsection{Release automation}
 Gestion sémantique des versions avec \texttt{release-it} :
-
 \begin{itemize}
 \item \textbf{Changelog} : Génération automatique
 \item \textbf{Versioning} : Respect de SemVer
 \item \textbf{GitHub Releases} : Publication automatisée
 \end{itemize}
 
+%------------------------------------------------------------
 \section{Architecture de déploiement}
 
 \subsection{Infrastructure de production}
 
-L'architecture de déploiement du LMS Didier privilégie la haute disponibilité et la performance pour répondre aux exigences critiques des fiduciaires belges. Notre infrastructure est conçue pour supporter une montée en charge progressive tout en maintenant une qualité de service optimale.
-\begin{figure}[htbp]
-% \begin{figure}[ht!]
-\hspace{1.5cm}
-    \includegraphics[width=1.2\linewidth ,right]{Chapters/production.png}
+L'architecture de déploiement du LMS Didier privilégie la haute disponibilité et la performance
+pour répondre aux exigences critiques des fiduciaires belges. Notre infrastructure est conçue pour
+supporter une montée en charge progressive tout en maintenant une qualité de service optimale.
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.0\linewidth]{Chapters/production.png}
 \caption{Architecture de déploiement haute disponibilité}
 \label{fig:deployment-arch}
 \end{figure}
 
 \subsection{Caractéristiques de l'infrastructure}
-
 \begin{itemize}
 \item \textbf{Haute disponibilité} : Redondance à tous les niveaux pour éliminer les points de défaillance unique
 \item \textbf{Scalabilité horizontale} : Ajout transparent de serveurs selon la charge
@@ -423,5 +310,11 @@ L'architecture de déploiement du LMS Didier privilégie la haute disponibilité
 \item \textbf{Sauvegarde automatisée} : Protection des données critiques avec snapshots réguliers
 \end{itemize}
 
+%------------------------------------------------------------
 \section{Conclusion}
-L'architecture technique du LMS Didier combine performance et maintenabilité grâce à des choix technologiques éprouvés et une infrastructure moderne. Les diagrammes présentés illustrent la robustesse de notre approche, depuis l'architecture physique jusqu'au déploiement en production. Les outils de qualité et d'intégration continue garantissent la pérennité du code, tandis que l'architecture de déploiement assure une disponibilité optimale pour les utilisateurs finaux. Le chapitre suivant détaillera les aspects spécifiques de l'implémentation.
+L'architecture technique du projet TT Webinar combine performance et maintenabilité grâce à des choix
+technologiques éprouvés et une infrastructure moderne. Les diagrammes présentés illustrent la robustesse
+de notre approche, depuis l'architecture physique jusqu'au déploiement en production. Les outils de qualité
+et d'intégration continue garantissent la pérennité du code, tandis que l'architecture de déploiement assure
+une disponibilité optimale pour les utilisateurs finaux. Le chapitre suivant détaillera les aspects spécifiques
+d'implémentation du projet TT Webinar.
