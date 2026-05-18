@@ -38,110 +38,201 @@ L'architecture technique du système LMS repose sur une infrastructure moderne e
 \end{figure}
 \newpage
 
+%------------------------------------------------------------
 \subsection{Architecture logique}
-L'architecture logique décrit comment le code est organisé ainsi que les standards de
-programmation suivis au sein de l'environnement TAMTAM.
 
-\subsubsection{Modèle MVC amélioré}
-Notre implémentation du pattern MVC intègre des bonnes pratiques spécifiques au contexte LMS :
-
-\begin{figure}[ht!]
-\centering
-\includegraphics[width=1\linewidth]{mvc.png}
-\caption{Flow MVC adapté pour le LMS}
-\label{fig:mvc-flow}
-\end{figure}
-
-\begin{itemize}
-\item \textbf{Modèle} :
-\begin{itemize}
-\item Couche métier enrichie pour gérer les règles complexes de calcul des heures de formation
-\item Validation stricte des données pédagogiques
-\end{itemize}
-\item \textbf{Vue} :
-\begin{itemize}
-\item Génération dynamique des interfaces en fonction des droits utilisateur
-\item Templates adaptatifs pour différents devices
-\end{itemize}
-\item \textbf{Contrôleur} :
-\begin{itemize}
-\item Gestion centralisée des exceptions métier
-\item Journalisation détaillée des actions sensibles
-\end{itemize}
-\end{itemize}
-
-\subsubsection{Structure du projet}
-Nous avons conçu l'architecture de notre projet en respectant l'architecture logique établie lors de l'étude technique. Notre application est divisée en deux parties : côté Back-end et côté Front-end. Nous allons présenter les dossiers et les répertoires du projet ainsi que leurs fonctionnalités par rapport à l'objectif du projet LMS.
-
-\paragraph{Architecture logique complète}
-La structure du projet LMS s'articule autour d'une architecture modulaire qui sépare clairement les responsabilités entre le back-end et le front-end, tout en maintenant une cohésion fonctionnelle optimale.
+Grâce à son architecture unifiée, Meteor permet de structurer les projets de manière modulaire,
+en isolant clairement la logique métier des composants techniques. Cette séparation facilite non
+seulement la maintenabilité de l'application, mais aussi son évolutivité : les développeurs peuvent
+faire évoluer l'interface utilisateur, changer de base de données ou intégrer de nouveaux services
+externes sans impacter le cœur fonctionnel. Par ailleurs, Meteor propose une synchronisation en
+temps réel des données entre le client et le serveur grâce à son moteur de
+publication/abonnement, ce qui permet de créer des applications interactives et réactives sans
+effort supplémentaire. Cette approche réduit considérablement la complexité de gestion des flux
+de données et améliore l'expérience utilisateur.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.8\linewidth]{logique.png}
-\caption{Structure logique du projet LMS}
-\label{fig:structure-projet}
+\includegraphics[width=0.85\linewidth]{Chapters/architecture/architecture_webinar.png}
+\caption{Architecture globale du système Webinar}
+\label{fig:archi-globale}
+\end{figure}
+
+%------ 3.1.1 ------
+\subsubsection{L'architecture Client-Serveur sous MeteorJS}
+
+Nous avons implémenté l'architecture client-serveur via l'utilisation du Framework Meteor JS
+pour le développement de notre plateforme. Voici quelques caractéristiques qui rendent
+Meteor JS particulièrement adapté à notre contexte :
+
+\begin{itemize}
+    \item \textbf{Simplicité et haute productivité} : Grâce à sa réactivité et à son implication
+    intelligente, Meteor nécessite beaucoup moins de code que les autres frameworks pour
+    effectuer les mêmes tâches.
+
+    \item \textbf{Un langage unique} : Les parties client et serveur de l'application sont écrites
+    dans le même langage JavaScript en utilisant le même framework, pouvant cohabiter
+    dans un seul fichier.
+
+    \item \textbf{Base de données omniprésente} : Que ce soit côté serveur ou client, les mêmes
+    méthodes accèdent à la base de données MongoDB.
+
+    \item \textbf{Données sur la ligne} : Contrairement à PHP et ses frameworks, Meteor n'envoie
+    pas de code HTML mais des données, laissant au client le soin d'effectuer le rendu de
+    l'application.
+
+    \item \textbf{Compensation de latence} : Sur le client, Meteor récupère les données d'une base
+    de données locale pour donner l'impression que les appels de méthode serveur sont
+    renvoyés instantanément.
+
+    \item \textbf{Réactivité de bout en bout} : Le temps réel est la norme. Toutes les couches, de
+    la base de données au template, proposent une interface orientée événement.
+
+    \item \textbf{Écosystème ouvert} : Meteor s'intègre à d'autres outils et frameworks open source.
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\linewidth]{Chapters/architecture/circuit_webinar.png}
+\caption{Architecture Client-Serveur sous MeteorJS}
+\label{fig:client-serveur-meteor}
+\end{figure}
+
+L'extraction de données avec Meteor est très différente de celle d'un système REST traditionnel.
+Au lieu d'effectuer des requêtes vers des points de terminaison de ressources uniques, on s'abonne
+à une ou plusieurs publications de données. Si ces données changent dans la base de données, les
+nouvelles données sont reçues instantanément côté client. En utilisant le MeteorMixin, ces
+nouvelles données sont synchronisées avec l'abonnement/état, ce qui entraîne une nouvelle
+présentation des vues. Le cycle complet des données s'articule comme suit :
+
+\begin{enumerate}
+    \item Le composant grand-parent rend les composants enfants ;
+    \item Les enfants indiquent au grand-parent les données/champs dont ils ont besoin ;
+    \item Le grand-parent s'abonne à toutes les données en une seule fois ;
+    \item Le serveur publie les données au client s'il y est autorisé ;
+    \item Le client accepte les données et les insère dans le magasin Mini-Mongo ;
+    \item Le grand-parent reçoit un message indiquant que les données ont été modifiées ;
+    \item Le grand-parent déclenche un nouveau rendu via le mixin Meteor ;
+    \item Les données circulent du grand-parent vers tous les enfants.
+\end{enumerate}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\linewidth]{Chapters/architecture/structure_webinar.png}
+\caption{Cycle de circulation des données dans le projet}
+\label{fig:cycle-donnees}
 \end{figure}
 \newpage
 
-\paragraph{Côté Back-end}
-La partie back-end est centralisée dans une grande API qui contient plusieurs bundles. Chaque projet TAMTAM se représente par un bundle, ce dernier étant un ensemble de fichiers et de répertoires permettant d'implémenter les fonctionnalités d'une application précise. Dans le cas de ce projet, le back-end est représenté par le \texttt{EventBundle} situé sous le dossier \texttt{src/TTP}.
+%------ 3.1.2 ------
+\subsubsection{Structure du dossier \texttt{server}}
 
-Voici une description de quelques dossiers du Bundle EventBundle :
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.75\linewidth]{Chapters/architecture/backend_webinar.png}
+\caption{Structure du dossier \texttt{server} du projet}
+\label{fig:structure-server}
+\end{figure}
+
+La partie back-end est organisée autour des dossiers suivants :
 
 \begin{itemize}
-\item \textbf{Repository} : Contient les requêtes avec jointures complexes, réutilisables pour éviter les duplications de code.
-\item \textbf{Resources} : Contient plusieurs fichiers de configuration de l'application en format YAML.
-\item \textbf{Controller} : Gère les requêtes HTTP et coordonne les interactions entre les différentes couches de l'application.
-\item \textbf{Service} : Un objet PHP remplissant une ou plusieurs fonctions associées à une configuration.
-\item \textbf{Entity} : Contient toutes les entités du projet, c'est-à-dire les tables de la base de données.
-\item \textbf{Event} : Contient tous les événements déclenchés selon les actions de l'utilisateur.
-\item \textbf{Utils} : Classes utilitaires avec des méthodes prédéfinies réutilisables.
-\item \textbf{Tests} : Tests fonctionnels et unitaires, ainsi qu'un dossier DataFixtures pour les données de test.
-\item \textbf{Validator} : Validation des attributs des entités, par filtrage ou par rôle.
+    \item \textbf{api} : Contient tous les scripts en relation avec l'API TT, l'API Daily (pour le
+    streaming) et celle de Vimeo.
+
+    \item \textbf{jobs} : Contient les tâches programmées à s'exécuter à un moment précis, par
+    exemple : démarrage du webinaire, initialisation du lecteur Vimeo, création et
+    publication de sondage.
+
+    \item \textbf{methods} : Contient toutes les fonctions relatives au traitement métier. Dans
+    Meteor, déclarer des méthodes est le moyen le plus sûr d'apporter des modifications
+    côté serveur, plutôt que d'appeler directement \texttt{insert}, \texttt{update} ou
+    \texttt{remove} depuis le client.
+
+    \item \textbf{models} : Contient toutes les classes métier utilisées dans le projet. Pour utiliser
+    la base de données, une collection (modèle) est créée pour stocker les documents.
+
+    \item \textbf{publications} : Contient les fichiers de publications spécifiant ce que le serveur
+    envoie au client.
+
+    \item \textbf{startup} : Contient les traitements à effectuer une fois le projet exécuté côté
+    serveur.
+
+    \item \textbf{utils} : Contient toutes les fonctionnalités communes réutilisables côté serveur.
+
+    \item \textbf{main.ts} : Importe le contenu des dossiers \texttt{api}, \texttt{publications},
+    \texttt{startup}, \texttt{methods} et \texttt{jobs} pour la configuration du projet.
 \end{itemize}
 
-Entités principales dans le système LMS :
+%------ 3.1.3 ------
+\subsubsection{Structure du dossier \texttt{client}}
+
+\begin{figure}[H]
+    \vspace*{-0.6cm}
+    \centering
+    \includegraphics[width=0.75\linewidth]{Chapters/architecture/frontend_webinar.png}
+    \caption{Structure du dossier \texttt{client} du projet}
+    \label{fig:structure-client}
+\end{figure}
+\FloatBarrier
+
+La partie front-end est organisée autour des dossiers suivants :
+
 \begin{itemize}
-\item \texttt{TrainingGoal} — Objectifs de formation
-\item \texttt{Recommendation} — Suggestions pédagogiques
-\item \texttt{Quarter} — Périodes trimestrielles
+    \item \textbf{api} : Contient les appels aux méthodes définies dans le dossier
+    \texttt{server/methods}.
+
+    \item \textbf{components} : Contient les composants UI (User Interface) du projet.
+
+    \item \textbf{functions} : Contient les fonctionnalités côté client.
+
+    \item \textbf{hooks} : Contient les hooks personnalisés réutilisables. Les Hooks (introduits
+    avec React 16.8) permettent de bénéficier d'un état local et d'autres fonctionnalités
+    de React sans avoir à écrire une classe.
+
+    \item \textbf{i18n} : Contient les fichiers de traduction en anglais, français et néerlandais,
+    organisés en fichiers JSON (\texttt{en.json}, \texttt{fr.json}, \texttt{ne.json}), avec un
+    fichier de configuration gérant la sélection de langue selon les cookies et le
+    localStorage. Les dépendances \texttt{i18next} et \texttt{react-i18next} sont utilisées.
+
+    \item \textbf{models} : Contient toutes les classes métier utilisées dans le projet pour le
+    miniMongo côté client.
+
+    \item \textbf{startup} : Scripts à lancer lors de l'exécution du projet : initialisation de la
+    gestion de langue et rendu du contenu de la page.
+
+    \item \textbf{store} : Référence à Redux, utilisé avec ReactJS pour la gestion d'état globale
+    de l'application.
+
+    \item \textbf{styles} : Contient tous les fichiers de feuilles de styles des composants UI.
+
+    \item \textbf{utils} : Contient toutes les fonctionnalités communes réutilisables côté client.
+
+    \item \textbf{main.tsx} : Importe tout le nécessaire pour la configuration du projet côté client.
+
+    \item \textbf{main.less} : Assemble tous les fichiers de style \texttt{.less} créés dans le projet.
 \end{itemize}
 
-\paragraph{Côté Front-end}
-Notre projet Next.js 13.4 adopte l'approche de colocation pour s'aligner avec la nouvelle architecture Next.js. Nous utilisons la convention \texttt{kebab-case} pour nommer les fichiers et dossiers, et travaillons avec TypeScript.
-
-La structure de dossiers du projet est la suivante :
-\begin{itemize}
-\item \textbf{src/} : dossier racine de l'application.
-\item \textbf{src/app/[lang]/feature/} : code d'une fonctionnalité (page, composants, hooks, services, constantes, types).
-\item \textbf{src/app/[lang]/feature/page.tsx} : point d'entrée de la page.
-\item \textbf{src/app/[lang]/feature/components/} : composants propres à la fonctionnalité.
-\item \textbf{src/common/} : éléments partagés (components, services, constants, types, styles).
-\item \textbf{src/common/services/misc/fetch-api-wrapper.ts} : wrapper d'appels API communs.
-\item \textbf{src/common/constants/routes.ts} : définition centralisée des routes.
-\item \textbf{src/contexts/} : providers de contexte.
-\item \textbf{src/i18n/} : internationalisation et localisation.
-\item \textbf{src/middleware.ts} : logique middleware (authentification, autorisation, redirections).
-\end{itemize}
-
+\newpage
 %------------------------------------------------------------
 \section{Qualité de code}
 
 \subsection{Outils de linting}
 Nous appliquons une discipline stricte de qualité de code avec :
 \begin{itemize}
-\item \textbf{ESLint} : Configuration personnalisée basée sur Airbnb, détection des patterns problématiques, règles TypeScript strictes.
-\item \textbf{Prettier} : Formatage automatique du code avec configuration partagée en équipe.
-\item \textbf{Stylelint} : Cohérence CSS/SCSS et bonnes pratiques de style.
+    \item \textbf{ESLint} : Configuration personnalisée basée sur Airbnb, détection des patterns
+    problématiques, règles TypeScript strictes.
+    \item \textbf{Prettier} : Formatage automatique du code avec configuration partagée en équipe.
+    \item \textbf{Stylelint} : Cohérence CSS/SCSS et bonnes pratiques de style.
 \end{itemize}
 
 \subsection{Git Hooks}
 Automatisation des vérifications via Husky :
 \begin{itemize}
-\item \textbf{pre-commit} : Exécution de lint-staged et vérification des types TypeScript.
-\item \textbf{commit-msg} : Validation du format Conventional Commits. Exemple : \texttt{feat(lms): ajout calcul heures trimestrielles}.
-\item \textbf{pre-push} : Exécution des tests unitaires et vérification de la build.
+    \item \textbf{pre-commit} : Exécution de lint-staged et vérification des types TypeScript.
+    \item \textbf{commit-msg} : Validation du format Conventional Commits.
+    Exemple : \texttt{feat(lms): ajout calcul heures trimestrielles}.
+    \item \textbf{pre-push} : Exécution des tests unitaires et vérification de la build.
 \end{itemize}
 
 \subsection{Conventional Commits}
@@ -150,14 +241,14 @@ Standardisation des messages de commit :
 \begin{longtable}{|l|p{10cm}|}
 \hline
 \textbf{Type} & \textbf{Usage} \\ \hline
-\texttt{feat} & Nouvelle fonctionnalité \\ \hline
-\texttt{fix} & Correction de bug \\ \hline
-\texttt{docs} & Modification de documentation \\ \hline
-\texttt{style} & Changement de formatage \\ \hline
+\texttt{feat}     & Nouvelle fonctionnalité \\ \hline
+\texttt{fix}      & Correction de bug \\ \hline
+\texttt{docs}     & Modification de documentation \\ \hline
+\texttt{style}    & Changement de formatage \\ \hline
 \texttt{refactor} & Modification de code sans impact fonctionnel \\ \hline
-\texttt{perf} & Amélioration de performance \\ \hline
-\texttt{test} & Ajout ou modification de tests \\ \hline
-\texttt{chore} & Tâches de maintenance \\ \hline
+\texttt{perf}     & Amélioration de performance \\ \hline
+\texttt{test}     & Ajout ou modification de tests \\ \hline
+\texttt{chore}    & Tâches de maintenance \\ \hline
 \end{longtable}
 
 %------------------------------------------------------------
@@ -167,9 +258,6 @@ technologies utilisées dans le développement.
 
 \subsection{Outils de développement}
 
-% ==============================================================
-% MACRO : logo à gauche + titre + texte à droite (style image)
-% ==============================================================
 \newcommand{\techitem}[4][l]{%
 \noindent
 \begin{minipage}[t]{0.18\textwidth}
@@ -187,87 +275,83 @@ technologies utilisées dans le développement.
 \vspace{1.2em}
 }
 
-% ---- Node.js ----
 \techitem{Chapters/img/nodejs.png}{Node.JS}{%
 Node.js est \underline{une plateforme de développement JavaScript intégrant un serveur HTTP}.
-Son fonctionnement se base sur une boucle événementielle qui lui permet le support de fortes montées en charge.
-Dans notre projet, Node.js est utilisé pour bâtir des APIs légères, des services en temps réel
-et des outils d'automatisation (scripts, watchers, serveurs de développement).%
+Son fonctionnement se base sur une boucle événementielle qui lui permet le support de fortes
+montées en charge. Dans notre projet, Node.js est utilisé pour bâtir des APIs légères, des
+services en temps réel et des outils d'automatisation (scripts, watchers, serveurs de
+développement).%
 }
 
-% ---- React.js ----
 \techitem{Chapters/img/react.png}{React.js}{%
-React.js est une bibliothèque JavaScript dédiée à la construction d'interfaces utilisateur réactives et modulaires.
-Son modèle basé sur les composants favorise la réutilisabilité et la maintenabilité du code front-end.
-Dans notre contexte Webinar, il facilite la conception d'écrans interactifs et la gestion d'états complexes
-via le Virtual DOM.%
+React.js est une bibliothèque JavaScript dédiée à la construction d'interfaces utilisateur
+réactives et modulaires. Son modèle basé sur les composants favorise la réutilisabilité et la
+maintenabilité du code front-end. Dans notre contexte Webinar, il facilite la conception
+d'écrans interactifs et la gestion d'états complexes via le Virtual DOM.%
 }
 
-% ---- Meteor.js ----
 \techitem{Chapters/img/metor.png}{Meteor.js}{%
-Meteor.js est une plateforme JavaScript full-stack qui simplifie le développement d'applications en temps réel.
-Elle fournit un environnement unifié client/serveur et utilise le protocole DDP pour la synchronisation des données.
-Dans le cadre du LMS, Meteor est utilisé pour les fonctionnalités collaboratives en temps réel
-(chat, notifications, synchronisation d'état).%
+Meteor.js est une plateforme JavaScript full-stack qui simplifie le développement
+d'applications en temps réel. Elle fournit un environnement unifié client/serveur et utilise
+le protocole DDP pour la synchronisation des données. Dans le cadre du LMS, Meteor est
+utilisé pour les fonctionnalités collaboratives en temps réel (chat, notifications,
+synchronisation d'état).%
 }
 
-% ---- Symfony ----
 \techitem{logos/symfony.png}{Symfony Framework}{%
-Symfony est un framework PHP de développement d'applications web fournissant une architecture MVC robuste
-et des composants réutilisables. Il offre un routing flexible, un conteneur d'injection de dépendances,
-un système de templating Twig, et de nombreux bundles. Sa philosophie DRY (\textit{Don't Repeat Yourself})
-favorise la réutilisabilité du code et réduit les erreurs de développement.%
+Symfony est un framework PHP de développement d'applications web fournissant une
+architecture MVC robuste et des composants réutilisables. Il offre un routing flexible, un
+conteneur d'injection de dépendances, un système de templating Twig, et de nombreux
+bundles. Sa philosophie DRY (\textit{Don't Repeat Yourself}) favorise la réutilisabilité du
+code et réduit les erreurs de développement.%
 }
 
-% ---- Doctrine ----
 \techitem{logos/doctrine.png}{Doctrine}{%
-Doctrine est un ORM (Object-Relational Mapping) pour PHP permettant de manipuler les entités de la base de données.
-Il est livré par défaut avec Symfony et crée l'illusion d'une base de données orientée objet à partir d'une
-base de données relationnelle en définissant des correspondances entre les deux mondes.%
+Doctrine est un ORM (Object-Relational Mapping) pour PHP permettant de manipuler les
+entités de la base de données. Il est livré par défaut avec Symfony et crée l'illusion d'une
+base de données orientée objet à partir d'une base de données relationnelle en définissant
+des correspondances entre les deux mondes.%
 }
 
-% ---- PHPUnit ----
 \techitem{logos/phpunit.png}{PHPUnit}{%
 PHPUnit est un framework open source de tests unitaires dédié au langage PHP.
-Il permet l'implémentation de tests de régression en vérifiant que les exécutions correspondent aux
-assertions prédéfinies. Les appels aux services, bases de données ou fichiers sont simulés (\textit{mocked})
-afin d'assurer des tests vraiment unitaires.%
+Il permet l'implémentation de tests de régression en vérifiant que les exécutions
+correspondent aux assertions prédéfinies. Les appels aux services, bases de données ou
+fichiers sont simulés (\textit{mocked}) afin d'assurer des tests vraiment unitaires.%
 }
 
-% ---- Swagger ----
 \techitem{logos/swagger.png}{Swagger / OpenAPI}{%
-Swagger est un ensemble d'outils open source permettant de concevoir, documenter et consommer des services web REST.
-Il utilise la spécification OpenAPI pour décrire les APIs de manière standardisée et génère une documentation
-interactive permettant de tester les endpoints directement depuis l'interface web.%
+Swagger est un ensemble d'outils open source permettant de concevoir, documenter et
+consommer des services web REST. Il utilise la spécification OpenAPI pour décrire les APIs
+de manière standardisée et génère une documentation interactive permettant de tester les
+endpoints directement depuis l'interface web.%
 }
 
-% ---- Next.js ----
 \techitem{logos/next.png}{Next.js}{%
-Next.js est un framework React de nouvelle génération permettant de créer des applications web modernes
-avec un rendu côté serveur (SSR) et une génération de sites statiques (SSG) optimisée.
-Son App Router introduit les Server Components, le routage automatique basé sur les fichiers,
-et le support natif de TypeScript.%
+Next.js est un framework React de nouvelle génération permettant de créer des applications
+web modernes avec un rendu côté serveur (SSR) et une génération de sites statiques (SSG)
+optimisée. Son App Router introduit les Server Components, le routage automatique basé
+sur les fichiers, et le support natif de TypeScript.%
 }
 
-% ---- TypeScript ----
 \techitem{logos/Typescript_logo_2020.png}{TypeScript}{%
 TypeScript est un sur-ensemble typé de JavaScript qui compile vers du JavaScript standard.
 Il apporte un système de types statiques permettant de détecter les erreurs à la compilation
-plutôt qu'à l'exécution. Dans notre projet, TypeScript est utilisé côté front-end pour améliorer
-la maintenabilité, la lisibilité et la robustesse du code.%
+plutôt qu'à l'exécution. Dans notre projet, TypeScript est utilisé côté front-end pour
+améliorer la maintenabilité, la lisibilité et la robustesse du code.%
 }
 
 %------------------------------------------------------------
 \subsection{GitHub Actions}
 Pipeline automatisé avec :
 \begin{itemize}
-\item \textbf{Tests unitaires} : Exécution sur chaque push
-\item \textbf{Analyse de code} : Vérification des vulnérabilités
-\item \textbf{Déploiement} : Mise en production conditionnelle
+    \item \textbf{Tests unitaires} : Exécution sur chaque push
+    \item \textbf{Analyse de code} : Vérification des vulnérabilités
+    \item \textbf{Déploiement} : Mise en production conditionnelle
 \end{itemize}
 
-Le processus d'intégration continue du LMS Didier garantit la qualité et la fiabilité de chaque déploiement
-grâce à un pipeline automatisé sophistiqué.
+Le processus d'intégration continue du LMS Didier garantit la qualité et la fiabilité de chaque
+déploiement grâce à un pipeline automatisé sophistiqué.
 
 \begin{figure}[htbp]
 \centering
@@ -279,9 +363,9 @@ grâce à un pipeline automatisé sophistiqué.
 \subsection{Release automation}
 Gestion sémantique des versions avec \texttt{release-it} :
 \begin{itemize}
-\item \textbf{Changelog} : Génération automatique
-\item \textbf{Versioning} : Respect de SemVer
-\item \textbf{GitHub Releases} : Publication automatisée
+    \item \textbf{Changelog} : Génération automatique
+    \item \textbf{Versioning} : Respect de SemVer
+    \item \textbf{GitHub Releases} : Publication automatisée
 \end{itemize}
 
 %------------------------------------------------------------
@@ -302,19 +386,23 @@ supporter une montée en charge progressive tout en maintenant une qualité de s
 
 \subsection{Caractéristiques de l'infrastructure}
 \begin{itemize}
-\item \textbf{Haute disponibilité} : Redondance à tous les niveaux pour éliminer les points de défaillance unique
-\item \textbf{Scalabilité horizontale} : Ajout transparent de serveurs selon la charge
-\item \textbf{Répartition de charge} : Distribution intelligente du trafic via Nginx
-\item \textbf{Base de données distribuée} : Configuration Master/Slave pour optimiser les performances lecture/écriture
-\item \textbf{Monitoring continu} : Surveillance proactive des métriques de performance
-\item \textbf{Sauvegarde automatisée} : Protection des données critiques avec snapshots réguliers
+    \item \textbf{Haute disponibilité} : Redondance à tous les niveaux pour éliminer les points
+    de défaillance unique
+    \item \textbf{Scalabilité horizontale} : Ajout transparent de serveurs selon la charge
+    \item \textbf{Répartition de charge} : Distribution intelligente du trafic via Nginx
+    \item \textbf{Base de données distribuée} : Configuration Master/Slave pour optimiser les
+    performances lecture/écriture
+    \item \textbf{Monitoring continu} : Surveillance proactive des métriques de performance
+    \item \textbf{Sauvegarde automatisée} : Protection des données critiques avec snapshots
+    réguliers
 \end{itemize}
 
 %------------------------------------------------------------
 \section{Conclusion}
-L'architecture technique du projet TT Webinar combine performance et maintenabilité grâce à des choix
-technologiques éprouvés et une infrastructure moderne. Les diagrammes présentés illustrent la robustesse
-de notre approche, depuis l'architecture physique jusqu'au déploiement en production. Les outils de qualité
-et d'intégration continue garantissent la pérennité du code, tandis que l'architecture de déploiement assure
-une disponibilité optimale pour les utilisateurs finaux. Le chapitre suivant détaillera les aspects spécifiques
-d'implémentation du projet TT Webinar.
+L'architecture technique du projet TT Webinar combine performance et maintenabilité grâce à
+des choix technologiques éprouvés et une infrastructure moderne. Les diagrammes présentés
+illustrent la robustesse de notre approche, depuis l'architecture physique jusqu'au déploiement
+en production. Les outils de qualité et d'intégration continue garantissent la pérennité du code,
+tandis que l'architecture de déploiement assure une disponibilité optimale pour les utilisateurs
+finaux. Le chapitre suivant détaillera les aspects spécifiques d'implémentation du projet TT
+Webinar.
