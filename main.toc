@@ -3,8 +3,8 @@
 \contentsline {section}{Résumé}{IV}{figure.caption.1}%
 \contentsline {section}{Abstract}{V}{figure.caption.1}%
 \contentsline {section}{Table des matières}{VI}{section*.2}%
-\contentsline {section}{Liste des figures}{VIII}{section*.3}%
-\contentsline {section}{Liste des tableaux}{X}{section*.4}%
+\contentsline {section}{Liste des figures}{VII}{section*.3}%
+\contentsline {section}{Liste des tableaux}{VIII}{section*.4}%
 \contentsline {section}{Introduction générale}{1}{section*.4}%
 \contentsline {chapter}{\numberline {1}Cadre du projet}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Présentation de l’organisme d’accueil (Tamtam International)}{2}{section.1.1}%
