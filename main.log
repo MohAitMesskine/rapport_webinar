@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  18 MAY 2026 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  19 MAY 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3957,673 +3957,301 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 249.
 
  (Chapters/chapter4.tex
 Chapitre 3.
-
-LaTeX Warning: File `realisation/img-143.jpg' not found on input line 25.
-
-
-! Package pdftex.def Error: File `realisation/img-143.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...h=0.80\textwidth]{realisation/img-143.jpg}
-                                                  
-? 
+<realisation/img-143.jpg, id=874, 645.16031pt x 252.945pt>
+File: realisation/img-143.jpg Graphic file (type jpg)
+<use realisation/img-143.jpg>
+Package pdftex.def Info: realisation/img-143.jpg  used on input line 25.
+(pdftex.def)             Requested size: 375.57782pt x 147.24855pt.
 [51
 
 
 
 
 ]
-
-LaTeX Warning: File `realisation/img-144.jpg' not found on input line 32.
-
-
-! Package pdftex.def Error: File `realisation/img-144.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 ...h=0.80\textwidth]{realisation/img-144.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 36.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[52]
-
-LaTeX Warning: File `realisation/img-146.jpg' not found on input line 52.
-
-
-! Package pdftex.def Error: File `realisation/img-146.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...h=0.80\textwidth]{realisation/img-146.jpg}
-                                                  
-? 
+<realisation/img-144.jpg, id=882, 681.29532pt x 292.09125pt>
+File: realisation/img-144.jpg Graphic file (type jpg)
+<use realisation/img-144.jpg>
+Package pdftex.def Info: realisation/img-144.jpg  used on input line 32.
+(pdftex.def)             Requested size: 375.57782pt x 161.0206pt.
+<realisation/img-146.jpg, id=883, 894.34125pt x 359.09157pt>
+File: realisation/img-146.jpg Graphic file (type jpg)
+<use realisation/img-146.jpg>
+Package pdftex.def Info: realisation/img-146.jpg  used on input line 52.
+(pdftex.def)             Requested size: 375.57782pt x 150.80098pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 56.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[53]
-
-LaTeX Warning: File `realisation/img-147.jpg' not found on input line 59.
-
-
-! Package pdftex.def Error: File `realisation/img-147.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 ...h=0.80\textwidth]{realisation/img-147.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 63.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[54]
-
-LaTeX Warning: File `realisation/img-149.jpg' not found on input line 74.
-
-
-! Package pdftex.def Error: File `realisation/img-149.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 ...h=0.80\textwidth]{realisation/img-149.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 78.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[55]
-
-LaTeX Warning: File `realisation/img-150.jpg' not found on input line 81.
-
-
-! Package pdftex.def Error: File `realisation/img-150.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...h=0.80\textwidth]{realisation/img-150.jpg}
-                                                  
-? 
+ [52 <./realisation/img-143.jpg> <./realisation/img-144.jpg>]
+<realisation/img-147.jpg, id=888, 824.32968pt x 334.24875pt>
+File: realisation/img-147.jpg Graphic file (type jpg)
+<use realisation/img-147.jpg>
+Package pdftex.def Info: realisation/img-147.jpg  used on input line 59.
+(pdftex.def)             Requested size: 375.57782pt x 152.28741pt.
+<realisation/img-149.jpg, id=889, 981.6675pt x 331.2375pt>
+File: realisation/img-149.jpg Graphic file (type jpg)
+<use realisation/img-149.jpg>
+Package pdftex.def Info: realisation/img-149.jpg  used on input line 74.
+(pdftex.def)             Requested size: 375.57782pt x 126.72572pt.
+<realisation/img-150.jpg, id=890, 894.34125pt x 417.05812pt>
+File: realisation/img-150.jpg Graphic file (type jpg)
+<use realisation/img-150.jpg>
+Package pdftex.def Info: realisation/img-150.jpg  used on input line 81.
+(pdftex.def)             Requested size: 375.57782pt x 175.14412pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 85.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[56]
-
-LaTeX Warning: File `realisation/img-152.jpg' not found on input line 88.
-
-
-! Package pdftex.def Error: File `realisation/img-152.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...h=0.80\textwidth]{realisation/img-152.jpg}
-                                                  
-? 
+ [53 <./realisation/img-146.jpg> <./realisation/img-147.jpg> <./realisation/img
+-149.jpg>]
+<realisation/img-152.jpg, id=897, 368.1253pt x 375.65344pt>
+File: realisation/img-152.jpg Graphic file (type jpg)
+<use realisation/img-152.jpg>
+Package pdftex.def Info: realisation/img-152.jpg  used on input line 88.
+(pdftex.def)             Requested size: 375.57782pt x 383.28754pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 92.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 97.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[57]
 
-LaTeX Warning: File `realisation/img-153.jpg' not found on input line 106.
-
-
-! Package pdftex.def Error: File `realisation/img-153.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...=0.80\textwidth]{realisation/img-153.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 110.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[58]
-
-LaTeX Warning: File `realisation/img-155.jpg' not found on input line 113.
-
-
-! Package pdftex.def Error: File `realisation/img-155.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113 ...=0.75\textwidth]{realisation/img-155.jpg}
-                                                  
-? 
+[54 <./realisation/img-150.jpg> <./realisation/img-152.jpg>]
+<realisation/img-153.jpg, id=904, 1028.34187pt x 462.97969pt>
+File: realisation/img-153.jpg Graphic file (type jpg)
+<use realisation/img-153.jpg>
+Package pdftex.def Info: realisation/img-153.jpg  used on input line 106.
+(pdftex.def)             Requested size: 375.57782pt x 169.09567pt.
+<realisation/img-155.jpg, id=905, 354.57469pt x 435.87843pt>
+File: realisation/img-155.jpg Graphic file (type jpg)
+<use realisation/img-155.jpg>
+Package pdftex.def Info: realisation/img-155.jpg  used on input line 113.
+(pdftex.def)             Requested size: 352.10286pt x 432.85117pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 117.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[59]
-
-LaTeX Warning: File `realisation/img-157.jpg' not found on input line 126.
-
-
-! Package pdftex.def Error: File `realisation/img-157.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 ...=0.80\textwidth]{realisation/img-157.jpg}
-                                                  
-? 
+ [55 <./realisation/img-153.jpg>]
+<realisation/img-157.jpg, id=912, 691.08188pt x 445.665pt>
+File: realisation/img-157.jpg Graphic file (type jpg)
+<use realisation/img-157.jpg>
+Package pdftex.def Info: realisation/img-157.jpg  used on input line 126.
+(pdftex.def)             Requested size: 375.57782pt x 242.20598pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 130.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[60]
-
-LaTeX Warning: File `realisation/img-158.jpg' not found on input line 139.
-
-
-! Package pdftex.def Error: File `realisation/img-158.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 ...=0.80\textwidth]{realisation/img-158.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 143.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[61]
-
-LaTeX Warning: File `realisation/img-160.jpg' not found on input line 146.
-
-
-! Package pdftex.def Error: File `realisation/img-160.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 ...=0.80\textwidth]{realisation/img-160.jpg}
-                                                  
-? 
+ [56 <./realisation/img-155.jpg>]
+<realisation/img-158.jpg, id=919, 824.32968pt x 462.97969pt>
+File: realisation/img-158.jpg Graphic file (type jpg)
+<use realisation/img-158.jpg>
+Package pdftex.def Info: realisation/img-158.jpg  used on input line 139.
+(pdftex.def)             Requested size: 375.57782pt x 210.93866pt.
+<realisation/img-160.jpg, id=920, 701.62125pt x 391.4625pt>
+File: realisation/img-160.jpg Graphic file (type jpg)
+<use realisation/img-160.jpg>
+Package pdftex.def Info: realisation/img-160.jpg  used on input line 146.
+(pdftex.def)             Requested size: 375.57782pt x 209.55281pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 150.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[62]
-
-LaTeX Warning: File `realisation/img-161.jpg' not found on input line 165.
-
-
-! Package pdftex.def Error: File `realisation/img-161.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 ...=0.60\textwidth]{realisation/img-161.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 169.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[63]
-
-LaTeX Warning: File `realisation/img-163.jpg' not found on input line 172.
-
-
-! Package pdftex.def Error: File `realisation/img-163.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 ...=0.85\textwidth]{realisation/img-163.jpg}
-                                                  
-? 
+ [57 <./realisation/img-157.jpg> <./realisation/img-158.jpg>]
+<realisation/img-161.jpg, id=929, 1028.34187pt x 458.46281pt>
+File: realisation/img-161.jpg Graphic file (type jpg)
+<use realisation/img-161.jpg>
+Package pdftex.def Info: realisation/img-161.jpg  used on input line 165.
+(pdftex.def)             Requested size: 281.68515pt x 125.58447pt.
+<realisation/img-163.jpg, id=930, 301.125pt x 463.7325pt>
+File: realisation/img-163.jpg Graphic file (type jpg)
+<use realisation/img-163.jpg>
+Package pdftex.def Info: realisation/img-163.jpg  used on input line 172.
+(pdftex.def)             Requested size: 399.05278pt x 614.5983pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 176.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[64]
-
-LaTeX Warning: File `realisation/img-164.jpg' not found on input line 185.
-
-
-! Package pdftex.def Error: File `realisation/img-164.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 ...=0.60\textwidth]{realisation/img-164.jpg}
-                                                  
-? 
+ [58 <./realisation/img-160.jpg> <./realisation/img-161.jpg>]
+<realisation/img-164.jpg, id=938, 304.88907pt x 441.14813pt>
+File: realisation/img-164.jpg Graphic file (type jpg)
+<use realisation/img-164.jpg>
+Package pdftex.def Info: realisation/img-164.jpg  used on input line 185.
+(pdftex.def)             Requested size: 281.68515pt x 407.59116pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 189.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[65]
-
-LaTeX Warning: File `realisation/img-166.jpg' not found on input line 199.
-
-
-! Package pdftex.def Error: File `realisation/img-166.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 ...idth=\textwidth]{realisation/img-166.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-167.jpg' not found on input line 204.
-
-
-! Package pdftex.def Error: File `realisation/img-167.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204 ...idth=\textwidth]{realisation/img-167.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-168.jpg' not found on input line 213.
-
-
-! Package pdftex.def Error: File `realisation/img-168.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 ...=0.60\textwidth]{realisation/img-168.jpg}
-                                                  
-? 
+ [59 <./realisation/img-163.jpg>]
+<realisation/img-166.jpg, id=944, 290.58563pt x 447.17062pt>
+File: realisation/img-166.jpg Graphic file (type jpg)
+<use realisation/img-166.jpg>
+Package pdftex.def Info: realisation/img-166.jpg  used on input line 199.
+(pdftex.def)             Requested size: 225.34383pt x 346.77881pt.
+<realisation/img-167.jpg, id=945, 301.8778pt x 440.39531pt>
+File: realisation/img-167.jpg Graphic file (type jpg)
+<use realisation/img-167.jpg>
+Package pdftex.def Info: realisation/img-167.jpg  used on input line 204.
+(pdftex.def)             Requested size: 225.34383pt x 328.74336pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 217.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 210.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[66]
-
-LaTeX Warning: File `realisation/img-170.jpg' not found on input line 227.
-
-
-! Package pdftex.def Error: File `realisation/img-170.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.227 ...idth=\textwidth]{realisation/img-170.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-171.jpg' not found on input line 232.
-
-
-! Package pdftex.def Error: File `realisation/img-171.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 ...idth=\textwidth]{realisation/img-171.jpg}
-                                                  
-? 
+ [60 <./realisation/img-164.jpg>]
+<realisation/img-168.jpg, id=952, 660.96938pt x 289.83281pt>
+File: realisation/img-168.jpg Graphic file (type jpg)
+<use realisation/img-168.jpg>
+Package pdftex.def Info: realisation/img-168.jpg  used on input line 213.
+(pdftex.def)             Requested size: 281.68515pt x 123.52005pt.
+<realisation/img-170.jpg, id=953, 296.60812pt x 460.72125pt>
+File: realisation/img-170.jpg Graphic file (type jpg)
+<use realisation/img-170.jpg>
+Package pdftex.def Info: realisation/img-170.jpg  used on input line 227.
+(pdftex.def)             Requested size: 225.34383pt x 350.0393pt.
+<realisation/img-171.jpg, id=954, 299.61937pt x 462.22687pt>
+File: realisation/img-171.jpg Graphic file (type jpg)
+<use realisation/img-171.jpg>
+Package pdftex.def Info: realisation/img-171.jpg  used on input line 232.
+(pdftex.def)             Requested size: 225.34383pt x 347.64966pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 240.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 238.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[67]
 
-LaTeX Warning: File `realisation/img-173.jpg' not found on input line 248.
-
-
-! Package pdftex.def Error: File `realisation/img-173.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 ...idth=\textwidth]{realisation/img-173.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-174.jpg' not found on input line 253.
-
-
-! Package pdftex.def Error: File `realisation/img-174.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253 ...idth=\textwidth]{realisation/img-174.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-176.jpg' not found on input line 269.
-
-
-! Package pdftex.def Error: File `realisation/img-176.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.269 ...idth=\textwidth]{realisation/img-176.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-177.jpg' not found on input line 274.
-
-
-! Package pdftex.def Error: File `realisation/img-177.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.274 ...idth=\textwidth]{realisation/img-177.jpg}
-                                                  
-? 
+[61 <./realisation/img-166.jpg> <./realisation/img-167.jpg> <./realisation/img-
+168.jpg>]
+<realisation/img-173.jpg, id=964, 301.125pt x 458.46281pt>
+File: realisation/img-173.jpg Graphic file (type jpg)
+<use realisation/img-173.jpg>
+Package pdftex.def Info: realisation/img-173.jpg  used on input line 248.
+(pdftex.def)             Requested size: 225.34383pt x 343.09773pt.
+<realisation/img-174.jpg, id=965, 301.125pt x 461.47406pt>
+File: realisation/img-174.jpg Graphic file (type jpg)
+<use realisation/img-174.jpg>
+Package pdftex.def Info: realisation/img-174.jpg  used on input line 253.
+(pdftex.def)             Requested size: 225.34383pt x 345.35124pt.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 259.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [62 <./realisation/img-170.jpg> <./realisation/img-171.jpg>]
+<realisation/img-176.jpg, id=974, 302.63063pt x 454.69875pt>
+File: realisation/img-176.jpg Graphic file (type jpg)
+<use realisation/img-176.jpg>
+Package pdftex.def Info: realisation/img-176.jpg  used on input line 269.
+(pdftex.def)             Requested size: 225.34383pt x 338.581pt.
+<realisation/img-177.jpg, id=975, 298.11375pt x 462.22687pt>
+File: realisation/img-177.jpg Graphic file (type jpg)
+<use realisation/img-177.jpg>
+Package pdftex.def Info: realisation/img-177.jpg  used on input line 274.
+(pdftex.def)             Requested size: 225.34383pt x 349.3988pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 280.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[68]
-
-LaTeX Warning: File `realisation/img-178.jpg' not found on input line 289.
-
-
-! Package pdftex.def Error: File `realisation/img-178.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289 ...=0.60\textwidth]{realisation/img-178.jpg}
-                                                  
-? 
+ [63 <./realisation/img-173.jpg> <./realisation/img-174.jpg>]
+<realisation/img-178.jpg, id=983, 301.8778pt x 449.42906pt>
+File: realisation/img-178.jpg Graphic file (type jpg)
+<use realisation/img-178.jpg>
+Package pdftex.def Info: realisation/img-178.jpg  used on input line 289.
+(pdftex.def)             Requested size: 281.68515pt x 419.36366pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 297.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 293.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[69]
-
-LaTeX Warning: File `realisation/img-180.jpg' not found on input line 305.
-
-
-! Package pdftex.def Error: File `realisation/img-180.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.305 ...idth=\textwidth]{realisation/img-180.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-181.jpg' not found on input line 310.
-
-
-! Package pdftex.def Error: File `realisation/img-181.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.310 ...idth=\textwidth]{realisation/img-181.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-182.jpg' not found on input line 315.
-
-
-! Package pdftex.def Error: File `realisation/img-182.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.315 ...idth=\textwidth]{realisation/img-182.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `realisation/img-pilotage.jpg' not found on input line 340.
-
-
-
-! Package pdftex.def Error: File `realisation/img-pilotage.jpg' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.340 ...\textwidth]{realisation/img-pilotage.jpg}
-                                                  
-? 
+ [64 <./realisation/img-176.jpg> <./realisation/img-177.jpg>]
+<realisation/img-180.jpg, id=991, 300.3722pt x 400.49625pt>
+File: realisation/img-180.jpg Graphic file (type jpg)
+<use realisation/img-180.jpg>
+Package pdftex.def Info: realisation/img-180.jpg  used on input line 305.
+(pdftex.def)             Requested size: 150.234pt x 200.31485pt.
+<realisation/img-181.jpg, id=992, 295.1025pt x 406.51875pt>
+File: realisation/img-181.jpg Graphic file (type jpg)
+<use realisation/img-181.jpg>
+Package pdftex.def Info: realisation/img-181.jpg  used on input line 310.
+(pdftex.def)             Requested size: 150.234pt x 206.95584pt.
+<realisation/img-182.jpg, id=993, 304.13625pt x 395.22656pt>
+File: realisation/img-182.jpg Graphic file (type jpg)
+<use realisation/img-182.jpg>
+Package pdftex.def Info: realisation/img-182.jpg  used on input line 315.
+(pdftex.def)             Requested size: 150.234pt x 195.23067pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 344.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 321.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[70]
-
-LaTeX Warning: File `realisation/img-57.jpg' not found on input line 353.
-
-
-! Package pdftex.def Error: File `realisation/img-57.jpg' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.353 ...h=0.80\textwidth]{realisation/img-57.jpg}
-                                                  
-? 
+ [65 <./realisation/img-178.jpg>]
+<realisation/img-pilotage.jpg, id=1001, 821.31844pt x 368.87813pt>
+File: realisation/img-pilotage.jpg Graphic file (type jpg)
+<use realisation/img-pilotage.jpg>
+Package pdftex.def Info: realisation/img-pilotage.jpg  used on input line 340.
+(pdftex.def)             Requested size: 375.57782pt x 168.67847pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 357.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 346.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[71]
-
-LaTeX Warning: File `realisation/img-62.jpg' not found on input line 366.
-
-
-! Package pdftex.def Error: File `realisation/img-62.jpg' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.366 ...h=0.80\textwidth]{realisation/img-62.jpg}
-                                                  
-? 
+ [66 <./realisation/img-180.jpg> <./realisation/img-181.jpg> <./realisation/img
+-182.jpg> <./realisation/img-pilotage.jpg>]
+<realisation/img-57.jpg, id=1011, 1028.34187pt x 460.72125pt>
+File: realisation/img-57.jpg Graphic file (type jpg)
+<use realisation/img-57.jpg>
+Package pdftex.def Info: realisation/img-57.jpg  used on input line 353.
+(pdftex.def)             Requested size: 375.57782pt x 168.27081pt.
+<realisation/img-62.jpg, id=1012, 1028.34187pt x 460.72125pt>
+File: realisation/img-62.jpg Graphic file (type jpg)
+<use realisation/img-62.jpg>
+Package pdftex.def Info: realisation/img-62.jpg  used on input line 366.
+(pdftex.def)             Requested size: 375.57782pt x 168.27081pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 370.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 376.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[72]
-
-LaTeX Warning: File `realisation/img-63.jpg' not found on input line 384.
-
-
-! Package pdftex.def Error: File `realisation/img-63.jpg' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.384 ...h=0.80\textwidth]{realisation/img-63.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 388.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[73]
-
-LaTeX Warning: File `realisation/img-64.jpg' not found on input line 397.
-
-
-! Package pdftex.def Error: File `realisation/img-64.jpg' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.397 ...h=0.80\textwidth]{realisation/img-64.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 401.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[74]
-
-LaTeX Warning: File `realisation/img-65.jpg' not found on input line 410.
-
-
-! Package pdftex.def Error: File `realisation/img-65.jpg' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.410 ...h=0.80\textwidth]{realisation/img-65.jpg}
-                                                  
-? 
+ [67 <./realisation/img-57.jpg> <./realisation/img-62.jpg>]
+<realisation/img-63.jpg, id=1021, 1028.34187pt x 441.90094pt>
+File: realisation/img-63.jpg Graphic file (type jpg)
+<use realisation/img-63.jpg>
+Package pdftex.def Info: realisation/img-63.jpg  used on input line 384.
+(pdftex.def)             Requested size: 375.57782pt x 161.397pt.
+<realisation/img-64.jpg, id=1022, 1028.34187pt x 450.9347pt>
+File: realisation/img-64.jpg Graphic file (type jpg)
+<use realisation/img-64.jpg>
+Package pdftex.def Info: realisation/img-64.jpg  used on input line 397.
+(pdftex.def)             Requested size: 375.57782pt x 164.69644pt.
+<realisation/img-65.jpg, id=1023, 596.98032pt x 346.29375pt>
+File: realisation/img-65.jpg Graphic file (type jpg)
+<use realisation/img-65.jpg>
+Package pdftex.def Info: realisation/img-65.jpg  used on input line 410.
+(pdftex.def)             Requested size: 375.57782pt x 217.86502pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 414.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[75]
-
-LaTeX Warning: File `realisation/img-184.jpg' not found on input line 425.
-
-
-! Package pdftex.def Error: File `realisation/img-184.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 ...=0.80\textwidth]{realisation/img-184.jpg}
-                                                  
-? 
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 429.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[76]
-
-LaTeX Warning: File `realisation/img-185.jpg' not found on input line 432.
-
-
-! Package pdftex.def Error: File `realisation/img-185.jpg' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.432 ...=0.80\textwidth]{realisation/img-185.jpg}
-                                                  
-? 
+ [68 <./realisation/img-63.jpg> <./realisation/img-64.jpg>]
+<realisation/img-184.jpg, id=1033, 577.40718pt x 258.21469pt>
+File: realisation/img-184.jpg Graphic file (type jpg)
+<use realisation/img-184.jpg>
+Package pdftex.def Info: realisation/img-184.jpg  used on input line 425.
+(pdftex.def)             Requested size: 375.57782pt x 167.96362pt.
+<realisation/img-185.jpg, id=1034, 564.60938pt x 248.42813pt>
+File: realisation/img-185.jpg Graphic file (type jpg)
+<use realisation/img-185.jpg>
+Package pdftex.def Info: realisation/img-185.jpg  used on input line 432.
+(pdftex.def)             Requested size: 375.57782pt x 165.25569pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 436.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[77]
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 454.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
- [78])
+ [69 <./realisation/img-65.jpg> <./realisation/img-184.jpg>])
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 250.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
- [79]
-\openout2 = `Chapters/chapter5.aux'.
-
- (Chapters/chapter5.tex
-Chapitre 4.
-[80
-
-
-
-
-]
+ [70 <./realisation/img-185.jpg>]
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 49.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 250.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
- [81]
-Overfull \hbox (8.2752pt too wide) in paragraph at lines 61--62
+ [71]
+\openout2 = `Chapters/chapter5.aux'.
+
+ (Chapters/chapter5.tex)
+Overfull \hbox (8.2752pt too wide) in paragraph at lines 16--251
 []\T1/cmr/bx/n/12 React Do-cu-men-ta-tion\T1/cmr/m/n/12 . \T1/cmr/m/it/12 Of-fi
 -cial Do-cu-men-ta-tion\T1/cmr/m/n/12 . Dis-po-nible sur : []$\T1/cmtt/m/n/12 h
 ttps : / / react .
@@ -4631,20 +4259,13 @@ ttps : / / react .
 
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 63.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[82]
-<logos/hamdolilah.png, id=1037, 1027.84pt x 1027.84pt>
-File: logos/hamdolilah.png Graphic file (type png)
-<use logos/hamdolilah.png>
-Package pdftex.def Info: logos/hamdolilah.png  used on input line 66.
-(pdftex.def)             Requested size: 469.47049pt x 469.47154pt.
-)
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 251.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
- [83 <./logos/hamdolilah.png (PNG copy)>]
+[72
+
+
+
+]
 
 ! LaTeX Error: \begin{enumerate} on input line 218 ended by \end{document}.
 
@@ -4655,7 +4276,7 @@ Type  H <return>  for immediate help.
 l.253 \end{document}
                     
 ? 
-runsystem(latexminted cleantemp  --timestamp 20260518182334 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260519160736 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (Chapters/chapter1.aux) (Chapters/chapter2.aux)
@@ -4975,38 +4596,63 @@ Chapters/production.png
 logos/tamtam-logo.png
 logos/tamtam-logo.png
 Chapters/chapter4.tex
+realisation/img-143.jpg
+realisation/img-144.jpg
+realisation/img-146.jpg
 logos/tamtam-logo.png
+realisation/img-147.jpg
+realisation/img-149.jpg
+realisation/img-150.jpg
 logos/tamtam-logo.png
+realisation/img-152.jpg
 logos/tamtam-logo.png
+realisation/img-153.jpg
+realisation/img-155.jpg
 logos/tamtam-logo.png
+realisation/img-157.jpg
 logos/tamtam-logo.png
+realisation/img-158.jpg
+realisation/img-160.jpg
 logos/tamtam-logo.png
+realisation/img-161.jpg
+realisation/img-163.jpg
 logos/tamtam-logo.png
+realisation/img-164.jpg
 logos/tamtam-logo.png
+realisation/img-166.jpg
+realisation/img-167.jpg
 logos/tamtam-logo.png
+realisation/img-168.jpg
+realisation/img-170.jpg
+realisation/img-171.jpg
 logos/tamtam-logo.png
+realisation/img-173.jpg
+realisation/img-174.jpg
 logos/tamtam-logo.png
+realisation/img-176.jpg
+realisation/img-177.jpg
 logos/tamtam-logo.png
+realisation/img-178.jpg
 logos/tamtam-logo.png
+realisation/img-180.jpg
+realisation/img-181.jpg
+realisation/img-182.jpg
 logos/tamtam-logo.png
+realisation/img-pilotage.jpg
 logos/tamtam-logo.png
+realisation/img-57.jpg
+realisation/img-62.jpg
 logos/tamtam-logo.png
+realisation/img-63.jpg
+realisation/img-64.jpg
+realisation/img-65.jpg
 logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/tamtam-logo.png
+realisation/img-184.jpg
+realisation/img-185.jpg
 logos/tamtam-logo.png
 logos/tamtam-logo.png
 logos/tamtam-logo.png
 Chapters/chapter5.tex
-logos/tamtam-logo.png
-logos/tamtam-logo.png
-logos/hamdolilah.png
 logos/tamtam-logo.png
  ***********
 
@@ -5014,8 +4660,14 @@ logos/tamtam-logo.png
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 53A2A4A01E88FBAE9F9367528E4ECCF7;10769.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 53A2A4A01E88FBAE9F9367528E4ECCF7;10769
+(rerunfilecheck)             After:  82B68ED5C05E5F2959A6C7F5808FF018;9591.
  )
 (\end occurred inside a group at level 2)
 
@@ -5023,30 +4675,62 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### semi simple group (level 1) entered at line 100 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 51457 strings out of 467866
- 1131351 string characters out of 5419765
- 1768202 words of memory out of 5000000
- 79188 multiletter control sequences out of 15000+600000
+ 50680 strings out of 467866
+ 1103887 string characters out of 5419765
+ 1770825 words of memory out of 5000000
+ 78423 multiletter control sequences out of 15000+600000
  645481 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,17n,121p,887b,4749s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecti1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\tcrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ectt1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\font
-s/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\PC\AppData\Local\MiKTeX\f
-onts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (94 pages, 8736187 bytes).
+ 125i,17n,121p,887b,4659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+ <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.
+pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti12
+00.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ectt1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecbx2488.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecti1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx2074.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (83 pages, 11941722 bytes).
 PDF statistics:
- 1671 PDF objects out of 1728 (max. 8388607)
- 281 named destinations out of 1000 (max. 500000)
- 893 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1684 PDF objects out of 1728 (max. 8388607)
+ 269 named destinations out of 1000 (max. 500000)
+ 1068 words of extra memory for PDF output out of 10000 (max. 10000000)
 
