@@ -32,64 +32,64 @@
 \contentsline {subsection}{\numberline {1.4.1}Module TT Webinar}{19}{subsection.1.4.1}%
 \contentsline {subsubsection}{Cas d'utilisation par acteur}{19}{subsubsection*.33}%
 \contentsline {subsubsection}{Diagrammes de séquence}{21}{subsubsection*.38}%
-\contentsline {subsubsection}{Diagramme de classes}{24}{subsubsection*.44}%
-\contentsline {subsection}{\numberline {1.4.2}Module OffCourse}{24}{subsection.1.4.2}%
+\contentsline {subsubsection}{Diagramme de classes}{25}{subsubsection*.44}%
+\contentsline {subsection}{\numberline {1.4.2}Module OffCourse}{26}{subsection.1.4.2}%
 \contentsline {subsubsection}{Diagramme Bête à Cornes}{26}{subsubsection*.46}%
-\contentsline {subsubsection}{Diagramme de cas d'utilisation}{27}{subsubsection*.48}%
-\contentsline {subsubsection}{Diagramme de séquence — Utilisateur OffCourse}{28}{subsubsection*.50}%
-\contentsline {subsection}{\numberline {1.4.3}Module LMS — United Associate}{31}{subsection.1.4.3}%
-\contentsline {subsubsection}{Diagramme de cas d'utilisation}{31}{subsubsection*.53}%
-\contentsline {subsubsection}{Diagramme de séquence — Administrateur United Associate}{31}{subsubsection*.55}%
-\contentsline {subsubsection}{Modèle du domaine}{32}{subsubsection*.58}%
-\contentsline {section}{\numberline {1.5}Conclusion}{35}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Étude technique}{36}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Architecture du projet}{36}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Architecture physique}{36}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Architecture logique}{38}{subsection.2.1.2}%
-\contentsline {subsubsection}{L'architecture Client-Serveur sous MeteorJS}{39}{subsubsection*.63}%
-\contentsline {subsubsection}{Structure du dossier \texttt {server}}{42}{subsubsection*.66}%
-\contentsline {subsubsection}{Structure du dossier \texttt {client}}{43}{subsubsection*.68}%
-\contentsline {section}{\numberline {2.2}Qualité de code}{45}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Outils de linting}{45}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Git Hooks}{45}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Conventional Commits}{45}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Spécification technologique}{45}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Outils de développement}{46}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}GitHub Actions}{48}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Release automation}{48}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Architecture de déploiement}{50}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Infrastructure de production}{50}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Caractéristiques de l'infrastructure}{50}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Conclusion}{51}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Réalisation}{52}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{52}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Présentation de la plateforme}{52}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Interface d'authentification}{52}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Interface de la page administrateur}{53}{subsection.3.2.2}%
-\contentsline {subsubsection}{Gestion des webinaires}{54}{subsubsection*.76}%
-\contentsline {subsubsection}{Configuration des sondages automatiques}{56}{subsubsection*.80}%
-\contentsline {subsubsection}{Configuration des questions automatiques}{58}{subsubsection*.83}%
-\contentsline {subsubsection}{Gestion des administrateurs}{58}{subsubsection*.85}%
-\contentsline {subsection}{\numberline {3.2.3}Activités lors du webinaire}{59}{subsection.3.2.3}%
-\contentsline {subsubsection}{Onglet Participants}{59}{subsubsection*.88}%
-\contentsline {subsubsection}{Onglet Conversation}{61}{subsubsection*.91}%
-\contentsline {subsubsection}{Onglet Questions / Réponses}{62}{subsubsection*.93}%
-\contentsline {subsubsection}{Onglet Sondages}{63}{subsubsection*.96}%
-\contentsline {subsubsection}{Onglet Annonces}{64}{subsubsection*.98}%
-\contentsline {subsubsection}{Onglet Documents}{65}{subsubsection*.100}%
-\contentsline {subsubsection}{Onglet Examen Final}{66}{subsubsection*.102}%
-\contentsline {subsubsection}{Onglet Live Config}{66}{subsubsection*.104}%
-\contentsline {subsection}{\numberline {3.2.4}Système de pilotage et de prompteur}{67}{subsection.3.2.4}%
-\contentsline {subsubsection}{Ajout d'images et gestion des tags}{67}{subsubsection*.106}%
-\contentsline {subsubsection}{Prompteur Régie}{68}{subsubsection*.108}%
-\contentsline {subsubsection}{Prompteur Public}{68}{subsubsection*.110}%
-\contentsline {subsubsection}{Prompteur Compteur}{69}{subsubsection*.112}%
-\contentsline {subsubsection}{Prompteur Présentateur}{69}{subsubsection*.114}%
-\contentsline {subsubsection}{Télécommande}{70}{subsubsection*.116}%
-\contentsline {subsection}{\numberline {3.2.5}Interface de clôture du webinaire (ClosingPage)}{70}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Fonctionnalités transversales}{71}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Système de notifications}{71}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Gestion des rôles et des droits d'accès}{71}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{71}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Conclusion}{71}{section.3.4}%
-\contentsline {section}{Références bibliographiques}{73}{section.3.4}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation}{28}{subsubsection*.48}%
+\contentsline {subsubsection}{Diagramme de séquence — Utilisateur OffCourse}{29}{subsubsection*.50}%
+\contentsline {subsection}{\numberline {1.4.3}Module LMS — United Associate}{32}{subsection.1.4.3}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation}{32}{subsubsection*.53}%
+\contentsline {subsubsection}{Diagramme de séquence — Administrateur United Associate}{32}{subsubsection*.55}%
+\contentsline {subsubsection}{Modèle du domaine}{33}{subsubsection*.58}%
+\contentsline {section}{\numberline {1.5}Conclusion}{36}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Étude technique}{37}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Architecture du projet}{37}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Architecture physique}{37}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Architecture logique}{39}{subsection.2.1.2}%
+\contentsline {subsubsection}{L'architecture Client-Serveur sous MeteorJS}{40}{subsubsection*.63}%
+\contentsline {subsubsection}{Structure du dossier \texttt {server}}{43}{subsubsection*.66}%
+\contentsline {subsubsection}{Structure du dossier \texttt {client}}{44}{subsubsection*.68}%
+\contentsline {section}{\numberline {2.2}Qualité de code}{46}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Outils de linting}{46}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Git Hooks}{46}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Conventional Commits}{46}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Spécification technologique}{46}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Outils de développement}{47}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}GitHub Actions}{49}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Release automation}{49}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Architecture de déploiement}{51}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Infrastructure de production}{51}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Caractéristiques de l'infrastructure}{51}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Conclusion}{52}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Réalisation}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{53}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Présentation de la plateforme}{53}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Interface d'authentification}{53}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Interface de la page administrateur}{54}{subsection.3.2.2}%
+\contentsline {subsubsection}{Gestion des webinaires}{55}{subsubsection*.76}%
+\contentsline {subsubsection}{Configuration des sondages automatiques}{57}{subsubsection*.80}%
+\contentsline {subsubsection}{Configuration des questions automatiques}{59}{subsubsection*.83}%
+\contentsline {subsubsection}{Gestion des administrateurs}{59}{subsubsection*.85}%
+\contentsline {subsection}{\numberline {3.2.3}Activités lors du webinaire}{60}{subsection.3.2.3}%
+\contentsline {subsubsection}{Onglet Participants}{60}{subsubsection*.88}%
+\contentsline {subsubsection}{Onglet Conversation}{62}{subsubsection*.91}%
+\contentsline {subsubsection}{Onglet Questions / Réponses}{63}{subsubsection*.93}%
+\contentsline {subsubsection}{Onglet Sondages}{64}{subsubsection*.96}%
+\contentsline {subsubsection}{Onglet Annonces}{65}{subsubsection*.98}%
+\contentsline {subsubsection}{Onglet Documents}{66}{subsubsection*.100}%
+\contentsline {subsubsection}{Onglet Examen Final}{67}{subsubsection*.102}%
+\contentsline {subsubsection}{Onglet Live Config}{67}{subsubsection*.104}%
+\contentsline {subsection}{\numberline {3.2.4}Système de pilotage et de prompteur}{68}{subsection.3.2.4}%
+\contentsline {subsubsection}{Ajout d'images et gestion des tags}{68}{subsubsection*.106}%
+\contentsline {subsubsection}{Prompteur Régie}{69}{subsubsection*.108}%
+\contentsline {subsubsection}{Prompteur Public}{69}{subsubsection*.110}%
+\contentsline {subsubsection}{Prompteur Compteur}{70}{subsubsection*.112}%
+\contentsline {subsubsection}{Prompteur Présentateur}{70}{subsubsection*.114}%
+\contentsline {subsubsection}{Télécommande}{71}{subsubsection*.116}%
+\contentsline {subsection}{\numberline {3.2.5}Interface de clôture du webinaire (ClosingPage)}{71}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Fonctionnalités transversales}{72}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Système de notifications}{72}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Gestion des rôles et des droits d'accès}{72}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{72}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Conclusion}{72}{section.3.4}%
+\contentsline {section}{Références bibliographiques}{74}{section.3.4}%
