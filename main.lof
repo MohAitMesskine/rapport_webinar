@@ -11,61 +11,61 @@
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Diagramme de Gantt — Sprint 2}}{11}{figure.caption.14}%
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Diagramme de Gantt — Sprint 3}}{12}{figure.caption.16}%
 \contentsline {figure}{\numberline {1.11}{\ignorespaces Diagramme de Gantt — Sprint 4}}{13}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Cas d'utilisation — Administrateur Webinar}}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Cas d'utilisation — Administrateur Webinar}}{16}{figure.caption.20}%
 \contentsline {figure}{\numberline {1.13}{\ignorespaces Cas d'utilisation — Modérateur Webinar}}{16}{figure.caption.21}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Cas d'utilisation — Orateur Webinar}}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Cas d'utilisation — Orateur Webinar}}{17}{figure.caption.22}%
 \contentsline {figure}{\numberline {1.15}{\ignorespaces Cas d'utilisation — Participant Webinar}}{17}{figure.caption.23}%
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Diagramme de séquence — Authentification}}{17}{figure.caption.25}%
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Diagramme de séquence — Association à un webinar}}{18}{figure.caption.26}%
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Diagramme de séquence — Gestion d'un webinar}}{19}{figure.caption.27}%
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Diagramme de séquence — Gestion d'un sondage}}{19}{figure.caption.28}%
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Diagramme de séquence — Télécommande / Orateur}}{20}{figure.caption.29}%
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Diagramme de classes — Module TT Webinar}}{21}{figure.caption.31}%
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Diagramme Bête à Cornes — Système OffCourse}}{22}{figure.caption.33}%
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Diagramme de cas d'utilisation — Gestion des formations OffCourse}}{23}{figure.caption.35}%
-\contentsline {figure}{\numberline {1.24}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 1)}}{25}{figure.caption.37}%
-\contentsline {figure}{\numberline {1.25}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 2)}}{26}{figure.caption.38}%
-\contentsline {figure}{\numberline {1.26}{\ignorespaces Diagramme de cas d'utilisation — Interface LMS United Associate}}{27}{figure.caption.40}%
-\contentsline {figure}{\numberline {1.27}{\ignorespaces Diagramme de séquence — Processus administratif LMS (Partie 1)}}{28}{figure.caption.42}%
-\contentsline {figure}{\numberline {1.28}{\ignorespaces Diagramme de séquence — Processus administratif LMS (Partie 2)}}{29}{figure.caption.43}%
-\contentsline {figure}{\numberline {1.29}{\ignorespaces Modèle du domaine — Système LMS}}{30}{figure.caption.45}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Diagramme de séquence — Authentification}}{18}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Diagramme de séquence — Association à un webinar}}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Diagramme de séquence — Gestion d'un webinar}}{20}{figure.caption.27}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Diagramme de séquence — Gestion d'un sondage}}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Diagramme de séquence — Télécommande / Orateur}}{21}{figure.caption.29}%
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Diagramme de classes — Module TT Webinar}}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Diagramme Bête à Cornes — Système OffCourse}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Diagramme de cas d'utilisation — Gestion des formations OffCourse}}{24}{figure.caption.35}%
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 1)}}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Diagramme de séquence — Interactions utilisateur OffCourse (Partie 2)}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Diagramme de cas d'utilisation — Interface United Associate}}{28}{figure.caption.40}%
+\contentsline {figure}{\numberline {1.27}{\ignorespaces Diagramme de séquence — Processus administratif United Associate (Partie 1)}}{29}{figure.caption.42}%
+\contentsline {figure}{\numberline {1.28}{\ignorespaces Diagramme de séquence — Processus administratif United Associate (Partie 2)}}{30}{figure.caption.43}%
+\contentsline {figure}{\numberline {1.29}{\ignorespaces Modèle du domaine — Système United Associate}}{31}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture technique du système Webinar Didier}}{34}{figure.caption.47}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Architecture globale du système Webinar}}{35}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Architecture Client-Serveur sous MeteorJS}}{36}{figure.caption.50}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Cycle de circulation des données dans le projet}}{38}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Structure du dossier \texttt {server} du projet}}{39}{figure.caption.52}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Structure du dossier \texttt {client} du projet}}{40}{figure.caption.54}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Pipeline GitHub Actions — cycle complet CI/CD}}{47}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Architecture de déploiement haute disponibilité}}{48}{figure.caption.65}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture technique du système Webinar Didier}}{35}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Architecture globale du système Webinar}}{36}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Architecture Client-Serveur sous MeteorJS}}{37}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Cycle de circulation des données dans le projet}}{39}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Structure du dossier \texttt {server} du projet}}{40}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Structure du dossier \texttt {client} du projet}}{41}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Pipeline GitHub Actions — cycle complet CI/CD}}{48}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Architecture de déploiement haute disponibilité}}{49}{figure.caption.65}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Page affichée aux visiteurs non authentifiés}}{51}{figure.caption.66}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Interface d'authentification}}{51}{figure.caption.67}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Utilisateur sans accès à la page d'administration}}{52}{figure.caption.68}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Utilisateur avec accès à la page d'administration}}{52}{figure.caption.69}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Actions disponibles sur un webinaire}}{52}{figure.caption.71}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Interface de modification d'un webinaire}}{53}{figure.caption.72}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Vérification des participants depuis l'interface admin}}{53}{figure.caption.73}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Configuration des sondages automatiques}}{54}{figure.caption.75}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Formulaire d'ajout d'un sondage en une langue}}{55}{figure.caption.76}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Configuration des questions automatiques de l'examen final}}{56}{figure.caption.78}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Liste des administrateurs de la plateforme}}{56}{figure.caption.80}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Recherche d'un utilisateur par adresse email}}{57}{figure.caption.81}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Onglet Participants}}{57}{figure.caption.83}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Discussion privée entre deux utilisateurs}}{58}{figure.caption.84}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Onglet Conversation (chat public)}}{59}{figure.caption.86}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Onglet Questions / Réponses}}{60}{figure.caption.88}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Question répondue dans l'onglet Q/R}}{60}{figure.caption.89}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Onglet Sondages}}{61}{figure.caption.91}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Onglet Annonces}}{62}{figure.caption.93}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Onglet Documents}}{63}{figure.caption.95}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Onglet Examen Final}}{64}{figure.caption.97}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Onglet Live Config — les trois modes de diffusion}}{65}{figure.caption.99}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Interface de configuration et pilotage du webinaire}}{65}{figure.caption.101}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Gestion des contenus du Prompteur Régie}}{66}{figure.caption.103}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Contenus affichés dans le Prompteur Public}}{66}{figure.caption.105}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Contenus du Prompteur Compteur}}{67}{figure.caption.107}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Contenus du Prompteur Présentateur}}{67}{figure.caption.109}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Interface de la Télécommande}}{68}{figure.caption.111}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Page de clôture — côté orateur/modérateur}}{68}{figure.caption.112}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Page de clôture — côté participant}}{69}{figure.caption.113}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Page affichée aux visiteurs non authentifiés}}{52}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interface d'authentification}}{52}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Utilisateur sans accès à la page d'administration}}{53}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Utilisateur avec accès à la page d'administration}}{53}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Actions disponibles sur un webinaire}}{53}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Interface de modification d'un webinaire}}{54}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Vérification des participants depuis l'interface admin}}{54}{figure.caption.73}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Configuration des sondages automatiques}}{55}{figure.caption.75}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Formulaire d'ajout d'un sondage en une langue}}{56}{figure.caption.76}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Configuration des questions automatiques de l'examen final}}{57}{figure.caption.78}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Liste des administrateurs de la plateforme}}{57}{figure.caption.80}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Recherche d'un utilisateur par adresse email}}{58}{figure.caption.81}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Onglet Participants}}{58}{figure.caption.83}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Discussion privée entre deux utilisateurs}}{59}{figure.caption.84}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Onglet Conversation (chat public)}}{60}{figure.caption.86}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Onglet Questions / Réponses}}{61}{figure.caption.88}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Question répondue dans l'onglet Q/R}}{61}{figure.caption.89}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Onglet Sondages}}{62}{figure.caption.91}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Onglet Annonces}}{63}{figure.caption.93}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Onglet Documents}}{64}{figure.caption.95}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Onglet Examen Final}}{65}{figure.caption.97}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Onglet Live Config — les trois modes de diffusion}}{66}{figure.caption.99}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Interface de configuration et pilotage du webinaire}}{66}{figure.caption.101}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Gestion des contenus du Prompteur Régie}}{67}{figure.caption.103}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Contenus affichés dans le Prompteur Public}}{67}{figure.caption.105}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Contenus du Prompteur Compteur}}{68}{figure.caption.107}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Contenus du Prompteur Présentateur}}{68}{figure.caption.109}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Interface de la Télécommande}}{69}{figure.caption.111}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Page de clôture — côté orateur/modérateur}}{69}{figure.caption.112}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Page de clôture — côté participant}}{70}{figure.caption.113}%

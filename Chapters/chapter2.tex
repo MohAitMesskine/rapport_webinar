@@ -1,31 +1,35 @@
 %------------------------------------------------------------
 \section{Diagrammes UML}
 
-Dans cette section, nous présentons les différents diagrammes UML réalisés pour modéliser les fonctionnalités, les interactions et la structure du système. Ces diagrammes permettent de mieux comprendre le fonctionnement global de la plateforme ainsi que les relations entre les différents acteurs et composants.
+Dans le cadre de l’analyse et de la conception de notre plateforme, nous avons utilisé le langage UML (\textit{Unified Modeling Language}) afin de modéliser les différents comportements, interactions et structures du système. Les diagrammes UML permettent de représenter de manière claire et organisée les fonctionnalités offertes par la plateforme ainsi que les relations entre les différents acteurs et composants logiciels.
+
+Cette modélisation constitue une étape essentielle du processus de développement, car elle facilite la compréhension globale du système avant la phase d’implémentation technique. Elle permet également d’identifier les besoins fonctionnels, de structurer les échanges entre les modules et d’assurer une meilleure cohérence architecturale.
 
 Notre système est composé de trois modules principaux :
 \begin{itemize}
-    \item \textbf{TT Webinar} : gestion des webinaires et des sessions interactives
-    \item \textbf{OffCourse} : plateforme de gestion des formations individuelles
-    \item \textbf{United Associate} : système de gestion des formations organisationnelles
+    \item \textbf{TT Webinar} : plateforme de gestion des webinaires interactifs ;
+    \item \textbf{OffCourse} : système de gestion des formations individuelles ;
+    \item \textbf{United Associate} : plateforme de gestion organisationnelle des formations et des collaborateurs.
 \end{itemize}
 
 %============================================================
 \subsection{Module TT Webinar}
 %============================================================
 
-Le module TT Webinar constitue le noyau principal du système. Il permet l'organisation et la gestion des webinaires en temps réel, notamment la diffusion vidéo, le partage de contenus, la gestion des participants ainsi que les interactions collaboratives.
+Le module TT Webinar constitue le composant principal de la plateforme. Il permet l’organisation et la gestion des webinaires en temps réel à travers plusieurs fonctionnalités telles que la diffusion vidéo, le partage de contenu, la gestion des participants ainsi que les interactions collaboratives entre les différents utilisateurs.
+
+Afin de mieux représenter le fonctionnement de ce module, plusieurs diagrammes UML ont été réalisés pour modéliser les cas d’utilisation, les échanges dynamiques ainsi que la structure interne du système.
 
 %------------------------------------------------------------
 \subsubsection{Cas d'utilisation par acteur}
 
-Les diagrammes de cas d'utilisation suivants présentent les fonctionnalités accessibles à chaque acteur du module TT Webinar.
+Les diagrammes de cas d’utilisation suivants présentent les fonctionnalités accessibles aux différents acteurs du module TT Webinar. Chaque acteur possède des privilèges spécifiques lui permettant d’interagir avec le système selon son rôle.
 
 %-----------------------
 \medskip
 \noindent\textbf{Administrateur :}
 
-Ce diagramme représente les fonctionnalités accessibles à l'administrateur. Celui-ci possède les privilèges les plus élevés du système et assure la gestion complète des webinaires et des utilisateurs. Il peut créer, modifier et supprimer des sessions, gérer les inscriptions et superviser l'ensemble des activités de la plateforme.
+Le diagramme suivant illustre les principales fonctionnalités accessibles à l’administrateur du système. Cet acteur possède les privilèges les plus élevés et assure la gestion globale de la plateforme. Il intervient notamment dans la création des sessions webinar, la gestion des utilisateurs ainsi que la supervision des activités réalisées au sein du système.
 
 \begin{figure}[htbp]
     \centering
@@ -33,11 +37,15 @@ Ce diagramme représente les fonctionnalités accessibles à l'administrateur. C
     \caption{Cas d'utilisation — Administrateur Webinar}
 \end{figure}
 
+Ce diagramme met en évidence le rôle central de l’administrateur dans la configuration et le contrôle de la plateforme Webinar.
+
 %-----------------------
 \medskip
 \noindent\textbf{Modérateur :}
 
-Le diagramme suivant présente les fonctionnalités disponibles pour le modérateur. Son rôle principal est d'assurer le bon déroulement des échanges durant les sessions. Il peut gérer les interventions des participants, modérer le chat, activer ou désactiver les microphones et veiller au respect des règles de la session.
+Le diagramme de cas d’utilisation du modérateur présente les différentes fonctionnalités dédiées à la gestion des échanges durant les sessions webinar. Le modérateur veille au bon déroulement des interactions entre les participants et l’orateur.
+
+Il dispose de plusieurs fonctionnalités telles que la gestion des interventions, la modération du chat, l’activation ou la désactivation des microphones ainsi que le contrôle du respect des règles de communication au sein des sessions.
 
 \begin{figure}[htbp]
     \centering
@@ -45,11 +53,15 @@ Le diagramme suivant présente les fonctionnalités disponibles pour le modérat
     \caption{Cas d'utilisation — Modérateur Webinar}
 \end{figure}
 
+L’analyse de ce diagramme montre que le modérateur joue un rôle essentiel dans l’organisation et la fluidité des échanges collaboratifs.
+
 %-----------------------
 \medskip
 \noindent\textbf{Orateur :}
 
-Ce diagramme illustre les interactions de l'orateur avec le système. L'orateur anime les sessions et partage les contenus pédagogiques avec les participants. Il dispose de fonctionnalités telles que le partage d'écran, la gestion des diapositives, la création de sondages et le contrôle de sa présentation via la télécommande.
+Ce diagramme illustre les interactions de l’orateur avec la plateforme. L’orateur représente l’acteur chargé d’animer les sessions webinar et de partager les contenus pédagogiques avec les participants.
+
+Il peut notamment effectuer le partage d’écran, gérer les diapositives de présentation, créer des sondages interactifs et contrôler sa présentation à l’aide d’un système de télécommande à distance.
 
 \begin{figure}[htbp]
     \centering
@@ -57,11 +69,15 @@ Ce diagramme illustre les interactions de l'orateur avec le système. L'orateur 
     \caption{Cas d'utilisation — Orateur Webinar}
 \end{figure}
 
+Ce diagramme met en évidence les outils interactifs mis à disposition de l’orateur afin d’assurer une présentation dynamique et collaborative.
+
 %-----------------------
 \medskip
 \noindent\textbf{Participant :}
 
-Le participant représente l'utilisateur final du webinaire. Ce diagramme présente les différentes actions qu'il peut effectuer durant une session : rejoindre une session, interagir via le chat, répondre aux sondages, poser des questions et consulter les documents partagés par l'orateur.
+Le participant représente l’utilisateur final du webinaire. Le diagramme suivant présente les différentes actions qu’il peut réaliser durant une session webinar.
+
+Parmi les principales fonctionnalités disponibles figurent la participation à une session, l’interaction via le chat, la réponse aux sondages, la soumission de questions ainsi que la consultation des documents partagés par l’orateur.
 
 \begin{figure}[htbp]
     \centering
@@ -69,16 +85,20 @@ Le participant représente l'utilisateur final du webinaire. Ce diagramme prése
     \caption{Cas d'utilisation — Participant Webinar}
 \end{figure}
 
+Ce diagramme montre que la plateforme favorise une participation active et interactive des utilisateurs durant les sessions webinar.
+
 %------------------------------------------------------------
 \subsubsection{Diagrammes de séquence}
 
-Les diagrammes de séquence suivants décrivent les échanges entre les utilisateurs et les différents composants internes du système TT Webinar.
+Les diagrammes de séquence suivants décrivent les interactions dynamiques entre les utilisateurs et les différents composants internes du module TT Webinar. Ils permettent de visualiser l’enchaînement chronologique des échanges réalisés au sein du système.
 
 %-----------------------
 \medskip
 \noindent\textbf{Authentification :}
 
-Ce diagramme présente le processus d'authentification des utilisateurs au système. Il décrit les étapes de saisie des identifiants, la vérification côté serveur, la génération du token de session et la redirection vers l'interface appropriée selon le rôle de l'utilisateur.
+Le diagramme suivant présente le processus d’authentification des utilisateurs au sein de la plateforme. Il décrit les différentes étapes allant de la saisie des identifiants jusqu’à l’accès sécurisé au système.
+
+Le processus comprend la vérification des informations d’authentification, la génération du token de session ainsi que la redirection de l’utilisateur vers l’interface correspondant à son rôle.
 
 \begin{figure}[htbp]
     \centering
@@ -86,11 +106,15 @@ Ce diagramme présente le processus d'authentification des utilisateurs au syst�
     \caption{Diagramme de séquence — Authentification}
 \end{figure}
 
+Ce diagramme met en évidence les mécanismes de sécurité utilisés pour garantir un accès sécurisé à la plateforme.
+
 %-----------------------
 \medskip
 \noindent\textbf{Association à un webinar :}
 
-Le diagramme suivant illustre les différentes étapes nécessaires pour associer un utilisateur à un webinaire. Il couvre la recherche d'une session disponible, la validation des droits d'accès, l'inscription de l'utilisateur et la confirmation de son association à la session concernée.
+Le diagramme suivant illustre les différentes étapes nécessaires pour associer un utilisateur à une session webinar.
+
+Le processus inclut la recherche d’une session disponible, la vérification des droits d’accès, l’inscription de l’utilisateur ainsi que la confirmation finale de son association au webinar sélectionné.
 
 \begin{figure}[htbp]
     \centering
@@ -98,11 +122,15 @@ Le diagramme suivant illustre les différentes étapes nécessaires pour associe
     \caption{Diagramme de séquence — Association à un webinar}
 \end{figure}
 
+L’analyse de ce diagramme montre comment le système assure une gestion structurée des accès aux sessions webinar.
+
 %-----------------------
 \medskip
 \noindent\textbf{Gestion d'un webinar :}
 
-Ce diagramme représente le déroulement complet d'une session webinar ainsi que les interactions entre les différents acteurs. Il détaille les phases de démarrage de la session, de diffusion du flux vidéo, de gestion des participants en temps réel et de clôture de la session par l'administrateur ou l'orateur.
+Ce diagramme représente le déroulement global d’une session webinar ainsi que les interactions entre les différents acteurs de la plateforme.
+
+Il décrit notamment les différentes phases du cycle de vie d’un webinar : démarrage de la session, diffusion du flux vidéo, gestion des participants en temps réel et clôture de la session.
 
 \begin{figure}[htbp]
     \centering
@@ -110,11 +138,15 @@ Ce diagramme représente le déroulement complet d'une session webinar ainsi que
     \caption{Diagramme de séquence — Gestion d'un webinar}
 \end{figure}
 
+Ce diagramme illustre la coordination des différents composants du système afin d’assurer le bon déroulement des sessions interactives.
+
 %-----------------------
 \medskip
 \noindent\textbf{Gestion d'un sondage :}
 
-Le diagramme suivant montre le fonctionnement des sondages interactifs durant une session webinar. Il décrit la création du sondage par l'orateur, sa diffusion aux participants, la collecte des réponses en temps réel et l'affichage des résultats agrégés à l'ensemble des acteurs de la session.
+Le diagramme suivant présente le fonctionnement des sondages interactifs durant une session webinar.
+
+Il décrit les différentes étapes liées à la création du sondage par l’orateur, sa diffusion auprès des participants, la collecte des réponses en temps réel ainsi que l’affichage des résultats.
 
 \begin{figure}[htbp]
     \centering
@@ -122,11 +154,15 @@ Le diagramme suivant montre le fonctionnement des sondages interactifs durant un
     \caption{Diagramme de séquence — Gestion d'un sondage}
 \end{figure}
 
+Ce diagramme met en évidence les mécanismes d’interaction en temps réel proposés par la plateforme Webinar.
+
 %-----------------------
 \medskip
 \noindent\textbf{Télécommande / Orateur :}
 
-Ce diagramme présente le système de contrôle à distance utilisé par l'orateur pour gérer sa présentation. Il illustre les interactions entre le dispositif de télécommande, le serveur et l'interface de présentation, permettant à l'orateur de naviguer entre les diapositives et de déclencher des actions sans intervention manuelle directe.
+Le diagramme suivant illustre le système de contrôle à distance utilisé par l’orateur durant sa présentation.
+
+Il présente les échanges réalisés entre la télécommande, le serveur et l’interface de présentation afin de permettre la navigation entre les diapositives et le déclenchement des différentes actions sans manipulation directe de l’ordinateur.
 
 \begin{figure}[H]
     \centering
@@ -134,10 +170,14 @@ Ce diagramme présente le système de contrôle à distance utilisé par l'orate
     \caption{Diagramme de séquence — Télécommande / Orateur}
 \end{figure}
 
+L’utilisation de ce mécanisme améliore l’expérience utilisateur et facilite la gestion des présentations en temps réel.
+
 %------------------------------------------------------------
 \subsubsection{Diagramme de classes}
 
-Le diagramme de classes suivant représente la structure statique du module TT Webinar ainsi que les relations entre les différentes entités du système. Il met en évidence les attributs et méthodes de chaque classe, ainsi que les associations, héritages et dépendances qui structurent l'architecture orientée objet du module.
+Le diagramme de classes suivant représente la structure statique du module TT Webinar. Il met en évidence les différentes entités du système ainsi que les relations existantes entre elles.
+
+Ce diagramme présente les attributs, les méthodes, les associations, les héritages et les dépendances qui composent l’architecture orientée objet du module.
 
 \begin{figure}[H]
     \centering
@@ -145,22 +185,30 @@ Le diagramme de classes suivant représente la structure statique du module TT W
     \caption{Diagramme de classes — Module TT Webinar}
 \end{figure}
 
+Ce diagramme offre une vision globale de l’organisation interne du système et facilite la compréhension de son architecture logicielle.
+
 %============================================================
 \subsection{Module OffCourse}
 %============================================================
 
-Le module OffCourse est une plateforme de gestion des formations individuelles. Il permet aux utilisateurs de suivre leur progression, définir des objectifs d'apprentissage et accéder à un catalogue de formations.
+Le module OffCourse est une plateforme dédiée à la gestion des formations individuelles. Il permet aux utilisateurs d’accéder à des contenus pédagogiques, de suivre leur progression et de définir des objectifs d’apprentissage personnalisés.
+
+Les diagrammes suivants présentent les principales fonctionnalités et interactions associées à ce module.
 
 %------------------------------------------------------------
 \subsubsection{Diagramme Bête à Cornes}
 
-Le diagramme Bête à Cornes permet d'identifier la finalité du système ainsi que les besoins auxquels il répond. Il synthétise en trois axes essentiels la raison d'être de la plateforme OffCourse : les bénéficiaires du service, les éléments sur lesquels le système agit et l'objectif final poursuivi.
+Le diagramme Bête à Cornes suivant permet d’identifier la finalité principale du système OffCourse ainsi que les besoins auxquels il répond. Ce type de diagramme est utilisé durant la phase d’analyse fonctionnelle afin de définir clairement les objectifs du système et les acteurs concernés.
 
-\begin{figure}[htbp]
+Il met en évidence les bénéficiaires de la plateforme, les éléments sur lesquels le système agit ainsi que les objectifs poursuivis dans le cadre de la gestion des formations et du développement des compétences.
+
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.85\linewidth]{beteAcorne.png}
+\includegraphics[width=0.9\linewidth]{beteAcorne.png}
 \caption{Diagramme Bête à Cornes — Système OffCourse}
 \end{figure}
+
+Ce diagramme montre que la plateforme OffCourse vise principalement à optimiser la gestion des parcours de formation tout en facilitant le suivi des objectifs pédagogiques et organisationnels.
 
 \begin{itemize}
     \item \textbf{À qui rend-il service ?} Organisations, collaborateurs et administrateurs.
@@ -168,10 +216,14 @@ Le diagramme Bête à Cornes permet d'identifier la finalité du système ainsi 
     \item \textbf{Dans quel but ?} Optimiser la gestion des formations et le développement des compétences.
 \end{itemize}
 
+Ce diagramme permet de mieux comprendre les objectifs stratégiques poursuivis par le système OffCourse.
+
 %------------------------------------------------------------
 \subsubsection{Diagramme de cas d'utilisation}
 
-Le diagramme suivant présente les interactions entre les utilisateurs et la plateforme OffCourse. Il distingue deux profils d'utilisateurs aux besoins distincts : l'utilisateur simple, orienté vers la gestion personnelle de son parcours de formation, et l'utilisateur collaborateur, dont les actions s'inscrivent dans un cadre organisationnel défini par son entreprise.
+Le diagramme de cas d’utilisation suivant présente les interactions entre les utilisateurs et la plateforme OffCourse.
+
+Il distingue deux profils principaux d’utilisateurs : l’utilisateur simple, orienté vers la gestion individuelle de son apprentissage, et l’utilisateur collaborateur, dont les actions sont intégrées dans un cadre organisationnel.
 
 \begin{figure}[htbp]
 \centering
@@ -181,23 +233,29 @@ Le diagramme suivant présente les interactions entre les utilisateurs et la pla
 
 \textit{Utilisateur Simple :}
 \begin{itemize}
-    \item Consulter les formations disponibles
-    \item Suivre sa progression
-    \item Gérer son panier d'achat
-    \item Définir des objectifs personnels
+    \item Consulter les formations disponibles ;
+    \item Suivre sa progression ;
+    \item Gérer son panier d’achat ;
+    \item Définir des objectifs personnels.
 \end{itemize}
 
 \textit{Utilisateur Collaborateur :}
 \begin{itemize}
-    \item Consulter les recommandations de formation
-    \item Suivre les objectifs organisationnels
-    \item Visualiser la progression des formations recommandées
+    \item Consulter les recommandations de formation ;
+    \item Suivre les objectifs organisationnels ;
+    \item Visualiser la progression des formations recommandées.
 \end{itemize}
+
+Ce diagramme montre la diversité des fonctionnalités pédagogiques proposées par la plateforme OffCourse.
 
 %------------------------------------------------------------
 \subsubsection{Diagramme de séquence — Utilisateur OffCourse}
 
-Ce diagramme de séquence décrit les interactions entre l'utilisateur et les différents composants internes de la plateforme OffCourse. Il est présenté en deux parties pour une meilleure lisibilité. La première partie couvre les actions initiales de l'utilisateur, notamment la connexion, la consultation du catalogue et la sélection d'une formation.
+Le diagramme de séquence suivant décrit les interactions entre l’utilisateur et les différents composants internes du système OffCourse.
+
+Pour améliorer sa lisibilité, ce diagramme est présenté en deux parties.
+
+La première partie couvre les actions initiales de l’utilisateur, notamment l’authentification, la consultation du catalogue des formations et la sélection d’un parcours pédagogique.
 
 \begin{figure}[ht!]
 \hspace{2cm}
@@ -207,7 +265,7 @@ Ce diagramme de séquence décrit les interactions entre l'utilisateur et les di
 
 \newpage
 
-La seconde partie illustre les interactions relatives au suivi de la progression, à la gestion des objectifs personnels et à la finalisation des actions de formation entreprises par l'utilisateur.
+La seconde partie illustre les interactions liées au suivi de la progression, à la gestion des objectifs personnels ainsi qu’à la finalisation des activités de formation.
 
 \begin{figure}[ht!]
 \hspace{2cm}
@@ -215,71 +273,95 @@ La seconde partie illustre les interactions relatives au suivi de la progression
 \caption{Diagramme de séquence — Interactions utilisateur OffCourse (Partie 2)}
 \end{figure}
 
+Ces diagrammes mettent en évidence le fonctionnement global de la plateforme ainsi que les échanges entre les composants pédagogiques du système.
+
 %============================================================
 \subsection{United Associate}
 %============================================================
 
- United Associate est destiné à la gestion organisationnelle des formations. Il permet aux administrateurs de suivre les collaborateurs, définir des objectifs et superviser l'évolution globale des formations.
+Le module United Associate est destiné à la gestion organisationnelle des formations. Il permet aux administrateurs et responsables de suivre les collaborateurs, définir des objectifs stratégiques et superviser l’évolution globale des parcours de formation.
+
+Cette partie présente les principaux diagrammes UML associés à ce module.
 
 %------------------------------------------------------------
 \subsubsection{Diagramme de cas d'utilisation}
 
-Le diagramme suivant présente les principales fonctionnalités du système LMS United Associate. Il met en évidence les actions disponibles pour l'administrateur, qui dispose d'une vue globale sur l'ensemble des collaborateurs, des objectifs de formation et des statistiques d'avancement au sein de l'organisation.
+Le diagramme suivant présente les principales fonctionnalités accessibles à l’administrateur du système United Associate.
+
+Cet acteur dispose d’une vue globale sur l’ensemble des collaborateurs, des objectifs de formation ainsi que des statistiques liées aux performances organisationnelles.
 
 \begin{figure}[htbp]
 \hspace{2cm}
 \includegraphics[width=1.25\linewidth, right]{useCaseLMS.png}
-\caption{Diagramme de cas d'utilisation — Interface LMS United Associate}
+\caption{Diagramme de cas d'utilisation — Interface United Associate}
 \end{figure}
 
 \begin{itemize}
-    \item Gestion des objectifs et des périodes
-    \item Gestion des recommandations
-    \item Suivi des collaborateurs
-    \item Supervision des statistiques globales
+    \item Gestion des objectifs et des périodes ;
+    \item Gestion des recommandations ;
+    \item Suivi des collaborateurs ;
+    \item Supervision des statistiques globales.
 \end{itemize}
+
+Ce diagramme met en évidence les fonctionnalités de pilotage et de supervision offertes par le système.
 
 %------------------------------------------------------------
 \subsubsection{Diagramme de séquence — Administrateur United Associate}
 
-Ce diagramme illustre les opérations réalisées par un administrateur dans le système LMS United Associate. Il est présenté en deux parties. La première partie décrit les actions de configuration initiale, notamment la création des périodes de formation, la définition des objectifs organisationnels et l'affectation des collaborateurs aux parcours concernés.
+Le diagramme suivant illustre les opérations réalisées par l’administrateur dans le système United Associate.
+
+Afin d’améliorer sa lisibilité, il est présenté en deux parties.
+
+La première partie décrit les actions de configuration initiale telles que la création des périodes de formation, la définition des objectifs organisationnels et l’affectation des collaborateurs aux différents parcours pédagogiques.
 
 \begin{figure}[ht!]
 \hspace{1.5cm}
 \adjustbox{trim=0 {.65\height} 0 0, clip, width=1.2\linewidth, right}{\includegraphics[width=1\linewidth]{sequenceAdmin.png}}
-\caption{Diagramme de séquence — Processus administratif LMS (Partie 1)}
+\caption{Diagramme de séquence — Processus administratif United Associate (Partie 1)}
 \end{figure}
 
-La seconde partie présente les interactions liées au suivi opérationnel : consultation des progressions individuelles, émission de recommandations personnalisées et génération des rapports de synthèse à destination de la direction.
+La seconde partie présente les interactions relatives au suivi opérationnel des formations, notamment la consultation des progressions, l’émission des recommandations personnalisées et la génération des rapports de synthèse.
 
 \begin{figure}[ht!]
 \hspace{1.5cm}
 \adjustbox{trim=0 0 0 {.25\height}, clip, width=1.2\linewidth, right}{\includegraphics[width=1\linewidth]{sequenceAdmin.png}}
-\caption{Diagramme de séquence — Processus administratif LMS (Partie 2)}
+\caption{Diagramme de séquence — Processus administratif United Associate (Partie 2)}
 \end{figure}
+
+Ces diagrammes montrent comment le système facilite la gestion centralisée des formations au niveau organisationnel.
 
 %------------------------------------------------------------
 \subsubsection{Modèle du domaine}
 
-Le modèle du domaine suivant représente les principales entités métier du système LMS ainsi que les relations existantes entre elles. Il constitue une vue conceptuelle du système, indépendante de toute implémentation technique, et permet de comprendre la structure des données manipulées par la plateforme.
+Le modèle du domaine suivant représente les principales entités métier du système United Associate ainsi que les relations existantes entre elles. Il fournit une vue conceptuelle globale de l’architecture fonctionnelle du système et permet de mieux comprendre l’organisation des données manipulées par la plateforme.
 
-\begin{figure}[htbp]
-\hspace{2cm}
-\includegraphics[width=1.2\linewidth, right]{Editor _ Mermaid Chart-2025-06-10-161411.png}
-\caption{Modèle du domaine — Système LMS}
+Ce diagramme met en évidence les différentes interactions entre les utilisateurs, les organisations, les objectifs de formation, les recommandations ainsi que les événements pédagogiques. Il permet également d’illustrer les associations et dépendances entre les différentes entités métier du système.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Editor _ Mermaid Chart-2025-06-10-161411.png}
+    \caption{Modèle du domaine — Système United Associate}
 \end{figure}
 
+L’analyse de ce modèle montre que le système est structuré autour d’une architecture orientée métier permettant une gestion centralisée des utilisateurs, des formations et des objectifs organisationnels.
+
 \begin{itemize}
-    \item \textbf{User :} représente les utilisateurs du système
-    \item \textbf{Organization :} représente les organisations
-    \item \textbf{TrainingGoal :} représente les objectifs de formation
-    \item \textbf{Recommendation :} représente les recommandations de formation
-    \item \textbf{Event :} représente les formations disponibles
+    \item \textbf{User :} représente les utilisateurs du système ;
+    \item \textbf{Organization :} représente les organisations ;
+    \item \textbf{TrainingGoal :} représente les objectifs de formation ;
+    \item \textbf{Recommendation :} représente les recommandations de formation ;
+    \item \textbf{Event :} représente les formations disponibles.
 \end{itemize}
+
+Ce modèle permet de visualiser les relations fonctionnelles entre les différentes entités métier du système.
 
 %------------------------------------------------------------
 \section{Conclusion}
 
-Ce chapitre d'analyse et de conception a permis de définir les besoins fonctionnels et non fonctionnels du système Webinar ainsi que les interactions entre les différents acteurs. Grâce aux diagrammes UML réalisés, nous avons pu modéliser de manière claire les fonctionnalités principales, les échanges entre les composants et la structure globale du système.
+Dans ce chapitre, nous avons présenté les différents diagrammes UML réalisés pour modéliser les fonctionnalités et l’architecture de la plateforme.
 
-L'étude des modules TT Webinar, OffCourse et United Associate a permis d'obtenir une vision complète de l'architecture fonctionnelle du projet. Cette phase constitue une base essentielle pour la prochaine étape dédiée à l'implémentation technique et au développement du système.
+L’étude des modules TT Webinar, OffCourse et United Associate a permis de représenter les interactions entre les acteurs, les échanges entre les composants ainsi que la structure interne du système.
+
+Les diagrammes de cas d’utilisation ont permis d’identifier les besoins fonctionnels des utilisateurs, tandis que les diagrammes de séquence ont servi à décrire les échanges dynamiques réalisés au sein de la plateforme. Enfin, les diagrammes de classes et les modèles du domaine ont permis de représenter l’organisation structurelle des différentes entités du système.
+
+Cette phase de modélisation constitue une base essentielle pour la prochaine étape du projet, consacrée à l’implémentation technique et au développement de la solution.

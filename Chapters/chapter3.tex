@@ -15,23 +15,52 @@ la dynamique humaine, la conception et l'environnement informatique.
 
 \subsection{Architecture physique}
 
-L'architecture technique du système repose sur une infrastructure moderne et scalable, conçue
-pour supporter les exigences des fiduciaires belges. Notre solution combine robustesse et
-flexibilité grâce aux composants suivants :
+L’architecture technique du système repose sur un ensemble de technologies modernes permettant d’assurer la performance, la sécurité, la maintenabilité ainsi que la scalabilité de la plateforme. Le tableau suivant présente les principaux composants techniques utilisés ainsi que leur contribution au bon fonctionnement du système.
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|p{3cm}|p{10cm}|}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{3.5cm}|p{10.5cm}|}
 \hline
 \textbf{Composant} & \textbf{Valeur ajoutée} \\ \hline
-\textbf{Git} & Versionnement précis avec historique complet des évolutions \\ \hline
-\textbf{GitHub Actions} & Automatisation des tests et déploiements après chaque modification \\ \hline
-\textbf{PHP-FPM 8.2} & Exécution performante du code métier avec gestion optimisée des ressources \\ \hline
-\textbf{Nginx} & Serveur web haute performance avec gestion intelligente du cache \\ \hline
-\textbf{MySQL 8} & Stockage relationnel des données avec transactions ACID \\ \hline
-\textbf{MongoDB} & Stockage NoSQL utilisé pour la gestion des données en temps réel et pour
-exécuter la partie des prompts et des présentations \\ \hline
+
+\textbf{Git} & Système de gestion de versions permettant le suivi précis des modifications du code source, la collaboration entre les développeurs ainsi que la conservation de l’historique complet des évolutions du projet. \\ \hline
+
+\textbf{GitHub} & Plateforme collaborative utilisée pour l’hébergement du code source, la gestion des branches, des pull requests ainsi que le suivi des tâches et des anomalies du projet. \\ \hline
+
+\textbf{GitHub Actions} & Outil d’intégration et de déploiement continus (CI/CD) permettant l’automatisation des tests, des vérifications de qualité de code et des processus de déploiement après chaque modification du projet. \\ \hline
+
+\textbf{Node.js} & Environnement d’exécution JavaScript utilisé pour développer les services back-end temps réel et assurer la gestion des opérations asynchrones avec de hautes performances. \\ \hline
+
+\textbf{MeteorJS} & Framework full-stack utilisé pour la synchronisation des données en temps réel entre le client et le serveur grâce au mécanisme de publication/abonnement. \\ \hline
+
+\textbf{React.js} & Bibliothèque JavaScript utilisée pour construire des interfaces utilisateur dynamiques, réactives et modulaires basées sur le modèle des composants réutilisables. \\ \hline
+
+\textbf{TypeScript} & Extension typée de JavaScript permettant de renforcer la robustesse du code, détecter les erreurs à la compilation et améliorer la maintenabilité du projet. \\ \hline
+
+\textbf{PHP-FPM 8.2} & Gestionnaire de processus PHP permettant l’exécution performante des traitements métier tout en optimisant la consommation des ressources serveur. \\ \hline
+
+\textbf{Symfony} & Framework PHP robuste utilisé pour structurer les services back-end, gérer les APIs REST et assurer une architecture logicielle maintenable et sécurisée. \\ \hline
+
+\textbf{Nginx} & Serveur web haute performance utilisé comme reverse proxy et répartiteur de charge afin d’améliorer la rapidité d’accès et la gestion du cache. \\ \hline
+
+\textbf{MySQL 8} & Système de gestion de base de données relationnelle garantissant la cohérence des données grâce au support des transactions ACID. \\ \hline
+
+\textbf{MongoDB} & Base de données NoSQL utilisée pour la gestion des données temps réel, des présentations interactives.\\ \hline
+
+\textbf{Redux} & Bibliothèque de gestion d’état globale utilisée pour centraliser et synchroniser les données partagées entre les différents composants React. \\ \hline
+
+\textbf{Jest} & Framework de tests unitaires utilisé pour vérifier le bon fonctionnement des composants, hooks et services du système. \\ \hline
+
+\textbf{ESLint} & Outil d’analyse statique du code permettant de détecter les erreurs potentielles et d’assurer le respect des conventions de développement. \\ \hline
+
+\textbf{Prettier} & Outil de formatage automatique garantissant l’uniformité et la lisibilité du code source au sein de l’équipe de développement. \\ \hline
+
+\textbf{Swagger / OpenAPI} & Outil de documentation des APIs REST permettant de générer une documentation interactive et de tester les endpoints. \\ \hline
+
 \end{tabular}
+\caption{Composants techniques et valeur ajoutée de l’architecture du système}
+\label{tab:architecture-technique}
 \end{table}
 
 \begin{figure}[H]
@@ -105,27 +134,57 @@ nouvelles données sont synchronisées avec l'abonnement/état, ce qui entraîne
 présentation des vues. Le cycle complet des données s'articule comme suit :
 
 \begin{enumerate}
-    \item Le composant grand-parent rend les composants enfants ;
-    \item Les enfants indiquent au grand-parent les données/champs dont ils ont besoin ;
-    \item Le grand-parent s'abonne à toutes les données en une seule fois ;
-    \item Le serveur publie les données au client s'il y est autorisé ;
-    \item Le client accepte les données et les insère dans le magasin Mini-Mongo ;
-    \item Le grand-parent reçoit un message indiquant que les données ont été modifiées ;
-    \item Le grand-parent déclenche un nouveau rendu via le mixin Meteor ;
-    \item Les données circulent du grand-parent vers tous les enfants.
+    \item Le composant grand-parent initialise l’interface principale et effectue le rendu des différents composants enfants nécessaires à l’affichage de la page.
+
+    \item Chaque composant enfant analyse ensuite les données dont il a besoin pour fonctionner correctement et transmet ses besoins au composant parent.
+
+    \item Le composant grand-parent centralise l’ensemble des besoins reçus afin d’optimiser la gestion des abonnements aux données.
+
+    \item Une fois les besoins identifiés, le composant parent établit les abonnements nécessaires vers le serveur Meteor à travers le mécanisme de publication/abonnement.
+
+    \item Le serveur reçoit les demandes d’abonnement et vérifie les droits d’accès ainsi que les autorisations de l’utilisateur connecté.
+
+    \item Après validation des autorisations, le serveur publie les données demandées vers le client concerné.
+
+    \item Le client reçoit automatiquement les données publiées sans avoir besoin d’effectuer des requêtes HTTP répétitives.
+
+    \item Les données reçues sont ensuite stockées localement dans MiniMongo, qui représente une version locale synchronisée de la base MongoDB.
+
+    \item Grâce à MiniMongo, les composants clients peuvent accéder rapidement aux données sans dépendre constamment du serveur distant.
+
+    \item Lorsqu’une modification est détectée dans la base de données principale, le serveur Meteor transmet automatiquement les nouvelles informations aux clients abonnés.
+
+    \item Le composant grand-parent reçoit alors une notification indiquant que les données utilisées par l’interface ont été modifiées.
+
+    \item Le mixin Meteor ou les mécanismes réactifs associés déclenchent automatiquement un nouveau rendu des composants concernés.
+
+    \item Les composants enfants reçoivent les nouvelles données mises à jour depuis le composant parent.
+
+    \item L’interface utilisateur est ainsi actualisée dynamiquement sans nécessiter de rechargement manuel de la page.
+
+    \item Ce mécanisme assure une synchronisation en temps réel entre le client et le serveur, garantissant une expérience utilisateur fluide, réactive et interactive.
 \end{enumerate}
 
+Le schéma suivant illustre le cycle de circulation des données au sein de la plateforme TT Webinar. Il met en évidence les échanges réalisés entre les différents composants du système, notamment le client, le serveur Meteor, la base de données MiniMongo ainsi que les mécanismes de publication et d’abonnement utilisés pour assurer la synchronisation en temps réel.
 
-\clearpage
-% Reduce top margin and place the image flush to the top of its own page
-\newgeometry{top=0.6cm,left=2.5cm,right=2cm,bottom=2cm}
-\vspace*{-0.6cm}
+Cette architecture permet une transmission fluide et réactive des données entre les différentes couches de l’application tout en garantissant une mise à jour instantanée de l’interface utilisateur.
+
 \begin{center}
-    \includegraphics[width=\textwidth,height=0.96\textheight,keepaspectratio]{Chapters/architecture/structure_webinar.png}
-    \captionof{figure}{Cycle de circulation des données dans le projet}\label{fig:cycle-donnees}
+\includegraphics[
+    width=0.92\linewidth
+]{Chapters/architecture/structure_webinar.png}
+
+\captionof{figure}{Cycle de circulation des données dans le projet}
+\label{fig:cycle-donnees}
 \end{center}
-\clearpage
-\restoregeometry
+
+Ce diagramme met en évidence le fonctionnement réactif de l’architecture Meteor ainsi que la circulation continue des données entre les différentes couches de l’application. Contrairement aux architectures web traditionnelles basées sur des requêtes HTTP classiques, Meteor adopte un mécanisme de synchronisation en temps réel reposant sur le modèle \textit{publication/abonnement}.
+
+Lorsqu’un utilisateur interagit avec l’interface, les composants clients s’abonnent automatiquement aux données nécessaires. Le serveur vérifie ensuite les autorisations d’accès avant de publier les informations demandées. Ces données sont alors synchronisées dans la base locale MiniMongo côté client, permettant une mise à jour instantanée de l’interface sans rechargement manuel des pages.
+
+Le diagramme illustre également le rôle central joué par les composants parents dans la gestion des abonnements et la redistribution des données vers les composants enfants. Grâce à cette architecture réactive, toute modification effectuée dans la base de données est immédiatement propagée vers les utilisateurs connectés.
+
+Cette approche améliore considérablement l’expérience utilisateur en garantissant une communication fluide, rapide et dynamique entre le client et le serveur, tout en réduisant la complexité liée à la gestion manuelle des requêtes et des mises à jour de l’interface.
 
 %------ 3.1.2 ------
 \subsubsection{Structure du dossier \texttt{server}}
