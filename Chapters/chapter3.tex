@@ -15,9 +15,11 @@ la dynamique humaine, la conception et l'environnement informatique.
 
 \subsection{Architecture physique}
 
-L'architecture technique du système LMS repose sur une infrastructure moderne et scalable, conçue pour supporter les exigences des fiduciaires belges. Notre solution combine robustesse et flexibilité grâce aux composants suivants :
+L'architecture technique du système repose sur une infrastructure moderne et scalable, conçue
+pour supporter les exigences des fiduciaires belges. Notre solution combine robustesse et
+flexibilité grâce aux composants suivants :
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{|p{3cm}|p{10cm}|}
 \hline
@@ -27,15 +29,18 @@ L'architecture technique du système LMS repose sur une infrastructure moderne e
 \textbf{PHP-FPM 8.2} & Exécution performante du code métier avec gestion optimisée des ressources \\ \hline
 \textbf{Nginx} & Serveur web haute performance avec gestion intelligente du cache \\ \hline
 \textbf{MySQL 8} & Stockage relationnel des données avec transactions ACID \\ \hline
+\textbf{MongoDB} & Stockage NoSQL utilisé pour la gestion des données en temps réel et pour
+exécuter la partie des prompts et des présentations \\ \hline
 \end{tabular}
 \end{table}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.8\linewidth]{lmsstructure.png}
 \caption{Architecture technique du système Webinar Didier}
 \label{fig:archi-tech}
 \end{figure}
+
 \newpage
 
 %------------------------------------------------------------
@@ -51,7 +56,7 @@ publication/abonnement, ce qui permet de créer des applications interactives et
 effort supplémentaire. Cette approche réduit considérablement la complexité de gestion des flux
 de données et améliore l'expérience utilisateur.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.85\linewidth]{Chapters/architecture/architecture_webinar.png}
 \caption{Architecture globale du système Webinar}
@@ -69,29 +74,23 @@ Meteor JS particulièrement adapté à notre contexte :
     \item \textbf{Simplicité et haute productivité} : Grâce à sa réactivité et à son implication
     intelligente, Meteor nécessite beaucoup moins de code que les autres frameworks pour
     effectuer les mêmes tâches.
-
     \item \textbf{Un langage unique} : Les parties client et serveur de l'application sont écrites
     dans le même langage JavaScript en utilisant le même framework, pouvant cohabiter
     dans un seul fichier.
-
     \item \textbf{Base de données omniprésente} : Que ce soit côté serveur ou client, les mêmes
     méthodes accèdent à la base de données MongoDB.
-
     \item \textbf{Données sur la ligne} : Contrairement à PHP et ses frameworks, Meteor n'envoie
     pas de code HTML mais des données, laissant au client le soin d'effectuer le rendu de
     l'application.
-
     \item \textbf{Compensation de latence} : Sur le client, Meteor récupère les données d'une base
     de données locale pour donner l'impression que les appels de méthode serveur sont
     renvoyés instantanément.
-
     \item \textbf{Réactivité de bout en bout} : Le temps réel est la norme. Toutes les couches, de
     la base de données au template, proposent une interface orientée événement.
-
     \item \textbf{Écosystème ouvert} : Meteor s'intègre à d'autres outils et frameworks open source.
 \end{itemize}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.85\linewidth]{Chapters/architecture/circuit_webinar.png}
 \caption{Architecture Client-Serveur sous MeteorJS}
@@ -116,20 +115,22 @@ présentation des vues. Le cycle complet des données s'articule comme suit :
     \item Les données circulent du grand-parent vers tous les enfants.
 \end{enumerate}
 
+
 \clearpage
-\begin{figure}[p]
-    \vspace*{-1.8cm}
-    \centering
-    \includegraphics[width=\textwidth,height=0.92\textheight,keepaspectratio]{Chapters/architecture/structure_webinar.png}
-    \caption{Cycle de circulation des données dans le projet}
-    \label{fig:cycle-donnees}
-\end{figure}
+% Reduce top margin and place the image flush to the top of its own page
+\newgeometry{top=0.6cm,left=2.5cm,right=2cm,bottom=2cm}
+\vspace*{-0.6cm}
+\begin{center}
+    \includegraphics[width=\textwidth,height=0.96\textheight,keepaspectratio]{Chapters/architecture/structure_webinar.png}
+    \captionof{figure}{Cycle de circulation des données dans le projet}\label{fig:cycle-donnees}
+\end{center}
 \clearpage
+\restoregeometry
 
 %------ 3.1.2 ------
 \subsubsection{Structure du dossier \texttt{server}}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.75\linewidth]{Chapters/architecture/backend_webinar.png}
 \caption{Structure du dossier \texttt{server} du projet}
@@ -141,27 +142,20 @@ La partie back-end est organisée autour des dossiers suivants :
 \begin{itemize}
     \item \textbf{api} : Contient tous les scripts en relation avec l'API TT, l'API Daily (pour le
     streaming) et celle de Vimeo.
-
     \item \textbf{jobs} : Contient les tâches programmées à s'exécuter à un moment précis, par
     exemple : démarrage du webinaire, initialisation du lecteur Vimeo, création et
     publication de sondage.
-
     \item \textbf{methods} : Contient toutes les fonctions relatives au traitement métier. Dans
     Meteor, déclarer des méthodes est le moyen le plus sûr d'apporter des modifications
     côté serveur, plutôt que d'appeler directement \texttt{insert}, \texttt{update} ou
     \texttt{remove} depuis le client.
-
     \item \textbf{models} : Contient toutes les classes métier utilisées dans le projet. Pour utiliser
     la base de données, une collection (modèle) est créée pour stocker les documents.
-
     \item \textbf{publications} : Contient les fichiers de publications spécifiant ce que le serveur
     envoie au client.
-
     \item \textbf{startup} : Contient les traitements à effectuer une fois le projet exécuté côté
     serveur.
-
     \item \textbf{utils} : Contient toutes les fonctionnalités communes réutilisables côté serveur.
-
     \item \textbf{main.ts} : Importe le contenu des dossiers \texttt{api}, \texttt{publications},
     \texttt{startup}, \texttt{methods} et \texttt{jobs} pour la configuration du projet.
 \end{itemize}
@@ -170,7 +164,6 @@ La partie back-end est organisée autour des dossiers suivants :
 \subsubsection{Structure du dossier \texttt{client}}
 
 \begin{figure}[H]
-    \vspace*{-0.6cm}
     \centering
     \includegraphics[width=0.75\linewidth]{Chapters/architecture/frontend_webinar.png}
     \caption{Structure du dossier \texttt{client} du projet}
@@ -183,35 +176,24 @@ La partie front-end est organisée autour des dossiers suivants :
 \begin{itemize}
     \item \textbf{api} : Contient les appels aux méthodes définies dans le dossier
     \texttt{server/methods}.
-
     \item \textbf{components} : Contient les composants UI (User Interface) du projet.
-
     \item \textbf{functions} : Contient les fonctionnalités côté client.
-
     \item \textbf{hooks} : Contient les hooks personnalisés réutilisables. Les Hooks (introduits
     avec React 16.8) permettent de bénéficier d'un état local et d'autres fonctionnalités
     de React sans avoir à écrire une classe.
-
     \item \textbf{i18n} : Contient les fichiers de traduction en anglais, français et néerlandais,
     organisés en fichiers JSON (\texttt{en.json}, \texttt{fr.json}, \texttt{ne.json}), avec un
     fichier de configuration gérant la sélection de langue selon les cookies et le
     localStorage. Les dépendances \texttt{i18next} et \texttt{react-i18next} sont utilisées.
-
     \item \textbf{models} : Contient toutes les classes métier utilisées dans le projet pour le
     miniMongo côté client.
-
     \item \textbf{startup} : Scripts à lancer lors de l'exécution du projet : initialisation de la
     gestion de langue et rendu du contenu de la page.
-
     \item \textbf{store} : Référence à Redux, utilisé avec ReactJS pour la gestion d'état globale
     de l'application.
-
     \item \textbf{styles} : Contient tous les fichiers de feuilles de styles des composants UI.
-
     \item \textbf{utils} : Contient toutes les fonctionnalités communes réutilisables côté client.
-
     \item \textbf{main.tsx} : Importe tout le nécessaire pour la configuration du projet côté client.
-
     \item \textbf{main.less} : Assemble tous les fichiers de style \texttt{.less} créés dans le projet.
 \end{itemize}
 
@@ -345,23 +327,95 @@ améliorer la maintenabilité, la lisibilité et la robustesse du code.%
 
 %------------------------------------------------------------
 \subsection{GitHub Actions}
-Pipeline automatisé avec :
+
+GitHub Actions est une plateforme d'intégration et de déploiement continus (CI/CD) intégrée
+nativement à GitHub. Elle permet d'automatiser l'ensemble du cycle de vie du logiciel, depuis
+les tests jusqu'à la mise en production, en réponse à des événements Git (push, pull request,
+merge). Dans le cadre du projet TT Webinar, le pipeline CI/CD suit un cycle structuré et
+rigoureux qui garantit la qualité à chaque étape.
+
+\subsubsection{Cycle complet du pipeline CI/CD}
+
+Le cycle d'intégration continue s'articule autour d'une séquence d'étapes ordonnées et
+interdépendantes. Chaque étape doit réussir pour que la suivante soit déclenchée, formant
+ainsi une chaîne de validation progressive :
+
+\paragraph{Étape 1 — Déclenchement (Trigger)}
+Le cycle démarre automatiquement dès qu'un développeur effectue un \texttt{git push} vers
+le dépôt GitHub, ou lors de l'ouverture/mise à jour d'une \textit{pull request}. GitHub
+Actions intercepte cet événement et instancie un \textit{runner} (environnement d'exécution
+virtuel) sur lequel l'ensemble du pipeline sera exécuté. Le runner charge le code source
+depuis le dépôt et prépare l'environnement de travail (installation de Node.js, des
+dépendances npm, des variables d'environnement).
+
+\paragraph{Étape 2 — Installation des dépendances}
+Avant toute vérification, le pipeline installe toutes les dépendances du projet via
+\texttt{npm ci} (installation propre et reproductible à partir du \texttt{package-lock.json}).
+Cette commande garantit que l'environnement d'exécution des tests est strictement identique
+à celui de développement, évitant les erreurs dues à des versions de librairies différentes.
+
+\paragraph{Étape 3 — Analyse statique du code (Linting)}
+Une fois les dépendances installées, \textbf{ESLint} analyse l'intégralité du code source
+TypeScript et JavaScript. Il vérifie la conformité aux règles de style définies (basées sur
+la configuration Airbnb), détecte les erreurs potentielles (variables non utilisées, types
+incorrects, imports manquants) et signale tout écart aux conventions de l'équipe. Si une
+erreur est détectée, le pipeline s'arrête immédiatement et un rapport détaillé est généré.
+
+\paragraph{Étape 4 — Vérification des types TypeScript}
+En parallèle du linting, le compilateur TypeScript (\texttt{tsc --noEmit}) vérifie la
+cohérence des types dans l'ensemble du projet. Cette étape détecte les incompatibilités
+de types, les appels de fonctions incorrects et les propriétés manquantes avant même
+l'exécution du code. Elle constitue un premier filet de sécurité contre les bugs de
+logique introduits lors des développements.
+
+\paragraph{Étape 5 — Exécution des tests unitaires}
+Les tests unitaires sont lancés via \textbf{Jest}. Chaque composant, hook React, méthode
+Meteor et utilitaire est testé de manière isolée. Les dépendances externes (base de données,
+APIs tierces) sont simulées (\textit{mocked}) pour garantir des tests rapides et
+déterministes. Le pipeline génère un rapport de couverture de code (\textit{code coverage})
+qui mesure le pourcentage de code couvert par les tests. Un seuil minimal de couverture
+est configuré ; en dessous de ce seuil, le pipeline échoue.
+
+\paragraph{Étape 6 — Audit de sécurité}
+\textbf{Dependabot} et \texttt{npm audit} analysent toutes les dépendances du projet à la
+recherche de vulnérabilités connues (CVE). Les dépendances obsolètes ou présentant des
+failles de sécurité critiques sont signalées. Cette étape protège l'application contre les
+attaques exploitant des librairies tierces compromises.
+
+\paragraph{Étape 7 — Build de production}
+Si toutes les étapes précédentes réussissent, le pipeline génère un \textit{build} de
+production optimisé. Le code est compilé, minifié et bundlé. Cette étape valide que le
+projet est techniquement déployable et qu'aucun problème de compilation ne subsiste dans
+l'environnement de production.
+
+\paragraph{Étape 8 — Déploiement conditionnel}
+Le déploiement en production n'est déclenché que sous deux conditions simultanées :
 \begin{itemize}
-    \item \textbf{Tests unitaires} : Exécution sur chaque push
-    \item \textbf{Analyse de code} : Vérification des vulnérabilités
-    \item \textbf{Déploiement} : Mise en production conditionnelle
+    \item Toutes les étapes précédentes ont réussi sans erreur.
+    \item Le \texttt{push} cible la branche \texttt{main} (branche de production protégée).
 \end{itemize}
+Le déploiement suit une stratégie \textit{blue-green} : la nouvelle version est déployée
+sur un environnement parallèle, validée par des tests de smoke, puis le trafic est basculé
+progressivement. En cas d'anomalie détectée, un rollback automatique vers la version
+précédente est déclenché en moins de deux minutes.
 
-Le processus d'intégration continue du LMS Didier garantit la qualité et la fiabilité de chaque
-déploiement grâce à un pipeline automatisé sophistiqué.
+\paragraph{Étape 9 — Notification et rapport}
+À l'issue du cycle, qu'il soit réussi ou échoué, une notification est envoyée à l'équipe
+de développement. Le rapport inclut le statut de chaque étape, le temps d'exécution total,
+le taux de couverture des tests et les éventuelles vulnérabilités détectées. En cas d'échec,
+le rapport indique précisément l'étape fautive et les logs associés, permettant une
+correction rapide et ciblée.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.8\linewidth]{pipeline.png}
-\caption{Pipeline GitHub Actions automatisé}
-\label{fig:cicd-pipeline}
-\end{figure}
+\vspace{0.8em}
+\noindent\begin{minipage}{\linewidth}
+    \centering
+    \includegraphics[width=0.8\linewidth]{pipeline.png}
+    \captionof{figure}{Pipeline GitHub Actions — cycle complet CI/CD}
+    \label{fig:cicd-pipeline}
+\end{minipage}
+\vspace{0.5em}
 
+%------------------------------------------------------------
 \subsection{Release automation}
 Gestion sémantique des versions avec \texttt{release-it} :
 \begin{itemize}
@@ -379,7 +433,7 @@ L'architecture de déploiement du LMS Didier privilégie la haute disponibilité
 pour répondre aux exigences critiques des fiduciaires belges. Notre infrastructure est conçue pour
 supporter une montée en charge progressive tout en maintenant une qualité de service optimale.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=1.0\linewidth]{Chapters/production.png}
 \caption{Architecture de déploiement haute disponibilité}
