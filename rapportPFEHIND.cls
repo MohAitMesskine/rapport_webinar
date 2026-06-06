@@ -66,7 +66,7 @@
         \rule{\textwidth}{0.5pt}
         \vspace{0.25cm}\\
         {\LARGE \textbf{CONTRIBUTION À LA CONCEPTION ET AU DÉVELOPPEMENT}}\\[4pt]
-        {\LARGE \textbf{D'UNE APPLICATION DE GESTION DES PRÉSENTATIONS}}
+        {\LARGE \textbf{D'UNE APPLICATION DE GESTION DES WEBINAIRES, DES PRÉSENTATIONS ET DES ÉVÉNEMENTS EN DIRECT }}
         \vspace{0.25cm}\\
         \rule{\textwidth}{0.5pt}
     \end{center}
@@ -76,7 +76,7 @@
     % ---- Logo TamTam + Dates ----
     \begin{center}
         \includegraphics[width=5.5cm]{logos/tamtam-logo.png}\\[5pt]
-        {\small \textit{Du 17 février au 17 Août 2025}}
+        {\small \textit{Du 17 février au 17 Août 2026}}
     \end{center}
 
     \vspace{0.35cm}
@@ -100,7 +100,7 @@
 
     % ---- Jury ----
     \begin{center}
-        {\small \textit{Soutenu le 24 juin 2025 devant le jury composé de :}}
+        {\small \textit{Soutenu le 26 juin 2026 devant le jury composé de :}}
     \end{center}
     \vspace{0.1cm}
     \begin{center}

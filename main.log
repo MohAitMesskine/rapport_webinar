@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  21 MAY 2026 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  5 JUN 2026 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3710,6 +3710,11 @@ File: logos/tamtam-logo.png Graphic file (type png)
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 259.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [42]
+Overfull \hbox (21.92921pt too wide) in paragraph at lines 276--278
+[]\T1/cmr/bx/n/12 commit-msg \T1/cmr/m/n/12 : Va-li-da-tion du for-mat Conven-t
+io-nal Com-mits. Exemple : \T1/cmtt/m/n/12 feat(webinar) :
+ []
+
 <Chapters/img/nodejs.png, id=789, 225.84375pt x 225.84375pt>
 File: Chapters/img/nodejs.png Graphic file (type png)
 <use Chapters/img/nodejs.png>
@@ -3719,7 +3724,7 @@ File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 328.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
- [43]
+[43]
 <Chapters/img/react.png, id=795, 268.00125pt x 189.70876pt>
 File: Chapters/img/react.png Graphic file (type png)
 <use Chapters/img/react.png>
@@ -3771,9 +3776,8 @@ File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 395.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-
-[45 <./logos/doctrine.png> <./logos/phpunit.png> <./logos/swagger.png> <./logos
-/next.png> <./logos/Typescript_logo_2020.png>]
+ [45 <./logos/doctrine.png> <./logos/phpunit.png> <./logos/swagger.png> <./logo
+s/next.png> <./logos/Typescript_logo_2020.png>]
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 437.
@@ -3806,11 +3810,11 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 476.
 <Chapters/production.png, id=842, 3854.4pt x 2459.1875pt>
 File: Chapters/production.png Graphic file (type png)
 <use Chapters/production.png>
-Package pdftex.def Info: Chapters/production.png  used on input line 497.
+Package pdftex.def Info: Chapters/production.png  used on input line 500.
 (pdftex.def)             Requested size: 469.47049pt x 299.51762pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 508.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 510.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [49 <./Chapters/production.png>])
 File: logos/tamtam-logo.png Graphic file (type png)
@@ -4133,7 +4137,7 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 251.
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260521155745 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260605175349 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux (Chapters/chapter1.aux) (Chapters/chapter2.aux)
@@ -4527,7 +4531,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  50680 strings out of 467866
  1103828 string characters out of 5419765
- 1755455 words of memory out of 5000000
+ 1755503 words of memory out of 5000000
  78425 multiletter control sequences out of 15000+600000
  645481 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4546,9 +4550,9 @@ onts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData\Local\MiKTe
 X\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppData\Local\Mi
 KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (83 pages, 11950413 bytes).
+Output written on main.pdf (83 pages, 11951298 bytes).
 PDF statistics:
- 1669 PDF objects out of 1728 (max. 8388607)
+ 1670 PDF objects out of 1728 (max. 8388607)
  267 named destinations out of 1000 (max. 500000)
  1036 words of extra memory for PDF output out of 10000 (max. 10000000)
 
