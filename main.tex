@@ -18,8 +18,10 @@
 \usepackage{amssymb}
 \tcbuselibrary{most}
 \usepackage{pdfpages}
+\usepackage{placeins}
 \usepackage{setspace}
 \onehalfspacing
+\raggedbottom
 % Police Times supprimée (conflit avec scalefnt/arabtex)
 
 % ---- Marges (geometry déjà chargé dans le .cls, on ajuste seulement) ----
@@ -32,6 +34,17 @@
 \definecolor{subsectioncolor}{RGB}{70,130,180}
 \definecolor{chapterblue}{RGB}{35,100,170}
 \definecolor{lineblue}{RGB}{35,100,170}
+
+% ---- Légendes des figures et tableaux ----
+\captionsetup[figure]{font=small,labelfont=bf,justification=centering}
+\captionsetup[table]{font=small,labelfont=bf,justification=centering}
+\setlength{\textfloatsep}{10pt plus 2pt minus 4pt}
+\setlength{\floatsep}{10pt plus 2pt minus 4pt}
+\setlength{\intextsep}{10pt plus 2pt minus 4pt}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}
 
 % ---- tocloft ----
 \renewcommand{\cftfigfont}{\normalfont}
@@ -164,9 +177,10 @@ Enfin, je remercie sincèrement tout le corps professoral et administratif de la
 % Résumé
 \section*{Résumé}
 \addcontentsline{toc}{section}{Résumé}
-Ce rapport présente le travail réalisé dans le cadre du projet de fin d'études pour l'obtention du diplôme de Master en ingénierie des systèmes d'information à la Faculté des Sciences et Techniques de Marrakech. Le stage s'est déroulé au sein de l'entreprise TAMTAM International, avec pour objectif le développement d'une application web et mobile de gestion d'événements destinée aux fiduciaires belges.\\[6pt]
-Une étude fonctionnelle et technique approfondie a été menée, suivie d'une modélisation UML complète. La méthodologie Agile Scrum a été adoptée pour le développement, en s'appuyant sur des technologies modernes : Meteor.js, React.js, Symfony, MongoDB, NoSQLBooster et MySQL.\\[6pt]
-La solution développée permet aux utilisateurs de participer facilement aux webinaires, de les gérer efficacement, de consulter les disponibilités en temps réel et de recevoir automatiquement des attestations personnalisées. Cette plateforme offre une gestion centralisée et intuitive des événements professionnels, améliorant significativement l'expérience utilisateur ainsi que l'efficacité opérationnelle.\\[6pt]
+Ce rapport présente le travail réalisé dans le cadre d'un projet de fin d'études effectué au sein de l'entreprise TAMTAM International pour l'obtention du diplôme de Master en ingénierie des systèmes d'information à la Faculté des Sciences et Techniques de Marrakech. Le projet s'inscrit dans un contexte de digitalisation des événements professionnels et porte sur la conception et le développement d'une application de gestion des webinaires destinée aux fiduciaires belges.\\[6pt]
+La problématique traitée concerne la mise en place d'une plateforme centralisée capable d'assurer une gestion fluide des webinaires, des interactions entre les participants, des sondages, des examens finaux et du pilotage des sessions en direct, tout en garantissant de bonnes performances, une maintenance aisée et une expérience utilisateur satisfaisante.\\[6pt]
+Les objectifs fixés consistent à analyser les besoins métier, concevoir l'architecture du système, modéliser la solution à l'aide d'UML puis développer les fonctionnalités essentielles en s'appuyant sur une méthodologie Agile Scrum et sur des technologies modernes telles que Meteor.js, React.js, Symfony, MongoDB et MySQL.\\[6pt]
+L'évaluation des résultats montre que la solution réalisée permet de gérer efficacement les webinaires, d'automatiser plusieurs opérations clés et d'améliorer l'organisation des sessions ainsi que l'interaction avec les utilisateurs. Les fonctionnalités développées répondent globalement aux besoins exprimés et constituent une base solide pour les évolutions futures de la plateforme.\\[6pt]
 \vspace{1cm}
 
 \noindent\textbf{Mots-clés :} SCRUM, Symfony, ReactJS, NextJS, MeteorJS, MongoDB, NoSQLBooster, MySQL, Webinaires, Gestion d'événements, Plateforme web/mobile, Fiduciaires, UML.

@@ -17,55 +17,45 @@ la dynamique humaine, la conception et l'environnement informatique.
 
 L’architecture technique du système repose sur un ensemble de technologies modernes permettant d’assurer la performance, la sécurité, la maintenabilité ainsi que la scalabilité de la plateforme. Le tableau suivant présente les principaux composants techniques utilisés ainsi que leur contribution au bon fonctionnement du système.
 
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}{|p{3.5cm}|p{10.5cm}|}
+\renewcommand{\arraystretch}{1.4}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\small
+\begin{longtable}{|p{3.2cm}|p{10.3cm}|}
+\caption{Composants techniques et valeur ajoutée de l’architecture du système}
+\label{tab:architecture-technique}\\
 \hline
 \textbf{Composant} & \textbf{Valeur ajoutée} \\ \hline
-
+\endfirsthead
+\hline
+\textbf{Composant} & \textbf{Valeur ajoutée} \\ \hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 \textbf{Git} & Système de gestion de versions permettant le suivi précis des modifications du code source, la collaboration entre les développeurs ainsi que la conservation de l’historique complet des évolutions du projet. \\ \hline
-
 \textbf{GitHub} & Plateforme collaborative utilisée pour l’hébergement du code source, la gestion des branches, des pull requests ainsi que le suivi des tâches et des anomalies du projet. \\ \hline
-
 \textbf{GitHub Actions} & Outil d’intégration et de déploiement continus (CI/CD) permettant l’automatisation des tests, des vérifications de qualité de code et des processus de déploiement après chaque modification du projet. \\ \hline
-
 \textbf{Node.js} & Environnement d’exécution JavaScript utilisé pour développer les services back-end temps réel et assurer la gestion des opérations asynchrones avec de hautes performances. \\ \hline
-
 \textbf{MeteorJS} & Framework full-stack utilisé pour la synchronisation des données en temps réel entre le client et le serveur grâce au mécanisme de publication/abonnement. \\ \hline
-
 \textbf{React.js} & Bibliothèque JavaScript utilisée pour construire des interfaces utilisateur dynamiques, réactives et modulaires basées sur le modèle des composants réutilisables. \\ \hline
-
 \textbf{TypeScript} & Extension typée de JavaScript permettant de renforcer la robustesse du code, détecter les erreurs à la compilation et améliorer la maintenabilité du projet. \\ \hline
-
-\textbf{PHP-FPM 8.2} & Gestionnaire de processus PHP permettant l’exécution performante des traitements métier tout en optimisant la consommation des ressources serveur. \\ \hline
-
 \textbf{Symfony} & Framework PHP robuste utilisé pour structurer les services back-end, gérer les APIs REST et assurer une architecture logicielle maintenable et sécurisée. \\ \hline
-
 \textbf{Nginx} & Serveur web haute performance utilisé comme reverse proxy et répartiteur de charge afin d’améliorer la rapidité d’accès et la gestion du cache. \\ \hline
-
 \textbf{MySQL 8} & Système de gestion de base de données relationnelle garantissant la cohérence des données grâce au support des transactions ACID. \\ \hline
-
-\textbf{MongoDB} & Base de données NoSQL utilisée pour la gestion des données temps réel, des présentations interactives.\\ \hline
-
+\textbf{MongoDB} & Base de données NoSQL utilisée pour la gestion des données temps réel et des présentations interactives. \\ \hline
 \textbf{Redux} & Bibliothèque de gestion d’état globale utilisée pour centraliser et synchroniser les données partagées entre les différents composants React. \\ \hline
-
 \textbf{Jest} & Framework de tests unitaires utilisé pour vérifier le bon fonctionnement des composants, hooks et services du système. \\ \hline
-
 \textbf{ESLint} & Outil d’analyse statique du code permettant de détecter les erreurs potentielles et d’assurer le respect des conventions de développement. \\ \hline
-
 \textbf{Prettier} & Outil de formatage automatique garantissant l’uniformité et la lisibilité du code source au sein de l’équipe de développement. \\ \hline
+\textbf{Swagger} & Outil de documentation des APIs REST permettant de générer une documentation interactive et de tester les endpoints. \\ \hline
+\end{longtable}
+\normalsize
 
-\textbf{Swagger / OpenAPI} & Outil de documentation des APIs REST permettant de générer une documentation interactive et de tester les endpoints. \\ \hline
-
-\end{tabular}
-\caption{Composants techniques et valeur ajoutée de l’architecture du système}
-\label{tab:architecture-technique}
-\end{table}
-
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\linewidth]{lmsstructure.png}
+\includegraphics[width=0.8\linewidth]{chat_worflow.png}
 \caption{Architecture technique du système Webinar Didier}
 \label{fig:archi-tech}
 \end{figure}
@@ -85,7 +75,7 @@ publication/abonnement, ce qui permet de créer des applications interactives et
 effort supplémentaire. Cette approche réduit considérablement la complexité de gestion des flux
 de données et améliore l'expérience utilisateur.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.85\linewidth]{Chapters/architecture/architecture_webinar.png}
 \caption{Architecture globale du système Webinar}
@@ -119,7 +109,7 @@ Meteor JS particulièrement adapté à notre contexte :
     \item \textbf{Écosystème ouvert} : Meteor s'intègre à d'autres outils et frameworks open source.
 \end{itemize}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.85\linewidth]{Chapters/architecture/circuit_webinar.png}
 \caption{Architecture Client-Serveur sous MeteorJS}
@@ -189,7 +179,7 @@ Cette approche améliore considérablement l’expérience utilisateur en garant
 %------ 3.1.2 ------
 \subsubsection{Structure du dossier \texttt{server}}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.75\linewidth]{Chapters/architecture/backend_webinar.png}
 \caption{Structure du dossier \texttt{server} du projet}
@@ -222,7 +212,7 @@ La partie back-end est organisée autour des dossiers suivants :
 %------ 3.1.3 ------
 \subsubsection{Structure du dossier \texttt{client}}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.75\linewidth]{Chapters/architecture/frontend_webinar.png}
     \caption{Structure du dossier \texttt{client} du projet}
@@ -495,7 +485,7 @@ des présentations et des événements en direct. L'infrastructure mise en place
 fluide, tout en supportant un nombre croissant de participants et
  en maintenant une qualité de service optimale.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=1.0\linewidth]{Chapters/production.png}
 \caption{Architecture de déploiement haute disponibilité}
@@ -524,3 +514,5 @@ en production. Les outils de qualité et d'intégration continue garantissent la
 tandis que l'architecture de déploiement assure une disponibilité optimale pour les utilisateurs
 finaux. Le chapitre suivant détaillera les aspects spécifiques d'implémentation du projet TT
 Webinar.
+
+

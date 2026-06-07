@@ -18,82 +18,83 @@
 \contentsline {subsection}{\numberline {1.2.2}Objectifs à atteindre}{7}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}Gestion des tâches et suivis}{8}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Sprint 1}{9}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Sprint 2}{10}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Sprint 2}{9}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Sprint 3}{11}{subsection.1.3.3}%
 \contentsline {subsection}{\numberline {1.3.4}Sprint 4}{12}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Conclusion}{13}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Conclusion}{14}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Diagrammes UML}{15}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Module TT Webinar}{15}{subsection.1.5.1}%
-\contentsline {subsubsection}{Cas d'utilisation par acteur}{15}{subsubsection*.19}%
-\contentsline {subsubsection}{Diagrammes de séquence}{18}{subsubsection*.24}%
-\contentsline {subsubsection}{Diagramme de classes}{21}{subsubsection*.30}%
-\contentsline {subsection}{\numberline {1.5.2}Module OffCourse}{22}{subsection.1.5.2}%
-\contentsline {subsubsection}{Diagramme Bête à Cornes}{22}{subsubsection*.32}%
-\contentsline {subsubsection}{Diagramme de cas d'utilisation}{24}{subsubsection*.34}%
-\contentsline {subsubsection}{Diagramme de séquence — Utilisateur OffCourse}{25}{subsubsection*.36}%
-\contentsline {subsection}{\numberline {1.5.3}United Associate}{28}{subsection.1.5.3}%
-\contentsline {subsubsection}{Diagramme de cas d'utilisation}{28}{subsubsection*.39}%
-\contentsline {subsubsection}{Diagramme de séquence — Administrateur United Associate}{29}{subsubsection*.41}%
-\contentsline {subsubsection}{Modèle du domaine}{29}{subsubsection*.44}%
-\contentsline {section}{\numberline {1.6}Conclusion}{31}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Étude technique}{33}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Architecture du projet}{33}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Architecture physique}{33}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Architecture logique}{36}{subsection.2.1.2}%
-\contentsline {subsubsection}{L'architecture Client-Serveur sous MeteorJS}{36}{subsubsection*.49}%
-\contentsline {subsubsection}{Structure du dossier \texttt {server}}{40}{subsubsection*.51}%
-\contentsline {subsubsection}{Structure du dossier \texttt {client}}{41}{subsubsection*.53}%
-\contentsline {section}{\numberline {2.2}Qualité de code}{43}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Outils de linting}{43}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Git Hooks}{43}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Conventional Commits}{43}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Spécification technologique}{43}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Outils de développement}{44}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}GitHub Actions}{46}{subsection.2.3.2}%
-\contentsline {subsubsection}{Cycle complet du pipeline CI/CD}{46}{subsubsection*.55}%
-\contentsline {paragraph}{Étape 1 — Déclenchement (Trigger)}{46}{paragraph*.56}%
-\contentsline {paragraph}{Étape 2 — Installation des dépendances}{46}{paragraph*.57}%
-\contentsline {paragraph}{Étape 3 — Analyse statique du code (Linting)}{46}{paragraph*.58}%
-\contentsline {paragraph}{Étape 4 — Vérification des types TypeScript}{46}{paragraph*.59}%
-\contentsline {paragraph}{Étape 5 — Exécution des tests unitaires}{47}{paragraph*.60}%
-\contentsline {paragraph}{Étape 6 — Audit de sécurité}{47}{paragraph*.61}%
-\contentsline {paragraph}{Étape 7 — Build de production}{47}{paragraph*.62}%
-\contentsline {paragraph}{Étape 8 — Déploiement conditionnel}{47}{paragraph*.63}%
-\contentsline {paragraph}{Étape 9 — Notification et rapport}{47}{paragraph*.64}%
-\contentsline {subsection}{\numberline {2.3.3}Release automation}{49}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Architecture de déploiement}{49}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Infrastructure de production}{49}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Caractéristiques de l'infrastructure}{49}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Conclusion}{50}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Réalisation}{51}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{51}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Présentation de la plateforme}{51}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Interface d'authentification}{51}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Interface de la page administrateur}{52}{subsection.3.2.2}%
-\contentsline {subsubsection}{Gestion des webinaires}{53}{subsubsection*.70}%
-\contentsline {subsubsection}{Configuration des sondages automatiques}{55}{subsubsection*.74}%
-\contentsline {subsubsection}{Configuration des questions automatiques}{57}{subsubsection*.77}%
-\contentsline {subsubsection}{Gestion des administrateurs}{57}{subsubsection*.79}%
+\contentsline {subsubsection}{Diagramme B\^ete \`a Cornes}{15}{subsubsection*.19}%
+\contentsline {subsubsection}{Cas d''utilisation par acteur}{16}{subsubsection*.21}%
+\contentsline {subsubsection}{Diagrammes de séquence}{18}{subsubsection*.26}%
+\contentsline {subsubsection}{Diagramme de classes}{23}{subsubsection*.32}%
+\contentsline {subsection}{\numberline {1.5.2}Module OffCourse}{24}{subsection.1.5.2}%
+\contentsline {subsubsection}{Diagramme Bête à Cornes}{24}{subsubsection*.34}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation}{25}{subsubsection*.36}%
+\contentsline {subsubsection}{Diagramme de séquence — Utilisateur OffCourse}{26}{subsubsection*.38}%
+\contentsline {subsection}{\numberline {1.5.3}United Associate}{29}{subsection.1.5.3}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation}{29}{subsubsection*.41}%
+\contentsline {subsubsection}{Diagramme de séquence — Administrateur United Associate}{30}{subsubsection*.43}%
+\contentsline {subsubsection}{Modèle du domaine}{30}{subsubsection*.46}%
+\contentsline {section}{\numberline {1.6}Conclusion}{32}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Étude technique}{34}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Architecture du projet}{34}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Architecture physique}{34}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Architecture logique}{38}{subsection.2.1.2}%
+\contentsline {subsubsection}{L'architecture Client-Serveur sous MeteorJS}{38}{subsubsection*.50}%
+\contentsline {subsubsection}{Structure du dossier \texttt {server}}{42}{subsubsection*.52}%
+\contentsline {subsubsection}{Structure du dossier \texttt {client}}{43}{subsubsection*.54}%
+\contentsline {section}{\numberline {2.2}Qualité de code}{45}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Outils de linting}{45}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Git Hooks}{45}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Conventional Commits}{45}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Spécification technologique}{45}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Outils de développement}{46}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}GitHub Actions}{48}{subsection.2.3.2}%
+\contentsline {subsubsection}{Cycle complet du pipeline CI/CD}{48}{subsubsection*.56}%
+\contentsline {paragraph}{Étape 1 — Déclenchement (Trigger)}{48}{paragraph*.57}%
+\contentsline {paragraph}{Étape 2 — Installation des dépendances}{48}{paragraph*.58}%
+\contentsline {paragraph}{Étape 3 — Analyse statique du code (Linting)}{48}{paragraph*.59}%
+\contentsline {paragraph}{Étape 4 — Vérification des types TypeScript}{48}{paragraph*.60}%
+\contentsline {paragraph}{Étape 5 — Exécution des tests unitaires}{49}{paragraph*.61}%
+\contentsline {paragraph}{Étape 6 — Audit de sécurité}{49}{paragraph*.62}%
+\contentsline {paragraph}{Étape 7 — Build de production}{49}{paragraph*.63}%
+\contentsline {paragraph}{Étape 8 — Déploiement conditionnel}{49}{paragraph*.64}%
+\contentsline {paragraph}{Étape 9 — Notification et rapport}{49}{paragraph*.65}%
+\contentsline {subsection}{\numberline {2.3.3}Release automation}{51}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Architecture de déploiement}{51}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Infrastructure de production}{51}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Caractéristiques de l'infrastructure}{51}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Conclusion}{52}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Réalisation}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{53}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Présentation de la plateforme}{53}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Interface d'authentification}{53}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Interface de la page administrateur}{54}{subsection.3.2.2}%
+\contentsline {subsubsection}{Gestion des webinaires}{55}{subsubsection*.71}%
+\contentsline {subsubsection}{Configuration des sondages automatiques}{56}{subsubsection*.75}%
+\contentsline {subsubsection}{Configuration des questions automatiques}{58}{subsubsection*.78}%
+\contentsline {subsubsection}{Gestion des administrateurs}{58}{subsubsection*.80}%
 \contentsline {subsection}{\numberline {3.2.3}Activités lors du webinaire}{58}{subsection.3.2.3}%
-\contentsline {subsubsection}{Onglet Participants}{58}{subsubsection*.82}%
-\contentsline {subsubsection}{Onglet Conversation}{60}{subsubsection*.85}%
-\contentsline {subsubsection}{Onglet Questions / Réponses}{61}{subsubsection*.87}%
-\contentsline {subsubsection}{Onglet Sondages}{62}{subsubsection*.90}%
-\contentsline {subsubsection}{Onglet Annonces}{63}{subsubsection*.92}%
-\contentsline {subsubsection}{Onglet Documents}{64}{subsubsection*.94}%
-\contentsline {subsubsection}{Onglet Examen Final}{65}{subsubsection*.96}%
-\contentsline {subsubsection}{Onglet Live Config}{65}{subsubsection*.98}%
-\contentsline {subsection}{\numberline {3.2.4}Système de pilotage et de prompteur}{66}{subsection.3.2.4}%
-\contentsline {subsubsection}{Ajout d'images et gestion des tags}{66}{subsubsection*.100}%
-\contentsline {subsubsection}{Prompteur Régie}{67}{subsubsection*.102}%
-\contentsline {subsubsection}{Prompteur Public}{67}{subsubsection*.104}%
-\contentsline {subsubsection}{Prompteur Compteur}{68}{subsubsection*.106}%
-\contentsline {subsubsection}{Prompteur Présentateur}{68}{subsubsection*.108}%
-\contentsline {subsubsection}{Télécommande}{69}{subsubsection*.110}%
+\contentsline {subsubsection}{Onglet Participants}{59}{subsubsection*.83}%
+\contentsline {subsubsection}{Onglet Conversation}{61}{subsubsection*.86}%
+\contentsline {subsubsection}{Onglet Questions / Réponses}{61}{subsubsection*.88}%
+\contentsline {subsubsection}{Onglet Sondages}{62}{subsubsection*.91}%
+\contentsline {subsubsection}{Onglet Annonces}{63}{subsubsection*.93}%
+\contentsline {subsubsection}{Onglet Documents}{63}{subsubsection*.95}%
+\contentsline {subsubsection}{Onglet Examen Final}{64}{subsubsection*.97}%
+\contentsline {subsubsection}{Onglet Live Config}{64}{subsubsection*.99}%
+\contentsline {subsection}{\numberline {3.2.4}Système de pilotage et de prompteur}{65}{subsection.3.2.4}%
+\contentsline {subsubsection}{Ajout d'images et gestion des tags}{65}{subsubsection*.101}%
+\contentsline {subsubsection}{Prompteur Régie}{67}{subsubsection*.103}%
+\contentsline {subsubsection}{Prompteur Public}{67}{subsubsection*.105}%
+\contentsline {subsubsection}{Prompteur Compteur}{68}{subsubsection*.107}%
+\contentsline {subsubsection}{Prompteur Présentateur}{68}{subsubsection*.109}%
+\contentsline {subsubsection}{Télécommande}{69}{subsubsection*.111}%
 \contentsline {subsection}{\numberline {3.2.5}Interface de clôture du webinaire (ClosingPage)}{69}{subsection.3.2.5}%
 \contentsline {section}{\numberline {3.3}Fonctionnalités transversales}{70}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Système de notifications}{70}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Gestion des rôles et des droits d'accès}{70}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{70}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Conclusion}{70}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{71}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Conclusion}{71}{section.3.4}%
 \contentsline {section}{Références bibliographiques}{72}{section.3.4}%

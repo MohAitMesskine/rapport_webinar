@@ -66,7 +66,7 @@
         \rule{\textwidth}{0.5pt}
         \vspace{0.25cm}\\
         {\LARGE \textbf{CONTRIBUTION À LA CONCEPTION ET AU DÉVELOPPEMENT}}\\[4pt]
-        {\LARGE \textbf{D'UNE APPLICATION DE GESTION DES WEBINAIRES, DES PRÉSENTATIONS ET DES ÉVÉNEMENTS EN DIRECT }}
+        {\LARGE \textbf{D'UNE APPLICATION DE GESTION DES WEBINAIRES}}
         \vspace{0.25cm}\\
         \rule{\textwidth}{0.5pt}
     \end{center}
@@ -105,9 +105,9 @@
     \vspace{0.1cm}
     \begin{center}
         \begin{tabular}{ll}
-            \textbf{Pr. ..........}     & Professeur à la FSSM de Marrakech \\[2pt]
-            \textbf{Pr. ...... ....} & Professeur à la FSSM de Marrakech \\[2pt]
-            \textbf{Pr. ..... ....}  & Professeur à la FSSM de Marrakech \\
+            \textbf{Pr. ..........}     & Professeur, Département d’Informatique, FSSM \\[2pt]
+            \textbf{Pr. ...... ....} & Professeur, Département d’Informatique, FSSM \\[2pt]
+            \textbf{Pr. ..... ....}  & Professeur, Département d’Informatique, FSSM \\
         \end{tabular}
     \end{center}
 
@@ -147,3 +147,4 @@
 \label{fig:#4}
 \end{figure}
 }
+

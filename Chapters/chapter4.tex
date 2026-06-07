@@ -20,14 +20,14 @@ Nous allons présenter les interfaces suivant le scénario ci-dessous :
 
 Pour pouvoir accéder aux fonctionnalités offertes par la plateforme TamTam Webinar, l'utilisateur doit d'abord s'authentifier via l'application Home. Toute tentative d'accès sans authentification préalable redirige le visiteur vers la page de connexion.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-143.jpg}
     \caption{Page affichée aux visiteurs non authentifiés}
     \label{fig:auth_non_connecte}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-144.jpg}
     \caption{Interface d'authentification}
@@ -47,14 +47,14 @@ L'utilisateur dispose de plusieurs modes de connexion :
 
 Une fois les informations saisies correctement, l'utilisateur accède à la page d'administration. Les fonctionnalités ne sont accessibles qu'aux utilisateurs disposant des droits appropriés ; dans le cas contraire, un message de restriction est affiché.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-146.jpg}
     \caption{Utilisateur sans accès à la page d'administration}
     \label{fig:admin_non_autorise}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-147.jpg}
     \caption{Utilisateur avec accès à la page d'administration}
@@ -69,21 +69,21 @@ Via cette interface, l'administrateur peut gérer l'ensemble des ressources de l
 
 Cette section permet à l'administrateur de superviser et contrôler le cycle de vie de chaque webinaire.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-149.jpg}
     \caption{Actions disponibles sur un webinaire}
     \label{fig:actions_webinaire}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-150.jpg}
     \caption{Interface de modification d'un webinaire}
     \label{fig:modifier_webinaire}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-152.jpg}
     \caption{Vérification des participants depuis l'interface admin}
@@ -101,14 +101,16 @@ Les fonctionnalités disponibles incluent :
 \subsubsection{Configuration des sondages automatiques}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Cette interface permet à l'administrateur de préparer les sondages qui seront diffusés durant le webinaire. Elle met en évidence les paramètres de planification, le contenu multilingue et les actions de gestion disponibles.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-153.jpg}
     \caption{Configuration des sondages automatiques}
     \label{fig:sondages_auto}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.75\textwidth]{realisation/img-155.jpg}
     \caption{Formulaire d'ajout d'un sondage en une langue}
@@ -121,7 +123,9 @@ Dans cet onglet, l'administrateur ajoute, supprime et modifie les sondages progr
 \subsubsection{Configuration des questions automatiques}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+La capture suivante illustre l'espace réservé à la préparation des questions de l'examen final. L'objectif est d'assurer la disponibilité d'un questionnaire cohérent même en l'absence de saisie manuelle par les animateurs.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-157.jpg}
     \caption{Configuration des questions automatiques de l'examen final}
@@ -134,14 +138,16 @@ Cet onglet contient la liste des questions ajoutées automatiquement à l'examen
 \subsubsection{Gestion des administrateurs}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Cette partie présente l'interface de gestion des droits d'accès. Elle montre comment l'administrateur peut superviser les profils autorisés et attribuer les privilèges nécessaires au fonctionnement de la plateforme.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-158.jpg}
     \caption{Liste des administrateurs de la plateforme}
     \label{fig:liste_admins}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-160.jpg}
     \caption{Recherche d'un utilisateur par adresse email}
@@ -160,14 +166,16 @@ Dans cette partie, nous présentons les différentes interfaces et activités di
 \subsubsection{Onglet Participants}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+L'onglet \textit{Participants} regroupe l'ensemble des utilisateurs présents dans la session. Il facilite le suivi des rôles, l'identification des participants connectés et l'ouverture d'échanges privés si nécessaire.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.60\textwidth]{realisation/img-161.jpg}
     \caption{Onglet Participants}
     \label{fig:tab_participants}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.85\textwidth]{realisation/img-163.jpg}
     \caption{Discussion privée entre deux utilisateurs}
@@ -180,7 +188,9 @@ Cette interface liste les différents participants du webinaire en indiquant le 
 \subsubsection{Onglet Conversation}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Cette interface met en avant l'espace de communication publique du webinaire. Elle favorise les échanges instantanés entre les participants et contribue à rendre la session plus interactive.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.60\textwidth]{realisation/img-164.jpg}
     \caption{Onglet Conversation (chat public)}
@@ -193,7 +203,9 @@ Cet espace est dédié aux conversations instantanées publiques entre tous les 
 \subsubsection{Onglet Questions / Réponses}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+L'onglet Questions / Réponses est conçu pour structurer les interventions des participants pendant la session. Les captures suivantes montrent la présentation des questions ainsi que leur traitement par les intervenants.
+
+\begin{figure}[!htbp]
     \centering
     \begin{subfigure}{0.48\textwidth}
         \includegraphics[width=\textwidth]{realisation/img-166.jpg}
@@ -208,7 +220,7 @@ Cet espace est dédié aux conversations instantanées publiques entre tous les 
     \label{fig:tab_qr}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.60\textwidth]{realisation/img-168.jpg}
     \caption{Question répondue dans l'onglet Q/R}
@@ -221,7 +233,9 @@ Cet onglet est réservé aux questions posées par les participants. Les orateur
 \subsubsection{Onglet Sondages}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+L'interface des sondages permet de lancer des interactions ciblées afin de mesurer la participation et de recueillir rapidement des retours. Les vues ci-dessous illustrent à la fois la préparation du sondage et son affichage pour l'orateur.
+
+\begin{figure}[!htbp]
     \centering
     \begin{subfigure}{0.48\textwidth}
         \includegraphics[width=\textwidth]{realisation/img-170.jpg}
@@ -242,7 +256,9 @@ Les sondages interactifs permettent de recueillir les avis des participants en t
 \subsubsection{Onglet Annonces}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Cet onglet est destiné à la diffusion d'informations officielles pendant le webinaire. Il garantit une communication claire et centralisée entre les organisateurs et les participants.
+
+\begin{figure}[!htbp]
     \centering
     \begin{subfigure}{0.48\textwidth}
         \includegraphics[width=\textwidth]{realisation/img-173.jpg}
@@ -263,7 +279,9 @@ Cet onglet permet aux modérateurs de diffuser des annonces officielles à l'ens
 \subsubsection{Onglet Documents}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+L'espace documentaire facilite la mise à disposition des supports utiles au bon déroulement de la présentation. Les captures illustrent l'accès aux fichiers partagés et leur consultation par les utilisateurs.
+
+\begin{figure}[!htbp]
     \centering
     \begin{subfigure}{0.48\textwidth}
         \includegraphics[width=\textwidth]{realisation/img-176.jpg}
@@ -284,7 +302,9 @@ Les participants peuvent accéder aux documents partagés par les orateurs duran
 \subsubsection{Onglet Examen Final}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Cette étape intervient généralement à la fin de la session afin d'évaluer l'assimilation des contenus présentés. L'interface affichée ci-dessous montre la forme adoptée pour la passation de l'examen final.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.60\textwidth]{realisation/img-178.jpg}
     \caption{Onglet Examen Final}
@@ -299,7 +319,7 @@ Les participants peuvent accéder aux documents partagés par les orateurs duran
 
 Cet onglet est accessible uniquement au modérateur. Il permet de configurer le type de diffusion en direct selon trois modes :
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \begin{subfigure}{0.32\textwidth}
         \includegraphics[width=\textwidth]{realisation/img-180.jpg}
@@ -335,7 +355,9 @@ Durant la phase de configuration et de diffusion du webinaire, une interface cen
 \subsubsection{Ajout d'images et gestion des tags}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+L'interface de pilotage centralise les éléments visuels et textuels utilisés durant le webinaire. Elle permet d'associer des images, des tags et des contenus à des sections précises afin de mieux préparer le déroulement de la session.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-pilotage.jpg}
     \caption{Interface de configuration et pilotage du webinaire}
@@ -348,7 +370,9 @@ Lors d'un clic sur l'icône d'ajout, une fenêtre contextuelle s'affiche listant
 \subsubsection{Prompteur Régie}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Le Prompteur Régie représente l'outil de contrôle utilisé par l'équipe technique pour superviser les contenus diffusés. La capture suivante met en évidence les éléments de commande disponibles pendant la session.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-57.jpg}
     \caption{Gestion des contenus du Prompteur Régie}
@@ -361,7 +385,9 @@ Le Prompteur Régie regroupe l'ensemble des éléments affichés dans le Prompte
 \subsubsection{Prompteur Public}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Le Prompteur Public correspond à l'affichage visible par l'audience. Il restitue en temps réel les contenus sélectionnés depuis l'interface de régie, selon le scénario défini par les organisateurs.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-62.jpg}
     \caption{Contenus affichés dans le Prompteur Public}
@@ -379,7 +405,9 @@ Le Prompteur Public diffuse sur un écran visible du public les contenus sélect
 \subsubsection{Prompteur Compteur}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Cette vue est consacrée au suivi temporel du webinaire. Elle aide les responsables de la session à comparer le temps planifié et le temps réellement consommé pour chaque séquence.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-63.jpg}
     \caption{Contenus du Prompteur Compteur}
@@ -392,7 +420,9 @@ Le Prompteur Compteur permet de suivre en temps réel l'écart entre le temps co
 \subsubsection{Prompteur Présentateur}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+Le Prompteur Présentateur fournit à l'orateur un affichage d'assistance pendant l'animation du webinaire. Il lui permet de suivre les contenus utiles à la présentation sans perturber le déroulement de la session.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-64.jpg}
     \caption{Contenus du Prompteur Présentateur}
@@ -405,7 +435,9 @@ Le Prompteur Présentateur affiche les textes et paragraphes du script de l'orat
 \subsubsection{Télécommande}
 % -------------------------------------------------------
 
-\begin{figure}[H]
+La télécommande constitue une interface d'assistance destinée à l'orateur pendant la diffusion. Elle simplifie le pilotage des contenus sans nécessiter un accès direct au poste principal de présentation.
+
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-65.jpg}
     \caption{Interface de la Télécommande}
@@ -419,15 +451,16 @@ Un QR code ou un lien partagé permet d'accéder à une télécommande connecté
 % -------------------------------------------------------
 
 Une fois la formation terminée, les utilisateurs sont redirigés vers la page de clôture, dont le contenu diffère selon leur rôle.
+Les captures suivantes montrent les deux variantes principales de cette interface finale, selon qu'il s'agit d'un orateur/modérateur ou d'un participant.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-184.jpg}
     \caption{Page de clôture — côté orateur/modérateur}
     \label{fig:closing_orateur}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-185.jpg}
     \caption{Page de clôture — côté participant}
@@ -457,3 +490,5 @@ Des statistiques détaillées sont générées à l'issue de chaque webinaire, p
 % -------------------------------------------------------
 
 Ce chapitre a présenté l'ensemble des interfaces de la plateforme Webinar TamTam, illustrant la richesse fonctionnelle du système développé. De l'authentification à la clôture de session, en passant par la gestion administrative, le pilotage en temps réel et les outils d'interaction, la plateforme offre une expérience complète et cohérente pour tous les acteurs d'un webinaire. L'architecture modulaire adoptée permet une grande flexibilité d'adaptation aux besoins spécifiques de chaque organisation, tout en maintenant une ergonomie intuitive et une robustesse technique.
+
+
