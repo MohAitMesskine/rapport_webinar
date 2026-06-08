@@ -95,6 +95,6 @@
 \contentsline {section}{\numberline {3.3}Fonctionnalités transversales}{73}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Système de notifications}{73}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Gestion des rôles et des droits d'accès}{73}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{73}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Conclusion}{73}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{74}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Conclusion}{74}{section.3.4}%
 \contentsline {section}{Références bibliographiques}{75}{section.3.4}%

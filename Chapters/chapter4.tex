@@ -476,16 +476,30 @@ Une fois la formation terminée, les utilisateurs sont redirigés vers la page d
 % -------------------------------------------------------
 
 \subsection{Système de notifications}
-La plateforme intègre un mécanisme de notifications pour alerter les utilisateurs des actions importantes~: démarrage imminent d'un webinaire, publication d'un sondage, disponibilité de l'examen final ou dépassement de délais de sections.
+La plateforme intègre un moteur de notifications temps réel permettant d’alerter les utilisateurs sur les événements clés : rappel de démarrage imminent d’un webinaire, mise en ligne d’un sondage, disponibilité d’un examen final ou dépassement de délai pour une activité. Les notifications sont configurables par canal (e‑mail, push mobile, notification in‑app) et par préférence utilisateur (immédiate, regroupée, résumé quotidien).
+
+Le système supporte des scénarios avancés : relances automatiques pour les inscrits non connectés, notifications groupées pour les organisateurs, filtres par type d’événement et priorisation. Côté architecture, le moteur repose sur un bus d’événements et des canaux de diffusion (WebSocket / Socket.IO pour l’in‑app, FCM/APNs pour le mobile, et envoi d’e‑mails via une file de tâches), avec gestion des retries et persistance des événements critiques.
 
 \subsection{Gestion des rôles et des droits d'accès}
-Chaque utilisateur dispose d'une interface adaptée à son rôle (participant, orateur, modérateur, administrateur) avec des permissions et des vues personnalisées, garantissant la sécurité et la cohérence des interactions.
+La gestion des accès est assurée par un modèle RBAC (Role‑Based Access Control) extensible. Chaque rôle (participant, orateur, modérateur, administrateur) dispose d’un ensemble de permissions prédéfinies et d’une interface adaptée :
+\begin{itemize}
+    \item \textbf{Participant} : accès au visionnage, aux Q\&A, aux sondages et aux documents.
+    \item \textbf{Orateur} : partage d’écran, gestion des ressources, publication de sondages et accès aux outils de pilotage.
+    \item \textbf{Modérateur} : modération du chat/Q\&A, gestion des participants et support à l’orateur.
+    \item \textbf{Administrateur} : gestion des sessions, des utilisateurs, des rapports et des configurations globales.
+\end{itemize}
+
+Le modèle permet l’affectation de permissions fines (publier un sondage, exporter les résultats, modérer le chat) et l’extension pour besoins spécifiques. Toutes les opérations critiques sont horodatées et consignées dans des logs d’audit pour assurer traçabilité et conformité.
 
 \subsection{Système de reporting}
-Des statistiques détaillées sont générées à l'issue de chaque webinaire, permettant le suivi des performances (taux de participation, résultats aux examens, engagement sur les sondages) et facilitant la prise de décision.
+La plateforme génère automatiquement des rapports détaillés à l’issue de chaque webinaire : taux d’inscription vs participation, durée moyenne de connexion, taux de complétion, résultats d’examens et de sondages, activité du chat et indicateurs d’engagement (participation aux sondages, questions posées).
+
+Ces rapports sont disponibles via un tableau de bord interactif et exportables (CSV / XLSX / PDF). Ils incluent des visualisations (courbes, histogrammes, heatmaps) et des comparaisons longitudinales entre sessions. Un moteur d’alerte peut notifier les administrateurs lorsque certains KPIs dévient (par exemple taux de participation inférieur à un seuil), facilitant ainsi la prise de décision et l’amélioration continue du contenu et du format des webinaires.
+
+Les données peuvent également être agrégées pour des besoins statistiques ou d’intégration (API ou export périodique), garantissant le respect des politiques de confidentialité et de sécurité lors des échanges de données.
 
 % -------------------------------------------------------
 \section{Conclusion}
 % -------------------------------------------------------
 
-Ce chapitre a présenté l'ensemble des interfaces de la plateforme Webinar TamTam, illustrant la richesse fonctionnelle du système développé. De l'authentification à la clôture de session, en passant par la gestion administrative, le pilotage en temps réel et les outils d'interaction, la plateforme offre une expérience complète et cohérente pour tous les acteurs d'un webinaire. L'architecture modulaire adoptée permet une grande flexibilité d'adaptation aux besoins spécifiques de chaque organisation, tout en maintenant une ergonomie intuitive et une robustesse technique.
+Ce chapitre a présenté l'ensemble des interfaces de la plateforme Webinar , illustrant la richesse fonctionnelle du système développé. De l'authentification à la clôture de session, en passant par la gestion administrative, le pilotage en temps réel et les outils d'interaction, la plateforme offre une expérience complète et cohérente pour tous les acteurs d'un webinaire. L'architecture modulaire adoptée permet une grande flexibilité d'adaptation aux besoins spécifiques de chaque organisation, tout en maintenant une ergonomie intuitive et une robustesse technique.
