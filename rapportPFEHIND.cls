@@ -131,11 +131,16 @@
 
 %% ---- Style plain : pages de début de chapitre ----
 \fancypagestyle{plain}{%
-  \fancyhf{}%
-  \renewcommand{\headrulewidth}{0pt}%
-  \renewcommand{\footrulewidth}{0.4pt}%
-  \lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}%
-  \rfoot{\protect\color{black}\normalfont\small\thepage}%
+    \fancyhf{}%
+    \fancyheadoffset{1cm}%
+    \setlength{\headheight}{2cm}%
+    \lhead{\includegraphics[scale=0.1]{logos/tamtam-logo.png}}%
+    \rhead{\protect\color{black}\normalfont\nouppercase{\leftmark}}%
+    \renewcommand{\headrulewidth}{0.4pt}%
+    \renewcommand{\footrulewidth}{0.4pt}%
+    \lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}%
+    \cfoot{}%
+    \rfoot{\protect\color{black}\normalfont\small\thepage}%
 }
 
 %% ---- Style fancy : toutes les autres pages ----
