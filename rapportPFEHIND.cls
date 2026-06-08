@@ -86,7 +86,7 @@
     \begin{minipage}[t]{0.55\textwidth}
         \textbf{Encadré par :} \\[3pt]
         \hspace*{0.5cm}\textbf{Pr. Tarik Agouti} \\
-        \hspace*{1cm}{\small \textit{Encadrante à la FSSM}} \\[3pt]
+        \hspace*{1cm}{\small \textit{Encadrant à la FSSM}} \\[3pt]
         \hspace*{0.5cm}\textbf{Mme. ELKHROF Leila} \\
         \hspace*{1cm}{\small \textit{Encadrante de Stage}}
     \end{minipage}
@@ -105,7 +105,7 @@
     \vspace{0.1cm}
     \begin{center}
         \begin{tabular}{ll}
-            \textbf{Pr. ..........}     & Professeur, Département d’Informatique, FSSM \\[2pt]
+            \textbf{Pr. Tarik Agouti}     & Professeur, Département d’Informatique, FSSM \\[2pt]
             \textbf{Pr. ...... ....} & Professeur, Département d’Informatique, FSSM \\[2pt]
             \textbf{Pr. ..... ....}  & Professeur, Département d’Informatique, FSSM \\
         \end{tabular}
