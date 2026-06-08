@@ -44,6 +44,7 @@
 
 \begin{titlepage}
 \setlength{\parskip}{0pt}
+\enlargethispage{2\baselineskip}
 
     % ---- Logos haut ----
     \noindent
@@ -52,7 +53,7 @@
     \end{minipage}
     \hfill
     
-    \vspace{0.5cm}
+    \vspace{0.52cm}
 
     % ---- Titre principal ----
     \begin{center}
@@ -97,13 +98,13 @@
         \hspace*{0.5cm}\textbf{Mohamed Ait Messkine}
     \end{minipage}
 
-    \vspace{0.4cm}
+    \vspace{0.2cm}
 
     % ---- Jury ----
     \begin{center}
         {\small \textit{Soutenu le 26 juin 2026 devant le jury composé de :}}
     \end{center}
-    \vspace{0.1cm}
+    \vspace{0.05cm}
     \begin{center}
         \begin{tabular}{ll}
             \textbf{Pr. Tarik Agouti}     & Professeur, Département d'Informatique, FSSM \\[2pt]
@@ -114,9 +115,11 @@
 
     \vfill
 
+    \vspace{0.5cm}
+
     % ---- Année universitaire ----
     \begin{center}
-        \textbf{Année universitaire 2025/2026}
+        {\small \textbf{Année universitaire 2025/2026}}
     \end{center}
 
 \end{titlepage}

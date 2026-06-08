@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  8 JUN 2026 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  8 JUN 2026 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3143,7 +3143,7 @@ g> <./logo_fssm.png> <./logos/tamtam-logo.png>]
 \openout8 = `main.nlo'.
 
 Package nomencl Info: Writing nomenclature file main.nlo on input line 118.
-<Meaning-of-bismillah-al-rahman-al-rahim.png, id=287, 863.225pt x 474.77374pt>
+<Meaning-of-bismillah-al-rahman-al-rahim.png, id=288, 863.225pt x 474.77374pt>
 File: Meaning-of-bismillah-al-rahman-al-rahim.png Graphic file (type png)
 <use Meaning-of-bismillah-al-rahman-al-rahim.png>
 Package pdftex.def Info: Meaning-of-bismillah-al-rahman-al-rahim.png  used on i
@@ -3216,18 +3216,22 @@ if Uni-ted As-so-ciate(Partie
 
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 207.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 208.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [9] (main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 215.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [10
 
 ]
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 255.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 257.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [1
 
@@ -3397,7 +3401,7 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 492.
 [13])
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 255.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 257.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [14 <./Chapters/sprint/sprint333.jpg>]
 \openout2 = `Chapters/chapter2.aux'.
@@ -3643,7 +3647,7 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 383.
  [33 <./Editor _ Mermaid Chart-2025-06-10-161411.png>])
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 256.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 258.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [34
 
@@ -3894,7 +3898,7 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 515.
  [51 <./Chapters/production.png>])
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 257.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 259.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [52]
 \openout2 = `Chapters/chapter4.aux'.
@@ -4197,13 +4201,13 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 468.
  [72 <./realisation/img-65.jpg> <./realisation/img-184.jpg>])
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 258.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 260.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
 
 [73 <./realisation/img-185.jpg>]
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 258.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 260.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [74]
 \openout2 = `Chapters/chapter5.aux'.
@@ -4239,14 +4243,14 @@ fi-cial Do-cu-men-ta-tion\T1/cmr/m/n/12 . Dis-po-nible sur : []$\T1/cmtt/m/n/12
 )
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 259.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 261.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [75
 
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260608160916 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260608180856 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux (Chapters/chapter1.aux) (Chapters/chapter2.aux)
@@ -4468,6 +4472,7 @@ logos/tamtam-logo.png
 logos/tamtam-logo.png
 logos/tamtam-logo.png
 logos/tamtam-logo.png
+logos/tamtam-logo.png
 Chapters/chapter1.tex
 logos/tamtam-logo.png
    image.png    Graphic file (type png)
@@ -4644,7 +4649,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  50703 strings out of 467866
  1104375 string characters out of 5419765
- 1760357 words of memory out of 5000000
+ 1760466 words of memory out of 5000000
  78439 multiletter control sequences out of 15000+600000
  648117 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4659,17 +4664,17 @@ ur/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/l
 jfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/p
 k/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\font
 s/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\f
-onts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\PC\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Local\Mi
+onts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Local\MiKTe
+X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\PC\AppData\Local\Mi
 KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\PC\AppData\Local
 \MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\PC\AppData\Lo
 cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData
 \Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppD
 ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (86 pages, 16292914 bytes).
+Output written on main.pdf (86 pages, 16293332 bytes).
 PDF statistics:
- 1841 PDF objects out of 2073 (max. 8388607)
+ 1842 PDF objects out of 2073 (max. 8388607)
  272 named destinations out of 1000 (max. 500000)
  1041 words of extra memory for PDF output out of 10000 (max. 10000000)
 
