@@ -197,21 +197,34 @@ The developed solution addresses critical business needs by enabling users to se
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{section}{Table des matières}
+% ensure TOC pages use the fancy header even if class forces plain
+\makeatletter
+\begingroup\let\ps@plain\ps@fancy
 \tableofcontents
+\endgroup
+\makeatother
 \newpage
 
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{section}{Liste des figures}
+% ensure list of figures pages use the fancy header
+\makeatletter
+\begingroup\let\ps@plain\ps@fancy
 \listoffigures
-\thispagestyle{fancy}
+\endgroup
+\makeatother
 \newpage
 
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{section}{Liste des tableaux}
+% ensure list of tables pages use the fancy header
+\makeatletter
+\begingroup\let\ps@plain\ps@fancy
 \listoftables
-\thispagestyle{fancy}
+\endgroup
+\makeatother
 \newpage
 
 \cleardoublepage
