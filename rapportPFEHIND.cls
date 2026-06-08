@@ -16,10 +16,11 @@
 \RequirePackage{subcaption}
 \RequirePackage{wallpaper}
 \RequirePackage{nomencl}
+\RequirePackage{xcolor}
 \RequirePackage{fancyhdr}
 \RequirePackage{url}
 \RequirePackage[hidelinks]{hyperref}
-\RequirePackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
+\RequirePackage[left=2.5cm,right=2.5cm,top=2cm,bottom=3cm]{geometry}
 \RequirePackage{tikz}
 
 \providecommand{\UE}{}
@@ -105,9 +106,9 @@
     \vspace{0.1cm}
     \begin{center}
         \begin{tabular}{ll}
-            \textbf{Pr. Tarik Agouti}     & Professeur, Département d’Informatique, FSSM \\[2pt]
-            \textbf{Pr. ...... ....} & Professeur, Département d’Informatique, FSSM \\[2pt]
-            \textbf{Pr. ..... ....}  & Professeur, Département d’Informatique, FSSM \\
+            \textbf{Pr. Tarik Agouti}     & Professeur, Département d'Informatique, FSSM \\[2pt]
+            \textbf{Pr. ...... ....} & Professeur, Département d'Informatique, FSSM \\[2pt]
+            \textbf{Pr. ..... ....}  & Professeur, Département d'Informatique, FSSM \\
         \end{tabular}
     \end{center}
 
@@ -124,14 +125,28 @@
 
 \newcommand{\fairemarges}{
 \makenomenclature
+
+%% ---- Style plain : pages de début de chapitre ----
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0.4pt}%
+  \lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}%
+  \rfoot{\protect\color{black}\normalfont\small\thepage}%
+}
+
+%% ---- Style fancy : toutes les autres pages ----
 \pagestyle{fancy}
+\fancyhf{}
 \fancyheadoffset{1cm}
 \setlength{\headheight}{2cm}
 \lhead{\includegraphics[scale=0.1]{logos/tamtam-logo.png}}
-\rhead{\nouppercase{\leftmark}}
-\rfoot{\thepage}
-\cfoot{Rapport -- \textbf{\titre}}
-\lfoot{\UE}
+\rhead{\protect\color{black}\normalfont\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}
+\cfoot{}
+\rfoot{\protect\color{black}\normalfont\small\thepage}
 }
 
 \newcommand{\tabledematieres}{
@@ -147,4 +162,3 @@
 \label{fig:#4}
 \end{figure}
 }
-

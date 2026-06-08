@@ -183,9 +183,9 @@ Ce diagramme met en évidence les mécanismes d’interaction en temps réel pro
 \medskip
 \noindent\textbf{Télécommande / Orateur :}
 
-Le diagramme suivant illustre le système de contrôle à distance utilisé par l’orateur durant sa présentation.
+Le diagramme suivant détaille le dispositif de contrôle à distance mis en œuvre pour l’orateur lors de sa présentation. Il présente le flux d'échanges entre la télécommande, le serveur et l'interface de présentation : la télécommande émet des commandes (changement de diapositive, lecture/pause d'un média, déclenchement d'un sondage, etc.) vers le serveur, qui les centralise, contrôle les droits et les retransmet en temps réel à l'interface de présentation.
 
-Il présente les échanges réalisés entre la télécommande, le serveur et l’interface de présentation afin de permettre la navigation entre les diapositives et le déclenchement des différentes actions sans manipulation directe de l’ordinateur.
+L'interface applique immédiatement ces commandes, met à jour l'affichage et peut renvoyer des accusés de réception ou des états (position de la diapositive, erreur, confirmation). Le serveur gère par ailleurs la synchronisation entre clients, la journalisation des actions et la gestion des reconnexions ou conflits éventuels. Ce mécanisme assure une navigation fluide, cohérente et résiliente de la présentation, sans nécessité de manipulation directe de l'ordinateur par l'orateur.
 
 \begin{figure}[!htbp]
     \centering

@@ -11,7 +11,7 @@
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{wrapfig}
-\usepackage{xcolor}
+% NE PAS recharger xcolor ici — déjà dans le .cls
 \usetikzlibrary{shapes,arrows,positioning}
 \usepackage[export]{adjustbox}
 \usepackage{tcolorbox}
@@ -22,10 +22,6 @@
 \usepackage{setspace}
 \onehalfspacing
 \raggedbottom
-% Police Times supprimée (conflit avec scalefnt/arabtex)
-
-% ---- Marges (geometry déjà chargé dans le .cls, on ajuste seulement) ----
-\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2cm}
 
 % ---- Couleurs personnalisées ----
 \definecolor{bg}{rgb}{0.95,0.95,0.95}
@@ -196,8 +192,6 @@ The developed solution addresses critical business needs by enabling users to se
 
 \noindent\textbf{Keywords:} SCRUM, Agile Development, MeteorJS, ReactJS, Symfony, MongoDB, NoSQLBooster, MySQL, Event Management, Web/Mobile Platform, Webinars, Belgian Fiduciaries, UML Modeling.
 \newpage
-
-
 
 % Table des matières
 \cleardoublepage
