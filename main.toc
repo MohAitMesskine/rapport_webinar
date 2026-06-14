@@ -36,65 +36,66 @@
 \contentsline {subsubsection}{Diagramme de cas d'utilisation}{31}{subsubsection*.41}%
 \contentsline {subsubsection}{Diagramme de séquence — Administrateur United Associate}{32}{subsubsection*.43}%
 \contentsline {subsubsection}{Modèle du domaine}{34}{subsubsection*.46}%
-\contentsline {section}{\numberline {1.6}Conclusion}{36}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Étude technique}{37}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Architecture du projet}{37}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Architecture physique}{37}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Architecture logique}{40}{subsection.2.1.2}%
-\contentsline {subsubsection}{L'architecture Client-Serveur sous MeteorJS}{40}{subsubsection*.50}%
-\contentsline {subsubsection}{Structure du dossier \texttt {server}}{44}{subsubsection*.52}%
-\contentsline {subsubsection}{Structure du dossier \texttt {client}}{45}{subsubsection*.54}%
-\contentsline {section}{\numberline {2.2}Qualité de code}{47}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Outils de linting}{47}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Git Hooks}{47}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Conventional Commits}{47}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Spécification technologique}{47}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Outils de développement}{48}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}GitHub Actions}{50}{subsection.2.3.2}%
-\contentsline {subsubsection}{Cycle complet du pipeline CI/CD}{50}{subsubsection*.56}%
-\contentsline {paragraph}{Étape 1 — Déclenchement (Trigger)}{50}{paragraph*.57}%
-\contentsline {paragraph}{Étape 2 — Installation des dépendances}{50}{paragraph*.58}%
-\contentsline {paragraph}{Étape 3 — Analyse statique du code (Linting)}{50}{paragraph*.59}%
-\contentsline {paragraph}{Étape 4 — Vérification des types TypeScript}{50}{paragraph*.60}%
-\contentsline {paragraph}{Étape 5 — Exécution des tests unitaires}{51}{paragraph*.61}%
-\contentsline {paragraph}{Étape 6 — Audit de sécurité}{51}{paragraph*.62}%
-\contentsline {paragraph}{Étape 7 — Build de production}{51}{paragraph*.63}%
-\contentsline {paragraph}{Étape 8 — Déploiement conditionnel}{51}{paragraph*.64}%
-\contentsline {paragraph}{Étape 9 — Notification et rapport}{51}{paragraph*.65}%
-\contentsline {subsection}{\numberline {2.3.3}Release automation}{53}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Architecture de déploiement}{53}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Infrastructure de production}{53}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Caractéristiques de l'infrastructure}{54}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Conclusion}{54}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Réalisation}{55}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{55}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Présentation de la plateforme}{55}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Interface d'authentification}{55}{subsection.3.2.1}%
+\contentsline {section}{\numberline {1.6}Conclusion}{35}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Étude technique}{36}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Architecture du projet}{36}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Architecture physique}{36}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Architecture logique}{39}{subsection.2.1.2}%
+\contentsline {subsubsection}{L'architecture Client-Serveur sous MeteorJS}{39}{subsubsection*.50}%
+\contentsline {subsubsection}{Structure du dossier \texttt {server}}{43}{subsubsection*.52}%
+\contentsline {subsubsection}{Structure du dossier \texttt {client}}{44}{subsubsection*.54}%
+\contentsline {section}{\numberline {2.2}Qualité de code}{46}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Outils de linting}{46}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Git Hooks}{46}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Conventional Commits}{46}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Spécification technologique}{46}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Outils de développement}{47}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}GitHub Actions}{49}{subsection.2.3.2}%
+\contentsline {subsubsection}{Cycle complet du pipeline CI/CD}{49}{subsubsection*.56}%
+\contentsline {paragraph}{Étape 1 — Déclenchement (Trigger)}{49}{paragraph*.57}%
+\contentsline {paragraph}{Étape 2 — Installation des dépendances}{49}{paragraph*.58}%
+\contentsline {paragraph}{Étape 3 — Analyse statique du code (Linting)}{49}{paragraph*.59}%
+\contentsline {paragraph}{Étape 4 — Vérification des types TypeScript}{49}{paragraph*.60}%
+\contentsline {paragraph}{Étape 5 — Exécution des tests unitaires}{50}{paragraph*.61}%
+\contentsline {paragraph}{Étape 6 — Audit de sécurité}{50}{paragraph*.62}%
+\contentsline {paragraph}{Étape 7 — Build de production}{50}{paragraph*.63}%
+\contentsline {paragraph}{Étape 8 — Déploiement conditionnel}{50}{paragraph*.64}%
+\contentsline {paragraph}{Étape 9 — Notification et rapport}{50}{paragraph*.65}%
+\contentsline {subsection}{\numberline {2.3.3}Release automation}{52}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Architecture de déploiement}{52}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Infrastructure de production}{52}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Caractéristiques de l'infrastructure}{53}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Conclusion}{53}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Réalisation}{54}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{54}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Présentation de la plateforme}{54}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Interface d'authentification}{54}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Interface de la page administrateur}{56}{subsection.3.2.2}%
 \contentsline {subsubsection}{Gestion des webinaires}{57}{subsubsection*.71}%
-\contentsline {subsubsection}{Configuration des sondages automatiques}{59}{subsubsection*.75}%
+\contentsline {subsubsection}{Configuration des sondages automatiques}{58}{subsubsection*.75}%
 \contentsline {subsubsection}{Configuration des questions automatiques}{60}{subsubsection*.78}%
-\contentsline {subsubsection}{Gestion des administrateurs}{61}{subsubsection*.80}%
+\contentsline {subsubsection}{Gestion des administrateurs}{60}{subsubsection*.80}%
 \contentsline {subsection}{\numberline {3.2.3}Activités lors du webinaire}{62}{subsection.3.2.3}%
 \contentsline {subsubsection}{Onglet Participants}{62}{subsubsection*.83}%
-\contentsline {subsubsection}{Onglet Conversation}{64}{subsubsection*.86}%
-\contentsline {subsubsection}{Onglet Questions / Réponses}{64}{subsubsection*.88}%
-\contentsline {subsubsection}{Onglet Sondages}{65}{subsubsection*.91}%
-\contentsline {subsubsection}{Onglet Annonces}{66}{subsubsection*.93}%
-\contentsline {subsubsection}{Onglet Documents}{67}{subsubsection*.95}%
-\contentsline {subsubsection}{Onglet Examen Final}{68}{subsubsection*.97}%
-\contentsline {subsubsection}{Onglet Live Config}{70}{subsubsection*.99}%
-\contentsline {subsection}{\numberline {3.2.4}Système de pilotage et de prompteur}{70}{subsection.3.2.4}%
-\contentsline {subsubsection}{Ajout d'images et gestion des tags}{70}{subsubsection*.101}%
-\contentsline {subsubsection}{Prompteur Régie}{71}{subsubsection*.103}%
-\contentsline {subsubsection}{Prompteur Public}{72}{subsubsection*.105}%
-\contentsline {subsubsection}{Prompteur Compteur}{72}{subsubsection*.107}%
-\contentsline {subsubsection}{Prompteur Présentateur}{73}{subsubsection*.109}%
-\contentsline {subsubsection}{Télécommande}{73}{subsubsection*.111}%
-\contentsline {subsection}{\numberline {3.2.5}Interface de clôture du webinaire (ClosingPage)}{74}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Fonctionnalités transversales}{75}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Système de notifications}{75}{subsection.3.3.1}%
+\contentsline {subsubsection}{Onglet Conversation}{62}{subsubsection*.85}%
+\contentsline {subsubsection}{Onglet Questions / Réponses}{63}{subsubsection*.87}%
+\contentsline {subsubsection}{Onglet Sondages}{64}{subsubsection*.90}%
+\contentsline {subsubsection}{Onglet Annonces}{65}{subsubsection*.92}%
+\contentsline {subsubsection}{Onglet Documents}{66}{subsubsection*.94}%
+\contentsline {subsubsection}{Onglet Examen Final}{67}{subsubsection*.96}%
+\contentsline {subsubsection}{Onglet Live Config}{69}{subsubsection*.98}%
+\contentsline {subsection}{\numberline {3.2.4}Système de pilotage et de prompteur}{69}{subsection.3.2.4}%
+\contentsline {subsubsection}{Ajout d'images et gestion des tags}{69}{subsubsection*.100}%
+\contentsline {subsubsection}{Prompteur Régie}{70}{subsubsection*.102}%
+\contentsline {subsubsection}{Prompteur Public}{71}{subsubsection*.104}%
+\babel@toc {french}{}\relax 
+\contentsline {subsubsection}{Prompteur Compteur}{71}{subsubsection*.106}%
+\contentsline {subsubsection}{Prompteur Présentateur}{72}{subsubsection*.107}%
+\contentsline {subsubsection}{Télécommande}{73}{subsubsection*.108}%
+\contentsline {subsection}{\numberline {3.2.5}Interface de clôture du webinaire (ClosingPage)}{73}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Fonctionnalités transversales}{74}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Système de notifications}{74}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Gestion des rôles et des droits d'accès}{75}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{76}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.3}Système de reporting}{75}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Conclusion}{76}{section.3.4}%
 \contentsline {section}{Références bibliographiques}{77}{section.3.4}%
