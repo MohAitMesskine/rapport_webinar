@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  14 JUN 2026 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  14 JUN 2026 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4155,17 +4155,17 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 376.
 File: realisation/img-57.jpg Graphic file (type jpg)
 <use realisation/img-57.jpg>
 Package pdftex.def Info: realisation/img-57.jpg  used on input line 387.
-(pdftex.def)             Requested size: 364.19667pt x 163.16702pt.
+(pdftex.def)             Requested size: 409.71692pt x 183.56114pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 397.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 394.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [70 <./realisation/img-pilotage.jpg> <./realisation/img-57.jpg>]
 <realisation/img-62.jpg, id=1024, 1028.34187pt x 460.72125pt>
 File: realisation/img-62.jpg Graphic file (type jpg)
 <use realisation/img-62.jpg>
 Package pdftex.def Info: realisation/img-62.jpg  used on input line 400.
-(pdftex.def)             Requested size: 364.19667pt x 163.16702pt.
+(pdftex.def)             Requested size: 409.71692pt x 183.56114pt.
 
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
@@ -4248,7 +4248,12 @@ and I'll forget about whatever was undefined.
 File: realisation/img-63.jpg Graphic file (type jpg)
 <use realisation/img-63.jpg>
 Package pdftex.def Info: realisation/img-63.jpg  used on input line 419.
-(pdftex.def)             Requested size: 364.19667pt x 156.5017pt.
+(pdftex.def)             Requested size: 409.71692pt x 176.06273pt.
+
+Overfull \hbox (19.71692pt too wide) in paragraph at lines 419--420
+ [][] 
+ []
+
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
@@ -4486,7 +4491,12 @@ and I'll forget about whatever was undefined.
 File: realisation/img-65.jpg Graphic file (type jpg)
 <use realisation/img-65.jpg>
 Package pdftex.def Info: realisation/img-65.jpg  used on input line 448.
-(pdftex.def)             Requested size: 364.19667pt x 211.26001pt.
+(pdftex.def)             Requested size: 409.71692pt x 237.6695pt.
+
+Overfull \hbox (19.71692pt too wide) in paragraph at lines 448--449
+ [][] 
+ []
+
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
@@ -4866,7 +4876,7 @@ and I'll forget about whatever was undefined.
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260614195928 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260614200735 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux (Chapters/chapter1.aux) (Chapters/chapter2.aux)
@@ -5293,9 +5303,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/P
 C/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
 ers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 
-Output written on main.pdf (88 pages, 16034846 bytes).
+Output written on main.pdf (88 pages, 16035342 bytes).
 PDF statistics:
- 2025 PDF objects out of 2073 (max. 8388607)
+ 2026 PDF objects out of 2073 (max. 8388607)
  273 named destinations out of 1000 (max. 500000)
  1036 words of extra memory for PDF output out of 10000 (max. 10000000)
 
