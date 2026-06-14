@@ -26,9 +26,11 @@ Pour pouvoir accéder aux fonctionnalités offertes par la plateforme TamTam Web
     \caption{Page affichée aux visiteurs non authentifiés}
     \label{fig:auth_non_connecte}
 \end{figure}
+
 La Figure \ref{fig:auth_non_connecte} illustre le comportement de la plateforme lorsqu'un utilisateur tente d'accéder à un webinar sans être préalablement authentifié. Dans ce cas, l'accès aux fonctionnalités est restreint et l'utilisateur est invité à se connecter à son compte TamTam afin de poursuivre sa navigation.
 
 Après avoir sélectionné l'option d'authentification, l'utilisateur est redirigé vers l'interface de connexion présentée dans la Figure \ref{fig:auth_connecte}. Cette interface lui permet de saisir ses identifiants ou d'utiliser les mécanismes d'authentification proposés par la plateforme pour accéder à l'ensemble des fonctionnalités du système.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-144.jpg}
@@ -42,9 +44,7 @@ Afin de simplifier l'accès à la plateforme et d'améliorer l'expérience utili
 
 \begin{itemize}
     \item \textbf{Authentification classique :} l'utilisateur saisit son adresse électronique ainsi que son mot de passe afin d'accéder à son compte.
-    
     \item \textbf{Authentification via des services tiers :} la plateforme permet également de se connecter à l'aide d'un compte \textit{LinkedIn} ou \textit{Google}, offrant ainsi une méthode de connexion rapide et sécurisée.
-    
     \item \textbf{Création de compte :} les nouveaux utilisateurs peuvent créer un compte TamTam directement depuis cette interface afin d'accéder aux différents modules de la plateforme.
 \end{itemize}
 
@@ -69,7 +69,9 @@ Une fois les informations saisies correctement, l'utilisateur accède à la page
     \caption{Utilisateur avec accès à la page d'administration}
     \label{fig:admin_autorise}
 \end{figure}
+
 Les Figures \ref{fig:admin_non_autorise} et \ref{fig:admin_autorise} présentent respectivement les cas d'un utilisateur ne disposant pas des autorisations requises et d'un utilisateur autorisé à accéder à l'espace d'administration. Ce mécanisme permet de sécuriser l'accès aux fonctionnalités sensibles de la plateforme en fonction des rôles attribués aux utilisateurs.
+
 % -------------------------------------------------------
 \subsubsection{Gestion des webinaires}
 % -------------------------------------------------------
@@ -82,11 +84,8 @@ Cette section permet à l'administrateur de superviser et contrôler le cycle de
     \caption{Actions disponibles sur un webinaire}
     \label{fig:actions_webinaire}
 \end{figure}
-La Figure \ref{fig:actions_webinaire} présente l'interface de gestion des webinaires accessible aux administrateurs 
-de la plateforme. 
-Cette vue centralise l'ensemble des sessions créées et fournit des informations essentielles
- telles que l'identifiant de l'événement, la date de planification, le nom du webinaire, 
- les orateurs et modérateurs associés, ainsi que son état d'exécution.
+
+La Figure \ref{fig:actions_webinaire} présente l'interface de gestion des webinaires accessible aux administrateurs de la plateforme. Cette vue centralise l'ensemble des sessions créées et fournit des informations essentielles telles que l'identifiant de l'événement, la date de planification, le nom du webinaire, les orateurs et modérateurs associés, ainsi que son état d'exécution.
 
 \begin{figure}[H]
     \centering
@@ -94,15 +93,17 @@ Cette vue centralise l'ensemble des sessions créées et fournit des information
     \caption{Interface de modification d'un webinaire}
     \label{fig:modifier_webinaire}
 \end{figure}
-La Figure \ref{fig:modifier_webinaire} présente l’interface de modification d’un webinaire accessible aux administrateurs de la plateforme. Elle permet de mettre à jour les informations de la session, telles que le titre, le lien de diffusion et les participants associés, afin d’assurer une gestion flexible et efficace des webinaires.
+
+La Figure \ref{fig:modifier_webinaire} présente l'interface de modification d'un webinaire accessible aux administrateurs de la plateforme. Elle permet de mettre à jour les informations de la session, telles que le titre, le lien de diffusion et les participants associés, afin d'assurer une gestion flexible et efficace des webinaires.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-152.jpg}
     \caption{Vérification des participants depuis l'interface admin}
     \label{fig:verif_participants}
 \end{figure}
-La Figure \ref{fig:verif_participants} présente l’interface de vérification des participants d’un webinaire.
-Les fonctionnalités disponibles incluent :
+
+La Figure \ref{fig:verif_participants} présente l'interface de vérification des participants d'un webinaire. Les fonctionnalités disponibles incluent :
 \begin{itemize}
     \item \textbf{Consultation de la liste} : Visualisation des webinaires créés, démarrés et arrêtés, avec toutes leurs informations (organisateur, date, modérateurs).
     \item \textbf{Filtrage avancé} : Recherche par EventId, date, nom ou statut (\textit{DEFAULT}, \textit{STARTED}, \textit{ENDED}).
@@ -121,7 +122,9 @@ Cette interface permet à l'administrateur de préparer les sondages qui seront 
     \caption{Configuration des sondages automatiques}
     \label{fig:sondages_auto}
 \end{figure}
-La Figure \ref{fig:sondages_auto} présente l’interface de configuration des sondages automatiques. Elle permet à l’administrateur de créer, modifier et programmer des sondages qui seront diffusés automatiquement durant le webinaire.
+
+La Figure \ref{fig:sondages_auto} présente l'interface de configuration des sondages automatiques. Elle permet à l'administrateur de créer, modifier et programmer des sondages qui seront diffusés automatiquement durant le webinaire.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{realisation/img1.png}
@@ -129,7 +132,7 @@ La Figure \ref{fig:sondages_auto} présente l’interface de configuration des s
     \label{fig:form_sondage}
 \end{figure}
 
-Dans cet onglet \ref{fig:form_sondage}, l'administrateur ajoute, supprime et modifie les sondages programmés pour être publiés automatiquement durant une session. Dix sondages ont été configurés, chacun disponible en deux langues (français et néerlandais). Pour chaque webinaire, quatre sondages sont sélectionnés aléatoirement parmi eux et publiés à intervalles réguliers. Cette fonctionnalité constitue un filet de sécurité pour garantir la présence de sondages même en l'absence d'action manuelle de l'orateur.
+Dans cet onglet (Figure \ref{fig:form_sondage}), l'administrateur ajoute, supprime et modifie les sondages programmés pour être publiés automatiquement durant une session. Dix sondages ont été configurés, chacun disponible en deux langues (français et néerlandais). Pour chaque webinaire, quatre sondages sont sélectionnés aléatoirement parmi eux et publiés à intervalles réguliers. Cette fonctionnalité constitue un filet de sécurité pour garantir la présence de sondages même en l'absence d'action manuelle de l'orateur.
 
 % -------------------------------------------------------
 \subsubsection{Configuration des questions automatiques}
@@ -144,7 +147,7 @@ La capture suivante illustre l'espace réservé à la préparation des questions
     \label{fig:questions_auto}
 \end{figure}
 
-Cet onglet \ref{fig:questions_auto} contient la liste des questions ajoutées automatiquement à l'examen final lorsqu'aucun utilisateur (administrateur, modérateur ou orateur) ne les a saisies manuellement. L'administrateur peut gérer ces questions dans différentes langues~: français, anglais et néerlandais.
+Cet onglet (Figure \ref{fig:questions_auto}) contient la liste des questions ajoutées automatiquement à l'examen final lorsqu'aucun utilisateur (administrateur, modérateur ou orateur) ne les a saisies manuellement. L'administrateur peut gérer ces questions dans différentes langues~: français, anglais et néerlandais.
 
 % -------------------------------------------------------
 \subsubsection{Gestion des administrateurs}
@@ -158,7 +161,9 @@ Cette partie présente l'interface de gestion des droits d'accès. Elle montre c
     \caption{Liste des administrateurs de la plateforme}
     \label{fig:liste_admins}
 \end{figure}
-La Figure \ref{fig:liste_admins} présente l’interface de gestion des administrateurs de la plateforme. Elle permet de consulter la liste des utilisateurs disposant de privilèges administratifs et de gérer leurs autorisations d’accès à l’espace d’administration à l’aide d’un simple mécanisme d’activation ou de désactivation.
+
+La Figure \ref{fig:liste_admins} présente l'interface de gestion des administrateurs de la plateforme. Elle permet de consulter la liste des utilisateurs disposant de privilèges administratifs et de gérer leurs autorisations d'accès à l'espace d'administration à l'aide d'un simple mécanisme d'activation ou de désactivation.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-160.jpg}
@@ -166,7 +171,7 @@ La Figure \ref{fig:liste_admins} présente l’interface de gestion des administ
     \label{fig:recherche_admin}
 \end{figure}
 
-Cette section \ref{fig:recherche_admin} permet à l'administrateur de gérer les droits d'accès à la plateforme. En saisissant une adresse email, une recherche globale est effectuée parmi tous les utilisateurs TamTam. Un simple interrupteur permet d'accorder ou de révoquer les droits administrateurs.
+Cette section Figure \ref{fig:recherche_admin} permet à l'administrateur de gérer les droits d'accès à la plateforme. En saisissant une adresse email, une recherche globale est effectuée parmi tous les utilisateurs TamTam. Un simple interrupteur permet d'accorder ou de révoquer les droits administrateurs.
 
 % -------------------------------------------------------
 \subsection{Activités lors du webinaire}
@@ -186,14 +191,16 @@ L'onglet \textit{Participants} regroupe l'ensemble des utilisateurs présents da
     \caption{Onglet Participants}
     \label{fig:tab_participants}
 \end{figure}
-La Figure \ref{fig:tab_participants} présente l’interface principale du webinaire en cours de diffusion. Cette vue permet aux participants, orateurs et modérateurs de suivre la session en temps réel grâce à la visioconférence, tout en accédant aux différentes fonctionnalités collaboratives de la plateforme telles que les actualités, les conversations, les sondages et les outils de présentation.
+
+La Figure \ref{fig:tab_participants} présente l'interface principale du webinaire en cours de diffusion. Cette vue permet aux participants, orateurs et modérateurs de suivre la session en temps réel grâce à la visioconférence, tout en accédant aux différentes fonctionnalités collaboratives de la plateforme telles que les actualités, les conversations, les sondages et les outils de présentation.
 
 % -------------------------------------------------------
 \subsubsection{Onglet Conversation}
 % -------------------------------------------------------
-Cette interface met en avant l’espace de communication publique du webinaire. Elle permet aux participants, aux orateurs et aux modérateurs d’échanger des messages instantanés tout au long de la session, favorisant ainsi une communication fluide et interactive. Grâce à cet espace de discussion, les utilisateurs peuvent partager leurs remarques, réagir aux interventions des orateurs, poser des questions ou apporter des informations complémentaires en temps réel.
 
-Cet outil joue un rôle essentiel dans l’animation du webinaire en encourageant la participation active des utilisateurs et en renforçant l’engagement du public. Les messages publiés sont immédiatement visibles par l’ensemble des participants connectés, ce qui facilite les échanges collectifs et contribue à créer un environnement collaboratif et dynamique durant toute la durée de l’événement.
+Cette interface met en avant l'espace de communication publique du webinaire. Elle permet aux participants, aux orateurs et aux modérateurs d'échanger des messages instantanés tout au long de la session, favorisant ainsi une communication fluide et interactive. Grâce à cet espace de discussion, les utilisateurs peuvent partager leurs remarques, réagir aux interventions des orateurs, poser des questions ou apporter des informations complémentaires en temps réel.
+
+Cet outil joue un rôle essentiel dans l'animation du webinaire en encourageant la participation active des utilisateurs et en renforçant l'engagement du public. Les messages publiés sont immédiatement visibles par l'ensemble des participants connectés, ce qui facilite les échanges collectifs et contribue à créer un environnement collaboratif et dynamique durant toute la durée de l'événement.
 
 \begin{figure}[H]
     \centering
@@ -201,12 +208,9 @@ Cet outil joue un rôle essentiel dans l’animation du webinaire en encouragean
     \caption{Onglet Conversation (chat public)}
     \label{fig:tab_conversation}
 \end{figure}
-La Figure \ref{fig:tab_conversation} illustre l’espace de discussion publique 
-mis à disposition des participants du webinaire. Cette interface permet 
-l’échange de messages instantanés entre les différents acteurs de la session, favorisant ainsi la communication et l’interactivité. Grâce à ce canal de discussion en temps réel, 
-les participants peuvent partager leurs remarques, poser des questions ou 
-réagir aux interventions des orateurs, contribuant à enrichir 
-l’expérience collaborative offerte par la plateforme.
+
+La Figure \ref{fig:tab_conversation} illustre l'espace de discussion publique mis à disposition des participants du webinaire. Cette interface permet l'échange de messages instantanés entre les différents acteurs de la session, favorisant ainsi la communication et l'interactivité. Grâce à ce canal de discussion en temps réel, les participants peuvent partager leurs remarques, poser des questions ou réagir aux interventions des orateurs, contribuant à enrichir l'expérience collaborative offerte par la plateforme.
+
 % -------------------------------------------------------
 \subsubsection{Onglet Questions / Réponses}
 % -------------------------------------------------------
@@ -263,9 +267,11 @@ Les sondages interactifs permettent de recueillir les avis des participants en t
 % -------------------------------------------------------
 \subsubsection{Onglet Annonces}
 % -------------------------------------------------------
-Cet onglet est destiné à la diffusion d’informations officielles pendant le webinaire. Il permet aux organisateurs et aux modérateurs de communiquer efficacement avec l’ensemble des participants en publiant des annonces visibles en temps réel. Ces communications peuvent concerner le déroulement de la session, des rappels importants, des consignes spécifiques ou toute information utile au bon fonctionnement de l’événement.
 
-Grâce à cet espace centralisé, les participants disposent d’une source d’information fiable et constamment mise à jour. Cette fonctionnalité contribue à améliorer la coordination entre les différents acteurs du webinaire, à garantir une communication claire et à assurer une meilleure expérience utilisateur tout au long de la session.
+Cet onglet est destiné à la diffusion d'informations officielles pendant le webinaire. Il permet aux organisateurs et aux modérateurs de communiquer efficacement avec l'ensemble des participants en publiant des annonces visibles en temps réel. Ces communications peuvent concerner le déroulement de la session, des rappels importants, des consignes spécifiques ou toute information utile au bon fonctionnement de l'événement.
+
+Grâce à cet espace centralisé, les participants disposent d'une source d'information fiable et constamment mise à jour. Cette fonctionnalité contribue à améliorer la coordination entre les différents acteurs du webinaire, à garantir une communication claire et à assurer une meilleure expérience utilisateur tout au long de la session.
+
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.48\textwidth}
@@ -281,14 +287,15 @@ Grâce à cet espace centralisé, les participants disposent d’une source d’
     \label{fig:tab_annonces}
 \end{figure}
 
-Cettes interfaces permet aux modérateurs de diffuser des annonces officielles à l'ensemble des participants du webinaire.
+Cette interface permet aux modérateurs de diffuser des annonces officielles à l'ensemble des participants du webinaire.
 
 % -------------------------------------------------------
 \subsubsection{Onglet Documents}
 % -------------------------------------------------------
-Cet onglet est destiné à la diffusion d’informations officielles durant le webinaire. Il permet aux organisateurs, modérateurs et administrateurs de communiquer des messages importants à l’ensemble des participants de manière centralisée et structurée. Les annonces publiées peuvent concerner le déroulement de la session, des informations logistiques, des rappels, des consignes particulières ou toute autre communication utile au bon déroulement de l’événement.
 
-Grâce à cette interface, les participants disposent d’une source d’information fiable et accessible tout au long du webinaire. Cette fonctionnalité contribue à améliorer la coordination entre les différents acteurs, à réduire les risques de mauvaise communication et à garantir une diffusion rapide et efficace des informations essentielles.
+Cet onglet est destiné au partage de ressources documentaires durant le webinaire. Il permet aux organisateurs, modérateurs et administrateurs de mettre à disposition des participants les supports nécessaires au bon suivi de la session, tels que les présentations, les guides ou tout autre document complémentaire.
+
+Grâce à cette interface, les participants disposent d'un accès centralisé et structuré aux ressources partagées tout au long du webinaire. Cette fonctionnalité contribue à améliorer la coordination entre les différents acteurs et à garantir une diffusion rapide et efficace des contenus essentiels.
 
 \begin{figure}[H]
     \centering
@@ -319,8 +326,8 @@ Cette étape intervient généralement à la fin de la session afin d'évaluer l
     \caption{Onglet Examen Final}
     \label{fig:tab_examen}
 \end{figure}
- 
-Cette Figure \ref{fig:tab_examen} montre l'interface de l'onglet Examen Final à la fin du webinaire, les participants peuvent passer l'examen final, conçu pour évaluer l'assimilation des contenus présentés durant la session. Cet examen se compose de questions variées — QCM, questions à réponses courtes et questions ouvertes — qui peuvent être soit configurées manuellement par les formateurs, soit générées automatiquement par le système à partir d'une banque de questions multilingue. Le système supporte la randomisation des questions et des propositions, des limites de temps par exercice, ainsi qu'une correction automatique pour les items à choix multiple ; les réponses ouvertes sont consultables et notables manuellement. Les résultats sont fournis immédiatement pour les éléments auto-corrigés, un bilan détaillé est accessible au participant, et les administrateurs disposent de statistiques agrégées et d'options d'export pour le reporting et la délivrance éventuelle de certificats.
+
+La Figure \ref{fig:tab_examen} montre l'interface de l'onglet Examen Final. À la fin du webinaire, les participants peuvent passer l'examen final, conçu pour évaluer l'assimilation des contenus présentés durant la session. Cet examen se compose de questions variées — QCM, questions à réponses courtes et questions ouvertes — qui peuvent être soit configurées manuellement par les formateurs, soit générées automatiquement par le système à partir d'une banque de questions multilingue. Le système supporte la randomisation des questions et des propositions, des limites de temps par exercice, ainsi qu'une correction automatique pour les items à choix multiple ; les réponses ouvertes sont consultables et notables manuellement. Les résultats sont fournis immédiatement pour les éléments auto-corrigés, un bilan détaillé est accessible au participant, et les administrateurs disposent de statistiques agrégées et d'options d'export pour le reporting et la délivrance éventuelle de certificats.
 
 % -------------------------------------------------------
 \subsubsection{Onglet Live Config}
@@ -366,7 +373,8 @@ Durant la phase de configuration et de diffusion du webinaire, une interface cen
 
 L'interface de pilotage centralise l'ensemble des éléments visuels et textuels utilisés durant le webinaire et fournit un workflow complet de préparation des contenus. Elle permet d'importer des images (à l'unité ou par lots), d'ajouter des métadonnées et des tags, de prévisualiser les ressources et de les associer précisément à des sections ou plages temporelles du webinaire. Les contenus peuvent être ordonnancés, programmés et préchargés pour garantir une diffusion sans latence, tandis que des filtres et une recherche par mots‑clés facilitent la sélection rapide des médias.
 
-Des contrôles d'accès, un historique de versions et des aperçus permettent de sécuriser les modifications et de valider les éléments avant publication sur le prompteur public. 
+Des contrôles d'accès, un historique de versions et des aperçus permettent de sécuriser les modifications et de valider les éléments avant publication sur le prompteur public.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-pilotage.jpg}
@@ -388,11 +396,13 @@ Le Prompteur Régie représente l'outil de contrôle utilisé par l'équipe tech
     \caption{Gestion des contenus du Prompteur Régie}
     \label{fig:prompteur_regie}
 \end{figure}
-Cette Figure \ref{fig:prompteur_regie} illustre l'interface de régie du prompteur, qui permet aux modérateurs et techniciens de gérer en temps réel les contenus diffusés pendant le webinaire. L'interface offre des fonctionnalités de sélection, d'ordonnancement et de prévisualisation des éléments à afficher, ainsi que des indicateurs de temps pour chaque section ou publication.
+
+La Figure \ref{fig:prompteur_regie} illustre l'interface de régie du prompteur, qui permet aux modérateurs et techniciens de gérer en temps réel les contenus diffusés pendant le webinaire. L'interface offre des fonctionnalités de sélection, d'ordonnancement et de prévisualisation des éléments à afficher, ainsi que des indicateurs de temps pour chaque section ou publication.
 
 % -------------------------------------------------------
 \subsubsection{Prompteur Public}
 % -------------------------------------------------------
+
 Le Prompteur Public correspond à l'affichage visible par l'audience. Il restitue en temps réel les contenus sélectionnés depuis l'interface de régie, selon le scénario défini par les organisateurs.
 
 \begin{figure}[H]
@@ -401,8 +411,10 @@ Le Prompteur Public correspond à l'affichage visible par l'audience. Il restitu
     \caption{Contenus affichés dans le Prompteur Public}
     \label{fig:prompteur_public}
 \end{figure}
-Cette Figure \ref{fig:prompteur_public} présente l'interface du Prompteur Public, qui diffuse les contenus sélectionnés depuis la régie vers l'audience. L'affichage est conçu pour être clair et lisible, 
-avec une mise en page adaptée à la nature des informations transmises.
+
+La Figure \ref{fig:prompteur_public} présente l'interface du Prompteur Public, qui diffuse les contenus sélectionnés depuis la régie vers l'audience. L'affichage est conçu pour être clair et lisible, avec une mise en page adaptée à la nature des informations transmises. Selon le type de contenu sélectionné, l'affichage varie comme suit :
+
+\begin{itemize}
     \item \textbf{Image} : affichée directement.
     \item \textbf{Article} : le titre, la description et les informations associées sont présentés.
     \item \textbf{Orateur} : son nom, son organisation et ses articles publiés sont affichés.
@@ -411,8 +423,8 @@ avec une mise en page adaptée à la nature des informations transmises.
 % -------------------------------------------------------
 \subsubsection{Prompteur Compteur}
 % -------------------------------------------------------
-Cette Vue est dédiée au suivi temporel du webinaire, permettant aux orateurs et modérateurs de visualiser en temps réel la durée écoulée et le temps restant pour chaque section ou activité programmée. Elle fournit des indicateurs visuels clairs pour aider à respecter le timing prévu et à ajuster le rythme de la présentation si nécessaire.
 
+Cette vue est dédiée au suivi temporel du webinaire, permettant aux orateurs et modérateurs de visualiser en temps réel la durée écoulée et le temps restant pour chaque section ou activité programmée. Elle fournit des indicateurs visuels clairs pour aider à respecter le timing prévu et à ajuster le rythme de la présentation si nécessaire.
 
 \begin{figure}[H]
     \centering
@@ -420,7 +432,8 @@ Cette Vue est dédiée au suivi temporel du webinaire, permettant aux orateurs e
     \caption{Contenus du Prompteur Compteur}
     \label{fig:prompteur_compteur}
 \end{figure}
-Cette Figure \ref{fig:prompteur_compteur} illustre l'interface du Prompteur Compteur, qui fournit un suivi en temps réel de la durée de chaque section du webinaire. L'affichage comprend des indicateurs visuels et numériques permettant de comparer le temps prévu avec le temps effectivement écoulé, facilitant ainsi la gestion du rythme de la session.
+
+La Figure \ref{fig:prompteur_compteur} illustre l'interface du Prompteur Compteur, qui fournit un suivi en temps réel de la durée de chaque section du webinaire. L'affichage comprend des indicateurs visuels et numériques permettant de comparer le temps prévu avec le temps effectivement écoulé, facilitant ainsi la gestion du rythme de la session.
 
 % -------------------------------------------------------
 \subsubsection{Prompteur Présentateur}
@@ -435,7 +448,7 @@ Le Prompteur Présentateur fournit à l'orateur un affichage d'assistance pendan
     \label{fig:prompteur_presentateur}
 \end{figure}
 
-Le Prompteur Présentateur affiche les textes et paragraphes du script de l'orateur, organisés par section. La navigation entre les paragraphes est contrôlée par la télécommande.
+La Figure \ref{fig:prompteur_presentateur} illustre l'interface du Prompteur Présentateur, qui affiche les textes et paragraphes du script de l'orateur, organisés par section. La navigation entre les paragraphes est contrôlée par la télécommande.
 
 % -------------------------------------------------------
 \subsubsection{Télécommande}
@@ -450,7 +463,7 @@ La télécommande constitue une interface d'assistance destinée à l'orateur pe
     \label{fig:telecommande}
 \end{figure}
 
-Un QR code ou un lien partagé permet d'accéder à une télécommande connectée depuis un téléphone ou tout autre appareil. Depuis cette interface, le présentateur peut naviguer entre les slides du prompteur et gérer les sondages en temps réel.
+La Figure \ref{fig:telecommande} présente l'interface de la télécommande. Un QR code ou un lien partagé permet d'y accéder depuis un téléphone ou tout autre appareil. Depuis cette interface, le présentateur peut naviguer entre les slides du prompteur et gérer les sondages en temps réel.
 
 % -------------------------------------------------------
 \subsection{Interface de clôture du webinaire (ClosingPage)}
@@ -464,7 +477,8 @@ Une fois la formation terminée, les utilisateurs sont redirigés vers la page d
     \caption{Page de clôture — côté orateur/modérateur}
     \label{fig:closing_orateur}
 \end{figure}
-
+La Figure \ref{fig:closing_orateur} présente la page de clôture accessible aux orateurs et modérateurs à l’issue du webinaire. Cette interface fournit un résumé des principales statistiques de la session, telles que le nombre de participants, les résultats de l’examen final, les questions/réponses,
+ les sondages et les documents partagés. Elle permet également d’accéder au replay ou de réinitialiser certaines données liées à l’événement.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.80\textwidth]{realisation/img-185.jpg}
@@ -472,40 +486,41 @@ Une fois la formation terminée, les utilisateurs sont redirigés vers la page d
     \label{fig:closing_participant}
 \end{figure}
 
-\begin{itemize}
-    \item \textbf{Orateurs et modérateurs} : accès aux statistiques du webinaire, possibilité de revoir le replay ou de demander la réouverture de la session.
-    \item \textbf{Participants} : possibilité de donner leur avis, de passer l'examen final et de revoir le replay.
-\end{itemize}
+La Figure \ref{fig:closing_participant} présente la page de clôture affichée aux participants à la fin du webinaire. Cette interface leur permet d’accéder au replay de la session, de donner leur avis à travers un système d’évaluation et de consulter les informations relatives à l’examen final. Elle constitue la dernière étape du parcours utilisateur et favorise la collecte de retours d’expérience sur l’événement.
 
 % -------------------------------------------------------
 \section{Fonctionnalités transversales}
 % -------------------------------------------------------
 
 \subsection{Système de notifications}
-La plateforme intègre un moteur de notifications temps réel permettant d’alerter les utilisateurs sur les événements clés : rappel de démarrage imminent d’un webinaire, mise en ligne d’un sondage, disponibilité d’un examen final ou dépassement de délai pour une activité. Les notifications sont configurables par canal (e‑mail, push mobile, notification in‑app) et par préférence utilisateur (immédiate, regroupée, résumé quotidien).
 
-Le système supporte des scénarios avancés : relances automatiques pour les inscrits non connectés, notifications groupées pour les organisateurs, filtres par type d’événement et priorisation. Côté architecture, le moteur repose sur un bus d’événements et des canaux de diffusion (WebSocket / Socket.IO pour l’in‑app, FCM/APNs pour le mobile, et envoi d’e‑mails via une file de tâches), avec gestion des retries et persistance des événements critiques.
+La plateforme intègre un moteur de notifications temps réel permettant d'alerter les utilisateurs sur les événements clés : rappel de démarrage imminent d'un webinaire, mise en ligne d'un sondage, disponibilité d'un examen final ou dépassement de délai pour une activité. Les notifications sont configurables par canal (e‑mail, push mobile, notification in‑app) et par préférence utilisateur (immédiate, regroupée, résumé quotidien).
+
+Le système supporte des scénarios avancés : relances automatiques pour les inscrits non connectés, notifications groupées pour les organisateurs, filtres par type d'événement et priorisation. Côté architecture, le moteur repose sur un bus d'événements et des canaux de diffusion (WebSocket / Socket.IO pour l'in‑app, FCM/APNs pour le mobile, et envoi d'e‑mails via une file de tâches), avec gestion des retries et persistance des événements critiques.
 
 \subsection{Gestion des rôles et des droits d'accès}
-La gestion des accès est assurée par un modèle RBAC (Role‑Based Access Control) extensible. Chaque rôle (participant, orateur, modérateur, administrateur) dispose d’un ensemble de permissions prédéfinies et d’une interface adaptée :
+
+La gestion des accès est assurée par un modèle RBAC (Role‑Based Access Control) extensible. Chaque rôle (participant, orateur, modérateur, administrateur) dispose d'un ensemble de permissions prédéfinies et d'une interface adaptée :
+
 \begin{itemize}
     \item \textbf{Participant} : accès au visionnage, aux Q\&A, aux sondages et aux documents.
-    \item \textbf{Orateur} : partage d’écran, gestion des ressources, publication de sondages et accès aux outils de pilotage.
-    \item \textbf{Modérateur} : modération du chat/Q\&A, gestion des participants et support à l’orateur.
+    \item \textbf{Orateur} : partage d'écran, gestion des ressources, publication de sondages et accès aux outils de pilotage.
+    \item \textbf{Modérateur} : modération du chat/Q\&A, gestion des participants et support à l'orateur.
     \item \textbf{Administrateur} : gestion des sessions, des utilisateurs, des rapports et des configurations globales.
 \end{itemize}
 
-Le modèle permet l’affectation de permissions fines (publier un sondage, exporter les résultats, modérer le chat) et l’extension pour besoins spécifiques. Toutes les opérations critiques sont horodatées et consignées dans des logs d’audit pour assurer traçabilité et conformité.
+Le modèle permet l'affectation de permissions fines (publier un sondage, exporter les résultats, modérer le chat) et l'extension pour besoins spécifiques. Toutes les opérations critiques sont horodatées et consignées dans des logs d'audit pour assurer traçabilité et conformité.
 
 \subsection{Système de reporting}
-La plateforme génère automatiquement des rapports détaillés à l’issue de chaque webinaire : taux d’inscription vs participation, durée moyenne de connexion, taux de complétion, résultats d’examens et de sondages, activité du chat et indicateurs d’engagement (participation aux sondages, questions posées).
 
-Ces rapports sont disponibles via un tableau de bord interactif et exportables (CSV / XLSX / PDF). Ils incluent des visualisations (courbes, histogrammes, heatmaps) et des comparaisons longitudinales entre sessions. Un moteur d’alerte peut notifier les administrateurs lorsque certains KPIs dévient (par exemple taux de participation inférieur à un seuil), facilitant ainsi la prise de décision et l’amélioration continue du contenu et du format des webinaires.
+La plateforme génère automatiquement des rapports détaillés à l'issue de chaque webinaire : taux d'inscription vs participation, durée moyenne de connexion, taux de complétion, résultats d'examens et de sondages, activité du chat et indicateurs d'engagement (participation aux sondages, questions posées).
 
-Les données peuvent également être agrégées pour des besoins statistiques ou d’intégration (API ou export périodique), garantissant le respect des politiques de confidentialité et de sécurité lors des échanges de données.
+Ces rapports sont disponibles via un tableau de bord interactif et exportables (CSV / XLSX / PDF). Ils incluent des visualisations (courbes, histogrammes, heatmaps) et des comparaisons longitudinales entre sessions. Un moteur d'alerte peut notifier les administrateurs lorsque certains KPIs dévient (par exemple taux de participation inférieur à un seuil), facilitant ainsi la prise de décision et l'amélioration continue du contenu et du format des webinaires.
+
+Les données peuvent également être agrégées pour des besoins statistiques ou d'intégration (API ou export périodique), garantissant le respect des politiques de confidentialité et de sécurité lors des échanges de données.
 
 % -------------------------------------------------------
 \section{Conclusion}
 % -------------------------------------------------------
 
-Ce chapitre a présenté l'ensemble des interfaces de la plateforme Webinar , illustrant la richesse fonctionnelle du système développé. De l'authentification à la clôture de session, en passant par la gestion administrative, le pilotage en temps réel et les outils d'interaction, la plateforme offre une expérience complète et cohérente pour tous les acteurs d'un webinaire. L'architecture modulaire adoptée permet une grande flexibilité d'adaptation aux besoins spécifiques de chaque organisation, tout en maintenant une ergonomie intuitive et une robustesse technique.
+Ce chapitre a présenté l'ensemble des interfaces de la plateforme Webinar, illustrant la richesse fonctionnelle du système développé. De l'authentification à la clôture de session, en passant par la gestion administrative, le pilotage en temps réel et les outils d'interaction, la plateforme offre une expérience complète et cohérente pour tous les acteurs d'un webinaire. L'architecture modulaire adoptée permet une grande flexibilité d'adaptation aux besoins spécifiques de chaque organisation, tout en maintenant une ergonomie intuitive et une robustesse technique.

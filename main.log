@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  14 JUN 2026 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  14 JUN 2026 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3941,11 +3941,11 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 29.
 <realisation/img-144.jpg, id=873, 681.29532pt x 292.09125pt>
 File: realisation/img-144.jpg Graphic file (type jpg)
 <use realisation/img-144.jpg>
-Package pdftex.def Info: realisation/img-144.jpg  used on input line 34.
+Package pdftex.def Info: realisation/img-144.jpg  used on input line 36.
 (pdftex.def)             Requested size: 364.19667pt x 156.14024pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 47.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 48.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [55 <./realisation/img-143.jpg> <./realisation/img-144.jpg>]
 <realisation/img-146.jpg, id=879, 894.34125pt x 359.09157pt>
@@ -3961,922 +3961,309 @@ Package pdftex.def Info: realisation/img-147.jpg  used on input line 68.
 <realisation/img-149.jpg, id=883, 981.6675pt x 331.2375pt>
 File: realisation/img-149.jpg Graphic file (type jpg)
 <use realisation/img-149.jpg>
-Package pdftex.def Info: realisation/img-149.jpg  used on input line 81.
+Package pdftex.def Info: realisation/img-149.jpg  used on input line 83.
 (pdftex.def)             Requested size: 364.19667pt x 122.88953pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 84.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 86.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [56 <./realisation/img-146.jpg> <./realisation/img-147.jpg>]
 <realisation/img-150.jpg, id=890, 894.34125pt x 417.05812pt>
 File: realisation/img-150.jpg Graphic file (type jpg)
 <use realisation/img-150.jpg>
-Package pdftex.def Info: realisation/img-150.jpg  used on input line 93.
+Package pdftex.def Info: realisation/img-150.jpg  used on input line 92.
 (pdftex.def)             Requested size: 364.19667pt x 169.83672pt.
 <realisation/img-152.jpg, id=892, 368.1253pt x 375.65344pt>
 File: realisation/img-152.jpg Graphic file (type jpg)
 <use realisation/img-152.jpg>
-Package pdftex.def Info: realisation/img-152.jpg  used on input line 100.
+Package pdftex.def Info: realisation/img-152.jpg  used on input line 101.
 (pdftex.def)             Requested size: 364.19667pt x 371.6745pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 104.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 105.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [57 <./realisation/img-149.jpg> <./realisation/img-150.jpg>]
 <realisation/img-153.jpg, id=901, 1028.34187pt x 462.97969pt>
 File: realisation/img-153.jpg Graphic file (type jpg)
 <use realisation/img-153.jpg>
-Package pdftex.def Info: realisation/img-153.jpg  used on input line 120.
+Package pdftex.def Info: realisation/img-153.jpg  used on input line 121.
 (pdftex.def)             Requested size: 364.19667pt x 163.96686pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 124.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 125.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [58 <./realisation/img-152.jpg>]
 <realisation/img1.png, id=909, 320.69812pt x 326.72063pt>
 File: realisation/img1.png Graphic file (type png)
 <use realisation/img1.png>
-Package pdftex.def Info: realisation/img1.png  used on input line 127.
+Package pdftex.def Info: realisation/img1.png  used on input line 130.
 (pdftex.def)             Requested size: 341.43307pt x 347.8527pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 133.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 136.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [59 <./realisation/img-153.jpg> <./realisation/img1.png>]
 <realisation/img-157.jpg, id=917, 691.08188pt x 445.665pt>
 File: realisation/img-157.jpg Graphic file (type jpg)
 <use realisation/img-157.jpg>
-Package pdftex.def Info: realisation/img-157.jpg  used on input line 142.
+Package pdftex.def Info: realisation/img-157.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.19667pt x 234.86847pt.
 <realisation/img-158.jpg, id=919, 824.32968pt x 462.97969pt>
 File: realisation/img-158.jpg Graphic file (type jpg)
 <use realisation/img-158.jpg>
-Package pdftex.def Info: realisation/img-158.jpg  used on input line 157.
+Package pdftex.def Info: realisation/img-158.jpg  used on input line 160.
 (pdftex.def)             Requested size: 364.19667pt x 204.55235pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 161.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 164.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [60 <./realisation/img-157.jpg>]
 <realisation/img-160.jpg, id=928, 701.62125pt x 391.4625pt>
 File: realisation/img-160.jpg Graphic file (type jpg)
 <use realisation/img-160.jpg>
-Package pdftex.def Info: realisation/img-160.jpg  used on input line 164.
+Package pdftex.def Info: realisation/img-160.jpg  used on input line 169.
 (pdftex.def)             Requested size: 364.19667pt x 203.20326pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 178.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 183.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
 
 [61 <./realisation/img-158.jpg> <./realisation/img-160.jpg>]
 <realisation/img2.png, id=936, 761.84625pt x 344.78813pt>
 File: realisation/img2.png Graphic file (type png)
 <use realisation/img2.png>
-Package pdftex.def Info: realisation/img2.png  used on input line 185.
+Package pdftex.def Info: realisation/img2.png  used on input line 190.
 (pdftex.def)             Requested size: 273.14923pt x 123.61856pt.
 <realisation/img-164.jpg, id=938, 304.88907pt x 441.14813pt>
 File: realisation/img-164.jpg Graphic file (type jpg)
 <use realisation/img-164.jpg>
-Package pdftex.def Info: realisation/img-164.jpg  used on input line 200.
+Package pdftex.def Info: realisation/img-164.jpg  used on input line 207.
 (pdftex.def)             Requested size: 273.14923pt x 395.2391pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 204.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 211.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [62 <./realisation/img2.png>]
 <realisation/img-166.jpg, id=948, 290.58563pt x 447.17062pt>
 File: realisation/img-166.jpg Graphic file (type jpg)
 <use realisation/img-166.jpg>
-Package pdftex.def Info: realisation/img-166.jpg  used on input line 219.
+Package pdftex.def Info: realisation/img-166.jpg  used on input line 223.
 (pdftex.def)             Requested size: 218.51521pt x 336.27098pt.
 <realisation/img-167.jpg, id=949, 301.8778pt x 440.39531pt>
 File: realisation/img-167.jpg Graphic file (type jpg)
 <use realisation/img-167.jpg>
-Package pdftex.def Info: realisation/img-167.jpg  used on input line 224.
+Package pdftex.def Info: realisation/img-167.jpg  used on input line 228.
 (pdftex.def)             Requested size: 218.51521pt x 318.77779pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 230.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 234.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [63 <./realisation/img-164.jpg>]
 <realisation/img-168.jpg, id=956, 660.96938pt x 289.83281pt>
 File: realisation/img-168.jpg Graphic file (type jpg)
 <use realisation/img-168.jpg>
-Package pdftex.def Info: realisation/img-168.jpg  used on input line 233.
+Package pdftex.def Info: realisation/img-168.jpg  used on input line 237.
 (pdftex.def)             Requested size: 273.14923pt x 119.77863pt.
 <realisation/img-170.jpg, id=957, 296.60812pt x 460.72125pt>
 File: realisation/img-170.jpg Graphic file (type jpg)
 <use realisation/img-170.jpg>
-Package pdftex.def Info: realisation/img-170.jpg  used on input line 249.
+Package pdftex.def Info: realisation/img-170.jpg  used on input line 253.
 (pdftex.def)             Requested size: 218.51521pt x 339.43098pt.
 <realisation/img-171.jpg, id=958, 299.61937pt x 462.22687pt>
 File: realisation/img-171.jpg Graphic file (type jpg)
 <use realisation/img-171.jpg>
-Package pdftex.def Info: realisation/img-171.jpg  used on input line 254.
+Package pdftex.def Info: realisation/img-171.jpg  used on input line 258.
 (pdftex.def)             Requested size: 218.51521pt x 337.11247pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 260.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 264.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [64 <./realisation/img-166.jpg> <./realisation/img-167.jpg> <./realisation/img
 -168.jpg>]
 <realisation/img-173.jpg, id=969, 301.125pt x 458.46281pt>
 File: realisation/img-173.jpg Graphic file (type jpg)
 <use realisation/img-173.jpg>
-Package pdftex.def Info: realisation/img-173.jpg  used on input line 272.
+Package pdftex.def Info: realisation/img-173.jpg  used on input line 278.
 (pdftex.def)             Requested size: 218.51521pt x 332.70232pt.
 <realisation/img-174.jpg, id=970, 301.125pt x 461.47406pt>
 File: realisation/img-174.jpg Graphic file (type jpg)
 <use realisation/img-174.jpg>
-Package pdftex.def Info: realisation/img-174.jpg  used on input line 277.
+Package pdftex.def Info: realisation/img-174.jpg  used on input line 283.
 (pdftex.def)             Requested size: 218.51521pt x 334.88754pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 283.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 289.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [65 <./realisation/img-170.jpg> <./realisation/img-171.jpg>]
 <realisation/img-176.jpg, id=978, 302.63063pt x 454.69875pt>
 File: realisation/img-176.jpg Graphic file (type jpg)
 <use realisation/img-176.jpg>
-Package pdftex.def Info: realisation/img-176.jpg  used on input line 296.
+Package pdftex.def Info: realisation/img-176.jpg  used on input line 303.
 (pdftex.def)             Requested size: 218.51521pt x 328.31949pt.
 <realisation/img-177.jpg, id=979, 298.11375pt x 462.22687pt>
 File: realisation/img-177.jpg Graphic file (type jpg)
 <use realisation/img-177.jpg>
-Package pdftex.def Info: realisation/img-177.jpg  used on input line 301.
+Package pdftex.def Info: realisation/img-177.jpg  used on input line 308.
 (pdftex.def)             Requested size: 218.51521pt x 338.81226pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 307.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 314.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [66 <./realisation/img-173.jpg> <./realisation/img-174.jpg>]
 <realisation/img-178.jpg, id=987, 301.8778pt x 449.42906pt>
 File: realisation/img-178.jpg Graphic file (type jpg)
 <use realisation/img-178.jpg>
-Package pdftex.def Info: realisation/img-178.jpg  used on input line 318.
+Package pdftex.def Info: realisation/img-178.jpg  used on input line 325.
 (pdftex.def)             Requested size: 273.14923pt x 406.6563pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 322.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 329.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [67 <./realisation/img-176.jpg> <./realisation/img-177.jpg>]
 <realisation/img-180.jpg, id=996, 300.3722pt x 400.49625pt>
 File: realisation/img-180.jpg Graphic file (type jpg)
 <use realisation/img-180.jpg>
-Package pdftex.def Info: realisation/img-180.jpg  used on input line 334.
+Package pdftex.def Info: realisation/img-180.jpg  used on input line 341.
 (pdftex.def)             Requested size: 145.68144pt x 194.24655pt.
 <realisation/img-181.jpg, id=997, 295.1025pt x 406.51875pt>
 File: realisation/img-181.jpg Graphic file (type jpg)
 <use realisation/img-181.jpg>
-Package pdftex.def Info: realisation/img-181.jpg  used on input line 339.
+Package pdftex.def Info: realisation/img-181.jpg  used on input line 346.
 (pdftex.def)             Requested size: 145.68144pt x 200.68463pt.
 <realisation/img-182.jpg, id=998, 304.13625pt x 395.22656pt>
 File: realisation/img-182.jpg Graphic file (type jpg)
 <use realisation/img-182.jpg>
-Package pdftex.def Info: realisation/img-182.jpg  used on input line 344.
+Package pdftex.def Info: realisation/img-182.jpg  used on input line 351.
 (pdftex.def)             Requested size: 145.68144pt x 189.31459pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 349.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 356.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
 [68 <./realisation/img-178.jpg>]
 <realisation/img-pilotage.jpg, id=1005, 821.31844pt x 368.87813pt>
 File: realisation/img-pilotage.jpg Graphic file (type jpg)
 <use realisation/img-pilotage.jpg>
-Package pdftex.def Info: realisation/img-pilotage.jpg  used on input line 372.
+Package pdftex.def Info: realisation/img-pilotage.jpg  used on input line 380.
 (pdftex.def)             Requested size: 364.19667pt x 163.56767pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 376.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 384.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [69 <./realisation/img-180.jpg> <./realisation/img-181.jpg> <./realisation/img
 -182.jpg>]
 <realisation/img-57.jpg, id=1015, 1028.34187pt x 460.72125pt>
 File: realisation/img-57.jpg Graphic file (type jpg)
 <use realisation/img-57.jpg>
-Package pdftex.def Info: realisation/img-57.jpg  used on input line 387.
+Package pdftex.def Info: realisation/img-57.jpg  used on input line 395.
 (pdftex.def)             Requested size: 409.71692pt x 183.56114pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 394.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 407.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [70 <./realisation/img-pilotage.jpg> <./realisation/img-57.jpg>]
 <realisation/img-62.jpg, id=1024, 1028.34187pt x 460.72125pt>
 File: realisation/img-62.jpg Graphic file (type jpg)
 <use realisation/img-62.jpg>
-Package pdftex.def Info: realisation/img-62.jpg  used on input line 400.
+Package pdftex.def Info: realisation/img-62.jpg  used on input line 410.
 (pdftex.def)             Requested size: 409.71692pt x 183.56114pt.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.406     \item \textbf
-                       {Image} : affichée directement.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 406
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.407     \item \textbf
-                       {Article} : le titre, la description et les informati...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 407
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.408     \item \textbf
-                       {Orateur} : son nom, son organisation et ses articles...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 408
-[][]
- []
-
-
-! LaTeX Error: \begin{document} on input line 109 ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.409 \end{itemize}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.417 \begin{figure}[H]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 <realisation/img-63.jpg, id=1026, 1028.34187pt x 441.90094pt>
 File: realisation/img-63.jpg Graphic file (type jpg)
 <use realisation/img-63.jpg>
-Package pdftex.def Info: realisation/img-63.jpg  used on input line 419.
+Package pdftex.def Info: realisation/img-63.jpg  used on input line 431.
 (pdftex.def)             Requested size: 409.71692pt x 176.06273pt.
-
-Overfull \hbox (19.71692pt too wide) in paragraph at lines 419--420
- [][] 
- []
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.420     \caption{Contenus du Prompteur Compteur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.420     \caption{Contenus du Prompteur Compteur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.420     \caption{Contenus du Prompteur Compteur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.421     \label
-                {fig:prompteur_compteur}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.421     \label{fig:prompteur_
-                               compteur}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.421     \label{fig:prompteur_compteur}
-                                        
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.422 \end{figure}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.422 \end{figure}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.423 C
-       ette Figure \ref{fig:prompteur_compteur} illustre l'interface du Prom...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.423 C
-       ette Figure \ref{fig:prompteur_compteur} illustre l'interface du Prom...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[71 <./realisation/img-62.jpg>]
-
-LaTeX Warning: Reference `fig:prompteur_compteur' on page 72 undefined on input
- line 423.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.431 \begin{figure}[H]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 435.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [71 <./realisation/img-62.jpg>]
 <realisation/img-64.jpg, id=1035, 1028.34187pt x 450.9347pt>
 File: realisation/img-64.jpg Graphic file (type jpg)
 <use realisation/img-64.jpg>
-Package pdftex.def Info: realisation/img-64.jpg  used on input line 433.
+Package pdftex.def Info: realisation/img-64.jpg  used on input line 446.
 (pdftex.def)             Requested size: 364.19667pt x 159.70105pt.
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.434 ...tion{Contenus du Prompteur Présentateur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.434 ...tion{Contenus du Prompteur Présentateur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.434 ...tion{Contenus du Prompteur Présentateur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.435     \label
-                {fig:prompteur_presentateur}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.435     \label{fig:prompteur_
-                               presentateur}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.435     \label{fig:prompteur_presentateur}
-                                            
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.436 \end{figure}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.436 \end{figure}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.445 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.445 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[72 <./realisation/img-63.jpg> <./realisation/img-64.jpg>]
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.446 \begin{figure}[H]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<realisation/img-65.jpg, id=1045, 596.98032pt x 346.29375pt>
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 458.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [72 <./realisation/img-63.jpg> <./realisation/img-64.jpg>]
+<realisation/img-65.jpg, id=1044, 596.98032pt x 346.29375pt>
 File: realisation/img-65.jpg Graphic file (type jpg)
 <use realisation/img-65.jpg>
-Package pdftex.def Info: realisation/img-65.jpg  used on input line 448.
+Package pdftex.def Info: realisation/img-65.jpg  used on input line 461.
 (pdftex.def)             Requested size: 409.71692pt x 237.6695pt.
-
-Overfull \hbox (19.71692pt too wide) in paragraph at lines 448--449
- [][] 
- []
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.449     \caption{Interface de la Télécommande}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.449     \caption{Interface de la Télécommande}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.449     \caption{Interface de la Télécommande}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.450     \label
-                {fig:telecommande}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.461 \begin{figure}[H]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 <realisation/img-184.jpg, id=1046, 577.40718pt x 258.21469pt>
 File: realisation/img-184.jpg Graphic file (type jpg)
 <use realisation/img-184.jpg>
-Package pdftex.def Info: realisation/img-184.jpg  used on input line 463.
+Package pdftex.def Info: realisation/img-184.jpg  used on input line 476.
 (pdftex.def)             Requested size: 364.19667pt x 162.87311pt.
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.464 ... clôture — côté orateur/modérateur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.464 ... clôture — côté orateur/modérateur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.464 ... clôture — côté orateur/modérateur}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.465     \label
-                {fig:closing_orateur}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.465     \label{fig:closing_
-                             orateur}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.465     \label{fig:closing_orateur}
-                                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.466 \end{figure}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.466 \end{figure}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.467 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.467 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[73 <./realisation/img-65.jpg>]
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.468 \begin{figure}[H]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 480.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [73 <./realisation/img-65.jpg>]
 <realisation/img-185.jpg, id=1054, 564.60938pt x 248.42813pt>
 File: realisation/img-185.jpg Graphic file (type jpg)
 <use realisation/img-185.jpg>
-Package pdftex.def Info: realisation/img-185.jpg  used on input line 470.
+Package pdftex.def Info: realisation/img-185.jpg  used on input line 484.
 (pdftex.def)             Requested size: 364.19667pt x 160.24818pt.
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.471 ...{Page de clôture — côté participant}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.471 ...{Page de clôture — côté participant}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.471 ...{Page de clôture — côté participant}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.472     \label
-                {fig:closing_participant}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.472     \label{fig:closing_
-                             participant}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.472     \label{fig:closing_participant}
-                                         
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.473 \end{figure}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.473 \end{figure}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/bx/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 481.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.488 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.488 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 498.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
 
 [74 <./realisation/img-184.jpg> <./realisation/img-185.jpg>]
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.506 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.506 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[75])
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.273 \include{Chapters/chapter4}
-                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.273 \include{Chapters/chapter4}
-                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[76]
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 521.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [75])
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 273.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [76]
 \openout2 = `Chapters/chapter5.aux'.
 
- (Chapters/chapter5.tex
-Overfull \hbox (12.95409pt too wide) in paragraph at lines 10--11
-[]\T1/cmr/bx/it/12 Node.js Do-cu-men-ta-tion\T1/cmr/m/it/12 . Of-fi-cial Do-cu-
-men-ta-tion. Dis-po-nible sur: []$\T1/cmtt/m/it/12 https :
+
+(Chapters/chapter5.tex
+Overfull \hbox (2.87306pt too wide) in paragraph at lines 8--9
+[]\T1/cmr/bx/n/12 Meteor.js Do-cu-men-ta-tion\T1/cmr/m/n/12 . \T1/cmr/m/it/12 O
+f-fi-cial Do-cu-men-ta-tion\T1/cmr/m/n/12 . Dis-po-nible sur : []$\T1/cmtt/m/n/
+12 https : / / docs .
  []
 
 
-Overfull \hbox (19.9857pt too wide) in paragraph at lines 12--13
-[]\T1/cmr/bx/it/12 Symfony Do-cu-men-ta-tion\T1/cmr/m/it/12 . Of-fi-cial Do-cu-
-men-ta-tion. Dis-po-nible sur: []$\T1/cmtt/m/it/12 https :
+Overfull \hbox (3.92422pt too wide) in paragraph at lines 10--11
+[]\T1/cmr/bx/n/12 Node.js Do-cu-men-ta-tion\T1/cmr/m/n/12 . \T1/cmr/m/it/12 Of-
+fi-cial Do-cu-men-ta-tion\T1/cmr/m/n/12 . Dis-po-nible sur : []$\T1/cmtt/m/n/12
+ https : / / nodejs .
  []
 
 
-Overfull \hbox (10.81573pt too wide) in paragraph at lines 14--15
-[]\T1/cmr/bx/it/12 Next.js Do-cu-men-ta-tion\T1/cmr/m/it/12 . Of-fi-cial Do-cu-
-men-ta-tion. Dis-po-nible sur: []$\T1/cmtt/m/it/12 https :
+Overfull \hbox (16.5559pt too wide) in paragraph at lines 12--13
+[]\T1/cmr/bx/n/12 Symfony Do-cu-men-ta-tion\T1/cmr/m/n/12 . \T1/cmr/m/it/12 Of-
+fi-cial Do-cu-men-ta-tion\T1/cmr/m/n/12 . Dis-po-nible sur : []$\T1/cmtt/m/n/12
+ https : / / symfony .
+ []
+
+
+Overfull \hbox (1.67477pt too wide) in paragraph at lines 14--15
+[]\T1/cmr/bx/n/12 Next.js Do-cu-men-ta-tion\T1/cmr/m/n/12 . \T1/cmr/m/it/12 Of-
+fi-cial Do-cu-men-ta-tion\T1/cmr/m/n/12 . Dis-po-nible sur : []$\T1/cmtt/m/n/12
+ https : / / nextjs .
  []
 
 )
-Overfull \hbox (1.63187pt too wide) in paragraph at lines 16--274
-[]\T1/cmr/bx/it/12 React Do-cu-men-ta-tion\T1/cmr/m/it/12 . Of-fi-cial Do-cu-me
-n-ta-tion. Dis-po-nible sur: []$\T1/cmtt/m/it/12 https :
- []
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.274 \include{Chapters/chapter5}
-                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.274 \include{Chapters/chapter5}
-                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[77
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 274.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [77
 
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260614200735 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260614205757 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux (Chapters/chapter1.aux) (Chapters/chapter2.aux)
@@ -5253,59 +4640,60 @@ realisation/img-57.jpg
 logos/tamtam-logo.png
 realisation/img-62.jpg
 realisation/img-63.jpg
+logos/tamtam-logo.png
 realisation/img-64.jpg
+logos/tamtam-logo.png
 realisation/img-65.jpg
 realisation/img-184.jpg
+logos/tamtam-logo.png
 realisation/img-185.jpg
+logos/tamtam-logo.png
+logos/tamtam-logo.png
+logos/tamtam-logo.png
 Chapters/chapter5.tex
+logos/tamtam-logo.png
  ***********
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 361C0FCFB1B2B9EFD5E51FE6F0B1CE05;9895.
- ) 
-Here is how much of TeX's memory you used:
- 50702 strings out of 467866
- 1104080 string characters out of 5419765
- 1756157 words of memory out of 5000000
- 78433 multiletter control sequences out of 15000+600000
- 650532 words of font info for 92 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 125i,17n,121p,1102b,4519s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit120
-0.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi
-1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cbi1440.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbi1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecrm1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ectt1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecti1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\tcrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljf
-our/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/
-pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\PC\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\PC\AppData\Local\M
-iKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\PC\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData\L
-ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/P
-C/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
-ers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+ )
+(\end occurred inside a group at level 1)
 
-Output written on main.pdf (88 pages, 16035342 bytes).
+### semi simple group (level 1) entered at line 109 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 50694 strings out of 467866
+ 1104054 string characters out of 5419765
+ 1759887 words of memory out of 5000000
+ 78429 multiletter control sequences out of 15000+600000
+ 648117 words of font info for 88 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,17n,121p,1100b,4519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecrm1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ectt1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecti1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\PC\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\PC\AppData\Local\MiKTeX\f
+onts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\PC\AppData\Local\MiKTe
+X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\PC\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\PC\AppData\Local
+\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\PC\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData
+\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (88 pages, 15959404 bytes).
 PDF statistics:
- 2026 PDF objects out of 2073 (max. 8388607)
+ 1870 PDF objects out of 2073 (max. 8388607)
  273 named destinations out of 1000 (max. 500000)
  1036 words of extra memory for PDF output out of 10000 (max. 10000000)
 

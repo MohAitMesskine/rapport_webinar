@@ -88,10 +88,9 @@
 \contentsline {subsubsection}{Ajout d'images et gestion des tags}{69}{subsubsection*.100}%
 \contentsline {subsubsection}{Prompteur Régie}{70}{subsubsection*.102}%
 \contentsline {subsubsection}{Prompteur Public}{71}{subsubsection*.104}%
-\babel@toc {french}{}\relax 
 \contentsline {subsubsection}{Prompteur Compteur}{71}{subsubsection*.106}%
-\contentsline {subsubsection}{Prompteur Présentateur}{72}{subsubsection*.107}%
-\contentsline {subsubsection}{Télécommande}{73}{subsubsection*.108}%
+\contentsline {subsubsection}{Prompteur Présentateur}{72}{subsubsection*.108}%
+\contentsline {subsubsection}{Télécommande}{73}{subsubsection*.110}%
 \contentsline {subsection}{\numberline {3.2.5}Interface de clôture du webinaire (ClosingPage)}{73}{subsection.3.2.5}%
 \contentsline {section}{\numberline {3.3}Fonctionnalités transversales}{74}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Système de notifications}{74}{subsection.3.3.1}%
