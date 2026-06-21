@@ -120,12 +120,13 @@
   \end{tabular}}
 \end{center}
 
-\vfill
+\null\vfill
 
 % ---- Année universitaire ----
 \begin{center}
   {\large\bfseries Année Universitaire : 2025-2026}
 \end{center}
+\vspace{1cm}
 
 \end{titlepage}
 }
