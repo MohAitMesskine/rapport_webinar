@@ -24,6 +24,7 @@
 \RequirePackage{tikz}
 \usetikzlibrary{calc}
 \RequirePackage{mdframed}
+\RequirePackage{tabularx}
 
 \definecolor{couleurligne}{RGB}{35,100,170}
 
@@ -58,20 +59,14 @@
   \end{flushright}
 \end{minipage}
 
-\vspace{0.6cm}
-\noindent\rule{\linewidth}{1.5pt}
+\vspace{1.2cm}
 
-% ---- Texte institution ----
+% ---- Texte institution (taille augmentée, sans lignes) ----
 \begin{center}
-  \vspace{0.8cm}
-  {\fontsize{16}{20}\selectfont\bfseries RAPPORT DE STAGE DE FIN D'ÉTUDES}\\[0.5cm]
-  {\large En vue de l'obtention du diplôme Master :}\\[0.3cm]
-  {\fontsize{15}{19}\selectfont\bfseries Ingénierie des Systèmes d'Information (ISI)}\\[0.8cm]
+  {\fontsize{22}{28}\selectfont\bfseries RAPPORT DE STAGE DE FIN D'ÉTUDES}\\[0.7cm]
+  {\fontsize{16}{20}\selectfont En vue de l'obtention du diplôme Master :}\\[0.4cm]
+  {\fontsize{19}{24}\selectfont\bfseries Ingénierie des Systèmes d'Information (ISI)}\\[1.0cm]
 \end{center}
-
-\noindent\rule{\linewidth}{1.5pt}
-
-\vspace{0.5cm}
 
 % ---- Titre encadré ----
 \begin{center}
@@ -85,32 +80,45 @@
     roundcorner=4pt
   ]
     \begin{center}
-      {\fontsize{20}{26}\selectfont\bfseries
+      {\fontsize{23}{29}\selectfont\bfseries
       Contribution à la conception et au développement d'une application de gestion des webinaires
       }
     \end{center}
   \end{mdframed}
 \end{center}
 
-\vspace{2.5cm}
+\vspace{0.6cm}
 
-% ---- Réalisé par / Encadrants / Jury ----
-\noindent
-\begin{minipage}[t]{0.50\linewidth}
-  \textbf{Réalisé par :}\\[0.4cm]
-  \hspace*{0.5cm}Mohamed Ait Messkine\\[0.6cm]
-  \textbf{Encadré par (Entreprise) :}\\[0.4cm]
-  \hspace*{0.5cm}Mme. ELKHROF Leila\\[0.6cm]
-  \textbf{Encadré par (FSSM) :}\\[0.4cm]
-  \hspace*{0.5cm}Pr. Tarik Agouti\\[0.2cm]
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\linewidth}
-  \textbf{Membres du jury :}\\[0.4cm]
-  \hspace*{0.5cm}Pr. Tarik Agouti\\[0.2cm]
-  \hspace*{0.5cm}Pr. Prénom Nom\\[0.2cm]
-  \hspace*{0.5cm}Pr. Prénom Nom
-\end{minipage}
+% ---- Réalisé par ----
+\begin{center}
+  {\large\bfseries Réalisé par :}\\[0.3cm]
+  {\large Mohamed Ait Messkine}
+\end{center}
+
+\vspace{0.3cm}
+
+% ---- Encadré par ----
+\begin{center}
+  {\large\bfseries Encadré par :}\\[0.3cm]
+  {\large
+  \begin{tabular}{l@{\hspace{1cm}}l}
+    Pr. Tarik Agouti    & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
+    Mme. ELKHROF Leila  & \textit{Encadrante, Tamtam International}\\
+  \end{tabular}}
+\end{center}
+
+\vspace{0.3cm}
+
+% ---- Jury ----
+\begin{center}
+  {\large\bfseries Soutenu le 25 Juin 2025 devant la commission d'examen}\\[0.3cm]
+  {\large
+  \begin{tabular}{l@{\hspace{1cm}}l}
+    Pr. Tarik Agouti & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
+    Pr. Prénom Nom   & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
+    Pr. Prénom Nom   & \textit{Professeur, Département d'Informatique, FSSM}\\
+  \end{tabular}}
+\end{center}
 
 \vfill
 
