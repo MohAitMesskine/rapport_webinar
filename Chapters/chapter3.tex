@@ -1,5 +1,8 @@
 \chapter{Étude technique}
 \label{chap:technique}
+
+\section{Introduction}
+
 Ce chapitre est consacré à l'étude technique réalisée pour la mise en œuvre du projet. En
 abordant les besoins techniques, la définition de l'architecture technique du système, et en
 présentant par la suite les technologies et les outils utilisés dans la phase de réalisation. Et en
@@ -22,6 +25,8 @@ L'architecture technique du système repose sur un ensemble de technologies mode
 \setlength{\LTright}{0pt}
 \small
 \begin{longtable}{|p{3.2cm}|p{10.3cm}|}
+\caption{Composants techniques et valeur ajoutée de l'architecture du système}
+\label{tab:architecture-technique}\\
 \hline
 \textbf{Composant} & \textbf{Valeur ajoutée} \\ \hline
 \endfirsthead
@@ -37,28 +42,23 @@ L'architecture technique du système repose sur un ensemble de technologies mode
 \textbf{GitHub Actions} & Outil d'intégration et de déploiement continus (CI/CD) permettant l'automatisation des tests, des vérifications de qualité de code et des processus de déploiement après chaque modification du projet. \\ \hline
 \textbf{Node.js} & Environnement d'exécution JavaScript utilisé pour développer les services back-end temps réel et assurer la gestion des opérations asynchrones avec de hautes performances. \\ \hline
 \textbf{MeteorJS} & Framework full-stack utilisé pour la synchronisation des données en temps réel entre le client et le serveur grâce au mécanisme de publication/abonnement. \\ \hline
+\textbf{WebSocket} & Protocole de communication full-duplex permettant un canal de communication bidirectionnel et persistant entre le navigateur et le serveur, utilisé pour les interactions en temps réel durant les sessions webinar. \\ \hline
 \textbf{React.js} & Bibliothèque JavaScript utilisée pour construire des interfaces utilisateur dynamiques, réactives et modulaires basées sur le modèle des composants réutilisables. \\ \hline
 \textbf{TypeScript} & Extension typée de JavaScript permettant de renforcer la robustesse du code, détecter les erreurs à la compilation et améliorer la maintenabilité du projet. \\ \hline
 \textbf{Symfony} & Framework PHP robuste utilisé pour structurer les services back-end, gérer les APIs REST et assurer une architecture logicielle maintenable et sécurisée. \\ \hline
 \textbf{Nginx} & Serveur web haute performance utilisé comme reverse proxy et répartiteur de charge afin d'améliorer la rapidité d'accès et la gestion du cache. \\ \hline
 \textbf{MySQL 8} & Système de gestion de base de données relationnelle garantissant la cohérence des données grâce au support des transactions ACID. \\ \hline
 \textbf{MongoDB} & Base de données NoSQL utilisée pour la gestion des données temps réel et des présentations interactives. \\ \hline
-\textbf{Swagger} & Outil de documentation des APIs REST permettant de générer une documentation interactive et de tester les endpoints. \\ \hline
-\caption{Composants techniques et valeur ajoutée de l'architecture du système}
-\label{tab:architecture-technique}
+\textbf{Swagger} & Outil de documentation des APIs REST permettant de générer une documentation interactive et de tester les endpoints directement depuis l'interface web. \\ \hline
+\textbf{Postman} & Outil de test et de débogage des APIs REST permettant d'envoyer des requêtes HTTP, d'analyser les réponses et de valider le comportement des services back-end. \\ \hline
 \end{longtable}
 \normalsize
 
-L'architecture technique du système Webinar repose sur une approche distribuée et modulaire,
-conçue pour répondre aux exigences de performance et de fiabilité d'une plateforme
-%  d'événements
-% en ligne. Elle articule plusieurs couches complémentaires : une couche front-end réactive construite
-% avec React.js et Meteor, une couche back-end structurée autour de Symfony et Node.js, et une
-% couche de persistance hybride combinant MySQL pour les données relationnelles et MongoDB pour
-% les données temps réel. Ces composants communiquent via des APIs REST et le protocole DDP de
-% Meteor, permettant une synchronisation instantanée des états entre le serveur et les clients connectés.
-% Le schéma ci-dessous illustre l'organisation globale de cette architecture et les interactions entre
-% ses différents composants.
+L'architecture technique du système Webinar repose sur une approche distribuée et modulaire, conçue pour répondre aux exigences de performance et de fiabilité d'une plateforme d'événements professionnels en ligne. Elle articule plusieurs couches complémentaires et interdépendantes : une couche front-end réactive construite avec React.js et MeteorJS, une couche back-end structurée autour de Symfony et Node.js, et une couche de persistance hybride combinant MySQL pour les données relationnelles et MongoDB pour les données temps réel.
+
+Les échanges entre ces couches s'appuient sur deux mécanismes principaux : les APIs REST, utilisées pour les opérations classiques de type CRUD, et le protocole DDP de Meteor couplé aux WebSockets, qui permettent une synchronisation instantanée et bidirectionnelle des états entre le serveur et l'ensemble des clients connectés. Ce mécanisme garantit une expérience utilisateur fluide et réactive, notamment lors des sessions webinar en direct.
+
+Par ailleurs, des outils comme Swagger et Postman facilitent respectivement la documentation et le test des endpoints, tandis que Nginx assure la distribution du trafic et l'optimisation des performances via son rôle de reverse proxy. Le schéma ci-dessous illustre l'organisation globale de cette architecture et les interactions entre ses différents composants.
 
 \begin{figure}[H]
 \centering

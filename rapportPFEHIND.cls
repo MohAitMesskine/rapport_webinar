@@ -22,6 +22,10 @@
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage[left=2.5cm,right=2.5cm,top=2cm,bottom=3cm]{geometry}
 \RequirePackage{tikz}
+\usetikzlibrary{calc}
+\RequirePackage{mdframed}
+
+\definecolor{couleurligne}{RGB}{35,100,170}
 
 \providecommand{\UE}{}
 \providecommand{\titre}{}
@@ -35,92 +39,85 @@
 %-------------------- Informations sur le rapport ----------------------
 
 \newcommand{\fairepagedegarde}{
-   \AddToShipoutPictureBG*{%
-        \begin{tikzpicture}[remember picture, overlay]
-            \node[opacity=0.7, rotate=66] at ([xshift=0.6cm, yshift=3.55cm] current page.south east)
-                {\includegraphics[scale=3]{logos/logo.png}};
-        \end{tikzpicture}%
-    }
-
 \begin{titlepage}
+\thispagestyle{empty}
 \setlength{\parskip}{0pt}
-\enlargethispage{2\baselineskip}
 
-    % ---- Logos haut ----
-    \noindent
-    \begin{minipage}[c]{0.45\textwidth}
-      \includegraphics[width=16cm]{logo_fssm.png}
-    \end{minipage}
-    \hfill
-    
-    \vspace{0.52cm}
+% ---- Logos haut ----
+\noindent
+\begin{minipage}[c]{0.45\linewidth}
+  \begin{flushleft}
+    \hspace{0.4cm}%
+    \includegraphics[width=6cm,keepaspectratio]{logos/tamtam-logo.png}%
+  \end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.45\linewidth}
+  \begin{flushright}
+    \includegraphics[width=7cm,keepaspectratio]{logo_fssm.png}%
+  \end{flushright}
+\end{minipage}
 
-    % ---- Titre principal ----
+\vspace{0.6cm}
+\noindent\rule{\linewidth}{1.5pt}
+
+% ---- Texte institution ----
+\begin{center}
+  \vspace{0.8cm}
+  {\fontsize{16}{20}\selectfont\bfseries RAPPORT DE STAGE DE FIN D'ÉTUDES}\\[0.5cm]
+  {\large En vue de l'obtention du diplôme Master :}\\[0.3cm]
+  {\fontsize{15}{19}\selectfont\bfseries Ingénierie des Systèmes d'Information (ISI)}\\[0.8cm]
+\end{center}
+
+\noindent\rule{\linewidth}{1.5pt}
+
+\vspace{0.5cm}
+
+% ---- Titre encadré ----
+\begin{center}
+  \begin{mdframed}[
+    linecolor=couleurligne,
+    linewidth=1.5pt,
+    innertopmargin=14pt,
+    innerbottommargin=14pt,
+    innerleftmargin=14pt,
+    innerrightmargin=14pt,
+    roundcorner=4pt
+  ]
     \begin{center}
-        {\large \textbf{RAPPORT DE STAGE DE FIN D'ÉTUDES}} \\[3pt]
-        {\normalsize En vue de l'obtention du diplôme Master :} \\[2pt]
-        {\normalsize \textbf{Ingénierie des Systèmes d'Information (ISI)}}
+      {\fontsize{20}{26}\selectfont\bfseries
+      Contribution à la conception et au développement d'une application de gestion des webinaires
+      }
     \end{center}
+  \end{mdframed}
+\end{center}
 
-    \vspace{0.2cm}
+\vspace{2.5cm}
 
-    \begin{center}
-        \rule{\textwidth}{0.5pt}
-        \vspace{0.25cm}\\
-        {\LARGE \textbf{CONTRIBUTION À LA CONCEPTION ET AU DÉVELOPPEMENT}}\\[4pt]
-        {\LARGE \textbf{D'UNE APPLICATION DE GESTION DES WEBINAIRES}}
-        \vspace{0.25cm}\\
-        \rule{\textwidth}{0.5pt}
-    \end{center}
+% ---- Réalisé par / Encadrants / Jury ----
+\noindent
+\begin{minipage}[t]{0.50\linewidth}
+  \textbf{Réalisé par :}\\[0.4cm]
+  \hspace*{0.5cm}Mohamed Ait Messkine\\[0.6cm]
+  \textbf{Encadré par (Entreprise) :}\\[0.4cm]
+  \hspace*{0.5cm}Mme. ELKHROF Leila\\[0.6cm]
+  \textbf{Encadré par (FSSM) :}\\[0.4cm]
+  \hspace*{0.5cm}Pr. Tarik Agouti\\[0.2cm]
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+  \textbf{Membres du jury :}\\[0.4cm]
+  \hspace*{0.5cm}Pr. Tarik Agouti\\[0.2cm]
+  \hspace*{0.5cm}Pr. Prénom Nom\\[0.2cm]
+  \hspace*{0.5cm}Pr. Prénom Nom
+\end{minipage}
 
-    \vspace{0.3cm}
+\vfill
 
-    % ---- Logo TamTam + Dates ----
-    \begin{center}
-        \includegraphics[width=5.5cm]{logos/tamtam-logo.png}\\[5pt]
-        {\small \textit{Du 17 février au 17 Août 2026}}
-    \end{center}
-
-    \vspace{0.35cm}
-
-    % ---- Encadrants / Réalisé par ----
-    \noindent
-    \begin{minipage}[t]{0.55\textwidth}
-        \textbf{Encadré par :} \\[3pt]
-        \hspace*{0.5cm}\textbf{Pr. Tarik Agouti} \\
-        \hspace*{1cm}{\small \textit{Encadrant à la FSSM}} \\[3pt]
-        \hspace*{0.5cm}\textbf{Mme. ELKHROF Leila} \\
-        \hspace*{1cm}{\small \textit{Encadrante de Stage}}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.40\textwidth}
-        \textbf{Réalisé par :} \\[3pt]
-        \hspace*{0.5cm}\textbf{Mohamed Ait Messkine}
-    \end{minipage}
-
-    \vspace{0.2cm}
-
-    % ---- Jury ----
-    \begin{center}
-        {\small \textit{Soutenu le 26 juin 2026 devant le jury composé de :}}
-    \end{center}
-    \vspace{0.05cm}
-    \begin{center}
-        \begin{tabular}{ll}
-            \textbf{Pr. Tarik Agouti}     & Professeur, Département d'Informatique, FSSM \\[2pt]
-            \textbf{Pr. ...... ....} & Professeur, Département d'Informatique, FSSM \\[2pt]
-            \textbf{Pr. ..... ....}  & Professeur, Département d'Informatique, FSSM \\
-        \end{tabular}
-    \end{center}
-
-    \vfill
-
-    \vspace{0.5cm}
-
-    % ---- Année universitaire ----
-    \begin{center}
-        {\small \textbf{Année universitaire 2025/2026}}
-    \end{center}
+% ---- Année universitaire ----
+\begin{center}
+  {\large\bfseries Année Universitaire : 2025-2026}
+\end{center}
 
 \end{titlepage}
 }
