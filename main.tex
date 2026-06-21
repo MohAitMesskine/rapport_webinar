@@ -20,6 +20,7 @@
 \usepackage{pdfpages}
 \usepackage{placeins}
 \usepackage{setspace}
+\usepackage{emptypage}
 \onehalfspacing
 \raggedbottom
 
@@ -32,7 +33,7 @@
 \definecolor{lineblue}{RGB}{35,100,170}
 
 % ---- Légendes des figures et tableaux ----
-\captionsetup[figure]{font=small,labelfont=bf,justification=centering}
+\captionsetup[figure]{font=small,labelfont=bf,textfont=bf,justification=centering}
 \captionsetup[table]{font=small,labelfont=bf,justification=centering}
 \setlength{\textfloatsep}{10pt plus 2pt minus 4pt}
 \setlength{\floatsep}{10pt plus 2pt minus 4pt}
@@ -47,6 +48,10 @@
 \renewcommand{\cftfigpagefont}{\normalfont}
 \renewcommand{\listfigurename}{Liste des figures}
 \renewcommand{\listtablename}{Liste des tableaux}
+% Titres des listes en bleu
+\renewcommand{\cftloftitlefont}{\Large\bfseries\color{sectioncolor}}
+\renewcommand{\cftlottitlefont}{\Large\bfseries\color{sectioncolor}}
+\renewcommand{\cfttoctitlefont}{\Large\bfseries\color{sectioncolor}}
 
 % ---- Espacement des paragraphes ----
 \setlength{\parskip}{6pt}
@@ -108,27 +113,18 @@
 
 \begin{document}
 
-\pagenumbering{Roman}
-
-% Page de garde
+% Page de garde — titlepage gère elle-même sa mise en page
 \fairepagedegarde
-\newpage
-\cleardoublepage
-\setcounter{page}{1}
-\fairemarges
 
-% Page Bismillah
-\newpage
-\vspace{2cm}    
-\begin{figure}[h]
-   \centering
-   \includegraphics[width=1.3\textwidth,center]{Meaning-of-bismillah-al-rahman-al-rahim.png}
-   \label{fig:bismillah}
-\end{figure}
+% Page Bismillah — sans en-tête ni pied de page, sans numéro
+\thispagestyle{empty}
+\vspace*{2cm}
+\begin{center}
+   \includegraphics[width=\textwidth]{Meaning-of-bismillah-al-rahman-al-rahim.png}
+\end{center}
 \rule{\textwidth}{0.5pt}
 \vspace{1cm}
 {\centering
-\\
 \LARGE
 Bismillah is the key to all success,\\
 A light before each word I confess.
@@ -139,8 +135,14 @@ Guiding my path with divine awareness.
 Through faith and knowledge, I bear witness,\\
 That Allah's name brings boundless blessedness.\\}
 
-\newpage
-% Dédicaces
+\clearpage
+
+% Début numérotation romaine — pages liminaires
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\fairemarges
+
+% Dédicaces — page I
 \section*{Dédicaces}
 Il est de la noblesse des gens de savoir rendre hommage à qui de droit. La grâce revient d'abord et avant tout à \textbf{Allah, le Tout-Puissant}, qui m'a accordé la patience, la force et la sagesse nécessaires pour mener à bien ce travail. Avant cela, Il m'avait déjà fait la grâce insigne de m'ouvrir les portes de l'ingénierie et de me guider vers des horizons que je n'aurais jamais imaginé atteindre.\\[6pt]
 Ensuite, toute ma reconnaissance et ma gratitude vont à mes \textbf{chers parents bien-aimés} pour leurs sacrifices incommensurables, leurs efforts constants et leur dévouement sans limite depuis mon plus jeune âge. Cette dédicace leur est entièrement consacrée, eux qui sont la lumière de mon cœur, la source de mon éducation et les piliers de ma réussite. Voici que les fruits de leurs efforts et de leur patience commencent enfin à porter leurs résultats ; à eux, tout mon respect, ma gratitude éternelle et mon amour inconditionnel.\\[6pt]
@@ -148,11 +150,12 @@ Ensuite, toute ma reconnaissance et ma gratitude vont à mes \textbf{chers paren
 À mon \textbf{cher ami Yassine}, fidèle compagnon de route tout au long de ces années d'études, de persévérance et de croissance intellectuelle. Son amitié sincère et son soutien moral ont été des éléments précieux de mon parcours.\\[6pt]
 Enfin, j'adresse cette dédicace à toutes les \textbf{victimes des conflits dans le monde}, aux orphelins et aux endeuillés qui portent le poids de la perte, ainsi qu'aux étudiants privés de leurs universités et de leur droit fondamental à l'éducation. Puisse chacun d'eux trouver son chemin vers un avenir meilleur, plus juste et empli d'espoir.
 \vspace{2cm}
-\newpage
+\clearpage
 
 % Remerciements
-\section*{Remerciements}
+\phantomsection
 \addcontentsline{toc}{section}{Remerciements}
+\section*{Remerciements}
 
 Il m'est particulièrement agréable de m'acquitter d'une dette de reconnaissance auprès de toutes les personnes dont l'intervention bienveillante au cours de ce projet a favorisé son aboutissement dans les meilleures conditions possibles.
 
@@ -168,47 +171,85 @@ J'exprime également ma profonde gratitude et mes vifs remerciements à tous les
 
 Enfin, je remercie sincèrement tout le corps professoral et administratif de la \textbf{Faculté des Sciences Semlalia  de Marrakech} pour la formation de qualité exceptionnelle qu'ils m'ont prodiguée tout au long de mon cursus universitaire.
 
-\newpage
+\clearpage
 
 % Résumé
-\section*{Résumé}
+\phantomsection
 \addcontentsline{toc}{section}{Résumé}
+\section*{Résumé}
 Ce rapport présente le travail réalisé dans le cadre d'un projet de fin d'études effectué au sein de l'entreprise TAMTAM International pour l'obtention du diplôme de Master en ingénierie des systèmes d'information à la Faculté des Sciences et Techniques de Marrakech. Le projet s'inscrit dans un contexte de digitalisation des événements professionnels et porte sur la conception et le développement d'une application de gestion des webinaires destinée aux fiduciaires belges.\\[6pt]
 La problématique traitée concerne la mise en place d'une plateforme centralisée capable d'assurer une gestion fluide des webinaires, des interactions entre les participants, des sondages, des examens finaux et du pilotage des sessions en direct, tout en garantissant de bonnes performances, une maintenance aisée et une expérience utilisateur satisfaisante.\\[6pt]
 Les objectifs fixés consistent à analyser les besoins métier, concevoir l'architecture du système, modéliser la solution à l'aide d'UML puis développer les fonctionnalités essentielles en s'appuyant sur une méthodologie Agile Scrum et sur des technologies modernes telles que Meteor.js, React.js, Symfony, MongoDB et MySQL.\\[6pt]
 L'évaluation des résultats montre que la solution réalisée permet de gérer efficacement les webinaires, d'automatiser plusieurs opérations clés et d'améliorer l'organisation des sessions ainsi que l'interaction avec les utilisateurs. Les fonctionnalités développées répondent globalement aux besoins exprimés et constituent une base solide pour les évolutions futures de la plateforme.\\[6pt]
-\vspace{1cm}
 
-\noindent\textbf{Mots-clés :} SCRUM, Symfony, ReactJS, NextJS, MeteorJS, MongoDB, NoSQLBooster, MySQL, Webinaires, Gestion d'événements, Plateforme web/mobile, Fiduciaires, UML.
-\newpage
+\noindent{\color{sectioncolor}\textbf{Mots-clés :}} SCRUM, MeteorJS, ReactJS, Symfony, MongoDB, Webinaires.
+\clearpage
 
 % Abstract
-\section*{Abstract}
+\phantomsection
 \addcontentsline{toc}{section}{Abstract}
+\section*{Abstract}
 This report presents the work carried out during a final year project for obtaining a Master's degree in Information Systems Engineering at the Faculty of Sciences and Technology of Marrakech. The internship was conducted at TAMTAM International, a Belgian company specializing in digital solutions for financial professionals, with the primary objective of developing and enhancing a comprehensive web and mobile event management application specifically designed for Belgian fiduciaries.\\[6pt]
 The project began with an in-depth functional and technical analysis, encompassing stakeholder requirements gathering, system architecture evaluation, and comprehensive UML modeling. The development process followed the Agile SCRUM methodology to ensure iterative delivery and continuous improvement. The technical implementation leveraged a modern technology stack including Meteor.js, React.js, Symfony, MongoDB, NoSQLBooster, and MySQL.\\[6pt]
 The developed solution addresses critical business needs by enabling users to seamlessly register for webinars, manage their participation efficiently, access real-time availability information, and automatically receive personalized attendance certificates. The platform provides centralized and intuitive management of professional events, significantly improving user experience and operational efficiency.\\[6pt]
-\vspace{1cm}
 
-\noindent\textbf{Keywords:} SCRUM, Agile Development, MeteorJS, ReactJS, Symfony, MongoDB, NoSQLBooster, MySQL, Event Management, Web/Mobile Platform, Webinars, Belgian Fiduciaries, UML Modeling.
-\newpage
+\noindent{\color{sectioncolor}\textbf{Keywords:}} SCRUM, MeteorJS, ReactJS, Symfony, MongoDB, Webinars.
+\clearpage
 
-% Table des matières
-\cleardoublepage
+% Glossaire
+\clearpage
+\thispagestyle{plain}
 \phantomsection
-\addcontentsline{toc}{section}{Table des matières}
-% ensure TOC pages use the fancy header even if class forces plain
-\makeatletter
-\begingroup\let\ps@plain\ps@fancy
-\tableofcontents
-\endgroup
-\makeatother
-\newpage
+\addcontentsline{toc}{section}{Glossaire}
 
+\begin{center}
+    {\fontsize{16}{19.2}\selectfont\bfseries\color{sectioncolor} Glossaire}
+\end{center}
+
+\vspace{0.8cm}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|>{\bfseries}p{3cm}|p{11cm}|}
+\hline
+\textbf{Abréviation} & \textbf{Signification} \\
+\hline
+API       & Application Programming Interface \\
+\hline
+CI/CD     & Continuous Integration / Continuous Deployment \\
+\hline
+DDP       & Distributed Data Protocol \\
+\hline
+HTTP      & HyperText Transfer Protocol \\
+\hline
+IDE       & Integrated Development Environment \\
+\hline
+IHM       & Interface Homme-Machine \\
+\hline
+JSON      & JavaScript Object Notation \\
+\hline
+JWT       & JSON Web Token \\
+\hline
+MVC       & Modèle-Vue-Contrôleur \\
+\hline
+NoSQL     & Not Only SQL \\
+\hline
+REST      & Representational State Transfer \\
+\hline
+SCRUM     & Cadre agile en itérations courtes (sprints) \\
+\hline
+SGBD      & Système de Gestion de Base de Données \\
+\hline
+UML       & Unified Modeling Language \\
+\hline
+WebSocket & Protocole de communication bidirectionnelle en temps réel \\
+\hline
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+
+% Liste des figures
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{section}{Liste des figures}
-% ensure list of figures pages use the fancy header
 \makeatletter
 \begingroup\let\ps@plain\ps@fancy
 \listoffigures
@@ -216,13 +257,24 @@ The developed solution addresses critical business needs by enabling users to se
 \makeatother
 \newpage
 
+% Liste des tableaux
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{section}{Liste des tableaux}
-% ensure list of tables pages use the fancy header
 \makeatletter
 \begingroup\let\ps@plain\ps@fancy
 \listoftables
+\endgroup
+\makeatother
+\newpage
+
+% Table des matières
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{section}{Table des matières}
+\makeatletter
+\begingroup\let\ps@plain\ps@fancy
+\tableofcontents
 \endgroup
 \makeatother
 \newpage
@@ -254,15 +306,11 @@ Mon implication dans ce projet s'est articulée autour de trois grands volets :
 
 Le présent rapport est structuré comme suit :
 
-\textbf{Chapitre 1 : Cadre du projet} - Présentation de la société Tamtam International et de sa solution OffCourse, focus sur le module communication (Webinaire + Evenements), objectifs fixés et défis rencontrés durant l'amélioration.
+\textbf{Chapitre 1 : Cadre du projet} - Présentation de la société Tamtam International et de sa solution OffCourse, focus sur le module communication (Webinaire + Événements), objectifs fixés, défis rencontrés, ainsi que la modélisation UML des fonctionnalités clés de la plateforme.
 
-\textbf{Chapitre 2 : Analyse \& conception} - Démarche adoptée pour la collecte des besoins, modélisation UML des nouvelles fonctionnalités, schéma de l'architecture technique.
+\textbf{Chapitre 2 : Étude technique} - Architecture du système, stack technologique utilisée côté frontend et backend, présentation des frameworks et outils retenus, et environnements de développement mis en place.
 
-\textbf{Chapitre 3 : Réalisation technique} - Stack utilisée côté frontend et backend, processus d'intégration des ajouts avec l'existant, explication des différentes fonctionnalités développées.
-
-\textbf{Chapitre 4 : Réalisation} - Présentation des interfaces développées, démonstration des fonctionnalités livrées et suivi de l'avancement du projet.
-
-\textbf{Chapitre 5 : Bilan, conclusion et perspectives} - Synthèse des acquis professionnels et techniques, conclusion générale du projet et pistes d'amélioration futures.
+\textbf{Chapitre 3 : Réalisation} - Présentation des interfaces développées, démonstration des fonctionnalités livrées, suivi de l'avancement du projet et perspectives d'évolution futures.
 
 Ce projet m'a permis de faire le lien entre les contraintes techniques et les besoins concrets du métier. J'ai pu contribuer à faire évoluer une plateforme utilisée chaque jour par des centaines de professionnels — une expérience à la fois formatrice et valorisante.
 
