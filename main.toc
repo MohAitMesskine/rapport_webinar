@@ -99,4 +99,5 @@
 \contentsline {subsection}{\numberline {3.3.2}Gestion des rôles et des droits d'accès}{76}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Système de reporting}{76}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Conclusion}{77}{section.3.4}%
-\contentsline {section}{Références bibliographiques}{78}{section.3.4}%
+\contentsline {chapter}{Conclusion Générale et Perspectives}{78}{chapter*.117}%
+\contentsline {section}{Références bibliographiques}{80}{section*.118}%

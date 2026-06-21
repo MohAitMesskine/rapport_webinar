@@ -63,10 +63,10 @@
 
 % ---- Texte institution ----
 \begin{center}
-  \vspace{0.3cm}
-  {\large\bfseries RAPPORT DE STAGE DE FIN D'ÉTUDES}\\[0.4cm]
-  {\normalsize En vue de l'obtention du diplôme Master :}\\[0.2cm]
-  {\large\bfseries Ingénierie des Systèmes d'Information (ISI)}\\[0.2cm]
+  \vspace{0.8cm}
+  {\fontsize{16}{20}\selectfont\bfseries RAPPORT DE STAGE DE FIN D'ÉTUDES}\\[0.5cm]
+  {\large En vue de l'obtention du diplôme Master :}\\[0.3cm]
+  {\fontsize{15}{19}\selectfont\bfseries Ingénierie des Systèmes d'Information (ISI)}\\[0.8cm]
 \end{center}
 
 \noindent\rule{\linewidth}{1.5pt}
