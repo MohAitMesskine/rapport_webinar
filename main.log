@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  14 JUN 2026 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.28)  21 JUN 2026 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4110,111 +4110,111 @@ File: logos/tamtam-logo.png Graphic file (type png)
 Package pdftex.def Info: logos/tamtam-logo.png  used on input line 314.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [66 <./realisation/img-173.jpg> <./realisation/img-174.jpg>]
-<realisation/img-178.jpg, id=987, 301.8778pt x 449.42906pt>
+File: logos/tamtam-logo.png Graphic file (type png)
+<use logos/tamtam-logo.png>
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 321.
+(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
+ [67 <./realisation/img-176.jpg> <./realisation/img-177.jpg>]
+<realisation/img-178.jpg, id=994, 301.8778pt x 449.42906pt>
 File: realisation/img-178.jpg Graphic file (type jpg)
 <use realisation/img-178.jpg>
-Package pdftex.def Info: realisation/img-178.jpg  used on input line 325.
+Package pdftex.def Info: realisation/img-178.jpg  used on input line 324.
 (pdftex.def)             Requested size: 273.14923pt x 406.6563pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 329.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 330.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
- [67 <./realisation/img-176.jpg> <./realisation/img-177.jpg>]
-<realisation/img-180.jpg, id=996, 300.3722pt x 400.49625pt>
+[68 <./realisation/img-178.jpg>]
+<realisation/img-180.jpg, id=1002, 300.3722pt x 400.49625pt>
 File: realisation/img-180.jpg Graphic file (type jpg)
 <use realisation/img-180.jpg>
-Package pdftex.def Info: realisation/img-180.jpg  used on input line 341.
+Package pdftex.def Info: realisation/img-180.jpg  used on input line 340.
 (pdftex.def)             Requested size: 145.68144pt x 194.24655pt.
-<realisation/img-181.jpg, id=997, 295.1025pt x 406.51875pt>
+<realisation/img-181.jpg, id=1003, 295.1025pt x 406.51875pt>
 File: realisation/img-181.jpg Graphic file (type jpg)
 <use realisation/img-181.jpg>
-Package pdftex.def Info: realisation/img-181.jpg  used on input line 346.
+Package pdftex.def Info: realisation/img-181.jpg  used on input line 345.
 (pdftex.def)             Requested size: 145.68144pt x 200.68463pt.
-<realisation/img-182.jpg, id=998, 304.13625pt x 395.22656pt>
+<realisation/img-182.jpg, id=1004, 304.13625pt x 395.22656pt>
 File: realisation/img-182.jpg Graphic file (type jpg)
 <use realisation/img-182.jpg>
-Package pdftex.def Info: realisation/img-182.jpg  used on input line 351.
+Package pdftex.def Info: realisation/img-182.jpg  used on input line 350.
 (pdftex.def)             Requested size: 145.68144pt x 189.31459pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 356.
-(pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
-[68 <./realisation/img-178.jpg>]
-<realisation/img-pilotage.jpg, id=1005, 821.31844pt x 368.87813pt>
-File: realisation/img-pilotage.jpg Graphic file (type jpg)
-<use realisation/img-pilotage.jpg>
-Package pdftex.def Info: realisation/img-pilotage.jpg  used on input line 380.
-(pdftex.def)             Requested size: 364.19667pt x 163.56767pt.
-File: logos/tamtam-logo.png Graphic file (type png)
-<use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 384.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 374.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [69 <./realisation/img-180.jpg> <./realisation/img-181.jpg> <./realisation/img
 -182.jpg>]
+<realisation/img-pilotage.jpg, id=1014, 821.31844pt x 368.87813pt>
+File: realisation/img-pilotage.jpg Graphic file (type jpg)
+<use realisation/img-pilotage.jpg>
+Package pdftex.def Info: realisation/img-pilotage.jpg  used on input line 379.
+(pdftex.def)             Requested size: 364.19667pt x 163.56767pt.
 <realisation/img-57.jpg, id=1015, 1028.34187pt x 460.72125pt>
 File: realisation/img-57.jpg Graphic file (type jpg)
 <use realisation/img-57.jpg>
-Package pdftex.def Info: realisation/img-57.jpg  used on input line 395.
+Package pdftex.def Info: realisation/img-57.jpg  used on input line 394.
 (pdftex.def)             Requested size: 409.71692pt x 183.56114pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 407.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 400.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [70 <./realisation/img-pilotage.jpg> <./realisation/img-57.jpg>]
 <realisation/img-62.jpg, id=1024, 1028.34187pt x 460.72125pt>
 File: realisation/img-62.jpg Graphic file (type jpg)
 <use realisation/img-62.jpg>
-Package pdftex.def Info: realisation/img-62.jpg  used on input line 410.
+Package pdftex.def Info: realisation/img-62.jpg  used on input line 409.
 (pdftex.def)             Requested size: 409.71692pt x 183.56114pt.
 <realisation/img-63.jpg, id=1026, 1028.34187pt x 441.90094pt>
 File: realisation/img-63.jpg Graphic file (type jpg)
 <use realisation/img-63.jpg>
-Package pdftex.def Info: realisation/img-63.jpg  used on input line 431.
+Package pdftex.def Info: realisation/img-63.jpg  used on input line 430.
 (pdftex.def)             Requested size: 409.71692pt x 176.06273pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 435.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 434.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [71 <./realisation/img-62.jpg>]
 <realisation/img-64.jpg, id=1035, 1028.34187pt x 450.9347pt>
 File: realisation/img-64.jpg Graphic file (type jpg)
 <use realisation/img-64.jpg>
-Package pdftex.def Info: realisation/img-64.jpg  used on input line 446.
+Package pdftex.def Info: realisation/img-64.jpg  used on input line 445.
 (pdftex.def)             Requested size: 364.19667pt x 159.70105pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 458.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 457.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [72 <./realisation/img-63.jpg> <./realisation/img-64.jpg>]
 <realisation/img-65.jpg, id=1044, 596.98032pt x 346.29375pt>
 File: realisation/img-65.jpg Graphic file (type jpg)
 <use realisation/img-65.jpg>
-Package pdftex.def Info: realisation/img-65.jpg  used on input line 461.
+Package pdftex.def Info: realisation/img-65.jpg  used on input line 460.
 (pdftex.def)             Requested size: 409.71692pt x 237.6695pt.
 <realisation/img-184.jpg, id=1046, 577.40718pt x 258.21469pt>
 File: realisation/img-184.jpg Graphic file (type jpg)
 <use realisation/img-184.jpg>
-Package pdftex.def Info: realisation/img-184.jpg  used on input line 476.
+Package pdftex.def Info: realisation/img-184.jpg  used on input line 475.
 (pdftex.def)             Requested size: 364.19667pt x 162.87311pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 480.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 479.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [73 <./realisation/img-65.jpg>]
 <realisation/img-185.jpg, id=1054, 564.60938pt x 248.42813pt>
 File: realisation/img-185.jpg Graphic file (type jpg)
 <use realisation/img-185.jpg>
-Package pdftex.def Info: realisation/img-185.jpg  used on input line 484.
+Package pdftex.def Info: realisation/img-185.jpg  used on input line 483.
 (pdftex.def)             Requested size: 364.19667pt x 160.24818pt.
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 498.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 497.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
 
 [74 <./realisation/img-184.jpg> <./realisation/img-185.jpg>]
 File: logos/tamtam-logo.png Graphic file (type png)
 <use logos/tamtam-logo.png>
-Package pdftex.def Info: logos/tamtam-logo.png  used on input line 521.
+Package pdftex.def Info: logos/tamtam-logo.png  used on input line 520.
 (pdftex.def)             Requested size: 90.8447pt x 23.0876pt.
  [75])
 File: logos/tamtam-logo.png Graphic file (type png)
@@ -4263,7 +4263,7 @@ Package pdftex.def Info: logos/tamtam-logo.png  used on input line 274.
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260614205757 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260621135013 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux (Chapters/chapter1.aux) (Chapters/chapter2.aux)
@@ -4628,6 +4628,7 @@ logos/tamtam-logo.png
 realisation/img-176.jpg
 realisation/img-177.jpg
 logos/tamtam-logo.png
+logos/tamtam-logo.png
 realisation/img-178.jpg
 logos/tamtam-logo.png
 realisation/img-180.jpg
@@ -4635,7 +4636,6 @@ realisation/img-181.jpg
 realisation/img-182.jpg
 logos/tamtam-logo.png
 realisation/img-pilotage.jpg
-logos/tamtam-logo.png
 realisation/img-57.jpg
 logos/tamtam-logo.png
 realisation/img-62.jpg
@@ -4668,11 +4668,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  50694 strings out of 467866
  1104054 string characters out of 5419765
- 1759887 words of memory out of 5000000
+ 1759890 words of memory out of 5000000
  78429 multiletter control sequences out of 15000+600000
  648117 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,17n,121p,1100b,4519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,17n,121p,1766b,4519s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
 dpi600\ecrm1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecbx1000.pk> <C:\Users\PC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
@@ -4691,7 +4691,7 @@ cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\PC\AppData
 \Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\PC\AppD
 ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/PC/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (88 pages, 15959404 bytes).
+Output written on main.pdf (88 pages, 15960602 bytes).
 PDF statistics:
  1870 PDF objects out of 2073 (max. 8388607)
  273 named destinations out of 1000 (max. 500000)
