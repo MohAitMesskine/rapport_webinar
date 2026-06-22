@@ -59,7 +59,7 @@
   \end{flushright}
 \end{minipage}
 
-\vspace{1.2cm}
+\vspace{1.6cm}
 
 % ---- Texte institution (taille augmentée, sans lignes) ----
 \begin{center}
@@ -111,22 +111,22 @@
 
 % ---- Jury ----
 \begin{center}
-  {\large\bfseries Soutenu le 25 Juin 2025 devant la commission d'examen}\\[0.3cm]
+  {\large\bfseries Soutenu le 29 Juin 2026 devant la commission d'examen}\\[0.3cm]
   {\large
   \begin{tabular}{l@{\hspace{1cm}}l}
     Pr. Tarik Agouti & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
-    Pr. Prénom Nom   & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
-    Pr. Prénom Nom   & \textit{Professeur, Département d'Informatique, FSSM}\\
+    Pr. Issam Qaffou   & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
+    Pr. Hiba Asri   & \textit{Professeure, Département d'Informatique, FSSM}\\[0.2cm]
   \end{tabular}}
 \end{center}
 
 \null\vfill
-
+\vspace{1cm}
 % ---- Année universitaire ----
 \begin{center}
   {\large\bfseries Année Universitaire : 2025-2026}
 \end{center}
-\vspace{1cm}
+% \vspace{1cm}
 
 \end{titlepage}
 }
@@ -138,13 +138,13 @@
 %% ---- Style plain : pages de début de chapitre ----
 \fancypagestyle{plain}{%
     \fancyhf{}%
-    \fancyheadoffset{1cm}%
-    \setlength{\headheight}{2cm}%
-    \lhead{\includegraphics[scale=0.1]{logos/tamtam-logo.png}}%
+    \fancyheadoffset{0pt}%
+    \setlength{\headheight}{1.2cm}%
+    \lhead{\protect\color{black}\normalfont\small\textbf{Rapport de Stage de Fin d'Études}}%
     \rhead{\protect\color{black}\normalfont\nouppercase{\leftmark}}%
     \renewcommand{\headrulewidth}{0.4pt}%
     \renewcommand{\footrulewidth}{0.4pt}%
-    \lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}%
+    \lfoot{\protect\color{black}\normalfont\small\textbf{Master ISI --- FSSM}}%
     \cfoot{}%
     \rfoot{\protect\color{black}\normalfont\small\thepage}%
 }
@@ -152,13 +152,13 @@
 %% ---- Style fancy : toutes les autres pages ----
 \pagestyle{fancy}
 \fancyhf{}
-\fancyheadoffset{1cm}
-\setlength{\headheight}{2cm}
-\lhead{\includegraphics[scale=0.1]{logos/tamtam-logo.png}}
+\fancyheadoffset{0pt}
+\setlength{\headheight}{1.2cm}
+\lhead{\protect\color{black}\normalfont\small\textbf{Rapport de Stage de Fin d'Études}}
 \rhead{\protect\color{black}\normalfont\nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}
+\lfoot{\protect\color{black}\normalfont\small\textbf{Master ISI --- FSSM}}
 \cfoot{}
 \rfoot{\protect\color{black}\normalfont\small\thepage}
 }
