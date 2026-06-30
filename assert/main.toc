@@ -1,0 +1,105 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{Remerciements}{II}{section*.1}%
+\contentsline {section}{Résumé}{III}{section*.2}%
+\contentsline {section}{Abstract}{IV}{section*.3}%
+\contentsline {section}{Glossaire}{V}{section*.4}%
+\contentsline {section}{Liste des figures}{VI}{section*.5}%
+\contentsline {section}{Liste des tableaux}{VIII}{section*.6}%
+\contentsline {section}{Table des matières}{IX}{section*.7}%
+\contentsline {section}{Introduction générale}{1}{section*.7}%
+\contentsline {chapter}{\numberline {1}Cadre du projet}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Présentation de l'organisme d'accueil (Tamtam International)}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Fondateur Tamtam International}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}L'origine de la nomination Tamtam}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Activité de Tamtam International}{3}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Produits de Tamtam International}{3}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Clients de Tamtam International}{5}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}Présentation du projet de stage}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Problématique}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objectifs à atteindre}{6}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Gestion des tâches et suivis}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Sprint 1}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Sprint 2}{9}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Sprint 3}{10}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Sprint 4}{11}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Conclusion}{13}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Analyse et Conception}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Diagrammes UML}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Module Webinar}{15}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {a}Diagramme B\^ete \`a Cornes}{15}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {b}Cas d'utilisation par acteur}{16}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {c}Diagrammes de séquence}{19}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {d}Diagramme de classes}{24}{subsubsection.2.2.1.4}%
+\contentsline {subsection}{\numberline {2.2.2}Module OffCourse}{25}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {a}Diagramme Bête à Cornes}{25}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {b}Diagramme de cas d'utilisation}{26}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {c}Diagramme de séquence — Utilisateur OffCourse}{28}{subsubsection.2.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}United Associate}{31}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {a}Diagramme de cas d'utilisation}{31}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {b}Diagramme de séquence — Administrateur United Associate}{32}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {c}Modèle du domaine}{34}{subsubsection.2.2.3.3}%
+\contentsline {section}{\numberline {2.3}Conclusion}{35}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Étude technique}{36}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{36}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Architecture du projet}{36}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Architecture physique}{36}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Architecture logique}{40}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {a}L'architecture Client-Serveur sous MeteorJS}{40}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {b}Structure du dossier \texttt {server}}{44}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {c}Structure du dossier \texttt {client}}{45}{subsubsection.3.2.2.3}%
+\contentsline {section}{\numberline {3.3}Qualité de code}{47}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Outils de linting}{47}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Git Hooks}{47}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Conventional Commits}{47}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Spécification technologique}{47}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Outils de développement}{48}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}GitHub Actions}{50}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {a}Cycle complet du pipeline CI/CD}{50}{subsubsection.3.4.2.1}%
+\contentsline {paragraph}{Étape 1 — Déclenchement (Trigger)}{50}{paragraph*.42}%
+\contentsline {paragraph}{Étape 2 — Installation des dépendances}{50}{paragraph*.43}%
+\contentsline {paragraph}{Étape 3 — Analyse statique du code (Linting)}{50}{paragraph*.44}%
+\contentsline {paragraph}{Étape 4 — Vérification des types TypeScript}{50}{paragraph*.45}%
+\contentsline {paragraph}{Étape 5 — Exécution des tests unitaires}{51}{paragraph*.46}%
+\contentsline {paragraph}{Étape 6 — Audit de sécurité}{51}{paragraph*.47}%
+\contentsline {paragraph}{Étape 7 — Build de production}{51}{paragraph*.48}%
+\contentsline {paragraph}{Étape 8 — Déploiement conditionnel}{51}{paragraph*.49}%
+\contentsline {paragraph}{Étape 9 — Notification et rapport}{51}{paragraph*.50}%
+\contentsline {subsection}{\numberline {3.4.3}Release automation}{53}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Architecture de déploiement}{53}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Infrastructure de production}{53}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Caractéristiques de l'infrastructure}{54}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Conclusion}{54}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Réalisation}{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{55}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Présentation de la plateforme}{55}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Interface d'authentification}{55}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Interface de la page administrateur}{57}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {a}Gestion des webinaires}{58}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {b}Configuration des sondages automatiques}{59}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {c}Configuration des questions automatiques}{61}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {d}Gestion des administrateurs}{61}{subsubsection.4.2.2.4}%
+\contentsline {subsection}{\numberline {4.2.3}Activités lors du webinaire}{63}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {a}Onglet Participants}{63}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {b}Onglet Conversation}{63}{subsubsection.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {c}Onglet Questions / Réponses}{64}{subsubsection.4.2.3.3}%
+\contentsline {subsubsection}{\numberline {d}Onglet Sondages}{65}{subsubsection.4.2.3.4}%
+\contentsline {subsubsection}{\numberline {e}Onglet Annonces}{66}{subsubsection.4.2.3.5}%
+\contentsline {subsubsection}{\numberline {f}Onglet Documents}{67}{subsubsection.4.2.3.6}%
+\contentsline {subsubsection}{\numberline {g}Onglet Examen Final}{68}{subsubsection.4.2.3.7}%
+\contentsline {subsubsection}{\numberline {h}Onglet Live Config}{70}{subsubsection.4.2.3.8}%
+\contentsline {subsection}{\numberline {4.2.4}Système de pilotage et de prompteur}{70}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {a}Ajout d'images et gestion des tags}{70}{subsubsection.4.2.4.1}%
+\contentsline {subsubsection}{\numberline {b}Prompteur Régie}{71}{subsubsection.4.2.4.2}%
+\contentsline {subsubsection}{\numberline {c}Prompteur Public}{72}{subsubsection.4.2.4.3}%
+\contentsline {subsubsection}{\numberline {d}Prompteur Compteur}{72}{subsubsection.4.2.4.4}%
+\contentsline {subsubsection}{\numberline {e}Prompteur Présentateur}{73}{subsubsection.4.2.4.5}%
+\contentsline {subsubsection}{\numberline {f}Télécommande}{74}{subsubsection.4.2.4.6}%
+\contentsline {subsection}{\numberline {4.2.5}Interface de clôture du webinaire (ClosingPage)}{74}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Fonctionnalités transversales}{75}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Système de notifications}{75}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Gestion des rôles et des droits d'accès}{76}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Système de reporting}{76}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Conclusion}{77}{section.4.4}%
+\contentsline {chapter}{Conclusion Générale et Perspectives}{78}{chapter*.81}%
+\contentsline {section}{Références bibliographiques}{80}{section*.82}%

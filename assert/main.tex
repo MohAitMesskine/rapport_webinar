@@ -53,6 +53,10 @@
 \renewcommand{\cftlottitlefont}{\Large\bfseries\color{sectioncolor}}
 \renewcommand{\cfttoctitlefont}{\Large\bfseries\color{sectioncolor}}
 
+% ---- Profondeur de numérotation et de la table des matières ----
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
 % ---- Espacement des paragraphes ----
 \setlength{\parskip}{6pt}
 
@@ -167,8 +171,8 @@ Dans ce contexte, je remercie respectueusement \textbf{Monsieur Emmanuel DEGRÈV
 Je tiens à exprimer ma profonde gratitude à l'entreprise \textbf{TAMTAM International} pour m'avoir offert cette opportunité de stage exceptionnellement enrichissante et formatrice. Mes remerciements particuliers vont à \textbf{Mme ELKHROF Leila} pour sa disponibilité remarquable, son écoute attentive et bienveillante, ainsi que son encadrement méticuleux et professionnel qui ont grandement favorisé ma progression technique et mon épanouissement professionnel.
 
 Par ailleurs, j'adresse mes chaleureux remerciements à toute l'équipe TAMTAM International, et en particulier aux membres talentueux de l'équipe "oFFFCourse" : \textbf{Youssef ATTAR}, \textbf{Yassine MESTAOUI} et \textbf{Youness OULAMINE}, pour leur accueil bienveillant, leur professionnalisme exemplaire, leur collaboration fructueuse et leur aide précieuse pendant cette période de formation intensive.
+J'exprime également ma profonde gratitude et mes vifs remerciements à tous les membres du jury, \textbf{Monsieur le Professeur Issam Qaffou} et \textbf{Madame la Professeure Hiba Asri}, qui m'ont fait l'honneur d'accepter d'évaluer mon travail avec bienveillance et rigueur académique.
 
-J'exprime également ma profonde gratitude et mes vifs remerciements à tous les membres du jury, \textbf{Monsieur ..} et \textbf{Madame ...}, qui m'ont fait l'honneur d'accepter d'évaluer mon travail avec bienveillance et rigueur académique.
 
 Enfin, je remercie sincèrement tout le corps professoral et administratif de la \textbf{Faculté des Sciences Semlalia  de Marrakech} pour la formation de qualité exceptionnelle qu'ils m'ont prodiguée tout au long de mon cursus universitaire.
 
@@ -288,32 +292,22 @@ WebSocket & Protocole de communication bidirectionnelle en temps réel \\
 \section*{Introduction générale}
 \addcontentsline{toc}{section}{Introduction générale}
 
-Dans un monde où la digitalisation des processus métiers devient quasiment incontournable, \textbf{Tamtam International} a mis en place un écosystème pensé pour répondre aux attentes des professionnels dans le monde économique. Cette solution tout-en-un a pour but principal de regrouper tous les outils de gestion et de communication pour les fiduciaires, ainsi que d'autres types d'utilisateurs professionnels.
+Dans un contexte de digitalisation croissante des processus métiers, les organisations professionnelles cherchent des solutions numériques capables de centraliser leurs activités de communication et de formation. C'est dans cette optique que \textbf{Tamtam International}, entreprise belge spécialisée dans le développement d'écosystèmes numériques intégrés, propose une suite d'outils dédiés aux fiduciaires et experts-comptables, dont une plateforme de gestion des webinaires professionnels.
 
-Ce rapport de stage vise à présenter mon expérience au sein de TamTam International, en particulier dans l'équipe \textbf{OffCourse}, décrivant les missions qui m'ont été confiées, les compétences que j'ai acquises et les défis auxquels j'ai été confronté.
+C'est au sein de l'équipe \textbf{OffCourse} de cette entreprise que j'ai effectué mon stage de fin d'études. Ma mission principale consistait à optimiser et enrichir les fonctionnalités de cette plateforme, en réponse aux besoins exprimés par les utilisateurs : meilleure gestion du déroulé des sessions en direct, contrôle en temps réel des contenus diffusés, et coordination fluide entre les différents acteurs du webinaire (orateur, modérateur, régie).
 
-Dans ce cadre, pendant mon stage de fin d'études, j'ai intégré l'équipe, avec une mission orientée sur l'optimisation et l'enrichissement des fonctionnalités d'une plateforme dédiée à la gestion des événements financiers. Les principaux objectifs étaient :
-\begin{itemize}
-    \item Renforcer les modules de communication, en particulier la gestion des événements.
-    \item Ajouter des fonctionnalités utiles et adaptées aux besoins changeants des utilisateurs.
-\end{itemize}
+Ce travail s'est articulé autour de trois axes : l'analyse approfondie des besoins fonctionnels, la conception et le développement de nouvelles fonctionnalités suivant une méthodologie \textbf{Agile Scrum}, et leur intégration dans l'infrastructure existante de la plateforme. Le présent rapport en rend compte à travers la structure suivante :
 
-Mon implication dans ce projet s'est articulée autour de trois grands volets :
-\begin{itemize}
-    \item Une analyse approfondie des besoins des utilisateurs finaux et des partenaires.
-    \item La conception et le développement de nouvelles features.
-    \item Et une intégration fluide avec l'infrastructure déjà existante de la plateforme.
-\end{itemize}
+\medskip
+\textbf{Chapitre 1 --- Cadre du projet :} présentation de Tamtam International, de son écosystème produits et de ses clients, formulation de la problématique, définition des objectifs et planification en sprints.
 
-Le présent rapport est structuré comme suit :
+\textbf{Chapitre 2 --- Analyse Fonctionnelle et Modélisation Conceptuelle :} identification des acteurs et des besoins du système, modélisation UML des modules Webinar, OffCourse et United Associate (cas d'utilisation, séquences, classes).
 
-\textbf{Chapitre 1 : Cadre du projet} - Présentation de la société Tamtam International et de sa solution OffCourse, focus sur le module communication (Webinaire + Événements), objectifs fixés, défis rencontrés, ainsi que la modélisation UML des fonctionnalités clés de la plateforme.
+\textbf{Chapitre 3 --- Étude technique :} architecture physique et logique, stack technologique, outils de qualité logicielle, pipeline CI/CD et infrastructure de déploiement.
 
-\textbf{Chapitre 2 : Étude technique} - Architecture du système, stack technologique utilisée côté frontend et backend, présentation des frameworks et outils retenus, et environnements de développement mis en place.
+\textbf{Chapitre 4 --- Réalisation :} présentation des interfaces développées et démonstration des fonctionnalités livrées au fil des sprints.
 
-\textbf{Chapitre 3 : Réalisation} - Présentation des interfaces développées, démonstration des fonctionnalités livrées, suivi de l'avancement du projet et perspectives d'évolution futures.
-
-Ce projet m'a permis de faire le lien entre les contraintes techniques et les besoins concrets du métier. J'ai pu contribuer à faire évoluer une plateforme utilisée chaque jour par des centaines de professionnels — une expérience à la fois formatrice et valorisante.
+\textbf{Conclusion générale :} bilan des travaux réalisés et perspectives d'évolution de la plateforme.
 
 % Corps du rapport
 \include{Chapters/chapter1}
@@ -330,18 +324,28 @@ Ce projet m'a permis de faire le lien entre les contraintes techniques et les be
 \section*{Références bibliographiques}
 \addcontentsline{toc}{section}{Références bibliographiques}
 
-\textbf{Tamtam International} (2025). \textit{Documentation interne de la plateforme TamTam Webinar /OffCourse}.
+\begin{enumerate}
 
-\textbf{Agile Alliance} (2023). \textit{Scrum Guide and Agile Practices}. Disponible sur: \url{https://www.agilealliance.org/glossary/scrum/}
+\item K.~Schwaber and J.~Sutherland, \textit{The Scrum Guide: The Definitive Guide to Scrum --- The Rules of the Game}, Scrum.org, Nov. 2020. [En ligne]. Disponible~: \url{https://scrumguides.org/scrum-guide.html}
 
-\textbf{Meteor.js Documentation}. \textit{Official Documentation}. Disponible sur: \url{https://docs.meteor.com/}
+\item G.~Booch, J.~Rumbaugh, and I.~Jacobson, \textit{The Unified Modeling Language User Guide}, 2nd~ed. Boston, MA, USA: Addison-Wesley, 2005.
 
-\textbf{Node.js Documentation}. \textit{Official Documentation}. Disponible sur: \url{https://nodejs.org/en/docs/}
+\item TAMTAM International, \textit{Documentation interne de la plateforme TamTam Webinar / OffCourse}, rapport interne, Marrakech, Maroc, 2025.
 
-\textbf{Symfony Documentation}. \textit{Official Documentation}. Disponible sur: \url{https://symfony.com/doc}
+\item Meteor Development Group, \textit{Meteor.js --- Full-Stack JavaScript Framework, Official Documentation}, version~2.x, 2024. [En ligne]. Disponible~: \url{https://docs.meteor.com/}
 
-\textbf{Next.js Documentation}. \textit{Official Documentation}. Disponible sur: \url{https://nextjs.org/docs}
+\item OpenJS Foundation, \textit{Node.js Official Documentation}, version~20 LTS, 2024. [En ligne]. Disponible~: \url{https://nodejs.org/en/docs/}
 
-\textbf{React Documentation}. \textit{Official Documentation}. Disponible sur: \url{https://react.dev/}
+\item SensioLabs, \textit{Symfony Framework --- Official Documentation}, version~6.x, 2024. [En ligne]. Disponible~: \url{https://symfony.com/doc}
+
+\item Meta Platforms Inc., \textit{React --- A JavaScript Library for Building User Interfaces, Official Documentation}, 2024. [En ligne]. Disponible~: \url{https://react.dev/}
+
+\item Vercel Inc., \textit{Next.js --- The React Framework, Official Documentation}, version~14, 2024. [En ligne]. Disponible~: \url{https://nextjs.org/docs}
+
+\item MongoDB Inc., \textit{MongoDB Manual --- Official Documentation}, version~7.0, 2024. [En ligne]. Disponible~: \url{https://www.mongodb.com/docs/manual/}
+
+\item Microsoft Corporation, \textit{TypeScript --- JavaScript With Syntax For Types, Official Documentation}, version~5.x, 2024. [En ligne]. Disponible~: \url{https://www.typescriptlang.org/docs/}
+
+\end{enumerate}
 
 \end{document}

@@ -24,6 +24,7 @@
 \RequirePackage{tikz}
 \usetikzlibrary{calc}
 \RequirePackage{mdframed}
+\RequirePackage{tabularx}
 
 \definecolor{couleurligne}{RGB}{35,100,170}
 
@@ -58,20 +59,14 @@
   \end{flushright}
 \end{minipage}
 
-\vspace{0.6cm}
-\noindent\rule{\linewidth}{1.5pt}
+\vspace{1.6cm}
 
-% ---- Texte institution ----
+% ---- Texte institution (taille augmentée, sans lignes) ----
 \begin{center}
-  \vspace{0.8cm}
-  {\fontsize{16}{20}\selectfont\bfseries RAPPORT DE STAGE DE FIN D'ÉTUDES}\\[0.5cm]
-  {\large En vue de l'obtention du diplôme Master :}\\[0.3cm]
-  {\fontsize{15}{19}\selectfont\bfseries Ingénierie des Systèmes d'Information (ISI)}\\[0.8cm]
+  {\fontsize{22}{28}\selectfont\bfseries RAPPORT DE STAGE DE FIN D'ÉTUDES}\\[0.7cm]
+  {\fontsize{16}{20}\selectfont En vue de l'obtention du diplôme Master :}\\[0.4cm]
+  {\fontsize{19}{24}\selectfont\bfseries Ingénierie des Systèmes d'Information (ISI)}\\[1.0cm]
 \end{center}
-
-\noindent\rule{\linewidth}{1.5pt}
-
-\vspace{0.5cm}
 
 % ---- Titre encadré ----
 \begin{center}
@@ -85,39 +80,53 @@
     roundcorner=4pt
   ]
     \begin{center}
-      {\fontsize{20}{26}\selectfont\bfseries
+      {\fontsize{23}{29}\selectfont\bfseries
       Contribution à la conception et au développement d'une application de gestion des webinaires
       }
     \end{center}
   \end{mdframed}
 \end{center}
 
-\vspace{2.5cm}
+\vspace{0.6cm}
 
-% ---- Réalisé par / Encadrants / Jury ----
-\noindent
-\begin{minipage}[t]{0.50\linewidth}
-  \textbf{Réalisé par :}\\[0.4cm]
-  \hspace*{0.5cm}Mohamed Ait Messkine\\[0.6cm]
-  \textbf{Encadré par (Entreprise) :}\\[0.4cm]
-  \hspace*{0.5cm}Mme. ELKHROF Leila\\[0.6cm]
-  \textbf{Encadré par (FSSM) :}\\[0.4cm]
-  \hspace*{0.5cm}Pr. Tarik Agouti\\[0.2cm]
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\linewidth}
-  \textbf{Membres du jury :}\\[0.4cm]
-  \hspace*{0.5cm}Pr. Tarik Agouti\\[0.2cm]
-  \hspace*{0.5cm}Pr. Prénom Nom\\[0.2cm]
-  \hspace*{0.5cm}Pr. Prénom Nom
-\end{minipage}
+% ---- Réalisé par ----
+\begin{center}
+  {\large\bfseries Réalisé par :}\\[0.3cm]
+  {\large Mohamed Ait Messkine}
+\end{center}
 
-\vfill
+\vspace{0.3cm}
 
+% ---- Encadré par ----
+\begin{center}
+  {\large\bfseries Encadré par :}\\[0.3cm]
+  {\large
+  \begin{tabular}{l@{\hspace{1cm}}l}
+    Pr. Tarik Agouti    & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
+    Mme. ELKHROF Leila  & \textit{Encadrante, Tamtam International}\\
+  \end{tabular}}
+\end{center}
+
+\vspace{0.3cm}
+
+% ---- Jury ----
+\begin{center}
+  {\large\bfseries Soutenu le 29 Juin 2026 devant la commission d'examen}\\[0.3cm]
+  {\large
+  \begin{tabular}{l@{\hspace{1cm}}l}
+    Pr. Tarik Agouti & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
+    Pr. Issam Qaffou   & \textit{Professeur, Département d'Informatique, FSSM}\\[0.2cm]
+    Pr. Hiba Asri   & \textit{Professeure, Département d'Informatique, FSSM}\\[0.2cm]
+  \end{tabular}}
+\end{center}
+
+\null\vfill
+\vspace{1cm}
 % ---- Année universitaire ----
 \begin{center}
   {\large\bfseries Année Universitaire : 2025-2026}
 \end{center}
+% \vspace{1cm}
 
 \end{titlepage}
 }
@@ -129,13 +138,13 @@
 %% ---- Style plain : pages de début de chapitre ----
 \fancypagestyle{plain}{%
     \fancyhf{}%
-    \fancyheadoffset{1cm}%
-    \setlength{\headheight}{2cm}%
-    \lhead{\includegraphics[scale=0.1]{logos/tamtam-logo.png}}%
+    \fancyheadoffset{0pt}%
+    \setlength{\headheight}{1.2cm}%
+    \lhead{\protect\color{black}\normalfont\small\textbf{Rapport de Stage de Fin d'Études}}%
     \rhead{\protect\color{black}\normalfont\nouppercase{\leftmark}}%
     \renewcommand{\headrulewidth}{0.4pt}%
     \renewcommand{\footrulewidth}{0.4pt}%
-    \lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}%
+    \lfoot{\protect\color{black}\normalfont\small\textbf{Master ISI --- FSSM}}%
     \cfoot{}%
     \rfoot{\protect\color{black}\normalfont\small\thepage}%
 }
@@ -143,13 +152,13 @@
 %% ---- Style fancy : toutes les autres pages ----
 \pagestyle{fancy}
 \fancyhf{}
-\fancyheadoffset{1cm}
-\setlength{\headheight}{2cm}
-\lhead{\includegraphics[scale=0.1]{logos/tamtam-logo.png}}
+\fancyheadoffset{0pt}
+\setlength{\headheight}{1.2cm}
+\lhead{\protect\color{black}\normalfont\small\textbf{Rapport de Stage de Fin d'Études}}
 \rhead{\protect\color{black}\normalfont\nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\lfoot{\protect\color{black}\normalfont\small\textbf{Rapport de PFE}}
+\lfoot{\protect\color{black}\normalfont\small\textbf{Master ISI --- FSSM}}
 \cfoot{}
 \rfoot{\protect\color{black}\normalfont\small\thepage}
 }
