@@ -1,5 +1,12 @@
 \chapter[Analyse et Conception]{Analyse Fonctionnelle et Modélisation Conceptuelle}
 
+% -- Format local : sous-sous-sections en lettres (a. b. c.) pour ce chapitre --
+\renewcommand{\thesubsubsection}{\alph{subsubsection}}
+\titleformat{\subsubsection}
+  {\fontsize{12}{14.4}\bfseries\color{subsectioncolor}}
+  {\thesubsubsection.}{0.5em}{}
+\titlespacing*{\subsubsection}{0pt}{6pt}{6pt}
+
 %------------------------------------------------------------
 \section{Introduction}
 %------------------------------------------------------------
@@ -421,3 +428,10 @@ L'étude des modules Webinar, OffCourse et United Associate a permis de représe
 Les diagrammes de cas d'utilisation ont permis d'identifier les besoins fonctionnels des utilisateurs, tandis que les diagrammes de séquence ont servi à décrire les échanges dynamiques réalisés au sein de la plateforme. Enfin, les diagrammes de classes et les modèles du domaine ont permis de représenter l'organisation structurelle des différentes entités du système.
 
 Cette phase de modélisation constitue une base essentielle pour la prochaine étape du projet, consacrée à l'implémentation technique et au développement de la solution.
+
+% -- Restauration du format original des sous-sous-sections --
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+\titleformat{\subsubsection}
+  {\fontsize{12}{14.4}\bfseries}
+  {\thesubsubsection}{0.5em}{}
+\titlespacing*{\subsubsection}{0pt}{6pt}{6pt}

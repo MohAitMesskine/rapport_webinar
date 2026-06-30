@@ -1,6 +1,13 @@
 \chapter{Étude technique}
 \label{chap:technique}
 
+% -- Format local : sous-sous-sections en lettres (a. b. c.) pour ce chapitre --
+\renewcommand{\thesubsubsection}{\alph{subsubsection}}
+\titleformat{\subsubsection}
+  {\fontsize{12}{14.4}\bfseries\color{subsectioncolor}}
+  {\thesubsubsection.}{0.5em}{}
+\titlespacing*{\subsubsection}{0pt}{6pt}{6pt}
+
 \section{Introduction}
 
 Ce chapitre est consacré à l'étude technique réalisée pour la mise en œuvre du projet. En
@@ -533,5 +540,12 @@ Par ailleurs, les outils de qualité logicielle, d'intégration continue
 et de déploiement automatisé contribuent à garantir la fiabilité et la pérennité 
 du code. L'architecture de déploiement retenue assure quant à elle une haute 
 disponibilité et une expérience utilisateur fluide, même lors de sessions à forte affluence. 
-Ces choix technologiques permettent ainsi de répondre efficacement aux exigences d'un environnement 
+Ces choix technologiques permettent ainsi de répondre efficacement aux exigences d'un environnement
 collaboratif temps réel. Le chapitre suivant détaillera les aspects d'implémentation et les solutions techniques mises en œuvre dans le cadre du projet Webinar.
+
+% -- Restauration du format original des sous-sous-sections --
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+\titleformat{\subsubsection}
+  {\fontsize{12}{14.4}\bfseries}
+  {\thesubsubsection}{0.5em}{}
+\titlespacing*{\subsubsection}{0pt}{6pt}{6pt}
